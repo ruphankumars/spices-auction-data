@@ -1,0 +1,29 @@
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+   1     0 image    1656  2356  gray    1   1  ccitt  no         4  0   200   200 15.7K 3.3%
+   2     1 image    1655  2355  gray    1   1  ccitt  no        12  0   200   200 15.8K 3.3%
+   3     2 image    1655  2351  gray    1   1  ccitt  no        19  0   200   200 59.3K  12%
+   4     3 image    1660  2356  gray    1   1  ccitt  no        26  0   200   200 48.1K  10%
+   5     4 image    1654  2354  gray    1   1  ccitt  no        33  0   200   200 13.7K 2.9%
+   6     5 image    1659  2354  gray    1   1  ccitt  no        40  0   200   200 35.8K 7.5%
+   7     6 image    1658  2358  gray    1   1  ccitt  no        47  0   200   200 38.5K 8.1%
+   8     7 image    1661  2356  gray    1   1  ccitt  no        54  0   200   200 36.1K 7.6%
+   9     8 image    1657  2355  gray    1   1  ccitt  no        61  0   200   200 35.0K 7.3%
+  10     9 image    1662  2355  gray    1   1  ccitt  no        68  0   200   200 36.0K 7.5%
+  11    10 image    1663  2352  gray    1   1  ccitt  no        75  0   200   200 39.1K 8.2%
+  12    11 image    1656  2354  gray    1   1  ccitt  no        82  0   200   200 38.3K 8.0%
+  13    12 image    1660  2354  gray    1   1  ccitt  no        89  0   200   200 37.5K 7.9%
+  14    13 image    1662  2356  gray    1   1  ccitt  no        96  0   200   200 7116B 1.5%
+  15    14 image    2351  1653  gray    1   1  ccitt  no       103  0   200   200 50.8K  11%
+  16    15 image    2350  1658  gray    1   1  ccitt  no       110  0   200   200 61.3K  13%
+  17    16 image    2347  1652  gray    1   1  ccitt  no       117  0   200   200 48.4K  10%
+  18    17 image    2355  1658  gray    1   1  ccitt  no       124  0   200   200 50.4K  11%
+  19    18 image    2353  1659  gray    1   1  ccitt  no       131  0   200   200 55.1K  12%
+  20    19 image    2353  1655  gray    1   1  ccitt  no       138  0   200   200 53.8K  11%
+  21    20 image    2350  1653  gray    1   1  ccitt  no       145  0   200   200 53.8K  11%
+  22    21 image    2351  1656  gray    1   1  ccitt  no       152  0   200   200 50.3K  11%
+  23    22 image    2354  1658  gray    1   1  ccitt  no       159  0   200   200 51.0K  11%
+  24    23 image    2355  1656  gray    1   1  ccitt  no       166  0   200   200 52.9K  11%
+  25    24 image    2355  1654  gray    1   1  ccitt  no       173  0   200   200 54.2K  11%
+  26    25 image    2357  1657  gray    1   1  ccitt  no       180  0   200   200 54.6K  11%
+  27    26 image    2357  1659  gray    1   1  ccitt  no       187  0   200   200 17.7K 3.7%

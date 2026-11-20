@@ -1,0 +1,47 @@
+roa                                      FORM -D
+(Se                                               [See rule 40(1)(1)}
+SSE”                                      (Advance Auction Report)
+Name and Address of the auctioneer                       : RNS SPICES
+Door No: 14/623,624,625, RNS BUILDING,
+PULIVANMALA CUMBUMMETTU ROAD,
+NIRAPPELKADA - 685552
+E-Auction Licence No.                                            > EAUC/CS/50015/15/2026-27
+(S) Season                                                        : 2026-2027
+(t) Auction Number                                              : 2
+(u) Date of auction                                                    > 16/11/2026
+(v) Place of auction                                                  : SPICES BOARD BODINAYAKANUR                                                   ;
+(w) Quantity carried over from                                   > NIL
+Previous auction (kgs)
+{x) Fresh arrivals (kgs)                                         : 74,487,600
+{y) Total quantity put for auction (kgs)                         ; 74,467.600                                                                                             .
+[Total of SI.No. 5 and 6}
+(2) Total quantity sold (kgs)                                     : 73,906.408
+{2z) Quantity Not Auctioned (Kgs.)                          > NIL
+(28) Quantity withdrawn (kgs)                                : 561.200
+(bb) Quantity retumed to planter (kgs)                      : 361.200
+{cc} Balance with the auctioneer (kgs)                      >: NIL
+(dd) Total value of the sales (Rs)                               : 22,25,64,101.70
+{6e) Maximum price (Rsfkg)                                 : 3499.00 fkgs 447.300
+{ff} Minimum price (Rsikg)                                   : 2,488.00 Ags 260.900
+(99) Average price (Rs/kg)                                         : 3,811.43                                                                       |
+|
+l.
+Name of 5 Highast Buyers
+"   S.No |  Buyer Name                                                              Kilos  |                                -     Value .
+:                 ELAICHIROYAL PRIVATE                                                            .                                                7
+1       LIMITED-KL                                              24,310.300 .                      7,16,52,526.90
+2 SR SPICES               "  13,576.500                          4,08,06,256.40 _
+3 RAMEXPORTS                             |                        4.851.300                          1,51,44.785.20
+aa                       a     pf                                           1
+4        PULLOLICKAL SPICES                                        4,255.800 ©                        1,28,63,479.60 |
+5      j SYRA SPICES PRIVATE LIMITED                             3.047.400 ©        91,27,610.50 :
+7                    TOTAL                     |                 50,041.30 |                  14,95,94,658.60
+-                                                                                                                                                       |
+Place : NIRAPPELKADA                                                                                                                           Fer RNS SPICE:
+Date : 16/11/2026
+2 SPI C <      R +}         ,
+&                  J    Au             Signatory
+[*     .
+&.     2}
+e             &
+ELK ADE
