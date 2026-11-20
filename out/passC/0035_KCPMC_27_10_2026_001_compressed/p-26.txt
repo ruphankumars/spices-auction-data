@@ -1,0 +1,5 @@
+Sl Name   Sale Cty   Rate   Commlalan   cGst   SGST   KFC   S.Retund   N.Amounl   Purchasar   S8l. No
+No
+252   294   MAYA   212.600   212.600   2,853.00   606,547.80   8'590'9   1,152.44   0.00   0.00   0.00   8,049.74   607,380.00ROSHANA SPICES   C.S$./R1341J20B/2023-   COM
+24   4716
+Total   89,911.500   86,764.500   262,496,390.50   2.824.963.91   498,743.14   0.00   0.00   0.00   2,074,668.70   261,447,343.00

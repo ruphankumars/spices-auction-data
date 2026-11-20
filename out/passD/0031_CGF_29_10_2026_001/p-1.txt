@@ -1,0 +1,56 @@
+;
+
+FORM - D
+[See rule 10(€1)(C1)]
+'CAdvance Auction Report)
+Name and Address of the auctioneer: CARDAMOM GROWERSFOREVER
+;                         PRIVATE LIMITED
+                                               BODT
+E-Auction Licence No.             EAUC/CS/C580/9/2024-25
+(s) Season               :       2026 ~ 2027
+Ct) Auction Number       :       22
+‘Cud Date of auction      :       29/10/2026
+Cv) Place of auction     :       e-AUCTION SPICES PARK PUTTADY
+(Cw) Quantity carried over from
+previous auction Ckgs)      NIL
+KERALA             TAMILNADU
+(x) Fresh arrivals Ckgs):                       27,201.300     10,372.400
+(Cy) Total quantity put for auction (kgs)        27,201. 300     10, 372.400
+[Total of SI.No. 5 and 6]:
+(z) Total quantity sold Ckgs):                  26,765.900      9,347.700
+€ZZ) Quantity Not Auctioned Ckgs):                 NIL            NIL
+€aa) Quantity withdrawn [Ckgs)CS1.No.(C7)-C€8)]:      435.400      1,024.700
+Cbb) Quantity returned to ptanter (kgs):            435.400      1,024.700
+Ccc) Balance with the auctioneer Ckgs)[CS!].No.(C9)-€10): NIL
+Cdd> Total value of the sales CRs):           7,84,64,717.90| 2,61,82,600.20
+Cee) Maximum price CRS/kg):                    3,491.00 /       3,110.00 /
+kgs. 202.400     kgs. 69.700
+(ff) Minimum price CRS/kg):                    2,435.00 /       2,420.00 /
+.                                           kgs. 140.400     kgs. 59.300
+(gg) Average price CRs/kg):                    2,931.52         2,800.97
+Name of 5 Highest Buyer
+S1-.NO           Buyer Name                     Kilos            Value
+1     S R SPICES                            4,062 .900     1,21,87,040.30
+2     GREEN SLAM INTERNATIONAL              2,877.100       78,12,423.30
+3          SYRA SPICES PRIVATE LIMITED                      2,536.100              72,56,088 .00
+4     SRI LATHIKA TRADERS                   1,953.300       56,59,959.10
+5         MERCARIEX WORLDWIDE                                1,718.700            52,77,854.60
+TOTAL                          13,148.100     3,81,93,365.30
+Place   NEDUMKANDAM                         Signature of the auctioneer
+Date
+
+29/10/2026                                              :
+_  vy       |
+
+er ste r.                a
+Ae k's         oe
+
+ae
+
+: watt a  -
+eo    rtaatee rye Karent.
+~*- Pa of.   ‘
+we
+
+7e®
+

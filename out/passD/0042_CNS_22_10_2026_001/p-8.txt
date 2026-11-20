@@ -1,0 +1,18 @@
+INVOICE                                TRADERS NAME                                                ADDRESS                           KILOS               AMOUNT                                     GST NO                                                 SBL NO
+
+PI 196           GREENWICK GLOBALS                                                         BODINAY AKANUR                                                490.700                      1397968.00                      SSAWEPY4322P1Z1                                          CS/65615/685/24-25
+Pi 187           TV SPICES                                                                           IDUKKI                                                                  197.300                       626836.60                    32CMKPM 1083K 1ZX                                     CS/DL226/284/2023-24
+Pi 188         SPICEMANNA EVERGREEN EXPORTS                         BODINAYAKANUR                                       337.600                  1075059.00                  33ABOCS2627M1ZX                                 CS/66767/837/24-25
+Pt 199         PRIVATE LIMITED AMBATTU SPICES                           KATTPPANA                                                166.400                   490377.20                   32PULPS4862C 127                                 CS/6639 1/46 1/2023-24
+Pi 200          NST TRADERS                                                                THENI                                                               87.500                     241062.50                   33CRKPD4175N1ZH                                   CS/10678/200/2023-24
+
+INTER-STATE TOTAL                                                                                     7805.600     23983641.60
+
+INTRA-STATE TOTAL                                                                                               19366.000      69793340.60
+
+INTER-STATE TOTAL                                                                                                      7805.600      23993641.60
+
+INTRA-STATE TOTAL                                                                                               19366.000      69793340.60
+
+GRAND TOTAL                                                                                                                                                     27160.600         83786982.20
+

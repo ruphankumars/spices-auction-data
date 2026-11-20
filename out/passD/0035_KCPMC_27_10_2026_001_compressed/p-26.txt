@@ -1,0 +1,7 @@
+8! i L.No    SL Name      CR    Qty  Sale Qty  Rate   Value  Commission  Hc  CGST | SGST| KFC] 5S.Refund  N. Amount   Purchaser     SBL No   Sale.
+
+No
+252| 294 | MAYA             212.600] 212.600] 2,853.00} — 606,647.80] 6,085.48] 1.152.441 0.00 0.00}0.00] 8,049.74] 607,380.00 ROSHANA SPICES | C.S/R1941/206/2025- | COM
+
+Total     $9,911.500 | 86,764.500      262,436,390.50 | 2,624,963.91 | 498,743.14!) 0.00] 0.00) 0.00 | 2,074,668.70 | 261 447,343.00
+

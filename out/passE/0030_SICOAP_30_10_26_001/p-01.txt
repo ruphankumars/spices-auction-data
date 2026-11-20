@@ -1,0 +1,161 @@
+FORM - D
+
+ICOA
+
+[See rule 10(1}(1)]
+
+(Advance Auction Report)
+
+SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LTD
+
+DOOR NO: lil/505 C, D,
+
+Name and Address of the auctioneer
+
+PAMPUMPARA - 685 551,
+
+PAMPUMPARA PO, IDUKKI DISTRICT, KERALA, CODE: 32
+
+E-Auction Licence No
+
+EAUC/CS/50014/14/2026-27
+
+(s) Season:
+
+2026-2027
+
+{t) Auction Number
+
+22
+
+{u) Date of auction
+
+30/10/2026
+
+(v} Place of auction
+
+SPICES BOARD E-AUCTION CENTER, BODINAYAKKANUR
+
+Quantity carried over from previous auction (kgs)
+
+NIL
+
+{x} Fresh arrivals (kgs)
+
+67,215.300
+
+(y) Total quantity put for auction (kgs)
+
+67,215.300
+
+(z) Total quantity sold (kgs)
+
+60,392.300
+
+((zz)Quantity Not Auctioned (kgs)
+
+0.000
+
+{aa) Quantity withdrawn (kgs)
+
+6,823.000
+
+{bb) Quantity returned to planter (kgs)
+
+6,823.000
+
+(cc) Balance with the auctioneer (kgs)
+
+NiL
+
+(dd) Total value of the sales (Rs)
+
+T17,89,46,236.70
+
+(ee) Maximum price (Rs/kg)
+
+3,519.00 / 399.20
+
+(ff) Minimum price (Rs/kg)
+
+%2,382.00 / 89.70
+
+an wees
+
+(gg) Average price (Rs/kg)
+
+%2,963.06
+
+Name of 5 Highest Buyers
+
+SI.No
+
+Kilos
+
+Value
+
+Buyer Name
+
+SVS GNANAVEL COMPANY
+
+9,653,700
+
+2,94,94,832.600
+
+BILAL SPICES
+
+ee
+
+4,760.700
+
+1,44,17,198.900
+
+JEYAM TRADING COMPANY
+
+3,238.600
+
+87,69,800.900
+
+JMJ SPICES
+
+2,637.000
+
+78,06,605.700
+
+omaemanee
+
+——
+
+SRI YOGAGANAPATHI TRADERS
+
+2,206.100
+
+69,92,118.500
+
+TOTAL
+
+22,496.100
+
+6,74,80,556.600
+
+Place : PAMPUMPARA
+
+For SICOA Pvt Ltd.
+
+Date : 30/10/2026
+
+©-O A
+
+“
+
+7
+
+SICOA
+
+og
+
+oe
+
+Mar
+
+ee

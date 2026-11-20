@@ -1,0 +1,38 @@
+FORM
+[see rule 10(1)(1)]
+(Advance Auction Report)
+Name and Address of the auctioneer: CARDAMOM GROwERSFOREVER
+PRIVATE LIMITED
+BODI
+E-Auction' licence No.   EAUC/CS/c580/9/2024-25
+(s)    Season   2026 - 2027
+(t)   Auction Number   22
+(u)   Date of auction   29/10/2026
+(v)   place of auction   e-AUCTION SPICES PARK PUTTADY
+(w)   Quantity carried over from
+previous auction (kgs)   NIL
+KERALA   TAMILNADU
+(x) Fresh arrivais (kgs):   27.201.300   10.372.400
+(y)   Total quantity put for auction (kgs)   27,201.300   10.372.400
+[Total of si.No. 5'and 6]:
+(z)   Totai quantity sold (kgs):   26.765.900   9.347.700
+(zz)   Quantity Not Auctioned (kgs):   NIL   NIL
+(aa)   Quantity withdrawn [(kgs)(s1.No.(7)-(8)] :   435-400   1,024.700
+(bb) Quantity returned to planter (kgs) :   435.400   1.024.700
+(cc) Balance with the auctioneer (   (kgs)[(s1.No.(9)-(10): NIL
+(pp)    Total value of the sales (Rs):   7.84,64.717.90   2,61.82,600.20
+(ee)    Maximum price (Rs/kg):   3,491.00 /   3.110.00 /
+kgs. 202.400   kgs.   69.700
+(ff)   Minimum price (Rs/kg) :   2.435.00 /   2,420.00 /
+kgs. 140.400   kgs.   59.300
+(gg)   Average price (rs/kg) :   2,931.52   2.800.97
+Name of 5 Highest Buyer
+S1.No.   Buyer Name   kilos   Value
+SR   SPICES   4.062.900   1.21.87.040.30
+GREEN SL_AM   INTERNATIONAL   2.877.100   78,12,423.30
+SYrA SpIces   PRIVATE   LIMITED   2.536.100   72.56.088.00
+SRI   LATHIKA   TRADERS   1.953.300   56,59.959.10
+MERCAREEX WORLDWIDE   1.718.700   52.77.854.60
+TOTAL   13.148.100   3,81,93.365.30
+place   NEDUMKANDAM   signature of the auctioneer
+Date   29/10/2026

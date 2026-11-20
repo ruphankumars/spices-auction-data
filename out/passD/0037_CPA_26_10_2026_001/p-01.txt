@@ -1,0 +1,92 @@
+FORM D
+
+(See Condition §S of Licence in Form B)
+
+ADVANCE AUCTION REPORT
+
+1. Name and Postal Addresses of the Auctioneer
+(indicate telegraphic address also)
+
+2. Spices Board Licence No.
+
+3. Scason
+
+4. Auction No.
+
+5. Date of Auction
+
+6. Quantity carried over from previous auction
+(in kgs.)
+
+7. Fresh Arrivals (in kgs.)
+
+8. Total Quantity put for auction (in kgs.)
+(Total of S.No. 6 & 7)
+
+9. Total Quantity Sold (in kgs.)
+
+10. Quantity withdrawn (in kgs.)
+(S.No. 8 - 9)
+
+11. Not Auction (in kgs.)
+12. Quantity returned to Planters
+
+13. Balance Quantity with the auctioneer
+(in kgs.) (S No. 10-11)
+
+14. Total value of the sales (in Rs.)
+
+J5. Maximum Price (in Rs. kg.)
+
+16. Minimum Price (in Rs. kg.)
+
+17, Average Price (in Rs. kg.)
+
+18. The Five highest bidders (Exporters/Dealcrs)
+
+CARDAMOM PLANTERS' ASSOCIATION
+Branch: SANTHANPARAI -
+Gram: ‘CARDAMOM’ | Phone: 6385867001
+
+EAUC/CS/C002/3/2024-25
+2026-2027
+
+18
+
+26/10/2026
+
+NIL
+
+23,857.40
+23,857.40
+
+23,095.40
+326.00
+
+436.00
+762.00
+NIL
+
+6,65,88,154.70
+3,559.00
+2,574.00
+2,879.84
+
+ec :     eS Names on. SBLNo.         © Quantity. (inkgs.) -.- Value (in Rs.)
+ELAICHIROYAL PRIVATE LIMITED                 CS/55384/454/2023-24                          6,659.00            1,89,58,365.80
+RADHEY RADHEY ENTERPRISES                  CS/12254/10/2023-24                     2,080.70            §8,69,450.40
+HARINI SPICES                                             CS/10639/294/2023-24                          1,946.20              58,82,017.20
+MERCARIEX WORLDWIDE       |       C.S./M1707/87/2023-24     4,718.00 -$1,50,731.10
+V.V.G SPICES                                               C.S./12354/300/2023-24                         1,703.90              50,38,840.30
+
+18. Place of Auction
+
+PLACE: SANTHANPARAI
+DATE:26/10/2026
+
+Bodinayakanur
+
+For CARDAMOM PLANTERS’ ASSOCIATION
+
+        Direct
+Signature of the Auctioneer

@@ -1,0 +1,31 @@
+FORM C
+See rules 5(2) and 10(1)(R)
+Auction Report
+
+(Separate report should be furnished for auctioning of cardamom received from (1) Planter (2) Dealer)
+SEASON: 26-27
+
+E-Auction License Number : EAUC/CS/S1421/11/2026-27                                                                                                                                                   Maximum Price :                   %3,599.00
+Auction No: 22                                                                                                                                                                                                                  Minimum Price :                   72,502.00
+Date of auction : 26/10/2026                                                                                                                                                                                                             Average Price :                    €3,010.93
+Name and Full
+Id                                                           Samp             Comsn.           Name and full             Spices Board
+SINo| Address of the                   CR/GST                  Qty (kg) | VT! | Rate Rs./kg , Value (Rs.)
+planter / dealer                                                                        (kgs)                                                Refund (Rs.}        (Rs.)          address of bidder       licence number
+1                   2                                  3                             4                  5                  6                  7                  8                  9                      10                           11
+250 | JMJ SPICES              GSTIN.32ARMPJ6044N1ZH             190.500         190.500        3,187.00: 6,07,123.50        9,082.95        6,162.10 | AAA SPICES               CS/10179/260/2023...
+251     AURA SPICES         GSTIN.33BSPPA8157C1ZV            265.200                0            0.00            6.00            0.00            0,00 | WITHDRAWN
+252 |IDFLCARDAMOM = /|3ZAWtPM4470E1ZP                       441,000                   0               0.00               0.00               0.00               0.00 | WITHDRAWN
+254 |ASA AGENCIES         GSTIN.32AQ5PL467 1J1ZE               154,000                   0               9.00               0.00               0.00               0.00 | WITHDRAWN
+255 (JMJ SPICES          GSTIN.32ZARMPJ6044N1ZH          172.000       172.000      3,120.00! 5,36,640.00      8,892.00      5,455.30 | BILAL SPICES          CS/10910/187/2023...
+256 |JMJ SPICES              GSTIN.32ARMPJ6044N1ZH              127.000         127.000         3,134.00! 3,98,018.00        8,931.90        4,069.50 | BILAL SPICES              €5/10910/187/2023...
+DEALER'S TOTAL                                  16,948.400: 13,752,500  /                      4,15,15,021.30
+Grand TOTAL                                                   72,754.800' 66,589.800                                 ¥20,04,97,340.50
+
+I/We confirm that no discount or commission other than the one per cent commission permitted to me/us by the rules has been accepted by me/us or received from the owners of
+cardamom sold in the auction and nor have I/We passed on any cardamom or commission to the purchasers.
+
+Place : PAMPUMPARA                                                                For SIGCC Ltd.
+
+Date : 26/10/2026                                                                                                                                                           Authorised Signatory
+
