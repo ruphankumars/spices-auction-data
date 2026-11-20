@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils tesseract-ocr imagemagick
-      - run: pip install -q requests
+      - run: pip install -q requests opencv-python-headless numpy
       - run: python scripts/fetch_batch.py ${{ inputs.start }} ${{ inputs.end }}
       - run: bash scripts/ocr_batch.sh
       - name: Push OCR output to temporary branch

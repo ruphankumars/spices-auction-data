@@ -10,8 +10,10 @@ for pdf in pdf/*.pdf; do
 done
 ocr_one() {
   png="$1"; b="${png%.png}"
-  OMP_THREAD_LIMIT=1 tesseract "$png" "$b" --psm 6 -l eng tsv txt >/dev/null 2>&1 || echo "ocr fail $png"
+  python3 "$GITHUB_WORKSPACE/scripts/preprocess.py" "$png" "$b.clean.png"
+  OMP_THREAD_LIMIT=1 tesseract "$b.clean.png" "$b" --psm 6 -l eng -c preserve_interword_spaces=1 tsv txt >/dev/null 2>&1 || echo "ocr fail $png"
   convert "$png" -resize 50% -quality 70 "$b.jpg"
+  rm -f "$b.clean.png"
   rm "$png"
 }
 export -f ocr_one
