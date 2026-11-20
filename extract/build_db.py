@@ -227,6 +227,7 @@ def lot_slip(d, lo, hi, rmin, rmax, fixes):
     """A 'LOT SLIP' page lists every lot as (lot, kilos, rate) in columns. Consensus across OCR passes."""
     from collections import Counter, defaultdict
     votes = defaultdict(Counter)
+    names = defaultdict(Counter)
     for dd in d.split(","):
         for f in glob.glob(f"{dd}/p-*.txt"):
             pg = int(re.findall(r"\d+", os.path.basename(f))[0])
@@ -390,6 +391,64 @@ def select(rows, cands, sold, value):
     return out, "open"
 
 
+def assign_lots(rows, d):
+    """Lot numbers by vote across every OCR line that carries a row's exact quantity and rate.
+    Lot lists print 'LOT QTY ...' (the number right before the quantity is the lot); seller statements
+    print 'S.No Lot Name ...' (the second leading number is the lot)."""
+    from collections import Counter, defaultdict
+    fix = str.maketrans("OoQDIl|", "0000111")
+    idx = defaultdict(list)
+    for r in rows:
+        for qf in {"%.3f" % r["q"], "%.2f" % r["q"], "%.1f" % r["q"]}:
+            idx[qf].append(r)
+    votes = defaultdict(Counter)
+    names = defaultdict(Counter)
+    for dd in d.split(","):
+        for f in glob.glob(f"{dd}/p-*.txt"):
+            for ln in open(f, errors="ignore"):
+                toks = ln.replace(",", "").split()
+                lead = []
+                for t in toks[:4]:
+                    t2 = t.strip("|[](){}.:;-").translate(fix)
+                    if t2.isdigit() and len(t2) <= 4:
+                        lead.append(int(t2))
+                    else:
+                        break
+                if not lead or len(lead) > 3:
+                    continue
+                nums = set(re.findall(r"\d+\.\d+", ln.replace(",", "")))
+                for qf in nums & set(idx):
+                    for r in idx[qf]:
+                        rf = {"%.2f" % r["r"], "%.0f" % r["r"]}
+                        if not (rf & nums) and not any(("%.0f" % r["r"]) == t.replace(",", "") for t in toks):
+                            continue
+                        pos = len(lead)
+                        nxt = toks[pos].replace(",", "") if pos < len(toks) else ""
+                        is_list = bool(re.match(r"^\d+\.\d+$", nxt))  # numbers then quantity: a lot list
+                        if is_list:
+                            votes[id(r)][lead[0]] += 3
+                            tail = re.split(r"\d[\d,]*\.\d+|\b\d{3,4}\b", ln)[-1]
+                            bn = buyer_from_suffix(" " + tail)
+                            if len(bn) >= 4:
+                                names[id(r)][bn] += 1
+                        elif len(lead) >= 2:
+                            votes[id(r)][lead[1]] += 2
+                        else:
+                            votes[id(r)][lead[0]] += 1
+    for r in rows:
+        if not r.get("buyer") and names[id(r)]:
+            r["buyer"] = names[id(r)].most_common(1)[0][0]
+    taken = {}
+    order = sorted(rows, key=lambda r: -max(votes[id(r)].values(), default=0))
+    for r in order:
+        for lot, v in votes[id(r)].most_common():
+            if lot not in taken and 0 < lot < 1000:
+                taken[lot] = r; r["lot"] = lot; break
+        else:
+            if votes[id(r)] or r.get("lot") in taken:
+                r["lot"] = None
+
+
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS reports(
   report_id TEXT PRIMARY KEY, listing_rank INT, auctioneer TEXT, listed_date TEXT,
@@ -469,6 +528,8 @@ def main(ocr_dir, manifest, truth_path, db):
                 mine, status = from_slip(slip, mine, wdset, s, inv)
             if status == "open" and s.get("sold"):
                 mine, status = select(mine, [c for c in cands if lo <= c["page"] <= hi], s["sold"], s["value"])
+            if not any(l.get("invoice") for l in mine):
+                assign_lots(mine, ",".join(os.path.join(o, rid) for o in ocr_dir.split(",")))
             kg = sum(l["q"] for l in mine)
             con.execute("INSERT INTO auctions VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                         (aid, rid, m["auctioneer"], s.get("branch", ""), s.get("date"), s.get("auction_no"),
