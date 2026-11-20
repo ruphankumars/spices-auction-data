@@ -1,0 +1,17 @@
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+   1     0 image    1656  2353  gray    1   1  ccitt  no         4  0   200   200 26.4K 5.6%
+   2     1 image    1660  2347  gray    1   1  ccitt  no        12  0   200   200 39.2K 8.2%
+   3     2 image    1656  2350  gray    1   1  ccitt  no        19  0   200   200 37.2K 7.8%
+   4     3 image    2347  1656  gray    1   1  ccitt  no        26  0   200   200 42.2K 8.9%
+   5     4 image    2351  1655  gray    1   1  ccitt  no        33  0   200   200 36.8K 7.7%
+   6     5 image    2351  1658  gray    1   1  ccitt  no        40  0   200   200 43.9K 9.2%
+   7     6 image    2353  1660  gray    1   1  ccitt  no        47  0   200   200 40.3K 8.5%
+   8     7 image    2350  1657  gray    1   1  ccitt  no        54  0   200   200 28.9K 6.1%
+   9     8 image    2347  1657  gray    1   1  ccitt  no        61  0   200   200 33.1K 7.0%
+  10     9 image    2349  1656  gray    1   1  ccitt  no        68  0   200   200 26.1K 5.5%
+  11    10 image    2348  1656  gray    1   1  ccitt  no        75  0   200   200 12.9K 2.7%
+  12    11 image    1662  2352  gray    1   1  ccitt  no        82  0   200   200 19.7K 4.1%
+  13    12 image    1662  2349  gray    1   1  ccitt  no        89  0   200   200 8676B 1.8%
+  14    13 image    1662  2350  gray    1   1  ccitt  no        96  0   200   200 9680B 2.0%
+  15    14 image    2349  1660  gray    1   1  ccitt  no       103  0   200   200 20.5K 4.3%

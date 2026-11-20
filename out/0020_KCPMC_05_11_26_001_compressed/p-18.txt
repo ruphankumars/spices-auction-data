@@ -1,0 +1,14 @@
+; 8. L.No| &t Name        GSTN       | Qty     SaeQty Rate Value    i Commission H¢    | CGST SGST IGST SRefund | NAmount . | Purchaser      | SBLNe       oa
+i    |        ~        Be                 a        -      eel    Poi         so COMPANY     _    __|
+fy                                    '                           CSR           COM
+46 277 | LACHUS SPICES     SZCBCPEI61GEtZL    626.200 |   626.200 | 3,440.00 ; 2.766,552.00 | 21,666.52    4116.64 0.00 0.00 0.00    9,762.39 | 2,150,631,00   CARDAMOM       | 4      2023-24    4087 |
+Lo                  :                     |      oe         ee Conan      | 9382720412023-24 4987
+ogg | MISTY MOUNTAIN                          .          aon |        .          |               | CSUR           COM |
+47 280 NerRience       2ABMFMB401C12M |, 658.700 658.700 3,442.00  2.267.28540 22,87245 4,307.77 0.00 0.00 (0.00 9,711.80 2.249.977.90  CARDAMOM      “a2owze2s.24 —Sa00
+48 281 Wrest?     _S2AFOPTSS7R1ZF | 675.800 | 573.600 3452.00 | 1,990,067.20 19,800.67 3,762.19 0.00 000 000   9,738.62  1,966.244.00 | FAVORS LTD sp eneeeaezRs COM
+49 | 282 LACHUSSPICES | S2CBCPATETEIZL 873.000 | 373.000 | 2,796.00 | 1.087,908.00 10.49.08 1,081.88 0.00.00 (0.00 7,888.91 | 1,038,386.00 || NATURALSPICES | S¢S-/N786/a64%2024- COM
+/§0 283: LACHUS SPICES     32CBCPBIG1GE1ZL | 600.000 i   600.000 3,461.00 ; 1,730,800.00 ' 47,205.00    3,287.96 6.00 0.00 000    8,785.21 | 1,719,872.00 . CARDAMOM       1 1382/2042029-24   | 4993 i
+be      ne    |   _       I    -      ae   Ce hee   | COMPANY 9   ahaa ane ial
+|               | Yotat | 2.488.100 | 19,786,000 |       { 65,045,797.60 | 630,157.96 | 198,730.02 | 0.00 0.00 0.00 387,030.60 | 2,062,040.00 |   .
+|
+|

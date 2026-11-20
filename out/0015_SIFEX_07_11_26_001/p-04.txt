@@ -1,0 +1,5 @@
+BILLNO NAME AND ADDRESS OF BUYER            GNY QTY KGS    VALUE RS. GSTIN                   SBL
+G-1/0706/2. ROYAL SPICES - THEVARAM                 26 1316.30 44 42043.10 S3DISPSE561R124     CS/55834/900/2028-26
+TOTAL                                                             1150 56744.60  181452195.00
+
+Page 2 of 2

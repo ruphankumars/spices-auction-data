@@ -1,0 +1,38 @@
+      |                               FORM - D               |
+[See rule 10(1) (1)
+(Advance Auction Report)
+.Name and Address of the auctioneer: IDUKKI DISTRICT TRADITIONAL
+PRODUCER COMPANY LTD
+REGD. OFFICE:C.P.XI/157, 6th MILE, CHAKKUPALL
+IDUKKI OISTRICT KERALA, CODE: 32 Phone: 04
+E~Auction Licence No.           + EAUC/CS/1362/5/2024-25
+(s} Season                    : 2026 - 2027
+(t) Auction Number            : 22
+(u) Date of auction           : 02/11/2026
+(v) Place of auction          : @-AUCTION SPICES BOARD BODINAYAKANUR
+(w) Quantity carried over from                             NIL
+previous auction (kgs)
+(x) Fresh arrivals (kgs):                           33,633.800
+(y) Total quantity put for auction (kgs)            33, 633.800
+{Total of S1.No. S and 6]:
+(Z) Total quantity sold (kgs):                      32,684,100
+(zz)Quantity Not Auctioned (Kgs.):                     237.400
+_ (aa) Quantity withdrawn [(kgs)(S1.No. (7)-(8)]:          712.300
+ (bb) Quantity returned to planter (kgs):                712.300
+(cc) Balance with the auctioneer (kgs) [(S1.No. (9)-(10):     NIL
+(dd) Total value of the sales (Rs):              9,88, 92,357.20
+(ee) Maximum price (Rs/kg):                            3,584.00 /kgs.101.400
+(ff) Minimum price (Rs/kg):                            2,407.00 /kgs.232.500
+(gg) Average price (Rs/kg):                            3,025.70     ;
+Name of 5 Highest Buyers
+S].No.         Buyer Name                      Kilos       Value
+1    EMPEROR SPICES PRIVATE LIMITED        3,024.600      95, 66,672.80
+2    SRI YOGAGANAPATHT TRADERS              2,586.900       74,66,776.80    ;
+3    THARANI TRADERS                        2,353.300       72,68,631. 30
+4    SYRA SPICES PRIVATE LIMITED          2,181.400      67,89, 263.20
+5. ASMI SPICES                            1,947.700       60,23,527.90
+TOTAL                           12,093,900 , 3,71,14,872.00
+Place : CHAKKUPALLAM                                For I T C P C LIMITED
+Date : 02/11/2026         wn                            h     F
+Authorised Signatory
+ns a

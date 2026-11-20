@@ -1,0 +1,26 @@
+LOT GNY            QTY         RATE LT.WT NAME OF P URCHASER                                               7
+272        13         667.70 3,194.00 400        PR SPICES, BODINAYAKANUR NEW
+273           9          44930 3,237.00 399         BHARATHI TRADING  COMPANY, THEVARAM
+274           §          252.40 3,024.00 380         RAGHAV SPICES, BODINAYAKANUR
+277           5          221.10 3,209.00     390         MAS ENTERPRISES LIMITED(SPICES DIVISION).
+282        9       484.80 3,089.00 390      BHARATHI TRADING COMPANY, THEVARAM
+283           7          327.30 2,944.00 3990         PREETHA TRADING COMPANY, THEVARAM
+284             8            417.00 2,995.00 400           ROYAL SPICES - THEVARAM
+285          7          354.50 3,170.00 399         PR SPICES, BODINAYAKANUR NEW
+287        7       351.30 3,244.00 399      BHARATHI TRADING COMPANY, THEVARAM
+289          10          512.50 3,072.00 390         SUBHA EXIM, BODINAYAKANUR
+290          6          307.30 3,272.00 390        MAS ENTERPRISES LIMITED(SPICES DIVISION).
+293        5        227.10 3,273.00    390       BHARATHI TRADING COMPANY, THEVARAM
+294            8           410.40 2,998.00     390          ROYAL SPICES - THEVARAM
+296            4           184.50 2,861.00     390          A.MOHAMMED SALIM
+298            5            248.40 =. 2,752.00     400          AKKARAYIL TRADING CO., ATTAPPALLAM
+299           5          249.10 3,085.00     380         CHEERFUL GARDENING FORUM -BODI
+1150 §6,744.60                                                                                        _
+oO                TOTALGUNNYNOS: 4,150.00                   0
+TOTAL WEIGHT KGS.                56,744.60
+MAXIMUM RATE RS. :                 4003.00
+MINIMUM RATE RS. :                   2616.00
+AVERGE RATE RS::                   3197.70
+TOTALAMOUNTRS.: —_181452195.00
+=                                                a nena                             .
+Page 5 of 5

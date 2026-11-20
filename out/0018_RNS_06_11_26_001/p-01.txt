@@ -1,0 +1,43 @@
+       see                                             FORM -D
+=                                            (See rule 10(1\1)}
+C74                                                              .
+(Advance Auction Report)
+Name and Agdress Of the auctioneer                       > RNS SPICES
+Door No: 14/623,624,625, RNS BUILDING,
+PULIYANMALA CUMBUMMETTU ROAD,
+NIRAPPELKADA ~ 885552
+E-Auction Licence No.                                     : EAUCICS/50015/4 5/2026-27
+! (Ss) Season                                 : 2026-2027
+'  (t) Auction Number                                              : 22
+(u) Date of auction                                                : 06/11/2026
+(v) Place of auction                                            : SPICES BOARD BODINAYAKANUR
+.  (W) Quantity carried over from                                 > NIL
+Previous auction (kgs)
+. (x) Fresh arrivats (kgs)                                         : $6,628.400
+(y) Total quantity put for auction (kgs)                         : 56,626.400
+[Total of S.No. 5 and 6}
+(Z) Tota! quantity sald (kgs}                                     : §6,307.60@
+(zz) Quantity Not Auctioned (Kgs.)                          : 320.800
+(aa) Quantity withdrawn (kgs)                                > NIL
+(bb) Quantity retumed to planter (kgs)                      2 NIL
+(cc) Balance with the auctioneer {kgs)                       : 320.800
+(dd) Totat vaiue of the Sales (Rs)                            : 17,89,80,998.20
+(ee) Maximum Price (Rsfkg)                           : 3,725.00 skgs 477.300
+(ff) Minimum price (Rs/kg)                                        : 2,454.00 kgs 45.800
+. (99) Average Price (Rs/kg)                                    : 3,178.63
+Name of 5 Highest Buyers
+SINo | Buyer Name                                 |                              Kilos                                        Vaiue  |
+1          SPICE VALLEY TRADING PRIVATE                           18,648,800                              5,78,47,408.50
+                 LIMITED
+1 2      GREEN LEAF TRADING COMPANY                6,792.900
+ELAICHIROYAL PRIVATE
+| 5] RAM EXPORTS                                   3,939.600                   1,25,07 655.50
+                             TOTAL                                                   38,890.100                          12,18,05,955.30
+:                                                                                                                         FE      NS SPI
+Place : NIRAPPELKADA                                                              S  S Pp Ic                        or RNS SPICES
+Date : 06/11/2026                                              =          < S
+&                      .           ds. \hoys
+\\ *                        c4|] Authodied Signatory
+zZ                      S
+Q    SS
+wet Kao”
