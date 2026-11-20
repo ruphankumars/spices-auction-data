@@ -1,0 +1,42 @@
+Header Systems (India) Limited
+Header Junction, Vandanmedu i    GSTIN: 32AABCH2248F1Z3
+idukki Dt. Kerata, india, Pin: 68555t   GST StATE CODE : 32
+Ph:04868 -277020, 7902999601 - 10   SBL : MKT-AUC/CS/H343/05/2020
+HeADER   contact@headerindia.com   PAN : AABCH2248F
+www.headerindia.com  CtN : U72900KL2000PLC014299
+Advance Auction Report
+FORM - D
+(See Clause 5-C)
+Seas0n 2026 - 2027   Auction No. :21
+1. Name & Address of the Auctioneer   Header Systems (India) Ltd
+Header Junction,
+Vandanmedd
+SBL NO.: MKT-AUC/CS/H343/05/2020
+2. Date of Auction   24/10/2026
+3. Quantity Carmiod over from last Auction   0.000
+4. Fresh Arivals   88352.800
+5. Total Quantity put for Aucion   88352.800
+6. A-Grade Total Quantity Sold   0.000
+7. A-Grade Maximum   0.000   Kgs.0.000
+8. A-Grade Minimum   0.000   Kgs.0.000
+9. A-Grade Average   0.000
+10. B-Grade Total Quantity Sold   82406.800
+11. B-Grade Maximum   3537.00   Kgs.227.300
+12. B-Grade Minimum   2460.00   Kgs.224.900
+13. B-Grade Average   3034.27
+14. Total Quantity Soid   82406.800
+15. Quantity withdrawn   5946.000
+16. Quantity returned to planters   5946.000
+17. Balance quantity with the Auctioneer   0.000
+18. Cardamom Saies Value   250044848.40
+19: Maximum Rate   3537 :00   Kgs:227.300
+20. Minimum Rate   2460.00   Kgs.224.900
+21. Average Rate   3034.27
+List of 5 Highost Bidders
+ILE   BIlLNO   BIlLname   GunnY   Weight   Value
+559,560   GREEN VALLEY SPICES CHELLARCOVIL   192   9729.400   29617119.50
+54B,549   ALLuS CARdAMOM POINT   163   7978.500   24292199.70
+554,555,556|RUCHI   107   5430.700   16429830.70
+569   KVS SPICES   101   4891.300   14916089.70
+551   KArTHI GEETH TrAdErS   85   4262.900   13093296.30
+TOTaL   648   32292.800   98348535.90

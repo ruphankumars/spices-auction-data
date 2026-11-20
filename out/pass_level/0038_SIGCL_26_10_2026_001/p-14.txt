@@ -1,0 +1,28 @@
+FORM C
+See rules 5(2) and 10(1)(R)
+Auction Report
+SIGCCL.   (Separate report should be furnished for auctioning of cardamom received from (1) Planter (2) Dealer)
+SEASON: 26-27
+Marimum Price :   73,599.00
+E-Auction License Number : EAUC/CS/S1421/11/2026-27
+Minirnum Price :   72,502.00
+Auction No : 22   Average Price :   73,010.93
+Date of auction : 26/10/2026
+Name and Full   Qty sold   Samp   Coman.   Name and full   Spices Board
+SI No   Address of the   CR/GST   Qty (kg)   (kgs)   Rate Rs./kg   Value (Rs.)   Refund (Rs.)   (Rs.)   address of bidder   licence number
+planter / dealer
+10   11
+250   JMJ SPICES   GSTIN.32ARMPJ6044N1ZH   190.500   190.500   3,187.00   6,07,123.50   9,082.95   6.162.10 AAA SPICES   CS/10179/260/2023...
+251   AURA SPICES   GSTIN.33BSPPA8157C1ZV   265.200   0.00   0.00   0.00   0.00   WITHDRAWN
+252   DFL CARDAMOM   32AWIPM4470E1ZP   441.000   0.00   0.00   0.00   0.00   WITHDRAWN
+254   ASA AGENCIES   GSTIN.32AQ5PL4671J1ZE   154.000   0.00   0.00   0.00   0.00   WITHDRAWN
+255   JMJ SPICES   GSTIN.32ARMPJ6044N1ZH   172.000   172.000   3,120.00   5,36,640.00   8,892.00   5,455.30   BILAL SPICES   CS/10910/187/2023...
+256   JMJ SPICES   GST1N.32ARMPJ6044N1ZH   127.000   127.000   3,134.00   3,98,018.00   8,931.90   4,069.50   BILAL SPICES   C$/10910/187/2023..
+DEALER'S TQTAL   16,948.400   13,752.500   4,15.15,021.30
+Grand TOTAL   72.754.800   66,589.800   720.04,97,340.50
+I/We confirm that no discount or comrnission other than the one per cent commission permitted to me/us by the rules has been accepted by me/us or received from the owners of
+cardamom sold in the auction and nor have I/We passed on any cardamom or commission to the purchasers.
+For SiGCC Ltd.
+Place : PAMPUMPARA
+Authorised Signatory
+Date : 26/10/2026
