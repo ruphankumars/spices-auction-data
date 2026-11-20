@@ -121,7 +121,9 @@ def find_triple(line, qmax=3000, rmin=1000, rmax=8000, tol=0.00002):
     if not best:
         return None
     cost, q, r, v, i, j, k = best
-    return dict(q=round(q, 3), r=round(r, 2), v=round(v, 2), toks=toks, i=i, j=j, k=k, repaired=cost > 0)
+    vp = (vals[k] or [v])[0]
+    return dict(q=round(q, 3), r=round(r, 2), v=round(v, 2), vp=vp, toks=toks, i=i, j=j, k=k, repaired=cost > 0,
+                derived=cost >= 3)
 
 
 def find_qty_rate(line, qmax=3000, rmin=300, rmax=10000):
@@ -135,3 +137,23 @@ def find_qty_rate(line, qmax=3000, rmin=300, rmax=10000):
                     if 0 < qa <= qmax and "." in toks[j - 1][2].replace(",", "."):
                         return dict(q=round(qa, 3), r=round(rb, 2), toks=toks, j=j)
     return None
+
+
+def find_pairs(line, rmin, rmax, qmax=3000):
+    """(lot, qty, rate) groups from lot lists that print no value column (may repeat across a line)."""
+    toks = num_tokens(line)
+    out = []
+    for j in range(1, len(toks)):
+        tq, tr = toks[j - 1][2], toks[j][2]
+        if not re.search(r"\d[.,]\d{2,3}$", tq.strip(" |")) or not re.search(r"[.,]\d{2}$", tr.strip(" |")):
+            continue
+        vq, vr = variants(tq), variants(tr)
+        if not vq or not vr or not (0 < vq[0] <= qmax and rmin - 0.5 <= vr[0] <= rmax + 0.5):
+            continue
+        lot = None
+        for b in range(j - 2, max(-1, j - 4), -1):
+            t = toks[b][2].translate(DIGIT_FIX)
+            if t.isdigit() and len(t) <= 4:
+                lot = int(t)
+        out.append(dict(lot=lot, q=round(vq[0], 3), r=round(vr[0], 2)))
+    return out
