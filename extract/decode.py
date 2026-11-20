@@ -147,11 +147,17 @@ def decode(line, inv, rmin, rmax, qmax=3000):
                     Q.add(round(round(qq * 20) / 20, 3))
         for q in Q:
             pred = predictions(q, r, inv)
-            hits, pen = {}, {}
+            hits, pen, weak_r = {}, {}, set()
             for i, x in allv:
                 for k, (pv, tol) in pred.items():
-                    if abs(x - pv) <= tol and (amt[i] or k == "r"):
-                        hits.setdefault(k, set()).add(i)
+                    if abs(x - pv) <= tol:
+                        dg = re.sub(r"\D", "", toks[i][0])
+                        if amt[i] or (k == "q" and len(dg) >= 3 and dg.rstrip("0") == ("%g" % pv).replace(".", "")):
+                            hits.setdefault(k, set()).add(i)
+                        elif k == "r":
+                            weak_r.add(i); hits.setdefault(k, set()).add(i)
+                        else:
+                            continue
                         pen[i] = min(pen.get(i, 9), rank[(i, x)]); break
             # near misses: a printed number one digit away from what (q, r) predicts is weak evidence (half weight)
             used = set().union(*hits.values()) if hits else set()
@@ -171,6 +177,8 @@ def decode(line, inv, rmin, rmax, qmax=3000):
             keys = set(hits) | set(soft)
             nq = min(2, len(hits["q"]) + (0.5 if "q" in soft else 0)) if "q" in hits else w("q")
             nr = w("r")
+            if "r" in hits and hits["r"] <= weak_r:
+                nr = 0.5  # rate printed without its paise
             if nr == 0 and "q" in hits and "v" in hits:
                 nr = 0.5  # printed value / printed quantity came out a whole rupee rate
             na = sum(w(k) for k in keys if k[0] == "a")

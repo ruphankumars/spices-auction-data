@@ -17,7 +17,7 @@ KEYS = {
     "avg": re.compile(r"aver", re.I),
     "max": re.compile(r"maxim", re.I),
     "min": re.compile(r"minim", re.I),
-    "arrivals": re.compile(r"arrival", re.I),
+    "arrivals": re.compile(r"arrival|put\s+for\s+auct", re.I),
     "withdrawn": re.compile(r"withdrawn|with drawn", re.I),
     "auction_no": re.compile(r"auction\s*(no|number)", re.I),
 }
@@ -28,7 +28,7 @@ MON = {m: i + 1 for i, m in enumerate("jan feb mar apr may jun jul aug sep oct n
 
 def nums(line):
     out = []
-    for _, _, t in num_tokens(line):
+    for _, _, t in num_tokens(re.sub(r"[€£¢¥©®«»~]", " ", line)):
         v = variants(t.strip(STRIP))
         if v and re.search(r"\d[.,]\d", t):
             out.append(v[0])

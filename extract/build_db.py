@@ -87,10 +87,16 @@ def split_row(ln):
 
 def extract_report(d, rmin=1000, rmax=8000):
     """Decode every OCR pass of a report and merge. Returns (rows, value-less candidates)."""
-    lines = []
+    lines, stmt = [], {}
     for f in page_files(d):
         pg = int(re.findall(r"\d+", os.path.basename(f))[0])
-        lines += [(pg, ln.rstrip("\n")) for ln in open(f, errors="ignore")]
+        txt = open(f, errors="ignore").read()
+        st = stmt.setdefault(pg, [0, 0]); st[1] += 1
+        if re.search(r"(BUYERS?|BIDDERS?)\W{0,3}\s*STATEMENT|TRADERS?\s+NAME", txt[:1500], re.I):
+            st[0] += 1
+        lines += [(pg, ln.rstrip("\n")) for ln in txt.split("\n")]
+    # invoice pages (Buyers Statement) list totals per buyer, not lots
+    lines = [(pg, ln) for pg, ln in lines if stmt[pg][0] * 2 < stmt[pg][1]]
     inv = mine([ln for _, ln in lines])
     rows, aux, pairs, wd = {}, {}, {}, set()
     # second round: a lot that no single reading decodes is decoded from all its readings pooled together
@@ -416,8 +422,11 @@ def main(ocr_dir, manifest, truth_path, db):
         summ = read_report(dd0) if auto else truth[rid]
         if not summ:
             print("no summary found:", rid); continue
-        lots, cands, wdset = extract_report(",".join(os.path.join(o, rid) for o in ocr_dir.split(",")),
-                              min(s.get("min", 1000) for s in summ), max(s.get("max", 8000) for s in summ))
+        if auto:  # printed max/min are only hints; search half to double the (checked) average price
+            lo_r = min(x["avg"] for x in summ) / 2; hi_r = max(x["avg"] for x in summ) * 2
+        else:
+            lo_r = min(x.get("min", 1000) for x in summ); hi_r = max(x.get("max", 8000) for x in summ)
+        lots, cands, wdset = extract_report(",".join(os.path.join(o, rid) for o in ocr_dir.split(",")), lo_r, hi_r)
         aucs = []
         for s in summ:
             aid = f"{rid}{('_' + s['branch']) if s.get('branch') else ''}"
@@ -427,8 +436,16 @@ def main(ocr_dir, manifest, truth_path, db):
         bounds = [(x["first_page"], x["last_page"]) for x in summ] if auto else \
             {"0007_CPA_13_11_2026_001": [(1, 10), (11, 999)]}.get(rid, [(1, 999)] * len(aucs))
         for (aid, s), (lo, hi) in zip(aucs, bounds):
-            mine = [l for l in lots if lo <= l["page"] <= hi
-                    and (not s.get("min") or s["min"] - 0.5 <= l["r"] <= s["max"] + 0.5)]
+            mine = [l for l in lots if lo <= l["page"] <= hi]
+            if auto:  # max / min price from rows that several engines read identically
+                sr = [l["r"] for l in mine if l["full"] and l["votes"] >= 3 and l["score"] >= 4]
+                if sr:
+                    if not s.get("min") or min(sr) < s["min"] - 0.5 or not any(abs(x - s["min"]) < 0.5 for x in sr):
+                        s["min"] = min(sr) if not s.get("min") or min(sr) < s["min"] else s["min"]
+                    if not s.get("max") or max(sr) > s["max"] + 0.5:
+                        s["max"] = max(sr)
+            if s.get("min"):
+                mine = [l for l in mine if s["min"] - 0.5 <= l["r"] <= s["max"] + 0.5]
             from collections import Counter
             dif = Counter(round(l["q"] - l["ql"], 2) for l in mine if l.get("ql"))
             if dif and dif.most_common(1)[0][1] > 0.4 * len(mine):  # billed qty = listed qty + fixed sample weight
