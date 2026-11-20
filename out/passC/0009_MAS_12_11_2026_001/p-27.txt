@@ -1,0 +1,13 @@
+S# Lot# Gr Plantername   CrNo   Pld-Qty SId-Qty   Rate   Value   Comm SrvTax G-Dsc CDF   S.Ref. Net Amnt BidderiPurchaser   Sbl #
+328   325 B MOTHER LAND SPICES   380.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+329   326 B MOTHER LAND SPICES   179.10   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+330   328 B SAJAN JOSE   353.40   353.40   2834.00   1001535.60   10015.00   0.00   0.00   0.00   8077.00   997714.00 SPECIALITY INDIAN FOOD P; CS/S1948/280/2023-2
+331   330 B PERSiS BENNY   324.90   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+332   331 B   SAMPLE   404.20   404.20   2628.00   1062237.60   10622.00   0.00   0.00   0.00   7490.00   1057119.00JEYAM TRADING COMPANY,; CS/10138/25/2023-24
+333   332 B   SAMPLE   465.20   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+334   333 B   ROMI JOSEPH   345.30   345.30   2968.00   1024850.40   10249.00   0.00   0.00   0.00   8459.00   1021131.00 SRINIVASA ASSOCIATES,BOI CS/55427/497/2023-2
+TOTAL   102114.20   96059.40   290615756.70   2906159.00   0.00   0.00   0.00   289464124.00
+We confirm that no discount or commission other than the 1% commission prmitted to us by the rules has been accepted by us or received from owners of cardamom sold in
+MAS
+Place:
+Date :   ed Signatory

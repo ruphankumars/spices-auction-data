@@ -1,0 +1,40 @@
+FORM - D
+[See rule 10(1X1)]
+(Advance Auction Report)
+Name and Address of the auctioneer   : rns spices
+Do0r No: 14/623,624,625, RNS BUILDING,
+Puliyanmala cumbummettu road,
+NIRAPPELKADA - 685552
+E-Auction Licence No.   EAUC/CS/50015/15/2026-27
+(s) Season   2026-2027
+(t) Auction Number   23
+(u) Date of auction   16/11/2026
+(v) Place of auction   SPIcEs BoArd BodINAyakanur
+(w) Quantity carried over from
+previous auction (kgs)
+(x) Fresh arrivals (kgs)   74,467.600
+(y) Total quantity put for auction (kgs)   74,467.600
+[Total of Si.No. 5 and 6]
+(z) Total quantity sold (kgs)   73,906.400
+(zz) Quantity Not Auctioned (Kgs.)   Ni..
+(aa) Quantity withdrawn (kgs)   561.200
+(bb) Quantity returned to ptanter (kgs)   $61.200
+(cc) Baiance with the auctioneet (kgs)   NIl.
+(dd) Total value of the sakes (Rs)   22,25,64,101.70
+(ee) Maximum price (Rs/kg)   3499.00 /fkgs 447.300
+(ff) Minimum price (Rs/kg)   2,488.00 Akgs 260.900
+(gg) Average price (Rs/kg)   3,011.43
+Name of 5 Highest Buyers
+SI.No   Buyer Name   Kilos   Value
+ELAICHIROYAL PRIVATE
+24,310.300   7,16,52,526.90
+LImITeD-Kl
+SR SPICES   13,576.500   4,08,06,256.40
+RAM EXPORTS   4.851.300   1.51,44,785.20
+PULLOLICKAL SPICES   4,255.800   1.28,63,479.60
+SYRA SPICES PRIVATE LIMITED   3.047.400   91,27,610.50
+TOTAL   50,041.300   14,95,94,658.60
+PIace : NIRAPPELKADA   Fdr RNS SPICES
+Date : 16/11/2026   NS
+fised Signatory
+552

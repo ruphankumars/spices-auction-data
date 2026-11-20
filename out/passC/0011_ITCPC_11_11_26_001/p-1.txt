@@ -1,0 +1,37 @@
+FORM → D
+[See rule 10(1)(1)]
+(Advance Auction Report)
+Name and Address of the auctioneer: IDUKKI DISTRICT TRADITIONAL
+PRODUCER COMPANY LTD
+REGD.OFFICE:C.P.XI/157, 6th MILE,CHAKKUPALL
+IDUKKI DISTRICT KERALA, CODE:32 PhOne:04
+E-Auction Licence No.   EAuC/cS/1362/5/2024-25
+(s) Season   2026 - 2027
+(t) Auction Number   23
+(u) Date of auction   11/11/2026
+(v) piace of auction   e-AUCTION SPICES BOARD BODINAYAKANUR
+(w) Quantity carried over from   NIL
+previous auction (kgs)
+(x) Fresh arrivals (kgs):   60, 632.300
+(y) Total quantity put for auction (kgs)   60, 632.300
+[Total of sl.No. 5 and 6]:
+(z) Total quantity sold (kgs):   59,421.900
+(zz)Quantity Not Auctioned (Kgs.):   NIL
+(aa) Quantity withdrawn [(kgs)(si.No.(7)-(8)] :   1, 210.400
+(bb) Quantity returned to planter (kgs):   1,210.400
+(cc) Balance with the auctioneer (kgs)[(sl.No.(9)-(10) :   NIL
+(dd) Total value of the sales (Rs):   18,33,68,552.30
+(ee) Maximum price (Rs/kg):   3,538.00 /kgs.158.500
+(ff) Minimum price (Rs/kg):   2,002.00 /kgs. 66.500
+(gg) Average price (Rs/kg):   3,085.87
+Name of 5 Highest Buyers
+ST.NO   Buyer Name   kilos   Value
+ASMI SPICES   7, 632. 900   2,36,55,898.10
+BHARATHI TRADING COMPANY   6,929.000   2,10,79,727.40
+PREETHA TRADING COMPANY   6,476.400   1,98.45,835.40
+SRI YOGAGANAPATHI TRADERS   4,283.800   1,34,29,034.80
+KMR GREEN CARDAMOM EXPORTS   2,988.400   1,00,35,342.00
+TOTAL   28,310.500   8,80,45,837.70
+PIaCe : CHAKKUPALLAM   For    IT& P C LIMITED
+Date : 11/11/2026
+Authorised signatory
