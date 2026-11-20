@@ -1,0 +1,36 @@
+FORM - D
+[See rule 10(1)(1]]
+(Advance Auction Report)
+SIGCCL
+SOUTH INdIAN GREEN CArdAMOM cOMPANY LTD
+DOOR NO: I/505A, 505B
+Name and Address of the auctioneer
+PAMPUMPARA - 685 551,
+PAMPUMPARA PO, IDUKKI DISTRICT, KERALA, CODE: 32
+E-Auction Licence No   EAUC/CS/S1421/11/2026-27
+(s) Season :   2026-2027
+(t) Auction Number   23
+(u) Date of auction   04/11/2026
+(v) Place of auction   SPICES BOARd E-AUCTION CENTER, BODINAYAKKANUR
+Quantity carried over from previous auction (kgs)   NIL
+(x) Fresh arrivals (kgs)   58.368.400
+(y) Total quantity put for auction (kgs)   58,368.400
+(z) Total quantity sold (kgs)   56,137.300
+((zz)Quantity Not Auctioned (kgs)   0.000
+(aa) Quantity withdrawn (kgs)   1,660.400
+(bb) Quantity returned to planter (kgs)   1,660.400
+(cc) Balance with the auctioneer (kgs)   NIL
+(dd) Total value of the sales (Rs)   16,97,96.588.90
+(ee) Maximum price (Rs/kg)   3,558.00 / 325.00
+(ff) Minimum price (Rs/kg)   2,435.00 / 70.60
+(gg) Average price (Rs/kg)   3,024.67
+Name of 5 Highest Buyers
+SI.No   Buyer Name   Kilos   Value
+VARdHAN TRADINg COMPANY   4,817.400   1,43,52,939.500
+BM TRADERS   4,381.600   1,37,91,980.700
+EMPEROR SPICES PRIVATE LIMITED   3,337.900   1,04,68,377.400
+SRI YOGAGANAPATHI TRADERS   2,828.800   84,08,684.700
+AURA SPICES   2.517.800   75,09,649.700
+TOTAL   17,883.500   5,45,31.632.000
+PIace : PAMPUMPARA   For siGcc Ltd.
+Date : 04/11/2026   G.C.   LT   Authorised Signatory
