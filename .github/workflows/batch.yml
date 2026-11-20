@@ -20,6 +20,8 @@ jobs:
         run: bash scripts/ocr_batch.sh
       - if: inputs.mode == 'multi'
         run: bash scripts/ocr_multi.sh
+      - if: inputs.mode == 'rapid'
+        run: ONLY_RAPID=1 bash scripts/ocr_multi.sh
       - name: Push OCR output to temporary branch
         run: |
           B="ocr/batch-${{ inputs.start }}-${{ inputs.end }}-${{ inputs.mode }}"

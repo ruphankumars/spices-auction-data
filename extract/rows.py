@@ -9,7 +9,7 @@ import re
 from itertools import product
 
 # characters OCR commonly substitutes for digits
-DIGIT_FIX = str.maketrans({"O": "0", "o": "0", "D": "0", "Q": "0", "l": "1", "I": "1", "i": "1",
+DIGIT_FIX = str.maketrans({"O": "0", "o": "0", "D": "0", "Q": "0", "C": "0", "l": "1", "I": "1", "i": "1",
                            "S": "5", "s": "5", "$": "5", "§": "5",
                            "B": "8", "g": "9", "Z": "2", "z": "2", "?": "7"})
 NUMLIKE = re.compile(r"[\d$§OoSIl|!BZ][\d$§OoSIl|!BZ,.'’ ]*[\d$§OoSIl|!BZ]|\d")
@@ -52,10 +52,23 @@ def variants(tok):
     return out
 
 
+_FUSED = re.compile(r"(?<![\w.,])(\d{1,4}[.,]\d{3})(\d{4}[.,][\dOQC]{2})(\d{5,8}[.,][\dOQC]{1,2})?")
+
+
+def _unfuse(line):
+    """'444.6003123.001388485.80' -> '444.600 3123.00 1388485.80' (columns printed without gaps)."""
+    line = re.sub(r"(\d{2,4}\.\d{3})(?=\d{2,4}\.\d{3}\b)", r"\1 ", line)  # qty qty
+    def rep(m):
+        return " ".join(g for g in m.groups() if g)
+    line = _FUSED.sub(rep, line)
+    return re.sub(r"(\d\.[\dOQC]{2})(?=\d{5,8}\.[\dOQC]{2})", r"\1 ", line)
+
+
 def num_tokens(line):
     """(start, end, text) for every number-like run in the line."""
     toks = []
     line = re.sub(r"[|!/;:\]\[{}()'\"“”‘’`]", " ", line)
+    line = _unfuse(line)
     for m in re.finditer(r"\S+", line):
         toks.append((m.start(), m.end(), m.group()))
     # merge "16 ,234.900" / "629. 400" style splits

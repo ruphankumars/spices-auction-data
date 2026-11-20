@@ -20,7 +20,7 @@ tess() { png="$1"; rel="${png#png/}"; b="${rel%.png}"
   OMP_THREAD_LIMIT=1 tesseract "$t" "out/passE/$b" --psm 11 >/dev/null 2>&1 || true
   rm -f "$t"; }
 export -f tess
-xargs -a all.txt -P 2 -I{} bash -c 'tess "$@"' _ {}
+[ -n "${ONLY_RAPID:-}" ] || xargs -a all.txt -P 2 -I{} bash -c 'tess "$@"' _ {}
 wait
 tail -n 2 log_chunk_* || true
 rm -rf png all.txt chunk_* log_chunk_*
