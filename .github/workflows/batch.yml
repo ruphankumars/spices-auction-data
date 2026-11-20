@@ -4,6 +4,7 @@ on:
     inputs:
       start: {description: "First listing row (1 = newest)", default: "1"}
       end: {description: "Last listing row", default: "14"}
+      mode: {description: "base or multi (extra OCR passes, text only)", default: "base"}
 permissions:
   contents: write
 jobs:
@@ -13,12 +14,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils tesseract-ocr imagemagick
-      - run: pip install -q requests opencv-python-headless numpy
+      - run: pip install -q requests rapidocr-onnxruntime opencv-python-headless numpy
       - run: python scripts/fetch_batch.py ${{ inputs.start }} ${{ inputs.end }}
-      - run: bash scripts/ocr_batch.sh
+      - if: inputs.mode == 'base'
+        run: bash scripts/ocr_batch.sh
+      - if: inputs.mode == 'multi'
+        run: bash scripts/ocr_multi.sh
       - name: Push OCR output to temporary branch
         run: |
-          B="ocr/batch-${{ inputs.start }}-${{ inputs.end }}"
+          B="ocr/batch-${{ inputs.start }}-${{ inputs.end }}-${{ inputs.mode }}"
           cd work && rm -rf pdf && git init -q -b "$B" && git add -A
           git -c user.name=ocr-bot -c user.email=ocr-bot@users.noreply.github.com commit -qm "$B"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" "$B"
