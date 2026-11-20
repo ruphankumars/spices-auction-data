@@ -67,7 +67,7 @@ def abs_url(href):
     head, name = u.rsplit("/", 1)
     return head + "/" + quote(name)  # literal spaces in names
 
-def main(start, end):
+def main(start, end, only=None):
     work = Path("work"); (work / "pdf").mkdir(parents=True, exist_ok=True)
     rows = listing(end, work)
     seen = set()
@@ -79,6 +79,8 @@ def main(start, end):
     for rank in range(start, end + 1):
         if rank > len(rows):
             break
+        if only and rank not in only:
+            continue
         r = rows[rank - 1]
         url = abs_url(r["href"])
         code = re.sub(r"[^A-Za-z0-9]+", "_", r["href"].rsplit("/", 1)[1].rsplit(".", 1)[0]).strip("_")
@@ -92,4 +94,5 @@ def main(start, end):
     (work / "manifest.json").write_text(json.dumps(out, indent=1))
 
 if __name__ == "__main__":
-    main(int(sys.argv[1]), int(sys.argv[2]))
+    only = {int(x) for x in sys.argv[3].split(",") if x.strip()} if len(sys.argv) > 3 and sys.argv[3].strip() else None
+    main(int(sys.argv[1]), int(sys.argv[2]), only)
