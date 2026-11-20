@@ -45,9 +45,9 @@ def parse_rows(page_html):
     return rows
 
 def listing(n_needed, work):
-    rows, page = [], 0
+    rows, page = [], 1
     while len(rows) < n_needed:
-        url = LIST_URL if page == 0 else f"{LIST_URL}?page={page}"
+        url = LIST_URL if page == 1 else f"{LIST_URL}?page={page}"  # site pages are 1-based
         h = get(url).text
         (work / f"listing_p{page}.html").write_text(h)
         got = parse_rows(h)
@@ -70,6 +70,11 @@ def abs_url(href):
 def main(start, end):
     work = Path("work"); (work / "pdf").mkdir(parents=True, exist_ok=True)
     rows = listing(end, work)
+    seen = set()
+    for r in rows:  # guard against a repeated page
+        if r["href"] in seen:
+            raise RuntimeError("duplicate listing rows: pagination broken")
+        seen.add(r["href"])
     out = []
     for rank in range(start, end + 1):
         if rank > len(rows):
