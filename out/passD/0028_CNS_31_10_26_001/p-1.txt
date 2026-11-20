@@ -1,0 +1,35 @@
+FORM D
+[See rute 10(1}(1)]
+
+(Advance Auction Report)
+NAME AND ADDRESS OF THE AUCTIONEER:                    CLIMATE NATURAL SPICES PRIVATE LIMITED,
+GROUND FLOOR, 8/678-772 , VELANKANNIMATHA CHURCH CUMBUMMETTU ROAD, PUTTADY, IDUKKi - 685551 KERALA
+E-AUCTION LICENCE NO.                                         EAUCICS/50017/17/2024-25
+(S) SEASON                                                                     2026 - 2027
+(T) AUCTION NUMBER                                              22/26-27
+(U} DATE OF AUCTION                                                        31/10/2026
+(V) PLACE OF AUCTION                                              E-AUCTION SPICES BOARD IDUKKI
+(W) QUANTITY CARRIED OVER FROM PREVIOUS             NiL AUCTION (KGS)
+(X} FRESH ARRIVALS (KGS)                                       33269.300
+(Y) TOTAL QUANTITY PUT FOR AUCTION (KGS)                33269.300
+[TOTAL OF SI.NO. 5 AND 6]
+(Z) TOTAL QUANTITY OF SOLD (KGS)                             32899.900
+(ZZ) QUANTITY NOT AUCTIONED (KGS)                             0.000
+(AA) QUANTITY WITHDRAWN [(KGS)(SL.NO.(7)-(8)]            369.400
+(BB) QUANTITY RETURNED TO PLANTER (KGS)                 0.000
+(CC) BALANCE WITH THE AUCTIONEER (KGS)[SL.NO.        NIL
+(3){10)]
+(DD) TOTAL VALUE OF THE SALES (RS)                            99825959.10
+(EE) MAXIMUM PRICE (RS/KG)                                  3703.00
+(FF) MINIMUM PRICE (RS/KG)                                   2312.00
+(GG) AVERAGE PRICE (RS/KG)                                   3034.23
+NAME OF 5 HIGHEST BIDDERS
+BUYER NAME                                                                                               KILOS                                  VALUE
+THE SPICE FACTORY                                                                                         4915.700                                  62894.00
+GREEN GOLD TRADERS                                                                                                4701.400                                       58529.00
+KULAKKATTUVAYALIL AGENCIES                                                                                                    4565.100                                              81964.00
+PULLOLICKAL SPICES                                                                                                3379.700                                     49963.00
+BILAL SPICES                                                                                                                           326 1.600                                           53234.00
+
+TOTAL                                                                                       20823.500                                          306584.00
+

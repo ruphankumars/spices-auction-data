@@ -1,0 +1,41 @@
+FORM - D
+[See rule 10(1)(1]
+(Advance Auction Report)
+Name and Address of the auctioneer   Rns spices
+Do0r No: 14/623,624,625, RNS BuILdING,
+Puliyanmala cumbummettu road,
+NIRAPPELKADA - 685552
+E-Auction Licence No.   EAUC/CS/50015/15/2026-27
+(s) Season   2026-2027
+(t) Auction Number   22
+(u) Date of auction   06/11/2026
+(v) Place of auction   SPIcES BOARd BOdINAYAKANuR
+(w) Quantity carried over from   NIL
+previous auction (kgs)
+(x) Fresh arrivals (kgs)   56,628.400
+(y) Total quantity put for auction (kgs)   56,628.400
+[Total of St.No. 5 and 6]
+(z) Total quantity sold (kgs)   56.307.600
+(zz) Quantity Not Auctioned (Kgs.)   320.800
+(aa) Quantity withdrawn (kgs)
+(bb) Quantity returmed to planter (kgs)   Nil.
+(cc) Balance with the auctioneer (kgs)   320.800
+(dd) Total value of the sales (Rs)   17,89,80,988.20
+(ee) Maximum price (Rs/kg)   3,725.00 /kgs 477.300
+(ff) Minimum price (Rs/kg)   2,454.00 fkgs 45.800
+(gg) Average price (Rs/kg)   3.178.63
+Name of 5 Highest Buyers
+St.No   Buyer Name   Kilos   Value
+SPICE VALLEY TRADING PRIVATE
+18,648.800   5,78.47.408.50
+LIMITED
+GREEN LEAF TRADING COMPANY   6,792.900   2,16,32,025.00
+ELAICHIROYAL PRIVATE
+4,859.100   1,50.51,960.10
+LIMITED-KL
+KG CARDAMOM   4.649.700   1,47,66,906.20
+RAM EXPORTS   3.939.600   1,25,07,655.50
+TOTAL   38,890.100   12,18,05,955.30
+PIace : NIRAPPELKADA   SPIC   For RNS SPICES
+Date : 06/11/2026   RnS
+552   Authoised Signatory

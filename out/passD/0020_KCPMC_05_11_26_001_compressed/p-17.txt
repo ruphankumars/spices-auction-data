@@ -1,0 +1,56 @@
+St  L.Nol SL Name        GS5TN         Qty     Sale Qty   Rate   Value     Commission) Hc     CGST] SGST] [GST] S.Refund | N.Amount   Purchaser       SBL Mo       a
+a1 | 214 | RASVCHETTANTE | azaHwrut2e181zK | 135.300 | 135.300 | 2,962.00 | 400,758.60 | 4,007.58 | 761.44 | 0.00 | 0.00 [0.00 | 8,357.28 | 404,347.00 | PGS SPICES   CS (Dh-269/322025- So28
+22 | 216] @M TRADERS   32HGIPS7007E1ZE |} 675.000 | 875.000 | 3,400.00 | 2,295.000.00 | 22,850.00 | 4,360.50 | 0.00 | 0.00 |0.00 | 9,593.10 | 2,277,283.00 | S&B SPICES,   CSi1608/358/2024- | on
+23 | 217] JusPICces    32ALxPyasten1zz | 567.900 | 567.900 | 3,403.00 | 1.932.583.70 | 19,325.64 | 3,671.87 | 0.00 | 0.00 |0.00 | 9,601.56 | 1,919,168,00 | S86 SPICES,   ralieieeieenaia Ipre
+RELIANCE
+MISTY MOUNTAIN                                                                                                             CSR          COM
+24 | 220| NSERIENCE    S2ABMFMBAOICIZM | 870.500 | 870.500 |3.387.00 | 2.048,985.60 | 20,489.84 | 5,601.93 | 0.00 | 0.00 /0.00 | 9,888.42 | 2.922,884.00 | CARDAMOM    emoainizi2a | 4932
+2s | 221| Sorwmies ES | szacnPsansoaizm | 314.400 | 314.400 [2,876.00 | s04.z1440 | 9,042.14 | 1,718.01 | 0.00 | 0.00 |D.00 | 8,114.63 | 901,580.00 | KAASHI IMPEX   ranean Bie
+26| 222 | ASHIHABUDEEN  32ACDPU5363/1ZP | 407.200   0.00  0.00    0.00   0.00   9.00 | 0.00 | 0.00 | 0.00   0.00    0.00
+RELIANCE     CSR      COM
+27 | 223 | LACHUS SPICES  S2CBCPB16teE1ZL | 749.300 | 739.300 | 3,461.00 | 2,558,717.30 | 25,587.17 | 4,861.56 | 0.00 | 0.00 |0.00 | 9,765.21 | 2,538,034.00 | CARDAMOM eypo4i2023.24 | 4934
+COMPANY         :
+RELIANCE     CSR      COM
+2a | 224} MJ JOSEPH    32acuPJa2sspiz_ | 20c000 | 200.000 3,130.00 | 626,000.00 | 6,260.00 | 1,189.40 | 0,00 | 0.00 }o.00 | 9,831.30 | 627,382.00 | CARDAMOM    Oa w2003.04 | Gade
+COMPANY
+THE KERALA
+CARDAMOM                    C.S./T1814258/2023-       COM
+29 | 225 | AMRIN TRADERS  32AGVPH1195G1ZA | 86.400  86.400 | 2,937.00 | 283,756.80] 2,637.67 | 482.14 | 0.00 | 0.00 [0.00 | 8,286.75 | 289,024.00 | eaoceccmoanacra | 24       4038
+__                                                           COMPANY LTB,
+py math                                                                     €.8./13342/131/2023-| COM
+go | 249 | CARDAMOM    33ACNPR4184R1Z0 | 460.900 | 460.900 | 2,952.00 | 1.360.576.80 | 13,605.77 | 2,585.10 | 0.00 | 0.00 }0.00 | 9,329.07 | 1.382,715.00 [| JMJ SPICES   cs.      cone
+COMPANY
+RELIANCE     C.SUR      COM
+31 | 282] JMJ SPICES    32ARMPJ6O44N12H | 709.900 | 709.900 | 3,494.00 | 2.480,290.60 | 24,803.01 | 4,712.74 | 0.00 | 0.00 [oon | 9,858.92 | 2,460,732.00 | CARDAMOM    co eR oaizaza24 | 4089
+COMPANY     362/204/20
+32 } 263 | BABNONETTANTE | azaHweJi261B12« | 384.600 | 394.600 | 2,904.00 | 1.145,918.40 | 11,458.18 | 2,177.24 | 0.00 | 0.00 [0.00 | 8.193.e4 | 1.140.476.00 | VREXPORTS   c.svs25a2023-26 | SCM
+RELIANCE
+33 } 256 | AKKARAYIL TRADING | 55 anipasoo1AiZJ  581.400 | 581.400 | 3,444.00 | 1,984,899.40 ]| 19,849.00 | 3,771.31 | 0.00 | 0.00 Jo.00 | 9,832.60 | 1,970,912.00 | CARDAMOM    CSR      GOM
+co                                                              CARO ARS     1382/204(2023-24 | 4967
+34 | 257 | AMOHAMMED SALIM | 32ACEPJ2736N1zT | 482.400 | 482.400 13,170.00 | 1.529.208.00 | 15,292.08 | 2,905.50 | 0.00 | 0.00 [0.00 | 6944.15 | 1.519,985.00 | #MJ SPICES    anand err
+RELIANCE     CSUR      COM
+36 | 258 | JJ SPICES     32ALKP8816B1Z2 | 575,200 | 575.200 |3.410.00 | 4,961,432.00 | 19,614.32 | 3,728.72 | 0.00 | 0,00 0.00 | 9,621.32 | 1.947,712.00 | CARDAMOM     esmnaiz0z3.24 | 4969
+COMPANY
+36] 260] AS AAGENCIES   A2AQSPLAB7IJIZE | — 159.300   0.00  0.00    0.00    0.00   0.00 | 0.00 | 0.00 | 0.00   0.00    0.00
+37 | 262 | GRARAVIL SPICES | s2acppyaosoaizm | 196.200 | 196.200 | 2,952.00 | 859,88240 | 5,505.62 | 1,063.17 | 0.00 | 0.00 Jo00 | 8,046.92 | 580,951.00 | RCC SPICES,   cSres4ou/s2072023- | COM
+MHS SPICES (MH
+38 | 263 | SULAIMAN     32ACFPR7e70M1ZU | 398.000 | 398.000 | 3,370.00 | 1.341,280.00 | 13,41260 } 2,548.39 | 0.00 | 0.00 {0.00 | 9,508.46 | 1,334,807.00 | KARTHIKEYAN   CS/10699/941/2023- | COM
+SPICES     24       4973
+RAWTHER)
+ISWARYA     CS IDL.     COM
+39 | 268 | Ju SPICES     32ALXPJ8818B1ZZ  733.800 | 739.800 | 2,997.00 | 2.217,190.60 | 22,171.81 | 4.242.64 | 0.00 | 0.00 J0.00 | 8,456.06 | 2,199,252.00 | CARDAMOM    Noeaen/2023-24   oars
+COMPANY         ;
+AKKARAYIL TRADING                                                                                                                                                                                                                                           RELIANCE                   C.SJR                         COM
+40 | 267          32ADIPAQO01A1ZJ   631.100 | 531.100 13,350.00 | 1.779,185.00 | 17,761.85 | 3,380.45 | 0.00 | 0.00 {0.00 | 9,452.03 | 1,767,485.00 | CARDAMOM
+CO                                                              COMPANY     1382/204/2023-24 | 4077
+MHS SPICES (MH
+41 | 270| SULAIMAN     S2ACFPR7679M1ZU | 248.500 | 248.500 } 2,855.00 | 709,467.50  7,004.68 | 1,247.99 | 0.00 ] 0.00 joop | 8,055.38 | 709,080.00 | RCC SPICES,   Cess«so/5aW202s- | COM
+RAWTHER)                                                                   24       4980
+MISTY MOUNTAIN                                                                                                                                                                                                                                       MAHALAKSHMI            CsmiasTaoro23. | COM
+42 | 271] Brocrienoe   S2ABMFMa401C1zZm{ $72.500 | 572,500 | 2,946.00 | 1.686,585.00 | 16,865.85 | 3,204.5t | 0.00 | 0.00 j0.00 | 8,312.14] 1,674,627.00 | TRanere    34       4081
+THE KERALA   com
+SUPERIOR SPICES                                                                                     CARDAMOM      ©.8.71611258/2023-
+COMPANY LTD,
+44 | 2741 JMJ SPICES    32ARMP46044N1ZH | 385.800 | 385.800 | 2,989.00 § 1,153,156.20 | 11,831.56 | 2,191.00 | 0.00 | ooo {0.00 | 8,433.46 | 1,147,867.00 | VREXPORTS   c.s.va25ies2023-24 | COM
+45 | 275] VELUTHAPARACKAL | s2AAOFV457aQI26 | 463400 | 463.400 [3405.00 | 1,605,651.00 | 16,056.61 | 3.05078 | D.00 | 000 1000 | 95,77650 | 1,506,350.00 | RELIANCE    CSR      COM
+SPICES                                                            CARDAMOM    1982/204/2023-24 | 4985
