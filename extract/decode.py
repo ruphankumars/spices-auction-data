@@ -152,7 +152,8 @@ def decode(line, inv, rmin, rmax, qmax=3000):
                 for k, (pv, tol) in pred.items():
                     if abs(x - pv) <= tol:
                         dg = re.sub(r"\D", "", toks[i][0])
-                        if amt[i] or (k == "q" and len(dg) >= 3 and dg.rstrip("0") == ("%g" % pv).replace(".", "")):
+                        if amt[i] or (k == "q" and len(dg) >= 3 and dg.rstrip("0") == ("%g" % pv).replace(".", "")
+                                                     and len(dg) > len(("%g" % pv).replace(".", ""))):
                             hits.setdefault(k, set()).add(i)
                         elif k == "r":
                             weak_r.add(i); hits.setdefault(k, set()).add(i)

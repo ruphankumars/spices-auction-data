@@ -503,8 +503,8 @@ def main(ocr_dir, manifest, truth_path, db):
                         s["min"] = min(sr) if not s.get("min") or min(sr) < s["min"] else s["min"]
                     if not s.get("max") or max(sr) > s["max"] + 0.5:
                         s["max"] = max(sr)
-            if s.get("min"):
-                mine = [l for l in mine if s["min"] - 0.5 <= l["r"] <= s["max"] + 0.5]
+            if s.get("min") or s.get("max"):
+                mine = [l for l in mine if (s.get("min") or 0) - 0.5 <= l["r"] <= (s.get("max") or 1e9) + 0.5]
             from collections import Counter
             dif = Counter(round(l["q"] - l["ql"], 2) for l in mine if l.get("ql"))
             if dif and dif.most_common(1)[0][1] > 0.4 * len(mine):  # billed qty = listed qty + fixed sample weight

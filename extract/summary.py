@@ -89,17 +89,31 @@ def read_summary(texts, body=()):
     _collect(body, extra)
     grid = lambda x: abs(x * 10 - round(x * 10)) < 1e-6
     S = [x for x in cand["sold"] if x >= 50 and grid(x)]
+    # sold line unread: arrivals - withdrawn is a candidate (the average checks it)
+    SF = []
+    for ar in cand["arrivals"]:
+        for w in list(cand["withdrawn"]) + [0.0]:
+            x = round(ar - w, 2)
+            if x >= 50 and grid(x) and x not in S:
+                SF.append(x)
     V = [x for x in cand["value"] if x >= 1e5]
     avg_votes = cand["avg"] + extra["avg"]
     A = [x for x in avg_votes if 300 <= x <= 10000]
-    tiers = {"exact": [], "truncated": []}
-    for s, v, a in product(S, V, A):
-        d = v / s - a
-        sc = cand["sold"][s] + cand["value"][v] + avg_votes[a]
-        if abs(d) <= 0.011:
-            tiers["exact"].append((s, sc, v, a))
-        elif 0 < d < 1.0 and abs(a - round(a)) < 0.011:
-            tiers["truncated"].append((s, sc, v, a))
+    def tiers_for(SS):
+        tiers = {"exact": [], "truncated": []}
+        for s, v, a in product(SS, V, A):
+            d = v / s - a
+            sc = cand["sold"][s] + cand["value"][v] + avg_votes[a]
+            if abs(d) <= 0.011:
+                tiers["exact"].append((s, sc, v, a))
+            elif 0 < d < 1.0 and abs(a - round(a)) < 0.011:
+                tiers["truncated"].append((s, sc, v, a))
+        return tiers
+    tiers = tiers_for(S)
+    if not tiers["exact"] and SF:  # sold line unread: arrivals - withdrawn, still checked by the average
+        tf = tiers_for(SF)
+        if tf["exact"]:
+            tiers = tf
     check = next((k for k in ("exact", "truncated") if tiers[k]), None)
     if check:
         s, _, v, a = max(tiers[check])       # two state columns: the sum is also valid and is the larger one
