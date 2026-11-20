@@ -1,0 +1,36 @@
+FORM D
+(See Condition S of Licence in Form B)
+ADVANCE AUCTION REPORT
+Nane and Postal Addrtsscs of the Auctioneer   CARDAMOM PLANTERS' ASSOCIATION
+(indicate telegraphic address also)   Branch: BODINAYAKANUR
+Gram: CARDAMOM'   Phone: 6385867001
+2.   Spices Board Licence No.   EAUC/CS/C002/3/2024-25
+3.   Season   2026-2027
+4.   Auction No.   20
+5.   Date of Auction   13/11/2026
+6.   Quantity carried over from previous auction   NIL
+(in kgs.)
+Fresh Arrivals (in kgs.)   380.10
+8.   Total Quantity put for auction (in kgs.)   380.10
+(Total of S.No. 6 & 7)
+9.   Total Quantity Sold (in kgs.)   166.80
+10.   Quantity withdrawn (in kgs.)   213.30
+(S.No. 8 - 9)
+11.   Quantity returmed to Planters   213.30
+12.   Balance Quantity with the auctioneer   NIL
+(in kgs.) (S No. 10-11)
+13.   Total value of the sales (in Rs.)   4,58,610.30
+14.   Maximum Price (in Rs. kg.)   2,810.00
+15.   Minimum Price (in Rs. kg.)   2,702.00
+16.   Average Price (in Rs. kg.)   2,765.75
+17.   The Five highest bidders (Exporters/Dealers)
+Name   SBL No.   Quantity. (in kgs.)   Yalue (in Rs.)
+SVS GNANAVEL COMPANY   CS/12608/250/2023-24   65.70   1.77,521.40
+SRI RATNA EXPORTS   C.S./12015/73/2023-24   $2.90   1,47,114.90
+RP TRADERS   C.S./10729/196/2023-24   48.20   1,33,974.00
+18.   Place of Auction   Bodinayakanur
+PLACE: BODINAYAKANUR
+DATE:13/11/2026
+Signature of the Auctioneer
+F O! CARDAMOH PLANTERS' ASSOCIATION
+Director
