@@ -1,0 +1,19 @@
+{
+ "_note": "Summary figures read directly from each report's summary page image by Claude (reference for OCR accuracy).",
+ "0001_SIFEX_17_11_26_001": [{"branch": "", "date": "2026-11-17", "auction_no": 24, "arrivals": 79588.4, "sold": 77444.2, "withdrawn": 2144.2, "value": 233524124.70, "max": 4082.00, "min": 2556.00, "avg": 3015.39}],
+ "0002_CGF_17_11_2026_001": [{"branch": "", "date": "2026-11-17", "auction_no": 24, "arrivals": 20294.7, "sold": 20199.4, "withdrawn": 95.3, "value": 58536046.10, "max": 3494.00, "min": 2598.00, "avg": 2897.91}],
+ "0003_IMCPC_16_11_2026_001": [{"branch": "", "date": "2026-11-16", "auction_no": 24, "arrivals": 48951.4, "sold": 47561.8, "withdrawn": 1389.6, "value": 141234099.10, "max": 4173.00, "min": 2554.00, "avg": 2969.49}],
+ "0004_RNS_16_11_2026_001": [{"branch": "", "date": "2026-11-16", "auction_no": 23, "arrivals": 74467.6, "sold": 73906.4, "withdrawn": 561.2, "value": 222564101.70, "max": 3499.00, "min": 2488.00, "avg": 3011.43}],
+ "0005_KCPMC_14_11_2026_001_compressed": [{"branch": "", "date": "2026-11-14", "auction_no": 23, "arrivals": 119350.1, "sold": 114388.7, "withdrawn": 4961.4, "value": 344486329.10, "max": 3622.00, "min": 2447.00, "avg": 3011.54}],
+ "0006_GREENHOUSE_14_11_2026_001": [{"branch": "", "date": "2026-11-14", "auction_no": 23, "arrivals": 66951.3, "sold": 64743.1, "withdrawn": 2208.2, "value": 195823869.30, "max": 3423.00, "min": 2002.00, "avg": 3024.63}],
+ "0007_CPA_13_11_2026_001": [
+   {"branch": "SANTHANPARAI", "date": "2026-11-13", "auction_no": 20, "arrivals": 21947.3, "sold": 19092.9, "withdrawn": 2854.4, "value": 55164782.00, "max": 3452.00, "min": 2265.00, "avg": 2880.34},
+   {"branch": "BODINAYAKANUR", "date": "2026-11-13", "auction_no": 20, "arrivals": 380.1, "sold": 166.8, "withdrawn": 213.3, "value": 458610.30, "max": 2810.00, "min": 2702.00, "avg": 2765.75}],
+ "0008_SIGCL_13_11_26_001": [{"branch": "", "date": "2026-11-13", "auction_no": 24, "arrivals": 87375.0, "sold": 79767.5, "withdrawn": 7607.5, "value": 236709991.50, "max": 3486.00, "min": 2546.00, "avg": 2967.50}],
+ "0009_MAS_12_11_2026_001": [{"branch": "", "date": "2026-11-12", "auction_no": 22, "arrivals": 121980.2, "sold": 115925.4, "withdrawn": 6054.8, "value": 353207635.50, "max": 3766.00, "min": 2628.00, "avg": 3046.85}],
+ "0010_HEADER_12_11_26_001": [{"branch": "", "date": "2026-11-12", "auction_no": 23, "arrivals": 98693.7, "sold": 73907.8, "withdrawn": 24785.9, "value": 223408108.80, "max": 3464.00, "min": 2712.00, "avg": 3022.79}],
+ "0011_ITCPC_11_11_26_001": [{"branch": "", "date": "2026-11-11", "auction_no": 23, "arrivals": 60632.3, "sold": 59421.9, "withdrawn": 1210.4, "value": 183368552.30, "max": 3538.00, "min": 2002.00, "avg": 3085.87}],
+ "0012_SMTC_11_11_26_001": [{"branch": "", "date": "2026-11-11", "auction_no": 23, "arrivals": 125080.7, "sold": 125080.7, "withdrawn": 0.0, "value": 386119032.50, "max": 3557.00, "min": 2467.00, "avg": 3086.00}],
+ "0013_CPMCS_10_11_26_001": [{"branch": "", "date": "2026-11-10", "auction_no": 23, "arrivals": 85899.5, "sold": 82929.9, "withdrawn": 2969.6, "value": 259826653.40, "max": 3703.00, "min": 2502.00, "avg": 3133.09}],
+ "0014_SSP_09_11_26_001": [{"branch": "", "date": "2026-11-09", "auction_no": 23, "arrivals": 79511.6, "sold": 73123.8, "withdrawn": 6387.8, "value": 229930278.60, "max": 4003.00, "min": 2374.00, "avg": 3144.40}]
+}
