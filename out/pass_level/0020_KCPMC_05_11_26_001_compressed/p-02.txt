@@ -1,0 +1,20 @@
+KCPMC
+The Kerala Cardamom Processing and Marketing Company Limited.
+EAUC/CS161/12024-25
+THEKKADY PO, 685509, IdUKKI DISTRICT, KErALA STATE
+Auction Summary Report
+AUcTION CENTER: Common eAuction Centre
+Auction No: 22   0ate: 05/11/2026
+fotal Average Rate   3,015.11
+Maximum Rate   3,586.00
+Minimum Rate   2,342.00
+Total Arrivals   102,029.400 Kgs
+Withdrawal Quantity   2,835.800 Kgs
+Total Sales Quantity   99,193.600 Kgs
+B Grade Average Rate   3,018.33
+B Grade Maximum Rate   3,586.00   Weight: 397.200
+B Grade Minimum Rate   2.342.00   Weight: 376.500
+B Grade sales Qty   99,193.600
+B Grade Withdrawal Quantity   2,835.800
+B Grade Value   299,399,254.80
+B Grade Percentage   100.00%

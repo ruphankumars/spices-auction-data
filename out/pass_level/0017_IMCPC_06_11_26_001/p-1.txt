@@ -1,0 +1,37 @@
+FORM - D
+[see rule 10(1)(1)]
+(Advance Auction Report)
+Name and Address of the auCtioneer: IDUKKI MAHILA CARDAMOM PRODUCER
+COMPANY LIMITED
+REGD OFFICE:1503,VETTOONICKAL. HOUSE
+KUMILY-685509 IDUKKI KERALA CODE:32 Ph:
+E-Auction Licence No.   EAUC/CS/50016/16/2024-25
+(s) Season   2026 - 2027
+(t) Auction Number
+(u) Date of auction   06/11/2026
+(v) place of auction   e-AUCTION SPICES BOARD BODINAYAKANUR
+(w) Quantity carried over from   NIL
+previous auction (kgs)
+(x) Fresh arrivals (kgs):   25,663.400
+(y) Total quantity put for auction (kgs)   25,663.400
+[Total of sl.No. 5 and 6]:
+(z) Total quantity sold (kgs):   25,663.400
+(zz)Quantity Not Auctioned (Kgs.):   NIL
+(aa) Quantity withdrawn [(kgs)(sl.No.(7)-(8)] :   0.000
+(bb) Quantity returned to planter (kgs):   0.000
+(cc) Balance with the auctioneer (kgs)[(sl.No.(9)-(10):   NIL
+(dd) Total value of the sales (Rs):   7.85,68,990.50
+(ee) Maximum price (Rs/kg):   3,608.00 /kgs. 96.100
+(ff) Minimum price (Rs/kg):   2,601.00 /kgs.351.300
+(gg) Average price (Rs/kg):   3,061.52
+Name of 5 Highest Buyers
+S1.No   Buyer Name   kilos   Value
+SRI YOGAGANAPATHI TRADERS   2,779.500   86.07.332.20
+ASMI SPICES   2,212.700   68,99.597.80
+SHREE THARIKA SPICES   1,564.400   47,45.145.20
+K V SPICES   1,552.900   46,49.359.20
+RAGHAV SPICES   1,353.900   43,40,941.40
+TOTAL   9, 463.400   2,92,42,375.80
+place : KUMILY   FOr I M gP& LIMITED
+Date : 06/11/2026
+Authorisedsignatory
