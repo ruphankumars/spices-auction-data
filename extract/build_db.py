@@ -7,8 +7,10 @@ Tables
   auctions  one row per auction (a PDF can hold 2 branches); summary figures
   lots      one row per sold lot found and arithmetic-verified (qty x rate = value)
 """
-import glob, json, os, re, sqlite3, sys
+import glob, json, math, os, re, sqlite3, sys
 from rows import find_triple, find_pairs, num_tokens, variants
+from decode import mine, decode
+from invoice import parse_invoices, cover
 
 STOP = re.compile(r"\b(CR|C\.R|SBL|GSTIN|CS|C\.S|PD|P|D|NIL|WD|WITH DRAWN)\b\.?", re.I)
 JUNK_WORD = re.compile(r"^[A-Za-z&.,'-]{2,}$")
@@ -68,81 +70,115 @@ def page_files(d):
     return sorted(fs, key=lambda x: int(re.findall(r"\d+", os.path.basename(x))[0]))
 
 
+LOTKEY = re.compile(r"\W{0,4}([0-9OoIl]{2,3})(?=\s)")
+LOTFIX = str.maketrans("OoIl", "0011")
+WDRAWN = re.compile(r"\bW\.?D\b|WITH\s?DRAWN|[HM]ITH DRAWN", re.I)
+DEC = re.compile(r"\d[.,]\d{2,3}$")
+
+
+def split_row(ln):
+    """Text before the first and after the last decimal number of a row (names live there)."""
+    toks = [t for t in num_tokens(ln) if DEC.search(t[2].strip(" |"))]
+    if not toks:
+        return ln, "", []
+    return ln[: toks[0][0]], ln[toks[-1][1]:], toks
+
+
 def extract_report(d, rmin=1000, rmax=8000):
-    rows, aux, byqr, pairs = {}, {}, {}, {}
+    """Decode every OCR pass of a report and merge. Returns (rows, value-less candidates)."""
+    lines = []
     for f in page_files(d):
         pg = int(re.findall(r"\d+", os.path.basename(f))[0])
-        for ln in open(f, errors="ignore"):
-            ln = ln.rstrip("\n")
-            t = find_triple(ln)
-            if t:
-                toks = t["toks"]
-                prefix = ln[: toks[t["i"]][0]]
-                suffix = ln[toks[t["k"]][1]:]
-                key = round(t["v"])
-                qr = (round(t["q"], 2), round(t["r"]))
-                if key not in rows:  # same lot read in another pass/page: match by value or by qty+rate
-                    key = next((k for k in (key - 1, key + 1) if k in rows), None) or byqr.get(qr, key)
-                byqr.setdefault(qr, key)
-                rec = dict(page=pg, lot=lot_from_prefix(prefix), seller=seller_from_prefix(prefix),
-                           buyer=buyer_from_suffix(suffix), q=t["q"], r=t["r"], v=t["v"],
-                           repaired=int(t["repaired"]), line=ln.strip(), vp=t["vp"], derived=int(t["derived"]))
-                rec["votes"] = 1; rec["exact"] = int(not t["derived"])
-                pv = variants(toks[t["i"] - 1][2]) if t["i"] > 0 and "." in toks[t["i"] - 1][2] else []
-                rec["ql"] = pv[0] if pv and 0 < t["q"] - pv[0] <= 5 else None
-                old = rows.get(key)
-                if old:  # same lot on another page type: fill gaps
-                    old["votes"] += 1; old["exact"] = max(old["exact"], rec["exact"])
-                    old["ql"] = old.get("ql") or rec["ql"]
-                    for fld in ("seller", "buyer", "lot"):
-                        if not old[fld] and rec[fld]:
-                            old[fld] = rec[fld]
-                else:
-                    rows[key] = rec
-                continue
+        lines += [(pg, ln.rstrip("\n")) for ln in open(f, errors="ignore")]
+    inv = mine([ln for _, ln in lines])
+    rows, aux, pairs, wd = {}, {}, {}, set()
+    # second round: a lot that no single reading decodes is decoded from all its readings pooled together
+    groups, done = {}, set()
+    for pg, ln in lines:
+        m = LOTKEY.match(ln)
+        if m and not WDRAWN.search(ln):
+            groups.setdefault(int(m.group(1).translate(LOTFIX)), []).append((pg, ln))
+    work = [(pg, ln, None) for pg, ln in lines]
+    for pg, ln, gk in work:
+        if WDRAWN.search(ln):  # withdrawn lot: it has a bid price but was not sold
             for pr in find_pairs(ln, rmin, rmax):
-                k2 = (pr["q"], pr["r"])
-                e = pairs.setdefault(k2, dict(pr, votes=0, page=pg, line=ln.strip()))
-                e["votes"] += 1
-                if e["lot"] is None:
-                    e["lot"] = pr["lot"]
-            m = LOTLINE.match(ln.replace("—", " "))
-            if m:  # lot list without value column (KCPMC/CPMCS style): buyer code only
-                vq = variants(m.group(3)); vr = variants(m.group(4))
-                if vq and vr:
-                    aux[(round(vq[0], 1), round(vr[0]))] = dict(lot=int(m.group(1)), code=m.group(5))
-    for key, rec in rows.items():
+                wd.add((pr["q"], pr["r"]))
+            continue
+        d1 = decode(ln, inv, rmin, rmax)
+        t = None if d1 else find_triple(ln, rmin=rmin - 1, rmax=rmax + 1)
+        if d1 or t:
+            if d1:
+                q, r, v, score, full, pen = d1["q"], d1["r"], d1["v"], d1["score"], int(d1["full"]), d1["pen"]
+            else:
+                q, r, v, score, full, pen = t["q"], t["r"], t["v"], 2 if t["derived"] else 3, int(not t["derived"]), 2
+            prefix, suffix, dtoks = split_row(ln)
+            ql = None
+            for _, _, tt in dtoks:
+                pv = variants(tt.strip(" |"))
+                if pv and 0 < q - pv[0] <= 5:
+                    ql = pv[0]; break
+            m = LOTKEY.match(ln)
+            if m and (full or score >= 4):
+                done.add((pg, int(m.group(1).translate(LOTFIX))))
+            rec = dict(page=pg, lot=lot_from_prefix(prefix), seller=seller_from_prefix(prefix),
+                       buyer=buyer_from_suffix(suffix), q=q, r=r, v=v, repaired=int(not full), line=ln.strip(),
+                       votes=1, score=score, full=full, ql=ql, pen=pen)
+            key = (round(q, 3), round(r))
+            old = rows.get(key)
+            if old:
+                old["votes"] += 1; old["score"] = max(old["score"], score); old["full"] = max(old["full"], full)
+                old["pen"] = min(old["pen"], pen)
+                old["repaired"] = min(old["repaired"], rec["repaired"]); old["ql"] = old.get("ql") or ql
+                for fld in ("seller", "buyer", "lot"):
+                    if not old[fld] and rec[fld]:
+                        old[fld] = rec[fld]
+            else:
+                rows[key] = rec
+            continue
+        if WDRAWN.search(ln):
+            for pr in find_pairs(ln, rmin, rmax):
+                wd.add((pr["q"], pr["r"]))
+            continue
+        for pr in find_pairs(ln, rmin, rmax):
+            k2 = (pr["q"], pr["r"])
+            e = pairs.setdefault(k2, dict(pr, votes=0, page=pg, line=ln.strip()))
+            e["votes"] += 1
+            if e["lot"] is None:
+                e["lot"] = pr["lot"]
+        m = LOTLINE.match(ln.replace("—", " "))
+        if m:
+            vq = variants(m.group(3)); vr = variants(m.group(4))
+            if vq and vr:
+                aux[(round(vq[0], 1), round(vr[0]))] = dict(lot=int(m.group(1)), code=m.group(5))
+    for lot, pl in groups.items():
+        pages = sorted({pg for pg, _ in pl})
+        todo = [pg for pg in pages if (pg, lot) not in done]
+        if not todo or len(pl) < 2 or len(pl) > 16:
+            continue
+        lns = [ln for _, ln in pl]
+        d1 = decode("   ".join(lns), inv, rmin, rmax)
+        if d1 and (round(d1["q"], 3), round(d1["r"])) not in rows:
+            best = max(lns, key=len)
+            prefix, suffix, _ = split_row(best)
+            rows[(round(d1["q"], 3), round(d1["r"]))] = dict(
+                page=todo[0], lot=lot, seller=seller_from_prefix(prefix), buyer=buyer_from_suffix(suffix), q=d1["q"],
+                r=d1["r"], v=d1["v"], repaired=1, line=best.strip(), votes=1, score=min(d1["score"], 4),
+                full=int(d1["full"]), ql=None, pen=d1["pen"], pooled=1)
+    for rec in rows.values():
         a = aux.get((round(rec["q"], 1), round(rec["r"])))
         if a:
             rec["lot"] = rec["lot"] or a["lot"]
             if not rec["buyer"]:
                 rec["buyer"] = a["code"]
-    out = resolve(list(rows.values()))
+    out = list(rows.values())
     cands = []
     for (q, r), e in sorted(pairs.items(), key=lambda kv: -kv[1]["votes"]):
+        if (q, r) in wd:
+            continue  # withdrawn lot: it has a bid price but was not sold
         a = aux.get((round(q, 1), round(r)), {})
         cands.append(dict(page=e["page"], lot=e["lot"], seller="", buyer=a.get("code", ""), q=q, r=r, v=round(q * r, 2),
-                          repaired=0, line=e["line"], vp=0, derived=0, votes=e["votes"], exact=0, novalue=1))
-    return out, cands
-
-
-def add_valueless(mine, cands, sold):
-    """Fill a shortfall from lot lists that print no value: need a lot number, two OCR passes agreeing,
-    no near-duplicate, and never exceed the printed sold total."""
-    have = {(round(r["q"], 2), round(r["r"])) for r in mine}
-    total = sum(r["q"] for r in mine)
-    lots_used = set()
-    for c in cands:
-        if total >= sold - 0.05:
-            break
-        if c["lot"] is None or c["votes"] < 2 or c["lot"] in lots_used or (round(c["q"], 2), round(c["r"])) in have:
-            continue
-        if any(round(o["r"]) == round(c["r"]) and _near(o["q"], c["q"], "%.3f", 1) for o in mine):
-            continue
-        if total + c["q"] > sold + 0.05:
-            continue
-        mine.append(c); total += c["q"]; lots_used.add(c["lot"]); have.add((round(c["q"], 2), round(c["r"])))
-    return mine
+                          repaired=0, line=e["line"], votes=e["votes"], score=0, full=0, novalue=1, ql=None))
+    return out, cands, wd
 
 
 def _near(a, b, fmt, maxdiff):
@@ -150,31 +186,190 @@ def _near(a, b, fmt, maxdiff):
     return len(x) == len(y) and 0 < sum(c != d for c, d in zip(x, y)) <= maxdiff
 
 
+def strong(r):
+    return r["score"] >= 5 or (r["votes"] >= 2 and (r["full"] or r["score"] >= 4))
+
+
 def resolve(rows):
-    """Two readings of one lot that differ by a misread digit: keep the better-supported one."""
-    rows.sort(key=lambda r: (-r["exact"], -r["votes"]))
+    """Readings of one lot that differ by a misread digit or a decimal shift: keep the best-supported."""
+    rows.sort(key=lambda r: (-r["full"], -r["score"], -r["votes"]))
     keep = []
     for r in rows:
         clash = None
         for k in keep:
-            if not r["exact"] and (abs(k["v"] - r["vp"]) < 0.6 or abs(k["v"] - r["v"] * 10) < 6 or abs(k["v"] * 10 - r["v"]) < 6):
-                clash = k; break  # the printed value belongs to a lot we already have / decimal-shift ghost
-            ghost = round(k["r"]) == round(r["r"]) and (abs(k["q"] - r["q"] * 10) < 0.05 or abs(k["q"] * 10 - r["q"]) < 0.05)
-            if ghost and r["votes"] <= k["votes"]:
-                clash = k; r = dict(r, exact=0); break
-            if k["lot"] is not None and r["lot"] is not None and k["lot"] != r["lot"] and r["votes"] >= 2:
-                continue
-            same_rate = round(k["r"]) == round(r["r"])
-            if (same_rate and (_near(k["q"], r["q"], "%.3f", 1) or _near(k["v"], r["v"], "%.2f", 2))) or \
-               (abs(k["q"] - r["q"]) < 0.001 and _near(k["r"], r["r"], "%.2f", 1) and k["lot"] == r["lot"]):
+            same_r = round(k["r"]) == round(r["r"])
+            if (same_r and _near(k["q"], r["q"], "%.3f", 1)) or \
+               (abs(k["q"] - r["q"]) < 0.001 and _near(k["r"], r["r"], "%.2f", 1)) or \
+               (same_r and (abs(k["q"] - r["q"] * 10) < 0.05 or abs(k["q"] * 10 - r["q"]) < 0.05)) or \
+               abs(k["v"] - r["v"]) < 0.6:
                 clash = k; break
-        if clash and not r["exact"]:
+        if clash and not strong(r):
             for fld in ("seller", "buyer", "lot"):
                 if not clash[fld] and r[fld]:
                     clash[fld] = r[fld]
             continue
         keep.append(r)
     return keep
+
+
+SLIP = re.compile(r"(?<![\d.,])([0-9OoIlZzSsB]{2,3})\s+[^\d\n]{0,3}(\d{1,3}[.,]\s?\d{2})\s*[^\d\n]{0,3}\s*(\d[.,]?\s?\d{3}[.,]\s?\d{2})(?!\d)")
+SLIPFIX = str.maketrans("OoIlZzSsB", "001122558")
+
+
+def lot_slip(d, lo, hi, rmin, rmax, fixes):
+    """A 'LOT SLIP' page lists every lot as (lot, kilos, rate) in columns. Consensus across OCR passes."""
+    from collections import Counter, defaultdict
+    votes = defaultdict(Counter)
+    for dd in d.split(","):
+        for f in glob.glob(f"{dd}/p-*.txt"):
+            pg = int(re.findall(r"\d+", os.path.basename(f))[0])
+            t = open(f, errors="ignore").read()
+            if not (lo <= pg <= hi) or not re.search(r"LOT\s+SLIP", t, re.I):
+                continue
+            for m in SLIP.finditer(t):
+                q = variants(m.group(2).replace(" ", "")); r = variants(m.group(3).replace(" ", ""))
+                if q and r and rmin - 0.5 <= r[0] <= rmax + 0.5 and 5 <= q[0] < 1500:
+                    votes[int(m.group(1).translate(SLIPFIX))][(q[0], r[0])] += 1
+    lots = {lot: c.most_common(1)[0][0] + ("ocr",) for lot, c in votes.items() if c}
+    for lot, (q, r) in (fixes or {}).items():
+        lots[int(lot)] = (q, float(r), "claude-read")
+    # lot numbers run consecutively: keep the main run, drop stray misread numbers
+    ks, best, cur = sorted(lots), [], []
+    for k in ks:
+        cur = cur + [k] if cur and k - cur[-1] <= 3 else [k]
+        if len(cur) > len(best):
+            best = cur
+    return {k: lots[k] for k in best}
+
+
+def clashes(a, b):
+    same_r = round(a["r"]) == round(b["r"])
+    return (same_r and _near(a["q"], b["q"], "%.3f", 1)) or \
+           (abs(a["q"] - b["q"]) < 0.001 and _near(a["r"], b["r"], "%.2f", 1)) or \
+           (same_r and (abs(a["q"] - b["q"] * 10) < 0.05 or abs(a["q"] * 10 - b["q"]) < 0.05)) or \
+           abs(a["v"] - b["v"]) < 0.6
+
+
+def subset_close(U, tq, tv, limit=64):
+    """Ledger closure: the subset of uncertain rows whose kg AND rupees both hit the printed remainder.
+    Exact meet-in-the-middle search. tq in grams (int), tv in rupees. Returns list of rows or None."""
+    if tq < -50 or sum(u["_g"] for u in U) < tq - 50:
+        return None
+    if abs(tq) <= 1 and abs(tv) <= 0.6:
+        return []
+    U = U[:limit]
+    total_g, total_v = sum(u["_g"] for u in U), sum(u["v"] for u in U)
+    if total_g - tq < tq:  # fewer rows to leave out than to take: search for the left-out set instead
+        out = subset_close(U, total_g - tq, total_v - tv, limit) if total_g - tq >= -50 else None
+        if out is None:
+            return None
+        drop = {id(u) for u in out}
+        return [u for u in U if id(u) not in drop]
+    half = len(U) // 2
+
+    def sums(items, off):
+        out = [(0, 0.0, 0)]
+        for i, u in enumerate(items):
+            g, v, bit = u["_g"], u["v"], 1 << (i + off)
+            out += [(q + g, vv + v, m | bit) for q, vv, m in out if q + g <= tq + 50]
+            if len(out) > 1_500_000:
+                raise OverflowError
+        return out
+    try:
+        A, Bs = sums(U[:half], 0), sums(U[half:], half)
+    except OverflowError:
+        return None
+    idx = {}
+    for q, v, m in A:
+        idx.setdefault(q // 100, []).append((q, v, m))
+    best = None
+    for q, v, m in Bs:
+        need = tq - q
+        for b in (need // 100 - 1, need // 100, need // 100 + 1):
+            for qa, va, ma in idx.get(b, ()):
+                if abs(qa - need) <= 1:
+                    err = abs(va + v - tv)
+                    if err <= 0.6 and (best is None or err < best[0]):
+                        best = (err, m | ma)
+    if best is None:
+        return None
+    return [u for i, u in enumerate(U) if best[1] >> i & 1]
+
+
+def from_slip(slip, rows, wdset, s, invoices):
+    """The slip's kilos add up to the printed arrivals, so it is the complete lot list (weight, price).
+    The Buyers Statement then says which lots were sold and to whom (invoice cover); the decoded rows add
+    the seller names where their page exists."""
+    by_qr = {}
+    for r in rows:
+        by_qr.setdefault((round(r["q"], 2), round(r["r"])), r)
+    assign, todo = cover({k: (q, r) for k, (q, r, _) in slip.items()}, invoices) if invoices else ({}, [1])
+    left = sum(slip[k][0] for k in slip if k not in assign)
+    if todo or abs(left - (s["arrivals"] - s["sold"])) > 0.05:
+        return rows, "open"
+    out = []
+    for lot, inv_i in sorted(assign.items()):
+        q, r, src = slip[lot]
+        rec = by_qr.get((round(q, 2), round(r)))
+        if rec:
+            rec = dict(rec, lot=lot, buyer=invoices[inv_i][0] or rec["buyer"])
+        else:
+            rec = dict(page=0, lot=lot, seller="", buyer=invoices[inv_i][0], q=q, r=r, v=round(q * r, 2),
+                       repaired=int(src != "ocr"), votes=1, score=0, full=0, invoice=1,
+                       line=f"(lot slip + buyers statement; this lot's own page is not in the PDF; price {src})")
+        out.append(rec)
+    return out, "closed"
+
+
+def select(rows, cands, sold, value):
+    """Split candidates into certain and uncertain rows, then let the printed totals decide the uncertain ones."""
+    for r in rows + cands:
+        r["_g"] = int(round(r["q"] * 1000))
+    rows.sort(key=lambda r: (-r["full"], -r["score"], -r["votes"]))
+    qs = sorted(r["q"] for r in rows) or [100]
+    med = qs[len(qs) // 2]
+    far = lambda r: abs(math.log(r["q"] / med))
+    ghost = set()
+    for a in rows:  # decimal-point ghosts (29.90 read as 2990): keep the plainer reading, else the usual lot size
+        for b in rows:
+            if a is not b and round(a["r"]) == round(b["r"]) and any(abs(a["q"] - b["q"] * m) < 0.05 for m in (10, 100)):
+                ka = (a.get("pen", 0), far(a)); kb = (b.get("pen", 0), far(b))
+                ghost.add(id(a) if ka > kb else id(b))
+    rows = [r for r in rows if id(r) not in ghost]
+    S, U = [], []
+    for r in rows:
+        clash = any(clashes(r, k) for k in S)
+        # 5+ agreeing numbers on a row cannot be a misreading, so near-identical lots are both real
+        (S if r["score"] >= 5 or (strong(r) and not clash) else U).append(r)
+    grid = lambda c: abs(c["q"] * 20 - round(c["q"] * 20)) < 1e-6 and abs(c["r"] - round(c["r"])) < 1e-6
+    pool = [u for u in U if grid(u)] + [
+        c for c in cands if c["votes"] >= 2 and c["lot"] is not None and grid(c)
+        and not any(abs(c["q"] - k["q"]) < 0.001 and round(c["r"]) == round(k["r"]) for k in S + U)]
+    tq = int(round(sold * 1000)) - sum(r["_g"] for r in S)
+    tv = value - sum(r["v"] for r in S)
+    # the more uncertain rows offered, the likelier a chance fit: certify only from a short list
+    pick = subset_close(pool[:22], tq, tv)
+    if pick is not None:
+        return S + pick, "closed"
+    # no exact closure: keep the well-supported rows, never above the printed total
+    out, total = list(S), sum(r["q"] for r in S)
+    for r in pool:
+        weak = not (r["full"] or r["score"] >= 3 or r.get("novalue"))
+        if weak or (r.get("novalue") and total + r["q"] > sold + 0.05):
+            continue
+        if any(clashes(r, k) for k in out) and not r["full"]:
+            continue
+        out.append(r); total += r["q"]
+    # one lot still missing? the printed totals give its weight and price exactly
+    dq = sold - total
+    dv = value - sum(r["v"] for r in out)
+    if dq >= 5:
+        rr = round(dv / dq)
+        if abs(dv - dq * rr) <= 0.5 and abs(dq * 10 - round(dq * 10)) < 0.01:
+            out.append(dict(page=0, lot=None, seller="", buyer="", q=round(dq, 3), r=float(rr), v=round(dv, 2), repaired=1,
+                            line="(inferred from the report totals)", votes=0, score=0, full=0, novalue=1, inferred=1))
+            return out, "closed*"
+    return out, "open"
 
 
 SCHEMA = """
@@ -197,6 +392,7 @@ SHORT = {"SPECIALITY INDIAN FOOD PARKS EXPORTS PRIVATE LIMITED": "SIFEX"}
 def main(ocr_dir, manifest, truth_path, db):
     man = {os.path.splitext(m["file"])[0]: m for m in json.load(open(manifest))}
     truth = json.load(open(truth_path))
+    reads = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "claude_reads.json")))
     con = sqlite3.connect(db); con.executescript(SCHEMA)
     for t in ("reports", "auctions", "lots"):
         con.execute(f"DELETE FROM {t}")
@@ -204,7 +400,7 @@ def main(ocr_dir, manifest, truth_path, db):
         con.execute("INSERT INTO reports VALUES(?,?,?,?,?,?,?)",
                     (rid, m["rank"], m["auctioneer"], m["date"], m["url"], m["sha256"], m["bytes"]))
         summ = truth.get(rid, [{}])
-        lots, cands = extract_report(",".join(os.path.join(o, rid) for o in ocr_dir.split(",")),
+        lots, cands, wdset = extract_report(",".join(os.path.join(o, rid) for o in ocr_dir.split(",")),
                               min(s.get("min", 1000) for s in summ), max(s.get("max", 8000) for s in summ))
         aucs = []
         for s in summ:
@@ -216,22 +412,32 @@ def main(ocr_dir, manifest, truth_path, db):
         for (aid, s), (lo, hi) in zip(aucs, bounds):
             mine = [l for l in lots if lo <= l["page"] <= hi
                     and (not s.get("min") or s["min"] - 0.5 <= l["r"] <= s["max"] + 0.5)]
-            net = [l for l in mine if l.get("ql")]
-            if len(net) > 0.5 * max(1, len(mine)):  # report bills (qty + sample) but totals use the listed qty
-                for l in net:
-                    l["q"] = l["ql"]
-            if s.get("sold"):
-                mine = add_valueless(mine, [c for c in cands if lo <= c["page"] <= hi], s["sold"])
+            from collections import Counter
+            dif = Counter(round(l["q"] - l["ql"], 2) for l in mine if l.get("ql"))
+            if dif and dif.most_common(1)[0][1] > 0.4 * len(mine):  # billed qty = listed qty + fixed sample weight
+                d0 = dif.most_common(1)[0][0]  # totals in the report use the listed (net) quantity
+                for l in mine:
+                    l["q"] = round(l["q"] - d0, 3); l["v"] = round(l["q"] * l["r"], 2)
+            status = "open"
+            slip = lot_slip(",".join(os.path.join(o, rid) for o in ocr_dir.split(",")), lo, hi, s.get("min", 1000),
+                            s.get("max", 8000), reads.get(rid, {}).get("slip") if lo == 1 else None)
+            dd = ",".join(os.path.join(o, rid) for o in ocr_dir.split(","))
+            if slip and s.get("arrivals") and abs(sum(v[0] for v in slip.values()) - s["arrivals"]) < 0.05:
+                inv = parse_invoices(dd, lo, hi, s["sold"], s["value"], s.get("min", 1000), s.get("max", 8000))
+                mine, status = from_slip(slip, mine, wdset, s, inv)
+            if status == "open" and s.get("sold"):
+                mine, status = select(mine, [c for c in cands if lo <= c["page"] <= hi], s["sold"], s["value"])
             kg = sum(l["q"] for l in mine)
             con.execute("INSERT INTO auctions VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                         (aid, rid, m["auctioneer"], s.get("branch", ""), s.get("date"), s.get("auction_no"),
                          s.get("arrivals"), s.get("sold"), s.get("withdrawn"), s.get("value"),
-                         s.get("max"), s.get("min"), s.get("avg"), "claude-read", len(mine), round(kg, 3),
+                         s.get("max"), s.get("min"), s.get("avg"), status, len(mine), round(kg, 3),
                          round(100 * kg / s["sold"], 1) if s.get("sold") else None))
             for l in mine:
                 con.execute("INSERT INTO lots VALUES(?,?,?,?,?,?,?,?,?,?,?)",
                             (aid, l["lot"], l["seller"], l["buyer"], l["q"], l["r"], l["v"], l["page"],
-                             l["repaired"], 0 if l.get("novalue") else 1, l["line"][:300]))
+                             l["repaired"], 2 if l.get("inferred") else (3 if l.get("invoice") else (0 if l.get("novalue") else 1)),
+                             l["line"][:300]))
     con.commit()
     for r in con.execute("SELECT auction_id, lots_found, lots_kg, sold_kg, coverage_pct FROM auctions"):
         print(r)

@@ -94,8 +94,8 @@ def find_triple(line, qmax=3000, rmin=1000, rmax=8000, tol=0.00002):
                 for (a, qa), (b, rb), (c, vc) in product(enumerate(vals[i]), enumerate(vals[j]), enumerate(vals[k])):
                     if not (0 < qa <= qmax and rmin <= rb <= rmax and vc >= 1000):
                         continue
-                    if not re.search(r"[.,]", toks[i][2]) and a == 0:
-                        continue  # lot weights always carry decimals
+                    if not re.search(r"\d[.,]\d", toks[i][2]) or qa < 5:
+                        continue  # lot weights always carry decimals; bag counts and serials do not
                     if abs(qa * rb - vc) <= 0.6:  # exact to the paisa (allow rounding)
                         cost = a + b + c + (k - j - 1) + (j - i - 1) * 0.5
                         if best is None or cost < best[0]:
@@ -106,7 +106,7 @@ def find_triple(line, qmax=3000, rmin=1000, rmax=8000, tol=0.00002):
             for j in range(i + 1, n):
                 for qa in vals[i][:2]:
                     for rb in vals[j][:1]:
-                        if not (0 < qa <= qmax and rmin <= rb <= rmax and "." in toks[i][2] + toks[j][2]):
+                        if not (5 <= qa <= qmax and rmin <= rb <= rmax and re.search(r"\d[.,]\d", toks[i][2])):
                             continue
                         exp = f"{qa * rb:.2f}".replace(".", "")
                         for k in range(j + 1, min(n, j + 3)):
