@@ -1,0 +1,45 @@
+‘ge                                        FORM -D
+
+                             See rule 10(1){1
+
+=                       [See rule o 1)]
+(Advance Auction Report)
+
+Name and Address of the auctioneer                      : RNS SPICES
+
+Door No: 14/623,624,625, RNS BUILDING,
+PULIVANMALA CUMBUMMETTU ROAD,
+
+NIRAPPELKADA - 685552
+E-Auction Licence No.                                         >: EAUC/CS/50015/15/2026-27
+(s) Season                                                         : 2026-2027
+(t) Auction Number                                              : 23
+{u) Date of auction                                             > 16/11/2026
+(v) Place of auction                                            : SPICES BOARD BODINAYAKANUR
+(w) Quantity carried over from                               : NHL
+previous auction (kgs)
+(x) Fresh arrivals (kgs)                                        : 74,467.600
+{y) Total quantity put for auction (kgs)                        : 74,467.600
+{Total of S!.No. 5 and 6]
+(z) Total quantity sold (kgs)                                    : 73,906.400
+(22) Quantity Not Auctioned (Kgs. )                          > NIL
+(aa) Quantity withdrawn (kgs)                                : 561.200
+(bb) Quantity returned to pianter (kgs)                      : 561.200
+(cc) Baiance with the auctioneer (kgs)                      : NIL
+(dd) Total value of the sales (Rs)                             : 22,25,64,101.70
+(ee) Maximum price (Rs/kg)                                 : 3,499.00 fkgs 447.300
+(ff) Minimum price (Rs/kg)                                   : 2,488.00 fkgs 260.900
+(gg) Average price (Rs/kg)                                    : 3,011.48
+Name of 5 Highest Buyers
+SLNo | Buyer Name                                                               Kilos                                        Value
+ELAICHIROYAL PRIVATE
+1       LIMITED-KL                                              24,310.300                       7,16,52,526.90
+2           SR SPICES                                                                      13,576.500                                   4,08,06,256.40
+3         RAM EXPORTS                                                     4.851.300                            1,51,44,785.20
+4        PULLOLICKAL SPICES                                      4,255.800                         1,28,63,479.60
+5        SYRA SPICES PRIVATE LIMITED                          3,047.400                           91,27,610.50
+TOTAL                                                   50,041.300                          14,95,94,658.60
+
+Place : NIRAPPELKADA
+Date : 16/11/2026
+

@@ -1,0 +1,13 @@
+LOT GNY   QTY  RATE LT.WT NAME OF PURCHASER
+
+1585 77,444.20
+
+TOTAL GUNNY NOS:                   1,585.00
+TOTAL WEIGHT KGS.          77,444.20
+MAXIMUM RATE RS::                4082.00
+MINIMUM RATE RS.:                 2556.00
+AVERGE RATE RS.:                   3015.39
+TOTAL AMOUNT RS:.:           233524124.70
+
+Page 7 of 7
+

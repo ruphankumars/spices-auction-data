@@ -1,0 +1,43 @@
+FORM - D
+[See rule 10(1)(1]
+SIGCCL   (Advance Auction Report)
+SOUTH INDIAN GREEN CARDAMOM COMPANY LTD
+Name and Address of the auctioneer   DOOR NO: 111/505A, 505B,
+PAMPUMPARA ~ 685 551,
+PAMPUMPARA PO, IDUKKI DISTRICT, KERALA, CODE: 32
+E-Auction Licence No   EAUC/CS/S1421/11/2026-27
+(s) Season :
+2026-2027
+(t) Auction Number   24
+(u) Date of auction   13/11/2026
+(v) Place of auction   SPICES BOARD E-AUCTION CENTER, BODINAYAKKANUR
+Quantity carried over from previous auction (kgs)   NIL
+(x) Fresh arrivals (kgs)
+87,375.000
+(y) Total quantity put for auction (kgs)   87,375.000
+(z) Total quantity sold (kgs)   79.767.500
+((zz)Quantity Not Auctioned (kgs)   0.000
+(aa) Quantity withdrawn (kgs)   7,607.500
+(bb) Quantity returned to planter (kgs)   7,607.500
+(cc) Balance with the auctioneer (kgs)   NIL
+(dd) Total value of the sales (Rs)   23,67,09,991.50
+(ee) Maximum price (Rs/kg)   3,486.00 / 392.70
+(ff) Minimum price (Rs/kg)   2,546.00 / 38.70
+(gg) Average price (Rs/kg)   72,967.50
+Name of 5 Highest Buyers
+SI.No   Buyer Name   Kilos   Value
+VR EXPORTS
+6,846.900   2,00,14,005.900
+JMJ SPICES
+5,498.900   1,61,34,542.000
+NIRANJAN SPICES
+4,381.900   1,29,20,698.300
+SRI YOGAGANAPATHI TRADERS
+4,331.800   1,28,64,117.200
+JAYAN TRADERS
+TOTAL   3,792.200   1,12,35.998.400
+24,851.700   7,31,69,361.800
+PIaCe : PAMPUMPARA
+For SIGCC Ltd.
+Date : 13/11/2026
+uthorised Signatory

@@ -1,0 +1,51 @@
+FORM - D
+[See rule 10(1)(1)]
+
+(Advance Auction Report)
+
+Name and Address of the auctioneer: IDUKKI MAHILA CARDAMOM PRODUCER
+COMPANY LIMITED
+REGD OFFICE: 1503, VETTOONICKAL HOUSE,
+KUMILY-685509 IDUKKI KERALA CODE:32 Ph:
+
+E-Auction Licence No.           ; EAUC/CS/50016/16/2024-25
+(s) Season                    : 2026 - 2027
+(t) Auction Number            > 24
+(u) Date of auction           : 16/11/2026
+(v) Place of auction          ; @-AUCTION SPICES BOARD BODINAYAKANUR
+(w) Quantity carried over from                             NIL
+previous auction (kgs)
+(x) Fresh arrivals (kgs):                           48 ,951.400
+(y) Total quantity put for auction (kgs)            48 ,951.400
+[Total of S}.No. 5 and 6]:
+(z) Total quantity sold (kgs):                      47, 561.800
+(zz)Quantity Not Auctioned (Kgs.):                         NIL
+(aa) Quantity withdrawn [(kgs)(S1.No.(7)-(8)]:        1, 389.600
+(bb) Quantity returned to planter (kgs):              1, 389.600
+(cc) Balance with the auctioneer (kgs) [(S1.No.(9)-(10):     NIL
+(dd) Total value of the sales (Rs):             14,12,34,099.10
+(ee) Maximum price (RS/kg):                            4,173.00 /kgs.169.500
+(ff) Minimum price (Rs/kg):                            2,554.00 /kgs. 51.800
+(gg) Average price (RS/kg):                            2,969.49
+
+Name of 5 Highest Buyers
+
+S1.NO%         Buyer Name                      Kilos            Value
+
+1    PREETHA TRADING COMPANY                9, 373.500     2,75,60,916.90
+
+2    THARANI TRADERS                        2,713.300       81,82,501.90
+
+3    MHS SPICES                             2,657.100       76,11, 761.00
+
+4    S G SPICES                             2,066.100       62,95,451.70
+
+5    PERFECT CARDAMOM SPICES MKTLTD         2,017.700       55,52,658.20
+TOTAL                            18, 827.700     5, 52,03,289.70
+
+Place : KUMILY                                       For IM CPC me
+
+x
+
+Date : 16/11/2026                   7              YW.
+-                 Authorised Signatory

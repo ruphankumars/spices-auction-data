@@ -1,0 +1,39 @@
+FORM - 
+[see rule 10(1)(1)]
+(Advance Auction Report)
+Name and Address of the auctioneer:    CARDAMOM GROWERSFOREVER
+PRIVATE LIMITED
+BODI
+E-Auction Licence No.   EAUC/CS/C580/9/2024-25
+(s) Season   2026 - 2027
+(t)   Auction Number   24
+(u)   Date of auction   17/11/2026
+(v) place of auction   e-AUCTION SPICES PARK PUTTADY
+(w) Quantity   carried over from
+previous   auction (kgs)   NIL
+KERALA   TAMILNADU
+(x)   Fresh arrivals (kgs):   16.234.900   4.059.800
+()   Total quantity put for auction (kgs)   16.234.900   4.059.800
+[Total of s1.No. 5 and 6]:
+(z)   Tota quantity sold (kgs):   16,234.900   3.964.500
+(zz)   Quantity Not Auctioned (kgs):   NIL   NIL
+(aa) Quantity withdrawn [(kgs)(s1.No.(7)-(8)] :   0.000   95.300
+(bb) Quantity returned to planter (kgs):   0.000   95.300
+(cc)    Balance with the auctioneer (   (kgs)[(s1.No.(9)-(10): NIl
+(pp)   Total value of the sales (Rs):   4.73.51.795.00   1.11.84.251.10
+(ee)   Maximum price (Rs/kg):   3,494.00 /   2.926.00 /
+kgs. 100.200   kgs. 116.400
+(ff)   Minimum price (Rs/kg):   2.598.00 /   2.671.00 /
+kgs. 174.100   kgs. 181.800
+(gg)   Average price (Rs/kg) :   2.916.67   2,821.10
+Name of 5 Highest Buyer
+Sl.No.   Buyer Name   ki1os   Value
+GREEN   SLAM INTERNATIQNAL   3.656.400   1.12.74.803.80
+AnkI't   SPICES   1.569.000   45.72.249.20
+GREEN   SPICES   1.404.300   40,05,136.40
+BOSE   SPICES   1.360.100   37.65.133.00
+KAASHI   IMPEX   1.256.300   36.30,041.90
+TOTAL   9,246.100   2.72.47.364.30
+PIaCe : NEDUMKANDAM   signature of    the auctioneer
+Date   17/11/2026
+03

@@ -1,0 +1,217 @@
+SB No
+
+Gross Amt
+
+Sample.RF
+
+Commission
+
+Ccomm.GST
+
+Net Amount
+
+Bidder
+
+Name
+
+b/o
+
+CR Nof/GSTIN
+
+Quantity
+
+Qty Sold
+
+Rate
+
+SBL-C.5/55471/$41/2023-24
+
+5.No| Lot No
+
+2925.00
+
+734906.25
+
+8336.25
+
+7349.06
+
+1322.83
+
+726234.36| PERFECT CAROMOM AND SPICES MARKETING CO
+
+9)
+
+32ATUPI3192M124
+
+248.400
+
+251.280
+
+€$/55713/783/2024-25
+
+71
+
+279
+
+THE SPICE FACTORY
+
+390.650
+
+3208.00
+
+1253205.20
+
+9142.86
+
+12532.05
+
+2255.77
+
+1238417.38 | SPICE VALLEY TRADING PRIVATE LIMITED
+
+72
+
+280
+
+MISTY MOUNTAIN EXPERIENCE
+
+32ABMFM8401C1ZM
+
+387.800
+
+652501.09 |SASWANTH TRADERS
+
+€.8/55890/956/ 2026-2027
+
+264.800
+
+267.650
+
+2467.00
+
+660292.55
+
+7030.98
+
+6602.93
+
+1188.53
+
+73
+
+292
+
+A MOHAMMED SALIM
+
+32ACEPJ2736312T
+
+6858.07
+
+1234.45
+
+677714.38 |SPICE VALLEY TRADING PRIVATE LIMITED
+
+€5/55713/783/2024-25
+
+225.600
+
+228.450
+
+3002.00
+
+685806.90
+
+8555.70
+
+74
+
+293
+
+GVR SPICES
+
+32AFOPSS5696B124
+
+954583,34
+
+171825.01
+
+94331924.90
+
+SubTotal
+
+30896.70
+
+31107.60
+
+95458333.25
+
+642352.95
+
+9,54,583.34
+
+Dealer Commission:
+
+(Rs.)
+
+Kgs
+
+30,896.700
+
+1,71,825.01
+
+Dealer Quantity :
+
+Dealer Commission GST: (Rs.}
+
+Dealer Sold Quantity :
+
+Kgs
+
+31,107.600
+
+Dealer Net Amount:
+
+(Rs.}
+
+9,43,31,924.90
+
+Dealer Gross Amount:
+
+Rs
+
+9,54,58,333.25
+
+Dealer Sample Refund :
+
+Rs
+
+6,42,352.95
+
+38867592.66
+
+699622.72
+
+384092849.07
+
+GrandTotal
+
+125080.700
+
+125912.500
+
+388679264.45
+
+2560231.95
+
+-
+
+For SPIL: «8% TRADING COMPANY
+
+{
+
+4
+
+:
+
+‘authorised Signatory
