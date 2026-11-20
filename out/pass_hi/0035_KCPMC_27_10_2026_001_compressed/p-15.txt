@@ -1,0 +1,5 @@
+Lot No   Bags   Quantity   Rate   Purchaser   Grade   Ltr   Depot   sedeM
+294   212.600   2,853.00   RSC   380
+295   208.000   2,809.00   AsM1   380
+Total l.ots:   2232   108,866.500   Sold QfY:   Wapas   QTY:
+295   104,354.800   4,511.700

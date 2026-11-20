@@ -1,0 +1,38 @@
+FOrM
+[see' rule   10(1) (1))
+(Advance Auction Report)
+Name   and Address of the   auctioneer:   CARDAMOM   GROWERSFOREVER
+PRIVATE   LIMITED
+BODI
+E-Auction Licence   No .   EAUC/CS/C580/9/2024-25
+(s)   season   2026   2027
+(t)   Auction   Number   22
+(u)   Date   of   auction   29/10/2026
+(v)   place of   auction   e-AUCTION   spices   PARK   PUTTADY
+(w)   Quantity   carried over   from
+previous   auction (kgs)   NIL
+KERALA   TAMILNADU
+(x)   Fresh   arrivals   (kgs) :   27.201.300   10.372.400
+(y)   Total   quantity put for auction   (kgs)   27.201.300   10.372.400
+[Tota1 of si.No. 5'and 6]:
+(z)   Total   quantity sold (kgs):   26.765.900   9.347-700
+(zz)   Quantity   Not Auctioned (kgs):   NIL   NIL
+(aa)   Quantity   withdrawn   [(kgs)(s1.No. (7)-(8)J :   435-400   1.024-700
+(bb)   Quantity   returned    to planter   (kgs) :   435.400   1.024.700
+(cc)   Balance   with   the   auctioneer   (kgs)[(s7 .No.(9)-(10): NIL
+(pp)   Total   value of   the sales   (rs) :   7.84.64.717.90   2.61.82.600.20
+(ee)   Maximum   price   (rs/kg) :   3,491.00 /   3.110.00 7
+kgs. 202.400   kgs. 6   69.700
+(ff)   Minimum    price   (rs/kg) :   2,435.00 /   2,420.00 /
+kgs. 140.400   kgs.   59.300
+(gg)   Average   price   (rs/kg) :   2,931.52   2.800.97
+Name   of 5 Highest   Buyer
+S1.nNo.   Buyer   Name   ki1os   Value
+S R sPICEs   4.062-.900   1.21.87.040.30
+GREEN    SLAM   INTERNATIONAL   2.877.100   78.12.423.30
+SYrA   spIces   PRIVATE   LIMITED   2.536.100   72.56.088.00
+SRI   LATHIKA   TRADERS   1.953-300   56,59.959.10
+MERCARLEX   WORLDWIDE   1.718.700   52.77.854.60
+TOTAL   13.148.100   3,81,93.365.30
+place   NEDUMKANDAM   signature   of the   auctioneer
+Date   29/10/2026

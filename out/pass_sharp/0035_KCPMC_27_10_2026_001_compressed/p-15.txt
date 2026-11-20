@@ -1,0 +1,5 @@
+Lot Na   Bags   Quantity   Rate   Purchaser   Gradel   Ltri   Depot   sedeM
+294   212.600   2,853.00   RSC   380
+295   208.000   2,809.00   AsM!   380
+Total lots:   2232 108,866.500   Sold QtY:   Wapas QTY:
+295   104.354.800   4,511.700
