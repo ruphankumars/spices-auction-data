@@ -102,6 +102,7 @@ def decode(line, inv, rmin, rmax, qmax=3000):
     rank = {(i, x): k for i, (_, vs) in enumerate(toks) for k, x in enumerate(vs)}
     # amounts and weights carry decimals; short integers are lot numbers, bag counts, litre weights
     amt = [bool(re.search(r"\d[.,]\d", t)) or len(re.sub(r"\D", "", t)) >= 5 for t, _ in toks]
+    amt = [bool(re.search(r"\d[.,]\d", t)) or len(re.sub(r"\D", "", t)) >= 5 for t, _ in toks]
     R = set()
     for i, x in allv:
         if rmin - 0.5 <= x <= rmax + 0.5 and re.search(r"\d[.,]\d", toks[i][0]):
@@ -109,6 +110,29 @@ def decode(line, inv, rmin, rmax, qmax=3000):
         for a, tol in inv["alpha"]:
             rr = x / a
             if rmin - 0.5 <= rr <= rmax + 0.5 and abs(rr - round(rr)) <= (0.03 if tol < 0.1 else 0.2):
+                R.add(float(round(rr)))
+    # a rate can also be recovered from the commission: commission = b * (q + a) * r, and from
+    # commission together with value: a * r = commission / b - value
+    big = [(i, x) for i, x in allv if amt[i]]
+    qtok = {round(x, 3) for i, x in big if 5 <= x <= qmax and abs(x * 20 - round(x * 20)) < 1e-6
+            and re.search(r"[.,]\d", toks[i][0])}
+    for a, b, tol in inv["combo"]:
+        for i, x in big:
+            for q in qtok:
+                rr = x / (b * (q + a))
+                if rmin - 0.5 <= rr <= rmax + 0.5 and abs(rr - round(rr)) <= 0.035:
+                    R.add(float(round(rr)))
+            for j, y in big:
+                if j != i and y > 20 * x:
+                    rr = (x / b - y) / a
+                    if rmin - 3 <= rr <= rmax + 3:
+                        for cand in range(int(round(rr)) - 2, int(round(rr)) + 3):
+                            if rmin - 0.5 <= cand <= rmax + 0.5 and abs(y / cand * 20 - round(y / cand * 20)) < 0.002:
+                                R.add(float(cand))
+    for i, x in big:  # value / quantity is a whole number of rupees
+        for q in qtok:
+            rr = x / q
+            if rmin - 0.5 <= rr <= rmax + 0.5 and abs(rr - round(rr)) <= 0.002:
                 R.add(float(round(rr)))
     best = None
     for r in R:
@@ -147,12 +171,15 @@ def decode(line, inv, rmin, rmax, qmax=3000):
             keys = set(hits) | set(soft)
             nq = min(2, len(hits["q"]) + (0.5 if "q" in soft else 0)) if "q" in hits else w("q")
             nr = w("r")
+            if nr == 0 and "q" in hits and "v" in hits:
+                nr = 0.5  # printed value / printed quantity came out a whole rupee rate
             na = sum(w(k) for k in keys if k[0] == "a")
             npr = sum(w(k) for k in keys if k[0] in "vbc")
             exact = len(hits)
             units = nq + nr + na + npr
             ok = bool(nq + npr >= 2 and nr + na + npr >= 2 and units >= 3 and (npr >= 1 or units >= 4)
-                      and exact >= 2 and ("q" in hits or "r" in hits or exact >= 3))
+                      and exact >= 2 and ("q" in hits or "r" in hits or exact >= 3
+                                          or sum(1 for k in hits if k[0] in "vbc") >= 2))
             key = (ok, units, -sum(pen.values()), "v" in hits)
             if best is None or key > best[0]:
                 best = (key, q, r, hits, units, sum(pen.values()))

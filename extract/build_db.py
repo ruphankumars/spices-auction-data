@@ -11,6 +11,7 @@ import glob, json, math, os, re, sqlite3, sys
 from rows import find_triple, find_pairs, num_tokens, variants
 from decode import mine, decode
 from invoice import parse_invoices, cover
+from summary import read_report
 
 STOP = re.compile(r"\b(CR|C\.R|SBL|GSTIN|CS|C\.S|PD|P|D|NIL|WD|WITH DRAWN)\b\.?", re.I)
 JUNK_WORD = re.compile(r"^[A-Za-z&.,'-]{2,}$")
@@ -335,6 +336,17 @@ def select(rows, cands, sold, value):
             if a is not b and round(a["r"]) == round(b["r"]) and any(abs(a["q"] - b["q"] * m) < 0.05 for m in (10, 100)):
                 ka = (a.get("pen", 0), far(a)); kb = (b.get("pen", 0), far(b))
                 ghost.add(id(a) if ka > kb else id(b))
+    # same physical line read two ways: rows sharing 3+ printed numbers are one lot; keep the stronger
+    def ntoks(r):
+        return {t for t in re.findall(r"\d+[.,]\d{2,3}", r.get("line", "")) if len(t) >= 6}
+    srt = sorted(rows, key=lambda r: (-r["full"], -r["score"], -r["votes"]))
+    for i, a in enumerate(srt):
+        if id(a) in ghost:
+            continue
+        ta = ntoks(a)
+        for b in srt[i + 1:]:
+            if id(b) not in ghost and len(ta & ntoks(b)) >= 3 and not (abs(a["q"] - b["q"]) < 0.001 and round(a["r"]) == round(b["r"])):
+                ghost.add(id(b))
     rows = [r for r in rows if id(r) not in ghost]
     S, U = [], []
     for r in rows:
@@ -391,7 +403,7 @@ SHORT = {"SPECIALITY INDIAN FOOD PARKS EXPORTS PRIVATE LIMITED": "SIFEX"}
 
 def main(ocr_dir, manifest, truth_path, db):
     man = {os.path.splitext(m["file"])[0]: m for m in json.load(open(manifest))}
-    truth = json.load(open(truth_path))
+    truth = json.load(open(truth_path)) if os.path.exists(truth_path) else {}
     reads = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "claude_reads.json")))
     con = sqlite3.connect(db); con.executescript(SCHEMA)
     for t in ("reports", "auctions", "lots"):
@@ -399,7 +411,11 @@ def main(ocr_dir, manifest, truth_path, db):
     for rid, m in sorted(man.items()):
         con.execute("INSERT INTO reports VALUES(?,?,?,?,?,?,?)",
                     (rid, m["rank"], m["auctioneer"], m["date"], m["url"], m["sha256"], m["bytes"]))
-        summ = truth.get(rid, [{}])
+        dd0 = ",".join(os.path.join(o, rid) for o in ocr_dir.split(","))
+        auto = rid not in truth
+        summ = read_report(dd0) if auto else truth[rid]
+        if not summ:
+            print("no summary found:", rid); continue
         lots, cands, wdset = extract_report(",".join(os.path.join(o, rid) for o in ocr_dir.split(",")),
                               min(s.get("min", 1000) for s in summ), max(s.get("max", 8000) for s in summ))
         aucs = []
@@ -408,7 +424,8 @@ def main(ocr_dir, manifest, truth_path, db):
             aucs.append((aid, s))
         # multi-branch PDFs: assign lots by page order (branch pages are contiguous);
         # CPA: Bodinayakanur branch starts at its own Form D page (p-11)
-        bounds = {"0007_CPA_13_11_2026_001": [(1, 10), (11, 999)]}.get(rid, [(1, 999)] * len(aucs))
+        bounds = [(x["first_page"], x["last_page"]) for x in summ] if auto else \
+            {"0007_CPA_13_11_2026_001": [(1, 10), (11, 999)]}.get(rid, [(1, 999)] * len(aucs))
         for (aid, s), (lo, hi) in zip(aucs, bounds):
             mine = [l for l in lots if lo <= l["page"] <= hi
                     and (not s.get("min") or s["min"] - 0.5 <= l["r"] <= s["max"] + 0.5)]
@@ -418,6 +435,14 @@ def main(ocr_dir, manifest, truth_path, db):
                 d0 = dif.most_common(1)[0][0]  # totals in the report use the listed (net) quantity
                 for l in mine:
                     l["q"] = round(l["q"] - d0, 3); l["v"] = round(l["q"] * l["r"], 2)
+            fx = reads.get(rid, {}) if lo == 1 else {}
+            for d0 in fx.get("drop", []):
+                mine = [l for l in mine if not (abs(l["q"] - d0["q"]) < 0.001 and round(l["r"]) == d0["r"])]
+            for a0 in fx.get("add", []):
+                if not any(abs(l["q"] - a0["q"]) < 0.001 and round(l["r"]) == a0["r"] for l in mine):
+                    mine.append(dict(page=a0["page"], lot=a0["serial"], seller=a0["seller"], buyer=a0["buyer"], q=a0["q"],
+                                     r=float(a0["r"]), v=round(a0["q"] * a0["r"], 2), repaired=1, votes=1, score=9, full=1,
+                                     line="(read from the page image by Claude; refund and commission confirm it)"))
             status = "open"
             slip = lot_slip(",".join(os.path.join(o, rid) for o in ocr_dir.split(",")), lo, hi, s.get("min", 1000),
                             s.get("max", 8000), reads.get(rid, {}).get("slip") if lo == 1 else None)

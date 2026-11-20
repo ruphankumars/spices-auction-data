@@ -55,11 +55,8 @@ def summary_pages(pages):
     return starts or [min(pages)]
 
 
-def read_summary(texts, extra_texts=()):
-    """texts: OCR passes of one summary page (+ continuation). Returns dict or None."""
-    cand = {k: Counter() for k in KEYS}
-    dates = Counter()
-    for t in list(texts) + list(extra_texts):
+def _collect(texts, cand, dates=None):
+    for t in texts:
         lines = t.split("\n")
         for i, ln in enumerate(lines):
             for k, rx in KEYS.items():
@@ -76,32 +73,52 @@ def read_summary(texts, extra_texts=()):
                 if len(ns) == 2 and k in ("sold", "value", "arrivals", "withdrawn"):  # two state columns
                     cand[k][round(ns[0] + ns[1], 2)] += 1
             m = DATE.search(ln)
-            if m and re.search(r"date", ln, re.I):
+            if dates is not None and m and re.search(r"date", ln, re.I):
                 mo = MON.get(m.group(2).lower()[:3]) if not m.group(2).isdigit() else int(m.group(2))
                 if mo and 1 <= mo <= 12 and 1 <= int(m.group(1)) <= 31:
                     dates[f"{m.group(3)}-{mo:02d}-{int(m.group(1)):02d}"] += 1
-    best = None
-    S = [x for x in cand["sold"] if x >= 50]
+
+
+def read_summary(texts, body=()):
+    """texts: OCR passes of the summary page(s); body: the other pages (they repeat the average price).
+    Returns dict with 'check': 'exact' | 'truncated' | 'unchecked', or None."""
+    cand = {k: Counter() for k in KEYS}
+    dates = Counter()
+    _collect(texts, cand, dates)
+    extra = {k: Counter() for k in KEYS}
+    _collect(body, extra)
+    grid = lambda x: abs(x * 10 - round(x * 10)) < 1e-6
+    S = [x for x in cand["sold"] if x >= 50 and grid(x)]
     V = [x for x in cand["value"] if x >= 1e5]
-    A = [x for x in cand["avg"] if 500 <= x <= 10000]
+    avg_votes = cand["avg"] + extra["avg"]
+    A = [x for x in avg_votes if 300 <= x <= 10000]
+    tiers = {"exact": [], "truncated": []}
     for s, v, a in product(S, V, A):
-        if abs(v / s - a) <= 0.011:
-            score = cand["sold"][s] + cand["value"][v] + cand["avg"][a]
-            if best is None or score > best[0]:
-                best = (score, s, v, a)
-    if not best:
+        d = v / s - a
+        sc = cand["sold"][s] + cand["value"][v] + avg_votes[a]
+        if abs(d) <= 0.011:
+            tiers["exact"].append((s, sc, v, a))
+        elif 0 < d < 1.0 and abs(a - round(a)) < 0.011:
+            tiers["truncated"].append((s, sc, v, a))
+    check = next((k for k in ("exact", "truncated") if tiers[k]), None)
+    if check:
+        s, _, v, a = max(tiers[check])       # two state columns: the sum is also valid and is the larger one
+    elif S and V and cand["avg"]:
+        check = "unchecked"                  # e.g. an average printed over all lots including withdrawn ones
+        s = max(S, key=lambda x: cand["sold"][x]); v = max(V, key=lambda x: cand["value"][x])
+        a = cand["avg"].most_common(1)[0][0]
+    else:
         return None
-    _, s, v, a = best
-    out = dict(sold=s, value=v, avg=a, date=dates.most_common(1)[0][0] if dates else None,
+    out = dict(sold=s, value=v, avg=a, check=check, date=dates.most_common(1)[0][0] if dates else None,
                auction_no=cand["auction_no"].most_common(1)[0][0] if cand["auction_no"] else None)
-    mx = [x for x, _ in cand["max"].most_common() if a <= x <= 10000 and abs(x - round(x)) < 0.011]
-    mn = [x for x, _ in cand["min"].most_common() if 300 <= x <= a and abs(x - round(x)) < 0.011]
+    real = v / s
+    mx = [x for x, _ in (cand["max"] + extra["max"]).most_common() if real <= x <= 3 * real and abs(x - round(x)) < 0.011]
+    mn = [x for x, _ in (cand["min"] + extra["min"]).most_common() if real / 3 <= x <= real and abs(x - round(x)) < 0.011]
     out["max"] = mx[0] if mx else None
     out["min"] = mn[0] if mn else None
-    # arrivals = sold + withdrawn
     pair = None
     for ar, cnt in cand["arrivals"].most_common():
-        if ar < s - 0.05:
+        if ar < s - 0.05 or not grid(ar):
             continue
         w = round(ar - s, 2)
         sc = cnt + cand["withdrawn"].get(w, 0) * 2 + (1 if w == 0 else 0)
@@ -120,9 +137,10 @@ def read_report(d):
         end = starts[i + 1] - 1 if i + 1 < len(starts) else allp[-1]
         nxt = pages.get(pg + 1, []) if pg + 1 <= end else []
         body = [t for p in allp if pg < p <= end for t in pages[p]]
-        s = read_summary(pages[pg] + nxt) or read_summary(pages[pg] + nxt, body)
+        s = read_summary(pages[pg] + nxt, body)
         if s:
-            s.update(first_page=pg, last_page=end)
+            br = Counter(m.group(1).upper() for t in pages[pg] for m in re.finditer(r"Branch\s*:\s*([A-Za-z]{4,})", t))
+            s.update(first_page=pg, last_page=end, branch=br.most_common(1)[0][0] if br and len(starts) > 1 else "")
             res.append(s)
     return res
 

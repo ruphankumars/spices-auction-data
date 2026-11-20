@@ -1,4 +1,55 @@
 {
  "_note": "Numbers read directly from page images by Claude where no OCR engine agreed. Each is confirmed by a printed total.",
- "0007_CPA_13_11_2026_001": {"slip": {"42": [73.7, 2700], "66": [257.9, 3199], "76": [294.5, 3186], "88": [139.3, 2827], "108": [141.5, 2746]}}
+ "0007_CPA_13_11_2026_001": {
+  "slip": {
+   "42": [
+    73.7,
+    2700
+   ],
+   "66": [
+    257.9,
+    3199
+   ],
+   "76": [
+    294.5,
+    3186
+   ],
+   "88": [
+    139.3,
+    2827
+   ],
+   "108": [
+    141.5,
+    2746
+   ]
+  }
+ },
+ "0014_SSP_09_11_26_001": {
+  "add": [
+   {
+    "page": 9,
+    "serial": 246,
+    "seller": "JOYS SPICES",
+    "buyer": "PUTHOORAN TRADERS",
+    "q": 399.8,
+    "r": 2736
+   },
+   {
+    "page": 9,
+    "serial": 280,
+    "seller": "MUBARAK SPICES",
+    "buyer": "CLIMATE AGROBOTIX INDIA",
+    "q": 124.6,
+    "r": 2815
+   },
+   {
+    "page": 8,
+    "serial": 82,
+    "seller": "P S TRADERS",
+    "buyer": "KVS SPICES AND TRADERS",
+    "q": 315.0,
+    "r": 3330
+   }
+  ]
+ }
 }
