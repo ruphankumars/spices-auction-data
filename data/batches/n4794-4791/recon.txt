@@ -1,0 +1,5 @@
+n4791_HEADER_04_09_2026_00 closed lots= 258 kg 100.00%  dq=      0.0 dv=          0.0
+n4792_MAS_04_09_2026       closed lots= 312 kg 100.00%  dq=      0.0 dv=          0.0
+n4793_KCPMC_07_09_2026_001 closed lots= 231 kg 100.00%  dq=      0.0 dv=          0.0
+n4794_GREEN_HOUSE_07_09_20 closed lots= 262 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
