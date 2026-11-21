@@ -1,0 +1,46 @@
+[
+ {
+  "date": "17-Mar-2026",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 17-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2017-03-2026_001.pdf",
+  "n": 4527,
+  "rank": 4527,
+  "file": "n4527_ITCPC_17_03_2026_001.pdf",
+  "bytes": 683171,
+  "sha256": "5a2cd1734bd46eb2617268fba006188199c91f8309e352001b1de48aa5358b88"
+ },
+ {
+  "date": "18-Mar-2026",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 18-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2018-03-2026_001.pdf",
+  "n": 4528,
+  "rank": 4528,
+  "file": "n4528_MAS_18_03_2026_001.pdf",
+  "bytes": 1369035,
+  "sha256": "48640fc951f783ae0c21e973750af80fb0d1fd1f3fbd5d8894fae0f9ac5a604d"
+ },
+ {
+  "date": "18-Mar-2026",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 18-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2018-03-2026_001.pdf",
+  "n": 4529,
+  "rank": 4529,
+  "file": "n4529_HEADER_18_03_2026_001.pdf",
+  "bytes": 940806,
+  "sha256": "7655986d643fa641211bc0d66a114fbbc0437ecd90ca31831267ba9fcf257871"
+ },
+ {
+  "date": "19-Mar-2026",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 19-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2019-03-2026_001.pdf",
+  "n": 4530,
+  "rank": 4530,
+  "file": "n4530_CPA_19_03_2026_001.pdf",
+  "bytes": 725621,
+  "sha256": "efafdfb1a9d0199fb5ab52ab2f14b25dac5a9f417d76039e0cf173622c3ceb49"
+ }
+]
