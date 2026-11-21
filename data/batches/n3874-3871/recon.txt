@@ -1,0 +1,6 @@
+n3871_CGF_24_01_2025       closed lots=  94 kg 100.00%  dq=      0.0 dv=          0.0
+n3872_MAS_24_01_2025       closed lots= 264 kg 100.00%  dq=      0.0 dv=          0.0
+n3873_CPA_25_01_2025_SANTH closed lots= 121 kg 100.00%  dq=      0.0 dv=          0.0
+n3873_CPA_25_01_2025_BODIN closed lots=   7 kg 100.00%  dq=      0.0 dv=          0.0
+n3874_HEADER_25_01_2025    open   lots= 192 kg  99.52%  dq=   -229.4 dv=    -715406.8
+overall 99.86%
