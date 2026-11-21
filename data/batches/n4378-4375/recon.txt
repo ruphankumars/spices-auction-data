@@ -1,0 +1,5 @@
+n4375_ITCPC_10_12_2025_001 closed* lots= 256 kg 100.00%  dq=      0.0 dv=          0.0
+n4376_MAS_11_12_2025_001   closed lots= 329 kg 100.00%  dq=      0.0 dv=          0.0
+n4377_HEADER_11_12_2025_00 closed lots= 286 kg 100.00%  dq=      0.0 dv=          0.0
+n4378_SIGCL_12_12_2025_001 open   lots= 266 kg  99.98%  dq=    -11.4 dv=       7798.2
+overall 100.00%
