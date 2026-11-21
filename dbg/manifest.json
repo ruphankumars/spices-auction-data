@@ -1,0 +1,24 @@
+[
+ {
+  "date": "11-Sep-2026",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 11-09-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2011-09-2026_001.pdf",
+  "n": 4802,
+  "rank": 4802,
+  "file": "n4802_SICOAP_11_09_2026_001.pdf",
+  "bytes": 1267272,
+  "sha256": "089c7c803118be7808f40172415bcda909ab93b475340339026471b52f057444"
+ },
+ {
+  "date": "05-Oct-2026",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 05-10-2026_001_compressed.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2005-10-2026_001_compressed.pdf",
+  "n": 4840,
+  "rank": 4840,
+  "file": "n4840_MAS_05_10_2026_001_compressed.pdf",
+  "bytes": 451262,
+  "sha256": "eacf7e545acfdeacc87a14778e8d2a0c6a3ca93866fe137baf005f0e25f4a850"
+ }
+]

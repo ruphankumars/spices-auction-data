@@ -1,0 +1,31 @@
+FORM - D                      2
+[See rule 10(1)(1)]                                                                       :
+(Advance Auction Report}                                                                                            :
+SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LTD                       |
+DOOR NO: 111/505 C, D,                                                                                     |
+Name and Address of the auctioneer
+PAMPUMPARA - 685 551,                                                                                     |
+PAMPUMPARA PO, IDUKKI DISTRICT, KERALA, CODE: 32                            |
+E-Auction Licence No                               ;                  _                        __ EAUC/CS/50014/14/2026-27
+(s) Season:                                                                                                      2026-2027
+(t) Auction Number                                                                                          17
+(u) Date of auction                                                                                                                      11/09/2026                                                                                                                                  |
+{v) Place of auction                                                                                          SPICES BOARD E-AUCTION CENTER, BODINAYAKKANUR
+Quantity carried over from previous auction (kgs)                                                NIL
+(x) Fresh arrivals (kgs}                                                  ;                                 __ 57,920.200
+(y) Total quantity put for auction (kgs)                                                                     57,920.200
+(z) Total quantity sold (kgs)                                                                            56,274.800
+{(zz)Quantity Not Auctioned (kgs)                BA T00                                                                                             ]
+(aa) Quantity withdrawn (kgs)                So         oo         1,460.700
+(bb) Quantity returned to planter (kgs)                                                                  1,460.700                                                                                                                :
+(cc) Balance with the auctioneer (kgs)             —                                                    NIL                                                                                                              .
+(dd) Total value of the sales (Rs}                                                                                         %17,24,36,400.20                                                                                                                  !
+(ee) Maximum price (Rs/kg)  :                                                                     3,475.00 / 201.80
+(ff) Minimum price (Rs/kg)                                                               |                %2,349.00 / 40.80                 ;                                                                         |
+{gg) Average price (Rs/kg)                                                                           %3,064.19                                                                                                :
+Name of 5 Highest Buyers
+Sl.No                                                    _ Buyer Name                                                                            _ Kilos                                                           Value
+4 ___|BILAL SPICES              _  _ ee                    wf                                3,209,100|                                 1,02,02,123.900
+TOTAL                                                                                                                                                    22,216.800                                   6,89,11,179.700
+Place : PAMPUMPARA                                                                                                                                                                                                For SICOA Pvt Ltd.
+Date : 11/09/2026                                                                                                                                                                            —

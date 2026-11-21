@@ -1,0 +1,36 @@
+FORM - D
+SICOA
+[See rule 10(1H1]
+(Advance Auction Report)
+SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LTD
+DooR No: I1/505 c, D
+Name and Address of the auctioneer
+PAMPUMPARA - 685 551,
+PAMPUMPARA PO, IDUKKI DISTRICT, KERALA, CODE: 32
+E-Auction Licence No   EAUC/CS/50014/14/2026-27
+(s) Season :   2026-2027
+(t) Auction Number   17
+(u) Date of auction   11/09/2026
+(v) Place of auction   SPICES BOARD E-AUCTION CENTER, BODINAYAKKANUR
+Quantity carrled over from previous auction (kgs)   NIL
+(x) Fresh arrivals (kgs)   57.920.200
+(y) Total quantity put for auction (kgs)   57.920.200
+(z) Total quantity sold (kgs)   56,274.800
+(zz)Quantity Not Auctioned (kgs)   184.700
+(aa) Quantity withdrawn (kgs)   1,460.700
+(bb) Quantity returned to planter (kgs)   1,460.700
+(cc) Balance with the auctioneer (kgs)   NIL
+(dd) Total value of the sales (Rs)   717,24,36.400.20
+(ee) Maximum price (Rs/kg)   73.475.00/ 201.80
+(ff) Minimum price (Rs/kg)   72,349.00 / 40.80
+(zg) Average price (Rs/kg)   73,064.19
+Name of 5 Highest Buyers
+Sl.No   Buyer Name   Kilos   Value
+SRI YOGAGANAPATHI TRADERS   6,847.800   2,17,48,184.700
+VARDHAN TRADING COMPANY   5,371.500   1,61,63,883.100
+Vr Exports   3,633.900   1,11,99,468.600
+BILAL SPICES   3,209.100   1,02,02,123.900
+SVS GNANAVEL COMPANY   3,154.500   95.97,519.400
+TOTAL   22,216.800   6,89,11,179.700
+PIace : PAMPUMPARA   For SICOA Pvt Ltd.
+Date : 11/09/2026   SICOA   Afthorised Signatory

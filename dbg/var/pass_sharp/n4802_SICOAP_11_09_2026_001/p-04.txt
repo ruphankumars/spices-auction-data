@@ -1,0 +1,61 @@
+ SICOA   South Indian Cardamom Online Auction Private Ltd
+PAMPuMPARA - 685 551
+LOT   110   EITRE(GM)   RATE   CArdaMOm CoST   TRADE NAML
+001   114.300   420    2,650.00   3,02.,895.00   SPIcEMANNA EVERgREEN EXPoRTS PRIVATE LiMITED
+002   89.000   410   2,592.00   2,30,688.00   Siyas sPices
+600   166.200   2,621.00   4,35,10.20 spicemanna evergreen exports prvate LimiteD
+004   262.200   390   2,696.00   7.06,891.20   VARHAN TRADINg CoMPANY
+005   279.700   420   2,432.00   6,80,230.40   MJ josePh
+006   18.700   600!   2,450.00   45,815.00 AuRA SpICes
+100   154.800   370   2,729.00   4,22,449.20 I VISHAKAN TrADERS
+008   40.800   600   2,349.00   95,B39.2D a M0hammed salim
+600   306.500   410   2,603.00 :   7,.97,819.50   ALLUS CARdAMdM POINT
+010   220.600   2,744.00   6,05,326.40   pI ThoMAS And cO
+011   98.100   390   2,660.00   2,60,946.00   AsA AgencIes
+012   361.600   410   2,626.00   9,49,561.60   AlluS CArdAMom poINT
+E10   46.100   360   2,454,00   1,13,129,40   JI SPICES KOCHERA
+014   302.000   410   2,627.00   7.93,354.00   Allus cardaMoM PoINT
+015   64.600   380   3,168.00   2,04,652.80   pr spices
+016   90.400   2,643.00   2.38,927.20   ASA AGENCIES
+017   238.100   410   2.623.00   6,24,536.30   pr spices
+133.000   360   2,566.00.   3,41,278.00   NADACKaL SPIcEs
+019   88.000   350   3,159.00   2,77.992.00   ALLuS CardaMom PoInT
+020   47.400   380   3,190.00   1,51,206.00    Vardhan Trading company
+021   111.100   370   2,644.00   2,93.748.40   Siyas spices
+022   57.200   360   2,591.00   1,48,205.20   Vardhan tradIng comPany
+283.400   410   2,566.00   7,27,204.40   SvS gnanavel ComPanY
+024   61.000   370   2,688.00   1,63,968.00   pr spices
+025   86.100   420    2,709.00   2,38,662.90   VaRdhAn TRAding coMPANY
+026   31.000   430 :   2,899.00   89.869.00   Mts trading company
+027   244,100   380   2,800.00   6,83,480.00   IMhs spices
+028   54,200   380   3,171.00   1,71,868.20   MtS TradIng coMpanY
+029   40.600   370   3,160.00   1,28,296.00   Vardhan Trading company
+OCO   435.700   360   3.160.00   13,76.812.00    BIlAL SPICES
+031   201.600   410   0.00   0.00
+032   370.000   430   3,133.00   11.59,210.00 : Sv5 gnanavel companY
+78.000   410   3.194.00   2,49,132.00    :mts trading company
+034   39.000   410   2,988.00   1,16,532.00   SPIcEManNA EvergreEn EXpoRts pRivAte LIMITed
+SEO   298.000   380   2,699.00!   B,04,302.00   ASaAgeNcies
+036   37.000   360!   2,876.00   1,06,412.00   SPIceMANnA EvErgrEEn EXPorTS PrvaTE LImITed
+037   185.700   390 :   2,639.00   4,90,062.30 A5A AGENCIES
+038   185.800   3,015.00   5,60.187.00 / yardhan trading company
+6E0   293 200   400   2,628.00   7,70,529.60 NaDacKal SPICES
+040   375.500   400   3,102.00   11,64,801.00   Svs GnanaveL coMpanY
+041   40.700   3,038.00   1,23,646.60 siyas spice5
+277.600   370   2,804.00   7,78,3go.40 i spicemanna evergreen exports private LimiTed
+043   105.600   320   3,156.00   3.33,273.60 1$J SPICE5
+136.600   350   3,104.00   4,24,006.40   AAA SPIcEs
+045   107.800   400   3,200.00   3,44,960.00   AAA SPICES
+046   113.700   340   3,121.00   3,54,857.70   Vardhan trading cmpany
+047   220.800   370   3,114.00   6,87,571.20    SrI YoGAganaPatHI Traders
+048   159.900   380   3,070.00   4,90,893.00    vardhAn Trading comPanY
+049   100.000   350   3,148.00   3,14,800.00   vardhan Trading company
+050   61.000   390   3,211.00   1,95,871.00   SrI YgagAnapatHI Traders
+051   137.800   600   2.573.00   3,54,559.40   AURA SPKCES
+052   134.800   330   2,803.00   3,TT,844,40 NADACKAL SPICES
+053   168.200   1066   3,191.00   5,36.726.20 PR SPICES
+054   243.100   410 j   3,212.00   7,80.837.20 J SRI YOgAGANAPaTHI TRaDERS
+055   110.200   360   3,004.00   3,31,040.80   SRI YogAgAnAPaTHI TrADErs
+056   230.500   360   3,120.00   7.19,160.00   AuRA SpIces
+057   128.600   380   3,208.00   4,12,549.80   limra Trading company
+058   180.800   380   3,146.00   5,6e,796.80 limra trading company

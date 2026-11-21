@@ -1,0 +1,33 @@
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+   1     0 image     594   845  gray    1   1  jbig2  no        37  0    72    72 5072B 8.1%
+   2     1 image     595   846  gray    1   1  jbig2  no        41  0    72    72 5218B 8.3%
+   3     2 image     598   849  gray    1   1  jbig2  no        44  0    72    72 16.6K  27%
+   4     3 image     597   845  gray    1   1  jbig2  no        47  0    72    72 4709B 7.5%
+   5     4 image     595   846  gray    1   1  jbig2  no        50  0    72    72 9688B  15%
+   6     5 image     595   846  gray    1   1  jbig2  no        53  0    72    72 9876B  16%
+   7     6 image     593   846  gray    1   1  jbig2  no        56  0    72    72 10.6K  17%
+   8     7 image     594   845  gray    1   1  jbig2  no        59  0    72    72 10.5K  17%
+   9     8 image     594   846  gray    1   1  jbig2  no        62  0    72    72 10.2K  17%
+  10     9 image     594   847  gray    1   1  jbig2  no        65  0    72    72 10.4K  17%
+  11    10 image     595   846  gray    1   1  jbig2  no        68  0    72    72 10.2K  17%
+  12    11 image     594   847  gray    1   1  jbig2  no        71  0    72    72 9.96K  16%
+  13    12 image     593   847  gray    1   1  jbig2  no        74  0    72    72 9.95K  16%
+  14    13 image     594   847  gray    1   1  jbig2  no        77  0    72    72 6273B  10%
+  15    14 image     847   593  gray    1   1  jbig2  no        80  0    72    72 13.1K  21%
+  16    15 image     847   598  gray    1   1  jbig2  no        83  0    72    72 15.3K  25%
+  17    16 image     846   595  gray    1   1  jbig2  no        86  0    72    72 12.7K  21%
+  18    17 image     845   594  gray    1   1  jbig2  no        89  0    72    72 13.0K  21%
+  19    18 image     845   595  gray    1   1  jbig2  no        92  0    72    72 14.1K  23%
+  20    19 image     846   594  gray    1   1  jbig2  no        95  0    72    72 13.4K  22%
+  21    20 image     846   593  gray    1   1  jbig2  no        98  0    72    72 13.3K  22%
+  22    21 image     845   593  gray    1   1  jbig2  no       103  0    72    72 13.4K  22%
+  23    22 image     846   593  gray    1   1  jbig2  no       106  0    72    72 13.7K  22%
+  24    23 image     847   593  gray    1   1  jbig2  no       109  0    72    72 13.5K  22%
+  25    24 image     847   594  gray    1   1  jbig2  no       112  0    72    72 13.3K  22%
+  26    25 image     846   593  gray    1   1  jbig2  no       115  0    72    72 13.9K  23%
+  27    26 image     846   593  gray    1   1  jbig2  no       118  0    72    72 13.6K  22%
+  28    27 image     847   593  gray    1   1  jbig2  no       121  0    72    72 11.5K  19%
+  29    28 image     847   593  gray    1   1  jbig2  no       124  0    72    72 7262B  12%
+  30    29 image     847   593  gray    1   1  jbig2  no       127  0    72    72 6875B  11%
+  31    30 image     845   593  gray    1   1  jbig2  no       130  0    72    72 2342B 3.7%
