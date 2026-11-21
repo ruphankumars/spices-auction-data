@@ -1,0 +1,6 @@
+n4387_CPMCS_18_12_2025_001 open   lots= 306 kg 100.00%  dq=      0.0 dv=          0.0
+n4388_CNSP_19_12_2025_001  open   lots=  33 kg  23.16%  dq= -31069.8 dv=  -75246140.8
+n4389_HEADER_19_12_2025_00 open   lots= 276 kg  93.63%  dq=  -5504.2 dv=  -13547060.2
+n4390_CPA_20_12_2025_001_S closed lots= 117 kg 100.00%  dq=      0.0 dv=          0.0
+n4390_CPA_20_12_2025_001_B closed lots=   7 kg 100.00%  dq=      0.0 dv=          0.0
+overall 85.82%
