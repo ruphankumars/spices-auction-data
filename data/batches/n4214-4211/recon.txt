@@ -1,0 +1,5 @@
+n4211_SIFEX_29_08_2025_001 closed lots= 354 kg 100.00%  dq=      0.0 dv=          0.0
+n4212_CGF_29_08_2025_001   closed lots= 151 kg 100.00%  dq=      0.0 dv=          0.0
+n4213_ITCPC_30_08_2025_001 closed lots= 288 kg 100.00%  dq=      0.0 dv=          0.0
+n4214_SSP_30_08_2025_001   closed lots= 334 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
