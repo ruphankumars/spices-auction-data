@@ -1,0 +1,5 @@
+n4163_SIFEX_30_07_2025_001 closed lots= 191 kg 100.00%  dq=      0.0 dv=          0.0
+n4164_CPMCS_30_07_2025_001 closed lots= 248 kg 100.00%  dq=      0.0 dv=          0.0
+n4165_SSP_31_07_2025_001   open   lots= 250 kg  95.16%  dq=  -2914.8 dv=   -7549611.0
+n4166_CGF_31_07_2025_001   closed lots= 100 kg 100.00%  dq=      0.0 dv=          0.0
+overall 98.38%
