@@ -1,0 +1,5 @@
+n4299_KCPMC_23_10_2025_001 closed lots= 281 kg 100.00%  dq=      0.0 dv=          0.0
+n4300_SIGCL_23_10_2025_001 closed lots= 308 kg 100.00%  dq=      0.0 dv=          0.0
+n4301_GREEN_HOUSE_24_10_20 closed lots= 332 kg 100.00%  dq=      0.0 dv=          0.0
+n4302_CPA_24_10_2025_BODIN closed lots=   4 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
