@@ -1,0 +1,5 @@
+n4687_SIGCL_30_06_2026_001 closed lots= 184 kg 100.00%  dq=      0.0 dv=          0.0
+n4688_GREEN_HOUSE_01_07_20 closed lots= 261 kg 100.00%  dq=      0.0 dv=          0.0
+n4689_KCPMC_01_07_2026_001 open   lots= 195 kg 100.59%  dq=    318.9 dv=     754198.5
+n4690_RNS_02_07_2026_001   open   lots= 240 kg 100.00%  dq=      0.0 dv=-7000000000.0
+overall 100.00%
