@@ -1,0 +1,6 @@
+n4559_HEADER_08_04_2026_00 closed lots= 248 kg 100.00%  dq=      0.0 dv=          0.0
+n4560_MAS_08_04_2026_001   closed lots= 334 kg 100.00%  dq=      0.0 dv=          0.0
+n4561_sigcl_10_04_2026_001 closed lots= 215 kg 100.00%  dq=      0.0 dv=          0.0
+n4562_CPA_10_04_2026_001_S closed lots=  81 kg 100.00%  dq=      0.0 dv=          0.0
+n4562_CPA_10_04_2026_001_B closed lots=   5 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
