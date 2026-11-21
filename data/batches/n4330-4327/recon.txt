@@ -1,0 +1,5 @@
+n4327_CPMCS_10_11_2025     closed lots= 316 kg 100.00%  dq=      0.0 dv=          0.0
+n4328_HEADER_11_11_2025_00 closed lots= 289 kg 100.00%  dq=      0.0 dv=          0.0
+n4329_ITCPC_11_11_2025_001 closed lots= 295 kg 100.00%  dq=      0.0 dv=          0.0
+n4330_SMTC_12_11_2025_001  closed lots= 283 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
