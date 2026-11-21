@@ -1,0 +1,6 @@
+n3763_CGF_11_11_2024       closed lots= 100 kg 100.00%  dq=      0.0 dv=          0.0
+n3764_SIGCL_11_11_2024     closed lots= 202 kg 100.00%  dq=      0.0 dv=          0.0
+n3765_MAS_12_11_2024       closed lots= 313 kg 100.00%  dq=      0.0 dv=          0.0
+n3766_CPA_12_11_2024_SANTH closed lots= 126 kg 100.00%  dq=      0.0 dv=          0.0
+n3766_CPA_12_11_2024_BODIN closed lots=   8 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
