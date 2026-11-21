@@ -1,0 +1,6 @@
+n3831_CPA_26_12_2024_SANTH closed lots=  64 kg 100.00%  dq=      0.0 dv=          0.0
+n3831_CPA_26_12_2024_BODIN closed lots=   5 kg 100.00%  dq=      0.0 dv=          0.0
+n3832_MAS_27_12_2024       closed lots= 170 kg 100.00%  dq=      0.0 dv=          0.0
+n3833_HEADER_28_12_2024    closed lots= 147 kg 100.00%  dq=      0.0 dv=          0.0
+n3834_SSP_28_12_2024       open   lots= 124 kg  87.14%  dq=  -4462.9 dv=  -12996856.2
+overall 96.60%
