@@ -1,0 +1,5 @@
+n4087_RNS_14_06_2025       open   lots= 192 kg  99.28%  dq=   -314.3 dv=    -649957.2
+n4088_SIFEX_14_06_2025     closed lots= 122 kg 100.00%  dq=      0.0 dv=          0.0
+n4089_SSP_16_06_2025       open   lots= 202 kg  98.65%  dq=   -574.6 dv=   -1557698.6
+n4090_CGF_16_06_2025       closed lots=  65 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.26%
