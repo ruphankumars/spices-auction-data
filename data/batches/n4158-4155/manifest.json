@@ -1,0 +1,46 @@
+[
+ {
+  "date": "25-Jul-2025",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 25-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2025-07-2025_001.pdf",
+  "n": 4155,
+  "rank": 4155,
+  "file": "n4155_HEADER_25_07_2025_001.pdf",
+  "bytes": 883124,
+  "sha256": "c90b2646c35858b1433cd5a4041e8e1cd9bf0c29b302d0b37d15da8a1f95bec9"
+ },
+ {
+  "date": "25-Jul-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 25-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2025-07-2025_001.pdf",
+  "n": 4156,
+  "rank": 4156,
+  "file": "n4156_MAS_25_07_2025_001.pdf",
+  "bytes": 1275563,
+  "sha256": "c2f82fdb494492f3ce084c53cd4163f8935b01115cec5733f2e5383c0f7b6d8c"
+ },
+ {
+  "date": "26-Jul-2025",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 26-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2026-07-2025_001.pdf",
+  "n": 4157,
+  "rank": 4157,
+  "file": "n4157_CPA_26_07_2025_001.pdf",
+  "bytes": 384538,
+  "sha256": "5e99d8312e89a82f3f26e19e0bb99b6c2e70fcc058940c592cfa9441cf610cb4"
+ },
+ {
+  "date": "26-Jul-2025",
+  "auctioneer": "THE KERALA CARDAMOM PROCESSING & MKTG.CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/KCPMC 26-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KCPMC%2026-07-2025_001.pdf",
+  "n": 4158,
+  "rank": 4158,
+  "file": "n4158_KCPMC_26_07_2025_001.pdf",
+  "bytes": 1789938,
+  "sha256": "66899cd366920895c36b15a50e06dfb94eb62232954f59e636ad2acac6a8e04a"
+ }
+]

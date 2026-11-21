@@ -1,0 +1,5 @@
+n4155_HEADER_25_07_2025_00 closed lots= 195 kg 100.00%  dq=      0.0 dv=          0.0
+n4156_MAS_25_07_2025_001   open   lots= 221 kg 100.22%  dq=    107.1 dv=     250339.8
+n4157_CPA_26_07_2025_001   closed lots=  44 kg 100.00%  dq=      0.0 dv=          0.0
+n4158_KCPMC_26_07_2025_001 closed lots= 246 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
