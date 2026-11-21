@@ -1,0 +1,46 @@
+[
+ {
+  "date": "30-Dec-2024",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 30-12-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2030-12-2024.pdf",
+  "n": 3835,
+  "rank": 3835,
+  "file": "n3835_CPMCS_30_12_2024.pdf",
+  "bytes": 1165076,
+  "sha256": "89577bc25555858e95a356b65af2f87b3135a8413e516e578793a9e57d235067"
+ },
+ {
+  "date": "30-Dec-2024",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 30-12-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2030-12-2024.pdf",
+  "n": 3836,
+  "rank": 3836,
+  "file": "n3836_RNS_30_12_2024.pdf",
+  "bytes": 645619,
+  "sha256": "93eb12e03f030669d49b2be69fa4b84e0cf8813d454c1982e56f066053a666f3"
+ },
+ {
+  "date": "31-Dec-2024",
+  "auctioneer": "THE KERALA CARDAMOM PROCESSING & MKTG.CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/kcpmc 31-12-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/kcpmc%2031-12-2024.pdf",
+  "n": 3837,
+  "rank": 3837,
+  "file": "n3837_kcpmc_31_12_2024.pdf",
+  "bytes": 1175679,
+  "sha256": "da474ba054adc2f787273f2fd50104bf71671e1f7139af3ede0b5c307cd7d701"
+ },
+ {
+  "date": "31-Dec-2024",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GREEN HOUSE 31-12-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GREEN%20HOUSE%2031-12-2024.pdf",
+  "n": 3838,
+  "rank": 3838,
+  "file": "n3838_GREEN_HOUSE_31_12_2024.pdf",
+  "bytes": 829673,
+  "sha256": "d35ebe4fbd6b1bdcad5d1add6b9139077068ff044f30efcb1d6c91fcc8494511"
+ }
+]

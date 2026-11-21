@@ -1,0 +1,5 @@
+n3835_CPMCS_30_12_2024     closed lots= 143 kg 100.00%  dq=      0.0 dv=          0.0
+n3836_RNS_30_12_2024       open   lots= 104 kg 101.20%  dq=    300.0 dv=     909000.0
+n3837_kcpmc_31_12_2024     closed lots= 140 kg 100.00%  dq=      0.0 dv=          0.0
+n3838_GREEN_HOUSE_31_12_20 closed lots= 193 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
