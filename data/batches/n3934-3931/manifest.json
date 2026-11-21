@@ -1,0 +1,46 @@
+[
+ {
+  "date": "01-Mar-2025",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 01-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2001-03-2025.pdf",
+  "n": 3931,
+  "rank": 3931,
+  "file": "n3931_SIGCL_01_03_2025.pdf",
+  "bytes": 796341,
+  "sha256": "5552e43c9f096f9d029182555abfa017bbbb3f366f2c457630754a6c5a9bb09c"
+ },
+ {
+  "date": "03-Mar-2025",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 03-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2003-03-2025.pdf",
+  "n": 3932,
+  "rank": 3932,
+  "file": "n3932_CGF_03_03_2025.pdf",
+  "bytes": 269287,
+  "sha256": "889a3879a033423c7d052f8bc9bbee8e23eac45a0a5c5cffb97d9f9b516d9cc4"
+ },
+ {
+  "date": "03-Mar-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 03-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2003-03-2025.pdf",
+  "n": 3933,
+  "rank": 3933,
+  "file": "n3933_MAS_03_03_2025.pdf",
+  "bytes": 1111414,
+  "sha256": "ea0242a60a58c98b92d8ce9fe46cda3c5712ca459046f29984331b21ae7665ae"
+ },
+ {
+  "date": "04-Mar-2025",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 04-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2004-03-2025.pdf",
+  "n": 3934,
+  "rank": 3934,
+  "file": "n3934_HEADER_04_03_2025.pdf",
+  "bytes": 611697,
+  "sha256": "0d5a5116b9cf0e1a6fa78a86f54298f05874b3e0f8dc90d9f2f872b1d033052a"
+ }
+]
