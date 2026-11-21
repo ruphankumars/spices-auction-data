@@ -1,0 +1,5 @@
+n4487_RNS_20_02_2026_001   closed lots= 243 kg 100.00%  dq=      0.0 dv=          0.0
+n4488_CGF_21_02_2026_001   closed lots= 140 kg 100.00%  dq=      0.0 dv=          0.0
+n4489_SIGCL_21_02_2026_001 closed lots= 266 kg 100.00%  dq=      0.0 dv=          0.0
+n4490_IMCPC_23_02_2026_001 closed lots= 215 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
