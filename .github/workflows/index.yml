@@ -10,7 +10,6 @@ permissions:
 concurrency: {group: data-main, cancel-in-progress: false}
 jobs:
   index:
-    if: ${{ !github.event.repository.private }}
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
