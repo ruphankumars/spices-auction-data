@@ -1,0 +1,4 @@
+n3907_KCPMC_15_02_2025     closed lots= 180 kg 100.00%  dq=      0.0 dv=          0.0
+n3909_ITCPC_17_02_2025     closed lots= 206 kg 100.00%  dq=      0.0 dv=          0.0
+n3910_RNS_17_02_2025       closed* lots= 219 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
