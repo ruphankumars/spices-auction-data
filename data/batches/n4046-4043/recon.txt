@@ -1,0 +1,5 @@
+n4043_SICOAP_15_05_2025    closed lots= 106 kg 100.00%  dq=      0.0 dv=          0.0
+n4044_CPMCS_15_05_2025     closed lots= 100 kg 100.00%  dq=      0.0 dv=          0.0
+n4045_SIFEX_16_05_2025     closed lots= 113 kg 100.00%  dq=      0.0 dv=          0.0
+n4046_RNS_16_05_2025       closed lots= 144 kg 100.00%  dq=      0.0 dv=          0.1
+overall 100.00%
