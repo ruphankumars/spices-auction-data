@@ -1,0 +1,5 @@
+n4079_MAS_09_06_2025       open   lots= 182 kg 105.50%  dq=   2409.2 dv=    4859721.1
+n4080_SIGCL_09_06_2025     closed lots= 148 kg 100.00%  dq=      0.0 dv=          0.0
+n4081_KCPMC_10_06_2025     closed lots= 105 kg 100.00%  dq=      0.0 dv=          0.0
+n4082_CPA_11_06_2025       open   lots=  31 kg 101.96%  dq=    100.0 dv=     239200.0
+overall 100.00%
