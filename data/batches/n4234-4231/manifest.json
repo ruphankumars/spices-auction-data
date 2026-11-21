@@ -1,0 +1,46 @@
+[
+ {
+  "date": "11-Sep-2025",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CNS 11-09-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CNS%2011-09-2025.pdf",
+  "n": 4231,
+  "rank": 4231,
+  "file": "n4231_CNS_11_09_2025.pdf",
+  "bytes": 1066558,
+  "sha256": "567a7d9a5afe0a88f7e4ccfb1dd2ad3da5e6e9c98e3e12673d5f12b99d0c0ac2"
+ },
+ {
+  "date": "11-Sep-2025",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 11-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2011-09-2025_001.pdf",
+  "n": 4232,
+  "rank": 4232,
+  "file": "n4232_SMTC_11_09_2025_001.pdf",
+  "bytes": 915659,
+  "sha256": "22e07af085e2f1940ee9b7e8f2a43ae854b82a5f3960682c193db593e364649f"
+ },
+ {
+  "date": "12-Sep-2025",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 12-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2012-09-2025_001.pdf",
+  "n": 4233,
+  "rank": 4233,
+  "file": "n4233_HEADER_12_09_2025_001.pdf",
+  "bytes": 1173786,
+  "sha256": "189fae8c27fc08d4a9b78a6f1e7e3458fee7f3f14f5b35bcb9c2b65bb8635049"
+ },
+ {
+  "date": "12-Sep-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 12-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2012-09-2025_001.pdf",
+  "n": 4234,
+  "rank": 4234,
+  "file": "n4234_MAS_12_09_2025_001.pdf",
+  "bytes": 1121553,
+  "sha256": "67716e5fb69cb0f3ed0ade31893a55cb02f9712e4e85fccd0a83ef901eb2a457"
+ }
+]
