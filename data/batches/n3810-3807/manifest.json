@@ -1,0 +1,46 @@
+[
+ {
+  "date": "10-Dec-2024",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 10-12-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2010-12-2024.pdf",
+  "n": 3807,
+  "rank": 3807,
+  "file": "n3807_HEADER_10_12_2024.pdf",
+  "bytes": 719434,
+  "sha256": "ebbeb4a973bd188df6b2944f0622d482dcfad210ed9c629be78b4c308524b719"
+ },
+ {
+  "date": "10-Dec-2024",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 10-12-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2010-12-2024.pdf",
+  "n": 3808,
+  "rank": 3808,
+  "file": "n3808_SSP_10_12_2024.pdf",
+  "bytes": 721031,
+  "sha256": "3285ecd089c8eca6f475b4dc0335b6a7ac707f0763d93038ed026a17b7939fef"
+ },
+ {
+  "date": "11-Dec-2024",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 11-12-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2011-12-2024.pdf",
+  "n": 3809,
+  "rank": 3809,
+  "file": "n3809_CPMCS_11_12_2024.pdf",
+  "bytes": 1645338,
+  "sha256": "43687eb6a38fea1af24bd301c2dde4d18f181c9aa4f90eba9c8e1c275fea96ec"
+ },
+ {
+  "date": "11-Dec-2024",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 11-12-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2011-12-2024.pdf",
+  "n": 3810,
+  "rank": 3810,
+  "file": "n3810_RNS_11_12_2024.pdf",
+  "bytes": 942125,
+  "sha256": "becff88fc8cac3f3f0e6709783b761b12d4e9754883d505719612011db3a0248"
+ }
+]
