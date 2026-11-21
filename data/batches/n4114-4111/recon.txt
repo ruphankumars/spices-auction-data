@@ -1,0 +1,6 @@
+n4111_KCPMC_28_06_2025_001 open   lots= 136 kg 103.96%  dq=   1000.0 dv=    2682000.0
+n4112_GREEN_HOUSE_30_06_20 closed lots= 246 kg 100.00%  dq=      0.0 dv=          0.0
+n4113_CPA_30_06_2025_001_S closed lots=  52 kg 100.00%  dq=      0.0 dv=          0.0
+n4113_CPA_30_06_2025_001_B closed lots=   4 kg 100.00%  dq=      0.0 dv=          0.0
+n4114_IMCPC_01_07_2025_001 closed lots= 192 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
