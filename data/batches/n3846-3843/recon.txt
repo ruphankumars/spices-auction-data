@@ -1,0 +1,6 @@
+n3843_climate_auction_repo closed lots=  65 kg 100.00%  dq=      0.0 dv=          0.0
+n3844_CGF_04_01_2025       open   lots=  46 kg  57.55%  dq=  -5370.0 dv=  -16595908.7
+n3845_MAS_04_01_2025       closed lots= 258 kg 100.00%  dq=      0.0 dv=          0.0
+n3846_CPA_06_01_2025_SANTH closed lots=  99 kg 100.00%  dq=      0.0 dv=          0.0
+n3846_CPA_06_01_2025_BODIN closed lots=  20 kg 100.00%  dq=      0.0 dv=          0.0
+overall 95.64%

@@ -1,0 +1,46 @@
+[
+ {
+  "date": "03-Jan-2025",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/climate auction report.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/climate%20auction%20report.pdf",
+  "n": 3843,
+  "rank": 3843,
+  "file": "n3843_climate_auction_report.pdf",
+  "bytes": 1187976,
+  "sha256": "d6c815a733eddfabb8d09915683ffb287e9e412709134ddd3ceb7f4b2695821f"
+ },
+ {
+  "date": "04-Jan-2025",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 04-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2004-01-2025.pdf",
+  "n": 3844,
+  "rank": 3844,
+  "file": "n3844_CGF_04_01_2025.pdf",
+  "bytes": 263994,
+  "sha256": "18a949f458d16bd86c0d1e07072b727937550826700f8bf9826c07297e4518b8"
+ },
+ {
+  "date": "04-Jan-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 04-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2004-01-2025.pdf",
+  "n": 3845,
+  "rank": 3845,
+  "file": "n3845_MAS_04_01_2025.pdf",
+  "bytes": 1489864,
+  "sha256": "79092f920cc2ff3e228972b62d47451ebb17dbc119a3d8707a3229701666993e"
+ },
+ {
+  "date": "06-Jan-2025",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 06-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2006-01-2025.pdf",
+  "n": 3846,
+  "rank": 3846,
+  "file": "n3846_CPA_06_01_2025.pdf",
+  "bytes": 930752,
+  "sha256": "d91bbc5c2bffb3190be2fb59f3d9f9688ec1060408922600a3fdde75ed27faf3"
+ }
+]
