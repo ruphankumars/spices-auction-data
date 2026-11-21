@@ -1,0 +1,46 @@
+[
+ {
+  "date": "29-Sep-2026",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 29-09-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2029-09-2026_001.pdf",
+  "n": 4831,
+  "rank": 4831,
+  "file": "n4831_CGF_29_09_2026_001.pdf",
+  "bytes": 553954,
+  "sha256": "724263208ca7291e2762b884191e170057eff38c09f2c9deb60f66f5ce4a4ad3"
+ },
+ {
+  "date": "29-Sep-2026",
+  "auctioneer": "SPECIALITY INDIAN FOOD PARKS EXPORTS PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SIFEX 29-09-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIFEX%2029-09-2026_001.pdf",
+  "n": 4832,
+  "rank": 4832,
+  "file": "n4832_SIFEX_29_09_2026_001.pdf",
+  "bytes": 1924062,
+  "sha256": "e7117f7a3ddbf3ad031a208f29a21ce02dcf3359717c868ceaed48d6fb81cbeb"
+ },
+ {
+  "date": "30-Sep-2026",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 30-09-2026.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2030-09-2026.pdf",
+  "n": 4833,
+  "rank": 4833,
+  "file": "n4833_SSP_30_09_2026.pdf",
+  "bytes": 1027809,
+  "sha256": "6b83ae0fed45101ad613b23aa93db039b1fe8cb82e8e0a93816a41990cef14db"
+ },
+ {
+  "date": "30-Sep-2026",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 30-09-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2030-09-2026_001.pdf",
+  "n": 4834,
+  "rank": 4834,
+  "file": "n4834_SICOAP_30_09_2026_001.pdf",
+  "bytes": 1746675,
+  "sha256": "1dac34227abfcc203ecee90ab8f8829da52648d1ee507337dd122a992feeafdd"
+ }
+]
