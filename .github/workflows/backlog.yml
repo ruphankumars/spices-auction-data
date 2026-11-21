@@ -10,6 +10,7 @@ on:
     - cron: "5,35 * * * *"
 permissions:
   contents: write
+  actions: write
 concurrency: {group: backlog, cancel-in-progress: false}
 jobs:
   plan:
@@ -52,3 +53,10 @@ jobs:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: pip install -q requests && python scripts/load_supabase.py
       - run: bash scripts/push_paths.sh "Terminal snapshot" data/terminal.json data/lots.json
+      - name: Next round while reports are pending
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          git fetch -q origin main && git reset -q --hard origin/main
+          P=$(python scripts/plan.py 1 1 2>&1 >/dev/null | awk '{print $2}')
+          echo "pending: $P"
+          if [ "${P:-0}" -gt 0 ]; then gh workflow run backlog.yml; fi

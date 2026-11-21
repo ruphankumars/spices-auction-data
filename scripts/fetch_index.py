@@ -7,7 +7,7 @@ from fetch_batch import get, PAUSE
 want = {int(x) for x in sys.argv[1].split(",") if x}
 idx = {e["n"]: e for e in json.loads(Path("data/index.json").read_text())}
 work = Path("work"); (work / "pdf").mkdir(parents=True, exist_ok=True)
-out = []
+out, missed = [], []
 for n in sorted(want):
     e = idx[n]
     code = re.sub(r"[^A-Za-z0-9]+", "_", e["href"].rsplit("/", 1)[1].rsplit(".", 1)[0]).strip("_")
@@ -15,9 +15,10 @@ for n in sorted(want):
     try:
         b = get(e["url"]).content
     except Exception as ex:  # noqa: BLE001
-        print("fetch failed", n, ex); continue
+        print("fetch failed", n, ex); missed.append({"href": e["href"], "why": f"fetch failed: {ex}"}); continue
     fn.write_bytes(b)
     out.append(dict(e, rank=n, file=fn.name, bytes=len(b), sha256=hashlib.sha256(b).hexdigest()))
     time.sleep(PAUSE)
 (work / "manifest.json").write_text(json.dumps(out, indent=1))
+(work / "unfetched.json").write_text(json.dumps(missed))
 print(len(out), "fetched")

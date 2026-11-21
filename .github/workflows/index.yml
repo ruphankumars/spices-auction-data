@@ -7,6 +7,7 @@ on:
     - cron: "17 */2 * * *"   # new uploads (and any unfinished full walk): every 2 hours
 permissions:
   contents: write
+  actions: write
 concurrency: {group: data-main, cancel-in-progress: false}
 jobs:
   index:
@@ -20,3 +21,10 @@ jobs:
       - name: Commit
         if: always()
         run: bash scripts/push_paths.sh "Listing index update" data/index.json data/index_partial.json
+      - name: Carry on (scheduled runs are not firing, so each run starts the next)
+        if: always()
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          git fetch -q origin main && git reset -q --hard origin/main
+          if [ -f data/index_partial.json ]; then gh workflow run index.yml -f mode=full; echo "next listing run started";
+          elif [ -f data/index.json ]; then gh workflow run backlog.yml; echo "backlog started"; fi

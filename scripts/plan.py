@@ -10,7 +10,7 @@ idx = json.loads(Path("data/index.json").read_text())
 done = set()
 for m in glob.glob("data/batches/*/manifest.json"):
     done |= {e["href"] for e in json.load(open(m))}
-for f in glob.glob("data/batches/*/failed.json"):
+for f in glob.glob("data/batches/*/failed.json") + glob.glob("data/batches/*/unfetched.json"):
     done |= {e["href"] for e in json.load(open(f))}
 todo = [e["n"] for e in idx if e["href"] not in done]
 chunks = [todo[i:i + per] for i in range(0, min(len(todo), jobs * per), per)]
