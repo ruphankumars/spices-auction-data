@@ -1,0 +1,46 @@
+[
+ {
+  "date": "01-Sep-2025",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 01-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2001-09-2025_001.pdf",
+  "n": 4215,
+  "rank": 4215,
+  "file": "n4215_HEADER_01_09_2025_001.pdf",
+  "bytes": 926309,
+  "sha256": "0f03c0f94e10d6e6f084228add6f5891e9dd9deadcf932cde84b2c5eb60085c1"
+ },
+ {
+  "date": "01-Sep-2025",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CNS 01-09-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CNS%2001-09-2025.pdf",
+  "n": 4216,
+  "rank": 4216,
+  "file": "n4216_CNS_01_09_2025.pdf",
+  "bytes": 929855,
+  "sha256": "2ad4e615d3074e740e4443d533289379b7337c1085ec0e10149a041a0bd4d08d"
+ },
+ {
+  "date": "02-Sep-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 02-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2002-09-2025_001.pdf",
+  "n": 4217,
+  "rank": 4217,
+  "file": "n4217_MAS_02_09_2025_001.pdf",
+  "bytes": 1992244,
+  "sha256": "4a8dc8d83e0424aec65c2884373d44fcf923cdd0b1e574858f93b55fe1918d43"
+ },
+ {
+  "date": "02-Sep-2025",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 02-09-2025_001_compressed (2).pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2002-09-2025_001_compressed%20%282%29.pdf",
+  "n": 4218,
+  "rank": 4218,
+  "file": "n4218_SIGCL_02_09_2025_001_compressed_2.pdf",
+  "bytes": 1102365,
+  "sha256": "7fb965268eab6d050c401357e075814e3dec363028ecaa242bb52a0f9b5ccae1"
+ }
+]

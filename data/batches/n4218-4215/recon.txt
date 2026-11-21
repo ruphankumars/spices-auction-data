@@ -1,0 +1,5 @@
+n4215_HEADER_01_09_2025_00 closed lots= 220 kg 100.00%  dq=      0.0 dv=          0.0
+n4216_CNS_01_09_2025       closed* lots=  94 kg 100.00%  dq=      0.0 dv=          0.0
+n4217_MAS_02_09_2025_001   closed lots= 354 kg 100.00%  dq=      0.0 dv=          0.0
+n4218_SIGCL_02_09_2025_001 closed lots= 318 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
