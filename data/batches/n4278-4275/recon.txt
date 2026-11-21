@@ -1,0 +1,4 @@
+n4275_CGF_08_10_2025_001   closed lots= 118 kg 100.00%  dq=      0.0 dv=          0.0
+n4276_SIFEX_08_10_2025_001 open   lots= 361 kg 100.07%  dq=     67.8 dv=     166790.3
+n4277_ITCPC_09_10_2025_001 closed lots= 248 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
