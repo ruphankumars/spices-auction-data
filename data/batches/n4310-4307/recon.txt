@@ -1,0 +1,4 @@
+n4307_SIFEX_29_10_2025_001 open   lots= 342 kg 100.09%  dq=     86.6 dv=     216020.3
+n4308_CGF_29_10_2025_001   closed lots= 135 kg 100.00%  dq=      0.0 dv=          0.0
+n4310_ITCPC_30_10_2025_001 open   lots= 281 kg  99.27%  dq=   -601.0 dv=   -1465210.8
+overall 99.71%
