@@ -1,0 +1,5 @@
+n4035_CNS_09_05_2025       closed lots=  82 kg 100.00%  dq=      0.0 dv=          0.0
+n4036_SIGCL_10_05_2025     closed lots= 179 kg 100.00%  dq=      0.0 dv=          0.0
+n4037_MAS_10_05_2025       closed lots= 217 kg 100.00%  dq=      0.0 dv=          0.0
+n4038_HEADER_12_05_2025    closed lots= 162 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
