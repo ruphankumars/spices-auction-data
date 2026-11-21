@@ -1,0 +1,5 @@
+n4603_CNS_08_05_2026_001   closed lots= 144 kg 100.00%  dq=      0.0 dv=          0.0
+n4604_ITCPC_09_05_2026_001 closed* lots= 234 kg 100.00%  dq=      0.0 dv=          0.0
+n4605_SMTC_09_05_2026_001  closed lots= 212 kg 100.00%  dq=      0.0 dv=          0.0
+n4606_MAS_11_05_2026_001   closed lots= 291 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
