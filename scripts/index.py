@@ -30,6 +30,8 @@ def main(mode):
         print(f"page {page}: {len(rows)} rows, {len(new)} new", flush=True)
         if mode == "update" and not new:
             break
+        if all(r["href"] in seen and r not in new for r in rows) and not new:
+            break  # the site repeats its last page past the end
         page += 1
         time.sleep(PAUSE)
     top = max((e["n"] for e in old), default=0)
