@@ -1,0 +1,5 @@
+n4759_CPMCS_12_08_2026_001 closed lots= 205 kg 100.00%  dq=      0.0 dv=          0.0
+n4760_ITCPC_13_08_2026_001 closed lots= 204 kg 100.00%  dq=      0.0 dv=          0.0
+n4761_HEADER_14_08_2026_00 open   lots= 224 kg 100.00%  dq=      0.0 dv=      -8349.8
+n4762_MAS_14_08_2026_001   closed lots= 260 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
