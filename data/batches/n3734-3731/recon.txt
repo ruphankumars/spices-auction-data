@@ -1,0 +1,5 @@
+n3731_SSP_16_10_2024       closed* lots= 237 kg 100.00%  dq=      0.0 dv=          0.0
+n3732_CPMCS_16_10_2024     closed lots= 230 kg 100.00%  dq=      0.0 dv=          0.0
+n3733_KCPMC_17_10_2024     closed lots= 239 kg 100.00%  dq=      0.0 dv=          0.0
+n3734_ITCPC_18_10_2024     closed lots= 243 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
