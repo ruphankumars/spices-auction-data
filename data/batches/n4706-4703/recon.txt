@@ -1,0 +1,5 @@
+n4703_KCPMC_10_07_2026_001 open   lots= 158 kg  87.79%  dq=  -5771.9 dv=  -16876237.1
+n4704_GREEN_HOUSE_10_07_20 closed lots= 245 kg 100.00%  dq=      0.0 dv=          0.0
+n4705_RNS_11_07_2026_001   closed lots= 220 kg 100.00%  dq=      0.0 dv=          0.0
+n4706_IMCPC_11_07_2026_001 closed lots= 152 kg 100.00%  dq=      0.0 dv=          0.0
+overall 97.00%

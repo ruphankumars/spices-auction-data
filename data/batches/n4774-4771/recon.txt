@@ -1,0 +1,5 @@
+n4771_SSP_21_08_2026_001   open   lots= 251 kg  98.17%  dq=  -1513.8 dv=   -4299577.5
+n4772_CNS_22_08_2026_001   closed lots= 152 kg 100.00%  dq=      0.0 dv=          0.0
+n4773_SMTC_24_08_2026_001  closed lots= 245 kg 100.00%  dq=      0.0 dv=          0.0
+n4774_ITCPC_24_08_2026_001 closed lots= 213 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.42%

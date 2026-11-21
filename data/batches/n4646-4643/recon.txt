@@ -1,0 +1,5 @@
+n4643_RNS_03_06_2026_001   open   lots= 267 kg  99.95%  dq=    -38.8 dv=     -85428.4
+n4644_IMCPC_03_06_2026_001 closed lots= 208 kg 100.00%  dq=      0.0 dv=          0.0
+n4645_CGF_04_06_2026_001   closed lots= 145 kg 100.00%  dq=      0.0 dv=          0.0
+n4646_SIFEX_04_06_2026_001 closed lots= 245 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.98%

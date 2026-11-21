@@ -1,0 +1,5 @@
+n4555_SICOAP_06_04_2026_00 open   lots= 182 kg  98.85%  dq=   -507.9 dv=   -1285119.9
+n4556_CNS_06_04_2026_001   closed lots= 119 kg 100.00%  dq=      0.0 dv=          0.0
+n4557_ITCPC_07_04_2026_001 closed lots= 253 kg 100.00%  dq=      0.0 dv=          0.0
+n4558_SMTC_07_04_2026_001  closed lots= 182 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.72%

@@ -1,0 +1,46 @@
+[
+ {
+  "date": "22-Apr-2026",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 22-04-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2022-04-2026_001.pdf",
+  "n": 4579,
+  "rank": 4579,
+  "file": "n4579_RNS_22_04_2026_001.pdf",
+  "bytes": 1648851,
+  "sha256": "ffc2ab9143118e03e8fd69fe92fec344ca6d0be8432e5182ca0230c24c7c6bdb"
+ },
+ {
+  "date": "22-Apr-2026",
+  "auctioneer": "THE KERALA CARDAMOM PROCESSING & MKTG.CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/KCPMC 22-04-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KCPMC%2022-04-2026_001.pdf",
+  "n": 4580,
+  "rank": 4580,
+  "file": "n4580_KCPMC_22_04_2026_001.pdf",
+  "bytes": 1969103,
+  "sha256": "0fec8a68aa8b7963c291c8767276006cf119c2cbd7ba3e993e999c7b4b6d1a81"
+ },
+ {
+  "date": "24-Apr-2026",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 24-04-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2024-04-2026_001.pdf",
+  "n": 4581,
+  "rank": 4581,
+  "file": "n4581_CGF_24_04_2026_001.pdf",
+  "bytes": 449037,
+  "sha256": "f29a6360dab0bc57f444795b768c2ca91cfce5796e1219595b513c8a3fc2c73f"
+ },
+ {
+  "date": "24-Apr-2026",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 24-04-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2024-04-2026_001.pdf",
+  "n": 4582,
+  "rank": 4582,
+  "file": "n4582_SIGCL_24_04_2026_001.pdf",
+  "bytes": 1460939,
+  "sha256": "5b591360f79a448e8af1763ececb4d2fc382485c9b1497dfd978022568966769"
+ }
+]

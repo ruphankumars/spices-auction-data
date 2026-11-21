@@ -1,0 +1,5 @@
+n4787_CNS_02_09_2026_001   open   lots= 123 kg  89.55%  dq=  -2586.8 dv=   -7923879.3
+n4788_CPMCS_02_09_2026_001 closed lots= 199 kg 100.00%  dq=      0.0 dv=          0.0
+n4789_ITCPC_03_09_2026_001 closed* lots= 206 kg 100.00%  dq=      0.0 dv=          0.0
+n4790_SMTC_03_09_2026_001  closed lots= 216 kg 100.00%  dq=      0.0 dv=          0.0
+overall 98.74%

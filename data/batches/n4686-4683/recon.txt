@@ -1,0 +1,5 @@
+n4683_ITCPC_27_06_2026_002 open   lots=   2 kg   0.93%  dq= -45198.2 dv= -132409117.8
+n4684_HEADER_29_06_2026_00 closed lots= 198 kg 100.00%  dq=      0.0 dv=          0.0
+n4685_MAS_29_06_2026_001   closed lots= 260 kg 100.00%  dq=      0.0 dv=          0.0
+n4686_CPA_30_06_2026_001   closed lots=  48 kg 100.00%  dq=      0.0 dv=          0.0
+overall 73.50%
