@@ -1,0 +1,5 @@
+n4391_SMTC_20_12_2025_001  closed lots= 272 kg 100.00%  dq=      0.0 dv=          0.0
+n4392_MAS_22_12_2025       open   lots= 424 kg 102.28%  dq=   3054.1 dv=    8530879.0
+n4393_GREEN_HOUSE_22_12_20 closed lots= 270 kg 100.00%  dq=      0.0 dv=          0.0
+n4394_KCPMC_23_12_2025_001 open   lots= 312 kg  99.88%  dq=   -127.0 dv=    -313482.0
+overall 99.97%
