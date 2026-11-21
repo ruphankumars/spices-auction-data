@@ -142,6 +142,8 @@ def read_summary(texts, body=()):
         check = "unchecked"                  # e.g. an average printed over all lots including withdrawn ones
         s = max(S, key=lambda x: cand["sold"][x]); v = max(V, key=lambda x: cand["value"][x])
         a = cand["avg"].most_common(1)[0][0]
+        if not 500 <= v / s <= 10000:       # an unchecked pairing that is not even a price is no summary
+            return None
     else:
         return None
     out = dict(sold=s, value=v, avg=a, check=check, date=dates.most_common(1)[0][0] if dates else None,
