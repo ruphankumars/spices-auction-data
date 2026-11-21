@@ -1,0 +1,46 @@
+[
+ {
+  "date": "04-Apr-2025",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/smtc 04-04-25.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/smtc%2004-04-25.pdf",
+  "n": 3983,
+  "rank": 3983,
+  "file": "n3983_smtc_04_04_25.pdf",
+  "bytes": 896332,
+  "sha256": "9f5809f34ec2716d4abf85e413c7efc9ce489b3b7fefd78c839d18040714ab25"
+ },
+ {
+  "date": "04-Apr-2025",
+  "auctioneer": "IDUKKI MAHILA CARDAMOM PRODUCER COMPANY LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/imcpc 04-04-25.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/imcpc%2004-04-25.pdf",
+  "n": 3984,
+  "rank": 3984,
+  "file": "n3984_imcpc_04_04_25.pdf",
+  "bytes": 716549,
+  "sha256": "de1eb819d68a83c1c4c7e4f5a5a71acb6bca0065abc5697ead651da74327c659"
+ },
+ {
+  "date": "05-Apr-2025",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/cpmcs 05-04-25.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/cpmcs%2005-04-25.pdf",
+  "n": 3985,
+  "rank": 3985,
+  "file": "n3985_cpmcs_05_04_25.pdf",
+  "bytes": 1955662,
+  "sha256": "dfb8d29c543626e70290cf51928971e013f9484ee82075766e7709948fd58fa2"
+ },
+ {
+  "date": "05-Apr-2025",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/cns 05-04-25.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/cns%2005-04-25.pdf",
+  "n": 3986,
+  "rank": 3986,
+  "file": "n3986_cns_05_04_25.pdf",
+  "bytes": 323598,
+  "sha256": "dbb344c6dc0163ad35bf3f8e7ce14b80a4b8888a2e466f5301f7f683d0a0fdeb"
+ }
+]
