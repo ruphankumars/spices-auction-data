@@ -1,0 +1,46 @@
+[
+ {
+  "date": "27-Jan-2025",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 27-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2027-01-2025.pdf",
+  "n": 3875,
+  "rank": 3875,
+  "file": "n3875_SMTC_27_01_2025.pdf",
+  "bytes": 953935,
+  "sha256": "0e173489fd9cb1494d9396c33f8de79b80ce70ba64fac837f89f61ca41d5d716"
+ },
+ {
+  "date": "27-Jan-2025",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 27-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2027-01-2025.pdf",
+  "n": 3876,
+  "rank": 3876,
+  "file": "n3876_CPMCS_27_01_2025.pdf",
+  "bytes": 1629989,
+  "sha256": "ffa5ddb675222ab67dd5f1bccbc3400054135c406f42caa668b2349a323d61f5"
+ },
+ {
+  "date": "28-Jan-2025",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP  28-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%20%2028-01-2025.pdf",
+  "n": 3877,
+  "rank": 3877,
+  "file": "n3877_SSP_28_01_2025.pdf",
+  "bytes": 809712,
+  "sha256": "ed13f2173c1fd1b81393b54b7b3bcc62f214e3bd8bc654d97916620247846ded"
+ },
+ {
+  "date": "28-Jan-2025",
+  "auctioneer": "THE KERALA CARDAMOM PROCESSING & MKTG.CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/KCPMC 28-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KCPMC%2028-01-2025.pdf",
+  "n": 3878,
+  "rank": 3878,
+  "file": "n3878_KCPMC_28_01_2025.pdf",
+  "bytes": 1604514,
+  "sha256": "1fbd13e09775fe2e47717ab7b56975e778ae4eb845648c20ef3447d184399233"
+ }
+]

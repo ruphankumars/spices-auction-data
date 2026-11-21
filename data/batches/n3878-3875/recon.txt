@@ -1,0 +1,5 @@
+n3875_SMTC_27_01_2025      closed lots= 231 kg 100.00%  dq=      0.0 dv=          0.0
+n3876_CPMCS_27_01_2025     closed lots= 200 kg 100.00%  dq=      0.0 dv=          0.0
+n3877_SSP_28_01_2025       open   lots= 199 kg  97.88%  dq=  -1077.7 dv=   -3702351.1
+n3878_KCPMC_28_01_2025     closed lots= 187 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.54%
