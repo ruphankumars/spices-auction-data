@@ -1,0 +1,6 @@
+n4359_ITCPC_28_11_2025_001 closed lots= 235 kg 100.00%  dq=      0.0 dv=          0.0
+n4360_HEADER_29_11_2025_00 closed lots= 211 kg 100.00%  dq=      0.0 dv=          0.0
+n4361_SMTC_01_12_2025_001  closed lots= 150 kg 100.00%  dq=      0.0 dv=          0.0
+n4362_CPA_01_12_2025_001_S closed lots= 109 kg 100.00%  dq=      0.0 dv=          0.0
+n4362_CPA_01_12_2025_001_B closed lots=   2 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
