@@ -1,0 +1,5 @@
+n4159_IMCPC_28_07_2025_001 closed lots= 216 kg 100.00%  dq=      0.0 dv=          0.0
+n4160_GREEN_HOUSE_28_07_20 closed lots= 288 kg 100.00%  dq=      0.0 dv=          0.0
+n4161_SICOAP_29_07_2025_00 closed lots= 238 kg 100.00%  dq=      0.0 dv=          0.0
+n4162_SMTC_29_07_2025_001  closed lots= 182 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
