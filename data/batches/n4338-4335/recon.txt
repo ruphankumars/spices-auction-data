@@ -1,0 +1,5 @@
+n4335_RNS_14_11_2025_001   closed lots= 310 kg 100.00%  dq=      0.0 dv=          0.0
+n4336_CGF_15_11_2025_001   closed lots= 162 kg 100.00%  dq=      0.0 dv=          0.0
+n4337_KCPMC_15_11_2025     closed lots= 316 kg 100.00%  dq=      0.0 dv=          0.0
+n4338_IMCPC_17_11_2025_001 open   lots= 235 kg  80.99%  dq= -15572.3 dv=  -37362529.4
+overall 95.08%
