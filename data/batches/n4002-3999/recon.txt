@@ -1,0 +1,4 @@
+n3999_IMCPC_15_04_2025     closed lots= 204 kg 100.00%  dq=      0.0 dv=          0.0
+n4001_CNS_16_04_2025       closed lots=  58 kg 100.00%  dq=      0.0 dv=          0.0
+n4002_RNS_17_04_2025       closed lots= 149 kg 100.00%  dq=      0.0 dv=          0.2
+overall 100.00%
