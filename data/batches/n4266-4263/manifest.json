@@ -1,0 +1,46 @@
+[
+ {
+  "date": "30-Sep-2025",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 30-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2030-09-2025_001.pdf",
+  "n": 4263,
+  "rank": 4263,
+  "file": "n4263_ITCPC_30_09_2025_001.pdf",
+  "bytes": 914640,
+  "sha256": "8bf179cddc20e8ab0f192e582eea914670b0adaeb959e257df2331b42a95228d"
+ },
+ {
+  "date": "30-Sep-2025",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 30-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2030-09-2025_001.pdf",
+  "n": 4264,
+  "rank": 4264,
+  "file": "n4264_SMTC_30_09_2025_001.pdf",
+  "bytes": 972346,
+  "sha256": "10256c76166574a1572883fd8d43868534009789f2a019ecf07c99017f10304a"
+ },
+ {
+  "date": "01-Oct-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 01-10-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2001-10-2025_001.pdf",
+  "n": 4265,
+  "rank": 4265,
+  "file": "n4265_MAS_01_10_2025_001.pdf",
+  "bytes": 1821612,
+  "sha256": "63ac29d660f82afdd8be53fb52253e9ab68c9fbe100c2c34f7dd1e151a370638"
+ },
+ {
+  "date": "01-Oct-2025",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 01-10-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2001-10-2025_001.pdf",
+  "n": 4266,
+  "rank": 4266,
+  "file": "n4266_HEADER_01_10_2025_001.pdf",
+  "bytes": 906767,
+  "sha256": "1309d9f6956e0af362e030acfcd2beeec00f4f083f09ae792de33d08536b30da"
+ }
+]
