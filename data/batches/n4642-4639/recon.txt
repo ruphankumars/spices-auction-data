@@ -1,0 +1,5 @@
+n4639_MAS_30_05_2026_001   open   lots= 326 kg 101.36%  dq=   1354.6 dv=    3286205.0
+n4640_SIGCL_01_06_2026_001 closed lots= 202 kg 100.00%  dq=      0.0 dv=          0.1
+n4641_KCPMC_02_06_2026_001 closed lots= 197 kg 100.00%  dq=      0.0 dv=          0.0
+n4642_GREEN_HOUSE_02_06_20 closed lots= 269 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
