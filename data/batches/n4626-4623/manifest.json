@@ -1,0 +1,46 @@
+[
+ {
+  "date": "20-May-2026",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 20-05-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2020-05-2026_001.pdf",
+  "n": 4623,
+  "rank": 4623,
+  "file": "n4623_MAS_20_05_2026_001.pdf",
+  "bytes": 1628835,
+  "sha256": "de133a2654bb750640ac4a1ba02510f6355436ccadd42ce3e70ba774d108a9c0"
+ },
+ {
+  "date": "21-May-2026",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 21-05-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2021-05-2026_001.pdf",
+  "n": 4624,
+  "rank": 4624,
+  "file": "n4624_CPA_21_05_2026_001.pdf",
+  "bytes": 494493,
+  "sha256": "6e5a56e698c171e8de391642c3169a08ff0eb03df5ae7ffa2f84aa958b60e8f1"
+ },
+ {
+  "date": "21-May-2026",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 21-05-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2021-05-2026_001.pdf",
+  "n": 4625,
+  "rank": 4625,
+  "file": "n4625_SIGCL_21_05_2026_001.pdf",
+  "bytes": 1345579,
+  "sha256": "df2a8e9de0ec71519f2b067767a6aed890832c1b7abe5679caf4b958bbbdbd2c"
+ },
+ {
+  "date": "22-May-2026",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GREEN HOUSE 22-05-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GREEN%20HOUSE%2022-05-2026_001.pdf",
+  "n": 4626,
+  "rank": 4626,
+  "file": "n4626_GREEN_HOUSE_22_05_2026_001.pdf",
+  "bytes": 916781,
+  "sha256": "0e8098224a797a0358ae60e99b9d6fdb2b076f4c962e1c3da5e58d79d1d363db"
+ }
+]
