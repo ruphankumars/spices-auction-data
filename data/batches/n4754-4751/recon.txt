@@ -1,0 +1,5 @@
+n4751_KCPMC_07_08_2026_001 closed lots= 197 kg 100.00%  dq=      0.0 dv=          0.0
+n4752_GEEN_HOUSE_07_08_202 closed lots= 223 kg 100.00%  dq=      0.0 dv=          0.0
+n4753_RNS_08_08_2026_001   closed lots= 187 kg 100.00%  dq=      0.0 dv=          0.0
+n4754_IMCPC_08_08_2026_001 closed lots= 157 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
