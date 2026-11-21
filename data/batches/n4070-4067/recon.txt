@@ -1,0 +1,5 @@
+n4067_HEADER_30_05_2025    closed lots= 140 kg 100.00%  dq=      0.0 dv=          0.0
+n4068_KCPMC_30_05_2025     closed lots= 105 kg 100.00%  dq=      0.0 dv=          0.0
+n4069_GREEN_HOUSE_31_05_20 closed lots= 197 kg 100.00%  dq=      0.0 dv=          0.0
+n4070_IMCPC_02_06_2025     closed lots= 115 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
