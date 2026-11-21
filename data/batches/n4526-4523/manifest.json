@@ -1,0 +1,46 @@
+[
+ {
+  "date": "14-Mar-2026",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 14-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2014-03-2026_001.pdf",
+  "n": 4523,
+  "rank": 4523,
+  "file": "n4523_CPMCS_14_03_2026_001.pdf",
+  "bytes": 1423714,
+  "sha256": "27f2f617310724195a140da4fb7ddab7df84a5883678257d539a90773a1b8215"
+ },
+ {
+  "date": "16-Mar-2026",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CNS 16-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CNS%2016-03-2026_001.pdf",
+  "n": 4524,
+  "rank": 4524,
+  "file": "n4524_CNS_16_03_2026_001.pdf",
+  "bytes": 348381,
+  "sha256": "a69c478922c7816ffef23fe1024f7d12ce28f53f80d5546fdec559f4f41e5475"
+ },
+ {
+  "date": "16-Mar-2026",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 16-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2016-03-2026_001.pdf",
+  "n": 4525,
+  "rank": 4525,
+  "file": "n4525_SICOAP_16_03_2026_001.pdf",
+  "bytes": 1363258,
+  "sha256": "9032712748657d04aeb31e0b14cafaeddabb9b74d10b2731a391e215b7ba5dc0"
+ },
+ {
+  "date": "17-Mar-2026",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 17-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2017-03-2026_001.pdf",
+  "n": 4526,
+  "rank": 4526,
+  "file": "n4526_SMTC_17_03_2026_001.pdf",
+  "bytes": 729412,
+  "sha256": "4ba2bc4bb3c74611e14557a88bcc0db2ffe81a71ec2e2f28f74e9dd2f29a8905"
+ }
+]

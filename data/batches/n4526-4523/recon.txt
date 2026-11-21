@@ -1,0 +1,5 @@
+n4523_CPMCS_14_03_2026_001 open   lots= 218 kg  99.98%  dq=     -9.9 dv=    3226106.3
+n4524_CNS_16_03_2026_001   open   lots= 136 kg  95.88%  dq=  -1138.6 dv=   -2411883.5
+n4525_SICOAP_16_03_2026_00 closed lots= 206 kg 100.00%  dq=      0.0 dv=          0.0
+n4526_SMTC_17_03_2026_001  closed lots= 181 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.42%
