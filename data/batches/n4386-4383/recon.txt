@@ -1,0 +1,4 @@
+n4383_SIFEX_16_12_2025_001 closed lots= 298 kg 100.00%  dq=      0.0 dv=          0.0
+n4384_CGF_16_12_2025_001   closed lots= 183 kg 100.00%  dq=      0.0 dv=          0.0
+n4385_SSP_17_12_2025_001   open   lots= 164 kg  73.71%  dq= -15763.7 dv= -138066139.8
+overall 91.16%
