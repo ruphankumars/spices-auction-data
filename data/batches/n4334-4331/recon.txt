@@ -1,0 +1,5 @@
+n4331_CPA_12_11_2025_001_S open   lots= 164 kg 130.09%  dq=   8730.7 dv=   70335731.8
+n4331_CPA_12_11_2025_001_B closed lots=   6 kg 100.00%  dq=      0.0 dv=          0.0
+n4332_GREEN_HOUSE_13_11_20 closed lots= 312 kg 100.00%  dq=      0.0 dv=          0.0
+n4333_MAS_13_11_2025       open   lots= 432 kg  99.83%  dq=   -237.4 dv=    -600380.2
+overall 99.91%
