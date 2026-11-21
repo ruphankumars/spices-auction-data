@@ -1,0 +1,46 @@
+[
+ {
+  "date": "20-May-2025",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 20-05-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2020-05-2025.pdf",
+  "n": 4051,
+  "rank": 4051,
+  "file": "n4051_SIGCL_20_05_2025.pdf",
+  "bytes": 1112835,
+  "sha256": "3d4dbcc68b31276828c703df01b74fc6f9ca67bb3b3e55d102d7152e2d88828c"
+ },
+ {
+  "date": "20-May-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 20-05-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2020-05-2025.pdf",
+  "n": 4052,
+  "rank": 4052,
+  "file": "n4052_MAS_20_05_2025.pdf",
+  "bytes": 1215704,
+  "sha256": "9ca82152b616ddda4dd3aa01d6a716fe2a83113d28cb1ff2e3ffc4d4bf125b1d"
+ },
+ {
+  "date": "21-May-2025",
+  "auctioneer": "THE KERALA CARDAMOM PROCESSING & MKTG.CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/KCPMC 21-05-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KCPMC%2021-05-2025.pdf",
+  "n": 4053,
+  "rank": 4053,
+  "file": "n4053_KCPMC_21_05_2025.pdf",
+  "bytes": 1503076,
+  "sha256": "5ac3259757700be37252f988b0de563f86f98d6deb6f3f3aba54d2960fe59709"
+ },
+ {
+  "date": "22-May-2025",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 22-05-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2022-05-2025.pdf",
+  "n": 4054,
+  "rank": 4054,
+  "file": "n4054_CPA_22_05_2025.pdf",
+  "bytes": 558166,
+  "sha256": "23b736c8ae7b535d6b5208899141303084bb0f3412f533e1ff80f87acd2b78c1"
+ }
+]

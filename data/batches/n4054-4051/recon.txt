@@ -1,0 +1,6 @@
+n4051_SIGCL_20_05_2025     closed lots= 163 kg 100.00%  dq=      0.0 dv=          0.0
+n4052_MAS_20_05_2025       closed lots= 209 kg 100.00%  dq=      0.0 dv=          0.0
+n4053_KCPMC_21_05_2025     closed lots= 193 kg 100.00%  dq=      0.0 dv=          0.0
+n4054_CPA_22_05_2025_SANTH open   lots=  61 kg 104.24%  dq=    378.6 dv=   13337705.4
+n4054_CPA_22_05_2025_BODIN closed lots=   4 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
