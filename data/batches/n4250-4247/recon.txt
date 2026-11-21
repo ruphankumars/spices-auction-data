@@ -1,0 +1,5 @@
+n4247_MAS_20_09_2025_001   open   lots= 372 kg 100.17%  dq=    165.1 dv=     423546.7
+n4248_CNS_20_09_2025       closed lots= 163 kg 100.00%  dq=      0.0 dv=          0.0
+n4249_SMTC_22_09_2025_001  closed lots= 282 kg 100.00%  dq=      0.0 dv=          0.0
+n4250_SIGCL_22_09_2025_001 closed lots= 332 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%

@@ -1,0 +1,46 @@
+[
+ {
+  "date": "20-Sep-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 20-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2020-09-2025_001.pdf",
+  "n": 4247,
+  "rank": 4247,
+  "file": "n4247_MAS_20_09_2025_001.pdf",
+  "bytes": 2045974,
+  "sha256": "9d9189dae35b1a16eb16bb7ca3dd3ede9a6c5a6f16f2ba900f9219f9756bd21a"
+ },
+ {
+  "date": "20-Sep-2025",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CNS 20-09-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CNS%2020-09-2025.pdf",
+  "n": 4248,
+  "rank": 4248,
+  "file": "n4248_CNS_20_09_2025.pdf",
+  "bytes": 1452412,
+  "sha256": "a946bc8f675ace2c470e6817b42c78839e0f75b769a7233e1561c16cf9f2362a"
+ },
+ {
+  "date": "22-Sep-2025",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 22-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2022-09-2025_001.pdf",
+  "n": 4249,
+  "rank": 4249,
+  "file": "n4249_SMTC_22_09_2025_001.pdf",
+  "bytes": 1169933,
+  "sha256": "029b5b99e3632e123ba38458a671bbc43aa16cc12565b37cce6f4f86912cd51b"
+ },
+ {
+  "date": "22-Sep-2025",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 22-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2022-09-2025_001.pdf",
+  "n": 4250,
+  "rank": 4250,
+  "file": "n4250_SIGCL_22_09_2025_001.pdf",
+  "bytes": 2043341,
+  "sha256": "3a654120b10052d194dab873de1d63d7c1a0a562d96407d4c64edbb47da0a0b1"
+ }
+]
