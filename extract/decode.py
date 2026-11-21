@@ -136,6 +136,8 @@ def decode(line, inv, rmin, rmax, qmax=3000):
                 R.add(float(round(rr)))
     best = None
     for r in R:
+        if r <= 0:
+            continue
         Q = set()
         for i, x in allv:
             if 5 <= x <= qmax and re.search(r"[.,]\d", toks[i][0]) and abs(x * 20 - round(x * 20)) < 1e-6:

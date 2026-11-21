@@ -482,10 +482,13 @@ def main(ocr_dir, manifest, truth_path, db):
         if not summ:
             print("no summary found:", rid); continue
         if auto:  # printed max/min are only hints; search half to double the (checked) average price
-            lo_r = min(x["avg"] for x in summ) / 2; hi_r = max(x["avg"] for x in summ) * 2
+            lo_r = max(500, min(x["avg"] for x in summ) / 2); hi_r = max(1000, max(x["avg"] for x in summ) * 2)
         else:
             lo_r = min(x.get("min", 1000) for x in summ); hi_r = max(x.get("max", 8000) for x in summ)
-        lots, cands, wdset = extract_report(",".join(os.path.join(o, rid) for o in ocr_dir.split(",")), lo_r, hi_r)
+        try:
+            lots, cands, wdset = extract_report(",".join(os.path.join(o, rid) for o in ocr_dir.split(",")), lo_r, hi_r)
+        except Exception as ex:  # one unreadable report must not sink the others in its chunk
+            print("extract failed:", rid, repr(ex)); continue
         aucs = []
         for s in summ:
             aid = f"{rid}{('_' + s['branch']) if s.get('branch') else ''}"
