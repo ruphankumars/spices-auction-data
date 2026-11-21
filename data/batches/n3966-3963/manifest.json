@@ -1,0 +1,46 @@
+[
+ {
+  "date": "22-Mar-2025",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 22-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2022-03-2025.pdf",
+  "n": 3963,
+  "rank": 3963,
+  "file": "n3963_HEADER_22_03_2025.pdf",
+  "bytes": 458501,
+  "sha256": "fa6aa951d3d3a7f4f4432009e2fd2760be245788e514a1b3ca967f1a1f8d8790"
+ },
+ {
+  "date": "22-Mar-2025",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 22-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2022-03-2025.pdf",
+  "n": 3964,
+  "rank": 3964,
+  "file": "n3964_CPA_22_03_2025.pdf",
+  "bytes": 622678,
+  "sha256": "e8b40e221b252bce4dd9c57dce11a23639c529d85f7e17aa5b760a2ec21338b3"
+ },
+ {
+  "date": "24-Mar-2025",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 24-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2024-03-2025.pdf",
+  "n": 3965,
+  "rank": 3965,
+  "file": "n3965_CPMCS_24_03_2025.pdf",
+  "bytes": 828269,
+  "sha256": "57fff72333bd3bd01d3684100d899082a68b694264f306a55ae655006f847c0b"
+ },
+ {
+  "date": "24-Mar-2025",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 24-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2024-03-2025.pdf",
+  "n": 3966,
+  "rank": 3966,
+  "file": "n3966_SMTC_24_03_2025.pdf",
+  "bytes": 743219,
+  "sha256": "426195e2f731bd85e80860d4c1231e470b0cf98dd04316417117a78d65475126"
+ }
+]
