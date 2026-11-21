@@ -1,0 +1,46 @@
+[
+ {
+  "date": "06-Dec-2025",
+  "auctioneer": "SPECIALITY INDIAN FOOD PARKS EXPORTS PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SIFEX 06-12-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIFEX%2006-12-2025_001.pdf",
+  "n": 4371,
+  "rank": 4371,
+  "file": "n4371_SIFEX_06_12_2025_001.pdf",
+  "bytes": 1434944,
+  "sha256": "2ae011cc81afa2a4dd367c85cdf0f674491ddb37c69ef51ce647774689b96b2f"
+ },
+ {
+  "date": "08-Dec-2025",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 08-12-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2008-12-2025_001.pdf",
+  "n": 4372,
+  "rank": 4372,
+  "file": "n4372_SICOAP_08_12_2025_001.pdf",
+  "bytes": 1699580,
+  "sha256": "74e371af054307c3d61dfb12d827a2b3953c52ad7f82f81de347cd4f7df2c131"
+ },
+ {
+  "date": "08-Dec-2025",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CNSP 08-12-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CNSP%2008-12-2025_001.pdf",
+  "n": 4373,
+  "rank": 4373,
+  "file": "n4373_CNSP_08_12_2025_001.pdf",
+  "bytes": 374207,
+  "sha256": "1160c53cac98224372584fed658cb90b7e185f4d7ed1111f6e0937f71df23f0e"
+ },
+ {
+  "date": "10-Dec-2025",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 10-12-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2010-12-2025_001.pdf",
+  "n": 4374,
+  "rank": 4374,
+  "file": "n4374_SMTC_10_12_2025_001.pdf",
+  "bytes": 687614,
+  "sha256": "7cc72f0bf81fb4900592f3d345d7ca94d8c792e1b5de304bf3100284b2999e9a"
+ }
+]
