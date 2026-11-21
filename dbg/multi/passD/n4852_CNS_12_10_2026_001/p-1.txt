@@ -1,0 +1,36 @@
+FORM D
+
+[See rule 10(1)(1)]
+(Advance Auction Report)
+
+NAME AND ADDRESS OF THE AUCTIONEER:                   CLIMATE NATURAL SPICES PRIVATE LIMITED,
+GROUND FLOOR, 8678-772 , VELANKANNIMATHA CHURCH CUMBUMMETTU ROAD, PUTTADY, IDUKKI - 685561 KERALA
+E-AUCTION LICENCE NO.                                              EAUC/CS/60017/17/2024-25
+(S) SEASON                                                              2026 - 2027
+(T) AUCTION NUMBER                                            20/26-27
+(U) DATE OF AUCTION                                            12/10/2026
+(V) PLACE OF AUCTION                                          E-AUCTION SPICES BOARD IDUKKi
+(W) QUANTITY CARRIED OVER FROM PREVIOUS             NIL AUCTION (KGS)
+(X) FRESH ARRIVALS (KGS)                                          41014.800
+(Y) TOTAL QUANTITY PUT FOR AUCTION (KGS)                 41014.800
+(TOTAL OF Si NO. 5 AND 6]
+(Z) TOTAL QUANTITY OF SOLD (KGS)                             39315.800
+(ZZ) QUANTITY NOT AUCTIONED (KGS)                            0.000
+(AA) QUANTITY WITHDRAWN [(KGS)(SL.NO.(7)-(8)]              1699.00
+(BB) QUANTITY RETURNED TO PLANTER (KGS)              0.000
+(CC) BALANCE WITH THE AUCTIONEER (KGS){SL_NO        NIL
+(9}{10)]
+(DD) TOTAL VALUE OF THE SALES (RS}                         423607471.40
+(EE) MAXIMUM PRICE (RS/KG)                                  3736.00
+(FF) MINIMUM PRICE (RS/KG)                                   2360.00
+(GG) AVERAGE PRICE (RS/KG)                                  3146.25
+NAME OF 5 HIGHEST BIDDERS
+BUYER NAME                                                                                                KILOS                                  VALUE
+BILAL SPICES                                                                                                                   7292.300                                        99712.00
+THE SPICE FACTORY                                                                                            5890.000                                   59767.00
+GREEN GOLD TRADERS                                                                                          3535.100                                    50373.00
+KULAKKATTUVAYALIL AGENCIES                                                                                             3011.700                                           56325.00
+B M TRADERS                                                                                                        1584. 100                                    21442.00
+
+TOTAL                                                                                       21313.200                                          287619.00
+
