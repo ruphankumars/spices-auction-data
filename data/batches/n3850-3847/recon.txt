@@ -1,0 +1,5 @@
+n3847_HEADER_06_01_2025    open   lots= 155 kg  99.84%  dq=    -57.1 dv=    -173923.7
+n3848_CPMCS_07_01_2025     closed lots= 178 kg 100.00%  dq=      0.0 dv=          0.0
+n3849_SMTC_07_01_2025      closed lots= 226 kg 100.00%  dq=      0.0 dv=          0.0
+n3850_KCPMC_08_01_2025     closed lots= 238 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.97%
