@@ -1,0 +1,46 @@
+[
+ {
+  "date": "16-Jan-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 16-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2016-01-2025.pdf",
+  "n": 3859,
+  "rank": 3859,
+  "file": "n3859_MAS_16_01_2025.pdf",
+  "bytes": 1838548,
+  "sha256": "ba51cf31f522407da230529616d7cfa663ecd17b3ca64abc295b838309db84ba"
+ },
+ {
+  "date": "17-Jan-2025",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 17-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2017-01-2025.pdf",
+  "n": 3860,
+  "rank": 3860,
+  "file": "n3860_HEADER_17_01_2025.pdf",
+  "bytes": 856272,
+  "sha256": "de96576587d032ed598d0bf8b952e16f170a14654c176bdd81c43dddf630e418"
+ },
+ {
+  "date": "17-Jan-2025",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 17-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2017-01-2025.pdf",
+  "n": 3861,
+  "rank": 3861,
+  "file": "n3861_SSP_17_01_2025.pdf",
+  "bytes": 887689,
+  "sha256": "7f557ffc43dba3852387b84f4c82203a9d1c2b2283cbcc3b8f5399fd42ad51b5"
+ },
+ {
+  "date": "18-Jan-2025",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 18-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2018-01-2025.pdf",
+  "n": 3862,
+  "rank": 3862,
+  "file": "n3862_RNS_18_01_2025.pdf",
+  "bytes": 1114322,
+  "sha256": "df9e490694fa086eb8ea63a05df305a3a6692757fd37937a81d9ac39b90b7c92"
+ }
+]
