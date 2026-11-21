@@ -1,0 +1,6 @@
+n4251_HEADER_23_09_2025_00 open   lots= 327 kg  99.66%  dq=   -321.2 dv=    -801649.2
+n4252_CPA_23_09_2025_001_S open   lots= 140 kg 100.95%  dq=    251.0 dv=     613041.9
+n4252_CPA_23_09_2025_001_B closed lots=   4 kg 100.00%  dq=      0.0 dv=          0.0
+n4253_IMCPC_24_09_2025_001 closed lots= 305 kg 100.00%  dq=      0.0 dv=          0.0
+n4254_KCPMC_24_09_2025     open   lots= 327 kg 101.02%  dq=   1161.2 dv=    2884939.6
+overall 99.90%
