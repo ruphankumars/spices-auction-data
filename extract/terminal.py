@@ -7,7 +7,7 @@ house code, price band (bottom / middle / top third by rate inside its own
 auction), slot (opening / middle / closing third of lots in sale order), and
 premium (rate minus its auction's kg-weighted average).
 """
-import csv, re, sys, json, datetime as D, collections as C
+import csv, os, re, sys, json, datetime as D, collections as C
 
 HOUSES = [('CPMCS', r'cardamom\s*planters.?\s*marketing|cpmcs'), ('CNS', r'climate\s*natural'), ('SSP', r'sugandhagiri'),
           ('SICOAP', r'south\s*indian\s*cardamom\s*online|sicoa'), ('KCPMC', r'kerala\s*cardamom'), ('GHCM', r'green\s*house'),
@@ -19,6 +19,30 @@ GENERIC = {'', 'PRIVATE LIMITED', 'LIMITED', 'CARDAMOM', 'TRADERS', 'SPICES'}
 
 def _mean(a):
     return round(sum(a) / len(a)) if a else 0
+
+
+def lots_json(rows, aucs, by, path, listed=None, cap=40000):
+    """Every lot with its tags, for the cross-filter terminal page (newest auctions first, up to `cap` lots)."""
+    keep, n = [], 0
+    for a in sorted(aucs, key=lambda a: a['date'], reverse=True):
+        k = len(by.get(a['auction_id'], []))
+        if k and n + k <= cap:
+            keep.append(a); n += k
+    H, B, S, bi, si = [], ['(name not read)'], ['(name not read)'], {}, {}
+    DT = sorted({a['date'] for a in keep})
+    A, L = [], []
+    for a in keep:
+        if a['code'] not in H:
+            H.append(a['code'])
+        ai = len(A); A.append([H.index(a['code']), DT.index(a['date']), a['auction_id'], a['branch']])
+        for x in by[a['auction_id']]:
+            b, s_ = x['buyer'], x['seller']
+            if b in GENERIC: bx = 0
+            else: bx = bi.setdefault(b, len(B)); B.append(b) if bx == len(B) else None
+            if s_ in GENERIC: sx = 0
+            else: sx = si.setdefault(s_, len(S)); S.append(s_) if sx == len(S) else None
+            L.append([ai, bx, sx, round(x['q'], 1), round(x['r']), round(x['prem']), 'LMH'.index(x['band']), 'OMC'.index(x['pos']), x['dec'], x['ln']])
+    json.dump(dict(H=H, B=B, S=S, DT=DT, A=A, L=L, status=_status(len(aucs), listed, aucs)), open(path, 'w'), separators=(',', ':'))
 
 
 def _status(n_aucs, listed, aucs):
@@ -78,6 +102,7 @@ def main(dirs, out, listed=None):
             x['band'] = 'L' if x['r'] < t1 else ('H' if x['r'] >= t2 else 'M')
             x['prem'] = x['r'] - avg
             x['dec'] = min(9, i * 10 // n)
+    lots_json(rows, aucs, by, os.path.join(os.path.dirname(out) or '.', 'lots.json'), listed)
     tq = sum(r['q'] for r in rows)
     tv = sum(r['v'] for r in rows)
     mavg = tv / tq
