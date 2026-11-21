@@ -1,0 +1,46 @@
+[
+ {
+  "date": "12-Oct-2026",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 12-10-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2012-10-2026_001.pdf",
+  "n": 4851,
+  "rank": 4851,
+  "file": "n4851_CPMCS_12_10_2026_001.pdf",
+  "bytes": 2056348,
+  "sha256": "138c7c8355581a8067e3cc2b253ff892a7460ec48ad6c5479a7be334845386c7"
+ },
+ {
+  "date": "12-Oct-2026",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CNS 12-10-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CNS%2012-10-2026_001.pdf",
+  "n": 4852,
+  "rank": 4852,
+  "file": "n4852_CNS_12_10_2026_001.pdf",
+  "bytes": 524367,
+  "sha256": "9ca46942433ea22ec1c8ba428564b1cc55dd97164337b5010aa474aece6b4e73"
+ },
+ {
+  "date": "13-Oct-2026",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 13-10-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2013-10-2026_001.pdf",
+  "n": 4853,
+  "rank": 4853,
+  "file": "n4853_SMTC_13_10_2026_001.pdf",
+  "bytes": 1041479,
+  "sha256": "6069fc36a2339f89fcf8fcf5a9d3341a018c634434673c649ed4bf8b25da2220"
+ },
+ {
+  "date": "13-Oct-2026",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 13-10-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2013-10-2026_001.pdf",
+  "n": 4854,
+  "rank": 4854,
+  "file": "n4854_ITCPC_13_10_2026_001.pdf",
+  "bytes": 959649,
+  "sha256": "c426f1678dca21c9b50868154f5713195c0463af51bd812e20b913b1b061c27d"
+ }
+]
