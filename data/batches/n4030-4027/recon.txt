@@ -1,0 +1,4 @@
+n4027_IMCPC_05_05_2025     closed lots= 211 kg 100.00%  dq=      0.0 dv=          0.0
+n4029_CPMCS_06_05_2025     closed lots= 132 kg 100.00%  dq=      0.0 dv=          0.0
+n4030_RNS_07_05_2025       closed lots= 139 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
