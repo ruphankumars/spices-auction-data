@@ -1,0 +1,5 @@
+n3959_SIGCL_20_03_2025     closed lots= 123 kg 100.00%  dq=      0.0 dv=          0.0
+n3960_CNS_20_03_2025       closed lots=  62 kg 100.00%  dq=      0.0 dv=          0.0
+n3961_CGF_21_03_2025       closed lots=  40 kg 100.00%  dq=      0.0 dv=          0.0
+n3962_MAS_21_03_2025       closed lots= 187 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
