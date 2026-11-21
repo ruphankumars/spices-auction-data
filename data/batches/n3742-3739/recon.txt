@@ -1,0 +1,5 @@
+n3739_IMCPC_21_10_2024     closed lots= 171 kg 100.00%  dq=      0.0 dv=          0.0
+n3740_SIGCL_22_10_2024     closed lots= 232 kg 100.00%  dq=      0.0 dv=          0.0
+n3741_CGF_22_10_2024       closed lots=  89 kg 100.00%  dq=      0.0 dv=          0.0
+n3742_MAS_23_10_2024       closed lots= 318 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
