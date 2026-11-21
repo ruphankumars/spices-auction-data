@@ -1,0 +1,5 @@
+n3795_SSP_02_12_2024       open   lots= 163 kg  98.67%  dq=   -533.4 dv=    -330259.6
+n3796_CPMCS_02_12_2024     closed lots= 211 kg 100.00%  dq=      0.0 dv=          0.0
+n3797_KCPMC_03_12_2024     closed lots= 218 kg 100.00%  dq=      0.0 dv=          0.0
+n3798_RNS_03_12_2024       closed lots= 190 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.76%
