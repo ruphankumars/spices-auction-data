@@ -1,0 +1,6 @@
+n3791_CPA_29_11_2024_SANTH closed lots= 110 kg 100.00%  dq=      0.0 dv=          0.0
+n3791_CPA_29_11_2024_BODIN closed lots=   7 kg 100.00%  dq=      0.0 dv=          0.0
+n3792_MAS_29_11_2024       closed lots= 303 kg 100.00%  dq=      0.0 dv=          0.0
+n3793_SMTC_30_11_2024      closed lots= 189 kg 100.00%  dq=      0.0 dv=          0.0
+n3794_HEADER_30_11_2024    open   lots= 230 kg  99.80%  dq=   -120.2 dv=    -384588.0
+overall 99.95%
