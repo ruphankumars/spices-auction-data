@@ -1,0 +1,5 @@
+n4055_GREEN_HOUSE_22_05_20 closed* lots= 222 kg 100.00%  dq=      0.0 dv=          0.0
+n4056_IMCPC_23_05_2025     open   lots= 104 kg  78.20%  dq=  -5955.1 dv=  -12815709.8
+n4057_SICOAP_24_05_2025    closed lots= 125 kg 100.00%  dq=      0.0 dv=          0.0
+n4058_CPMCS_24_05_2025     open   lots= 143 kg  99.34%  dq=   -232.0 dv=    -576018.0
+overall 95.33%
