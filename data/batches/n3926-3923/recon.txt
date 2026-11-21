@@ -1,0 +1,5 @@
+n3923_IMCPC_25_02_2025     closed lots= 186 kg 100.00%  dq=      0.0 dv=          0.0
+n3924_GREEN_HOUSE_26_02_20 closed lots= 218 kg 100.00%  dq=      0.0 dv=          0.0
+n3925_KCPMC_26_02_2025     closed lots= 188 kg 100.00%  dq=      0.0 dv=          0.0
+n3926_RNS_27_02_2025       closed lots= 182 kg 100.00%  dq=      0.0 dv=          0.4
+overall 100.00%
