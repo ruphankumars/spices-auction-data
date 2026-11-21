@@ -1,0 +1,5 @@
+n4779_KCPMC_28_08_2026_001 closed lots= 162 kg 100.00%  dq=      0.0 dv=          0.0
+n4780_GREEN_HOUSE_28_08_20 closed lots= 240 kg 100.00%  dq=      0.0 dv=          0.0
+n4781_RNS_29_08_2026_001   closed lots= 158 kg 100.00%  dq=      0.0 dv=          0.0
+n4782_IMCPC_29_08_2026_001 closed lots= 157 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
