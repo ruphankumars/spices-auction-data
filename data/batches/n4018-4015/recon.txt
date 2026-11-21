@@ -1,0 +1,5 @@
+n4015_RNS_28_04_2025_compr open   lots= 297 kg 100.25%  dq=    200.0 dv=     480799.4
+n4016_SIFEX_28_04_2025_com closed lots= 265 kg 100.00%  dq=      0.0 dv=          0.0
+n4017_SSP_29_04_2025       closed lots= 234 kg 100.00%  dq=      0.0 dv=          0.0
+n4018_CGF_29_04_2025       closed lots= 108 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
