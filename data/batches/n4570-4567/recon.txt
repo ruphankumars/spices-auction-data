@@ -1,0 +1,4 @@
+n4567_SIFEX_15_04_2026_001 closed lots= 368 kg 100.00%  dq=      0.0 dv=          0.0
+n4568_CGF_15_04_2026_001   closed lots= 168 kg 100.00%  dq=      0.0 dv=          0.0
+n4570_SICOAP_16_04_2026_00 closed lots= 278 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
