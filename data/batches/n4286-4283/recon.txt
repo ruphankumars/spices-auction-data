@@ -1,0 +1,5 @@
+n4283_MAS_13_10_2025       open   lots= 403 kg 103.05%  dq=   3397.3 dv=   10693773.7
+n4284_CPA_13_10_2025_001   closed lots= 168 kg 100.00%  dq=      0.0 dv=          0.0
+n4285_KCPMC_14_10_2025_001 closed lots= 305 kg 100.00%  dq=      0.0 dv=          0.0
+n4286_IMCPC_14_10_2025_001 closed lots= 292 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
