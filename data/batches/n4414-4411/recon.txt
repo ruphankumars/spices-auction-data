@@ -1,0 +1,5 @@
+n4411_IMCPC_03_01_2026_001 closed lots= 217 kg 100.00%  dq=      0.0 dv=          0.0
+n4412_RNS_03_01_2025_001   closed lots= 297 kg 100.00%  dq=      0.0 dv=          0.0
+n4413_CGF_05_01_2026_001   closed lots= 180 kg 100.00%  dq=      0.0 dv=          0.0
+n4414_SIFEX_05_01_2026_001 closed lots= 327 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
