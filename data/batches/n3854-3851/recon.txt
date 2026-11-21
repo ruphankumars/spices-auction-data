@@ -1,0 +1,5 @@
+n3851_SSP_08_01_2025       open   lots= 179 kg  76.76%  dq= -13791.4 dv=  -43040791.3
+n3852_ITCPC_09_01_2025     closed lots= 263 kg 100.00%  dq=      0.0 dv=          0.0
+n3853_RNS_09_01_2025       closed lots= 306 kg 100.00%  dq=      0.0 dv=          0.0
+n3854_SICOAP_10_01_2025    closed lots= 294 kg 100.00%  dq=      0.0 dv=          0.0
+overall 95.17%
