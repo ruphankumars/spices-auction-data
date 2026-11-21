@@ -1,0 +1,4 @@
+n3783_CPMCS_22_11_2024     closed lots= 203 kg 100.00%  dq=      0.0 dv=          0.0
+n3784_KCPMC_23_11_2024     closed lots= 213 kg 100.00%  dq=      0.0 dv=          0.0
+n3786_ITCPC_25_11_2024     closed lots= 231 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
