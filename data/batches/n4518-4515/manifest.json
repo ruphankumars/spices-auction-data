@@ -1,0 +1,46 @@
+[
+ {
+  "date": "10-Mar-2026",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 10-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2010-03-2026_001.pdf",
+  "n": 4515,
+  "rank": 4515,
+  "file": "n4515_MAS_10_03_2026_001.pdf",
+  "bytes": 1461477,
+  "sha256": "ca03f2b39b81f1f11c54f4df184495ec5e7e94e8b49ef43c895164857ffd0d5f"
+ },
+ {
+  "date": "10-Mar-2026",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GREEN HOUSE 10-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GREEN%20HOUSE%2010-03-2026_001.pdf",
+  "n": 4516,
+  "rank": 4516,
+  "file": "n4516_GREEN_HOUSE_10_03_2026_001.pdf",
+  "bytes": 744823,
+  "sha256": "d1dff5340868786ce88c5546c3c9e86a600fe1db308583917ad300f6c66c55c5"
+ },
+ {
+  "date": "11-Mar-2026",
+  "auctioneer": "THE KERALA CARDAMOM PROCESSING & MKTG.CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/KCPMC 11-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KCPMC%2011-03-2026_001.pdf",
+  "n": 4517,
+  "rank": 4517,
+  "file": "n4517_KCPMC_11_03_2026_001.pdf",
+  "bytes": 1618976,
+  "sha256": "137ad4b666dd96dfebfbd75f38ad636dab650bf1e2dc830619f507c6ea5440c4"
+ },
+ {
+  "date": "11-Mar-2026",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 11-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2011-03-2026_001.pdf",
+  "n": 4518,
+  "rank": 4518,
+  "file": "n4518_RNS_11_03_2026_001.pdf",
+  "bytes": 788071,
+  "sha256": "004e162032a7d1f6e311a2266097b5d46bfcfe57f83f0b02e1be67641e962a0a"
+ }
+]

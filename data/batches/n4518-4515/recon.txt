@@ -1,0 +1,5 @@
+n4515_MAS_10_03_2026_001   closed lots= 250 kg 100.00%  dq=      0.0 dv=          0.0
+n4516_GREEN_HOUSE_10_03_20 closed lots= 169 kg 100.00%  dq=      0.0 dv=          0.0
+n4517_KCPMC_11_03_2026_001 closed lots= 232 kg 100.00%  dq=      0.0 dv=          0.0
+n4518_RNS_11_03_2026_001   closed lots= 119 kg 100.00%  dq=      0.0 dv=          0.4
+overall 100.00%
