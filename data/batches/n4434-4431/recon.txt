@@ -1,0 +1,5 @@
+n4431_CNS_17_01_2026_001   open   lots= 134 kg  99.67%  dq=    -95.5 dv=    -308498.1
+n4432_SICOAP_17_01_2026_00 closed lots= 201 kg 100.00%  dq=      0.0 dv=          0.0
+n4433_IDTPC_19_01_2026_001 closed lots= 219 kg 100.00%  dq=      0.0 dv=          0.0
+n4434_SMTC_19_01_2026_001  closed lots= 163 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.95%
