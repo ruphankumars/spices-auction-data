@@ -1,0 +1,5 @@
+n3927_ITCPC_27_02_2025     closed lots= 217 kg 100.00%  dq=      0.0 dv=          0.0
+n3928_SIFEX_28_02_2025     closed lots=  79 kg 100.00%  dq=      0.0 dv=          0.0
+n3929_SICOAP_28_02_2025    closed lots= 164 kg 100.00%  dq=      0.0 dv=          0.0
+n3930_7sb                  closed lots=  67 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
