@@ -1,0 +1,5 @@
+n4139_SIGCL_16_07_2025_001 closed lots= 236 kg 100.00%  dq=      0.0 dv=          0.0
+n4140_MAS_16_07_2025_001   closed lots= 222 kg 100.00%  dq=      0.0 dv=          0.0
+n4141_HEADER_17_07_2025_00 closed lots= 186 kg 100.00%  dq=      0.0 dv=          0.0
+n4142_KCPMC_17_07_2025_001 closed lots= 204 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
