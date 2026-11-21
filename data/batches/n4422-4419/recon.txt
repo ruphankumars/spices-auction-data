@@ -1,0 +1,6 @@
+n4419_HEADER_08_01_2026_00 closed* lots= 300 kg 100.00%  dq=      0.0 dv=          0.0
+n4420_SMTC_09_01_2026_001  closed lots= 276 kg 100.00%  dq=      0.0 dv=          0.0
+n4421_CPA_09_01_2026_001_S closed lots=  99 kg 100.00%  dq=      0.0 dv=          0.0
+n4421_CPA_09_01_2026_001_B closed lots=   8 kg 100.00%  dq=      0.0 dv=          0.0
+n4422_GREEN_HOUSE_10_01_20 closed lots= 344 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
