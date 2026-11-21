@@ -1,0 +1,46 @@
+[
+ {
+  "date": "15-Oct-2025",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GREEN HOUSE 15-10-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GREEN%20HOUSE%2015-10-2025_001.pdf",
+  "n": 4287,
+  "rank": 4287,
+  "file": "n4287_GREEN_HOUSE_15_10_2025_001.pdf",
+  "bytes": 1472168,
+  "sha256": "b34f77774f54d77b3cf179ec0ea7138c1dd6357a8c1d85d66a41377eb8d8a1c5"
+ },
+ {
+  "date": "15-Oct-2025",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 15-10-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2015-10-2025_001.pdf",
+  "n": 4288,
+  "rank": 4288,
+  "file": "n4288_SICOAP_15_10_2025_001.pdf",
+  "bytes": 1837974,
+  "sha256": "ba17e8dda31112a18d5902a4513324bc737fae7f0395e3b610271aa1533b0466"
+ },
+ {
+  "date": "16-Oct-2025",
+  "auctioneer": "SPECIALITY INDIAN FOOD PARKS EXPORTS PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SIFEX 16-10-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIFEX%2016-10-2025.pdf",
+  "n": 4289,
+  "rank": 4289,
+  "file": "n4289_SIFEX_16_10_2025.pdf",
+  "bytes": 1183383,
+  "sha256": "fd29c93cc7baadb92d46f6fd2079802fdd1b83436e4b4da72ba0302520e97352"
+ },
+ {
+  "date": "16-Oct-2025",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 16-10-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2016-10-2025.pdf",
+  "n": 4290,
+  "rank": 4290,
+  "file": "n4290_RNS_16_10_2025.pdf",
+  "bytes": 1131154,
+  "sha256": "32a4112e371b302547efcd3770268e0e308ee8cf3fc5c1cc95b4776d6b5caf40"
+ }
+]

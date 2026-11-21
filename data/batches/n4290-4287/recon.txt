@@ -1,0 +1,5 @@
+n4287_GREEN_HOUSE_15_10_20 closed lots= 341 kg 100.00%  dq=      0.0 dv=          0.0
+n4288_SICOAP_15_10_2025_00 closed lots= 305 kg 100.00%  dq=      0.0 dv=          0.0
+n4289_SIFEX_16_10_2025     closed lots= 411 kg 100.00%  dq=      0.0 dv=          0.0
+n4290_RNS_16_10_2025       open   lots= 414 kg  99.81%  dq=   -245.9 dv=    -596084.8
+overall 99.95%
