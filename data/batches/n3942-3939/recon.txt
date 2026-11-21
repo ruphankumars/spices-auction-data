@@ -1,0 +1,4 @@
+n3939_ITCPC_07_03_2025     closed lots= 184 kg 100.00%  dq=      0.0 dv=          0.0
+n3941_SICOAP_08_03_2025    closed lots= 171 kg 100.00%  dq=      0.0 dv=          0.0
+n3942_GREEN_HOUSE_08_03_20 closed lots= 218 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
