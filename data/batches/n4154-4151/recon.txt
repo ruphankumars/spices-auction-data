@@ -1,0 +1,5 @@
+n4151_ITCPC_23_07_2025_001 closed lots= 236 kg 100.00%  dq=      0.0 dv=          0.0
+n4152_SSP_23_07_2025_001   open   lots= 239 kg  98.40%  dq=   -831.4 dv=   -2131224.4
+n4153_CNS_24_07_2025       closed lots=  79 kg 100.00%  dq=      0.0 dv=          0.0
+n4154_SIGCL_24_07_2025_001 closed lots= 215 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.47%
