@@ -1,0 +1,5 @@
+n3775_KOKO_18_11_2024      open   lots=  59 kg  86.35%  dq=  -2129.3 dv=   -6172380.5
+n3776_SICOAP_18_11_2024    closed lots= 213 kg 100.00%  dq=      0.0 dv=          0.0
+n3777_SIGCL_19_11_2024     closed lots= 183 kg 100.00%  dq=      0.0 dv=          0.0
+n3778_IMCPC_19_11_2024     closed lots= 218 kg 100.00%  dq=      0.0 dv=          0.0
+overall 98.80%
