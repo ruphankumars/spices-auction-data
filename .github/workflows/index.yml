@@ -17,13 +17,6 @@ jobs:
       - run: pip install -q requests
       - run: python scripts/index.py ${{ inputs.mode || 'update' }} 95
         timeout-minutes: 105
-      - if: always()
-        run: python extract/terminal.py ALL data/terminal.json || true
       - name: Commit
         if: always()
-        run: |
-          git config user.name ocr-bot; git config user.email ocr-bot@users.noreply.github.com
-          git add -A data
-          git diff --cached --quiet && exit 0
-          git commit -qm "Listing index update"
-          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep $((i*7)); done
+        run: bash scripts/push_paths.sh "Listing index update" data/index.json data/index_partial.json

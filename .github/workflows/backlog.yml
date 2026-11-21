@@ -37,12 +37,7 @@ jobs:
       - run: pip install -q requests rapidocr-onnxruntime opencv-python-headless numpy
       - run: bash scripts/run_chunk.sh "${{ matrix.ns }}"
       - name: Commit this chunk
-        run: |
-          git config user.name ocr-bot; git config user.email ocr-bot@users.noreply.github.com
-          git add data/batches
-          git diff --cached --quiet && exit 0
-          git commit -qm "Reports ${{ matrix.ns }}"
-          for i in 1 2 3 4 5 6 7 8; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep $((i*5 + RANDOM % 9)); done
+        run: bash scripts/push_paths.sh "Reports ${{ matrix.ns }}" data/batches
   publish:
     needs: [plan, read]
     if: always() && needs.plan.outputs.matrix != '{"include":[]}'
@@ -50,15 +45,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: {ref: main}
-      - run: git pull -q origin main && python extract/terminal.py ALL data/terminal.json
+      - run: python extract/terminal.py ALL data/terminal.json
       - name: Load new batches into Supabase (skips until the secrets exist)
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: pip install -q requests && python scripts/load_supabase.py
-      - run: |
-          git config user.name ocr-bot; git config user.email ocr-bot@users.noreply.github.com
-          git add data/terminal.json
-          git diff --cached --quiet && exit 0
-          git commit -qm "Terminal snapshot: $(python -c 'import json;s=json.load(open("data/terminal.json"))["status"];print(s["done"],"of",s["listed"])')"
-          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep $((i*7)); done
+      - run: bash scripts/push_paths.sh "Terminal snapshot" data/terminal.json data/lots.json
