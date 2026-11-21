@@ -1,0 +1,5 @@
+n4571_CPMCS_17_04_2026_001 closed lots= 252 kg 100.00%  dq=      0.0 dv=          0.0
+n4572_ITCPC_17_04_2026_001 closed lots= 249 kg 100.00%  dq=      0.0 dv=          0.0
+n4573_CNS_18_04_2026_001   open   lots= 188 kg  98.40%  dq=   -614.0 dv=   -1662894.2
+n4574_HEADER_18_04_2026_00 closed lots= 257 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.76%

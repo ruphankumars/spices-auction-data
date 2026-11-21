@@ -1,0 +1,46 @@
+[
+ {
+  "date": "17-Apr-2026",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 17-04-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2017-04-2026_001.pdf",
+  "n": 4571,
+  "rank": 4571,
+  "file": "n4571_CPMCS_17_04_2026_001.pdf",
+  "bytes": 1741022,
+  "sha256": "64654714a2dab354e0240cdc284fecf008c5cecb5ea47afdd2afd684f2075fab"
+ },
+ {
+  "date": "17-Apr-2026",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 17-04-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2017-04-2026_001.pdf",
+  "n": 4572,
+  "rank": 4572,
+  "file": "n4572_ITCPC_17_04_2026_001.pdf",
+  "bytes": 775920,
+  "sha256": "624ec21fb85a9c7b2cb05b0cacba03c2242fff4706f9c1aeea985c2f9d81b475"
+ },
+ {
+  "date": "18-Apr-2026",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CNS 18-04-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CNS%2018-04-2026_001.pdf",
+  "n": 4573,
+  "rank": 4573,
+  "file": "n4573_CNS_18_04_2026_001.pdf",
+  "bytes": 504579,
+  "sha256": "cf2c5eca8dbd087693a201dd9d44e202a8b6246c7c79548ad7712eb2504a0e0a"
+ },
+ {
+  "date": "18-Apr-2026",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 18-04-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2018-04-2026_001.pdf",
+  "n": 4574,
+  "rank": 4574,
+  "file": "n4574_HEADER_18_04_2026_001.pdf",
+  "bytes": 1114294,
+  "sha256": "0cb2abd1edb9b239f195becf8d2d79147c2a48f78ec743c4d4c002fe9308bf62"
+ }
+]
