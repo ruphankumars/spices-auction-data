@@ -1,0 +1,5 @@
+n3883_IMCPC_31_01_2025     closed lots= 165 kg 100.00%  dq=      0.0 dv=          0.0
+n3884_CNS_31_01_2025       closed* lots=  62 kg 100.00%  dq=      0.0 dv=          0.0
+n3885_CGF_01_02_2025       closed lots=  50 kg 100.00%  dq=      0.0 dv=          0.0
+n3886_SIFEX_01_02_2025     closed lots= 222 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
