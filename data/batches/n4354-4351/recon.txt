@@ -1,0 +1,5 @@
+n4351_KCPMC_24_11_2025_001 open   lots= 298 kg  99.44%  dq=   -615.0 dv=   -1469128.0
+n4352_RNS_25_11_2025_001   closed lots= 325 kg 100.00%  dq=      0.0 dv=          0.0
+n4353_IMCPC_25_11_2025_001 closed lots= 265 kg 100.00%  dq=      0.0 dv=          0.0
+n4354_CGF_26_11_2025_001   closed lots= 155 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.80%
