@@ -1,0 +1,5 @@
+n3867_IMCPC_22_01_2025     closed lots= 181 kg 100.00%  dq=      0.0 dv=          0.0
+n3868_SICOAP_22_01_2025    closed lots= 222 kg 100.00%  dq=      0.0 dv=          0.0
+n3869_CNS_23_01_2025       open   lots=  79 kg  96.02%  dq=   -749.7 dv=   -2284769.2
+n3870_SIGCL_23_01_2025     closed* lots= 232 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.60%
