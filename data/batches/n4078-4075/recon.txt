@@ -1,0 +1,5 @@
+n4075_SSP_05_06_2025       closed* lots= 164 kg 100.00%  dq=      0.0 dv=          0.0
+n4076_CGF_05_06_2025       closed lots=  45 kg 100.00%  dq=      0.0 dv=          0.0
+n4077_ITCPC_07_06_2025     closed lots= 107 kg 100.00%  dq=      0.0 dv=          0.0
+n4078_CNS_07_06_2025       closed lots=  50 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
