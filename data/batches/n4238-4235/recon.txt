@@ -1,0 +1,6 @@
+n4235_KCPMC_13_09_2025_001 open   lots= 302 kg  99.80%  dq=   -187.3 dv=    -475719.2
+n4236_SIGCL_13_09_2025     closed lots= 340 kg 100.00%  dq=      0.0 dv=          0.0
+n4237_green_house_15_09_20 closed lots= 359 kg 100.00%  dq=      0.0 dv=          0.0
+n4238_CPA_15_09_2025_001_S closed lots= 163 kg 100.00%  dq=      0.0 dv=          0.0
+n4238_CPA_15_09_2025_001_B closed lots=   6 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.94%
