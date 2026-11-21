@@ -1,0 +1,5 @@
+n3819_SMTC_18_12_2024      closed lots= 170 kg 100.00%  dq=      0.0 dv=          0.0
+n3820_HEADER_18_12_2024    closed lots= 128 kg 100.00%  dq=      0.0 dv=          0.0
+n3821_CPMCS_19_12_2024     closed lots= 184 kg 100.00%  dq=      0.0 dv=          0.0
+n3822_SSP_19_12_2024       open   lots= 177 kg  96.07%  dq=  -1651.2 dv=   -4757844.8
+overall 99.05%
