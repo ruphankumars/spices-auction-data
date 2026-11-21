@@ -1,0 +1,4 @@
+n3719_GREEN_HOUSE_08_10_20 closed* lots= 241 kg 100.00%  dq=      0.0 dv=          0.0
+n3720_ITPC_08_10_2024      closed* lots= 248 kg 100.00%  dq=      0.0 dv=          0.0
+n3722_KOKO_09_10_2024      open   lots= 122 kg  95.57%  dq=  -1406.3 dv=   -3177116.2
+overall 99.13%
