@@ -1,0 +1,5 @@
+n4003_SSP_19_04_2025       closed* lots= 178 kg 100.00%  dq=      0.0 dv=          0.0
+n4004_CGF_19_04_2025       closed lots=  80 kg 100.00%  dq=      0.0 dv=          0.0
+n4005_ITCPC_21_04_2025     closed lots= 238 kg 100.00%  dq=      0.0 dv=          0.0
+n4006_MAS_22_04_2025       open   lots=  66 kg  25.02%  dq= -63197.7 dv= -164974828.9
+overall 67.10%

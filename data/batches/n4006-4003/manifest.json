@@ -1,0 +1,46 @@
+[
+ {
+  "date": "19-Apr-2025",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 19-04-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2019-04-2025.pdf",
+  "n": 4003,
+  "rank": 4003,
+  "file": "n4003_SSP_19_04_2025.pdf",
+  "bytes": 979581,
+  "sha256": "7725bee776e2c3d65012d6a8d80eea0387d48aaac77d26ed7819b966ee6776e0"
+ },
+ {
+  "date": "19-Apr-2025",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 19-04-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2019-04-2025.pdf",
+  "n": 4004,
+  "rank": 4004,
+  "file": "n4004_CGF_19_04_2025.pdf",
+  "bytes": 663581,
+  "sha256": "ebe877b37a4c3351c61e90a575ae0c266e61137ea9bbfc267968f73118c08229"
+ },
+ {
+  "date": "21-Apr-2025",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 21-04-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2021-04-2025.pdf",
+  "n": 4005,
+  "rank": 4005,
+  "file": "n4005_ITCPC_21_04_2025.pdf",
+  "bytes": 1048701,
+  "sha256": "82255d9342cb4f586fd7db4ac7747e1a0706850ac02dd81a11631512a43e9cb9"
+ },
+ {
+  "date": "22-Apr-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 22-04-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2022-04-2025.pdf",
+  "n": 4006,
+  "rank": 4006,
+  "file": "n4006_MAS_22_04_2025.pdf",
+  "bytes": 350952,
+  "sha256": "f189067a97d54e34176da675484c8366795fd793e084afba0959c2083194a702"
+ }
+]
