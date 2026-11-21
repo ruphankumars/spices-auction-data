@@ -1,0 +1,5 @@
+n4279_CNS_10_10_2025       closed lots= 187 kg 100.00%  dq=      0.0 dv=          0.0
+n4280_HEADER_10_10_2025_00 open   lots= 290 kg  95.36%  dq=  -4038.3 dv=   -9552783.3
+n4281_SIGCL_11_10_2025_001 closed lots= 282 kg 100.00%  dq=      0.0 dv=          0.0
+n4282_SMTC_11_10_2025_001  closed lots= 236 kg 100.00%  dq=      0.0 dv=          0.0
+overall 98.54%

@@ -1,0 +1,46 @@
+[
+ {
+  "date": "10-Oct-2025",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CNS 10-10-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CNS%2010-10-2025.pdf",
+  "n": 4279,
+  "rank": 4279,
+  "file": "n4279_CNS_10_10_2025.pdf",
+  "bytes": 43266,
+  "sha256": "3ed1427d89fffaf32f0e107d03f05947782f527cb9f54c91c7708bb9ad23673d"
+ },
+ {
+  "date": "10-Oct-2025",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 10-10-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2010-10-2025_001.pdf",
+  "n": 4280,
+  "rank": 4280,
+  "file": "n4280_HEADER_10_10_2025_001.pdf",
+  "bytes": 1087204,
+  "sha256": "4f4a31c031cd00427429630b99989403b2d08f70f4f44392f259f1bde848daae"
+ },
+ {
+  "date": "11-Oct-2025",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 11-10-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2011-10-2025_001.pdf",
+  "n": 4281,
+  "rank": 4281,
+  "file": "n4281_SIGCL_11_10_2025_001.pdf",
+  "bytes": 1686369,
+  "sha256": "d46ba9da561f5ff7a316a67efc8b3a8d95c3f0f62fbfafdd27444ed3b5d72543"
+ },
+ {
+  "date": "11-Oct-2025",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 11-10-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2011-10-2025_001.pdf",
+  "n": 4282,
+  "rank": 4282,
+  "file": "n4282_SMTC_11_10_2025_001.pdf",
+  "bytes": 976399,
+  "sha256": "4974fe2ab7703ea9d7ad05a9a3a972ccb5fb6badc9428d6bc835c4870ab9c44d"
+ }
+]
