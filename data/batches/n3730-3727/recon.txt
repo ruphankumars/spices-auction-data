@@ -1,0 +1,6 @@
+n3727_MAS_14_10_2024       closed lots= 321 kg 100.00%  dq=      0.0 dv=          0.0
+n3728_CPA_14_10_2024_SANTH closed lots= 131 kg 100.00%  dq=      0.0 dv=          0.0
+n3728_CPA_14_10_2024_BODIN closed lots=  10 kg 100.00%  dq=      0.0 dv=          0.0
+n3729_HEADER_15_10_2024    closed lots= 175 kg 100.00%  dq=      0.0 dv=          0.0
+n3730_SMTC_15_10_2024      open   lots= 165 kg 100.00%  dq=      0.0 dv=         -2.1
+overall 100.00%
