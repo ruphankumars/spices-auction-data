@@ -1,0 +1,5 @@
+n4739_CGF_31_07_2026_001   open   lots=  99 kg  91.28%  dq=  -1167.5 dv=   -3298053.3
+n4740_SIFEX_31_07_2026_001 closed lots= 263 kg 100.00%  dq=      0.0 dv=          0.0
+n4741_SSP_01_08_2026_001   open   lots= 262 kg  97.79%  dq=  -1748.6 dv=   -5013911.8
+n4742_SICOAP_01_08_2026_00 closed lots= 184 kg 100.00%  dq=      0.0 dv=          0.0
+overall 98.48%
