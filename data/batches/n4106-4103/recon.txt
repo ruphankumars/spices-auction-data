@@ -1,0 +1,5 @@
+n4103_RNS_24_06_2025_001   closed lots= 193 kg 100.00%  dq=      0.0 dv=          0.4
+n4104_SSP_25_06_2025_001   open   lots= 187 kg  99.53%  dq=   -180.3 dv=    -399893.5
+n4105_CGF_25_06_2025_001   closed lots=  76 kg 100.00%  dq=      0.0 dv=          0.0
+n4106_ITCPC_26_06_2025_001 closed lots= 185 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.86%
