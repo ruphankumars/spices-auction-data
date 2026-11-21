@@ -1,0 +1,3 @@
+n3988_sifex_07_04_25       open   lots= 153 kg  99.99%  dq=     -5.1 dv=   -1035946.4
+n3990_cgf_08_04_25         open   lots=  83 kg 247.57%  dq=   7163.9 dv=   18223960.7
+overall 99.99%
