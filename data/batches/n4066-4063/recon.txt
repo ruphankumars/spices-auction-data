@@ -1,0 +1,5 @@
+n4063_CNS_28_05_2025_pdf   closed lots=  46 kg 100.00%  dq=      0.0 dv=          0.0
+n4064_ITCPC_28_05_2025     closed lots= 138 kg 100.00%  dq=      0.0 dv=          0.0
+n4065_SIGCL_29_05_2025     open   lots=   1 kg   8.28%  dq= -22826.1 dv=   22140749.5
+n4066_MAS_29_05_2025       closed lots= 204 kg 100.00%  dq=      0.0 dv=          0.0
+overall 79.36%
