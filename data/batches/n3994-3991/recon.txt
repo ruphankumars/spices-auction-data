@@ -1,0 +1,5 @@
+n3991_itcpc_09_04_25       open   lots=  10 kg   5.37%  dq= -53434.1 dv= -137586213.7
+n3992_sicoap_09_04_25      open   lots=   5 kg   2.37%  dq= -38065.0 dv=  -95932412.8
+n3993_sigcl_10_04_25       open   lots=   6 kg  10.59%  dq= -35595.8 dv=  -89884540.6
+n3994_mas_10_04_25         open   lots= 276 kg 106.88%  dq=   4799.6 dv=   10004572.2
+overall 38.01%
