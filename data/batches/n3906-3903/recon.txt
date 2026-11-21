@@ -1,0 +1,6 @@
+n3903_HEADER_13_02_2025    closed lots= 205 kg 100.00%  dq=      0.0 dv=          0.0
+n3904_CPA_13_02_2025_SANTH closed lots= 101 kg 100.00%  dq=      0.0 dv=          0.0
+n3904_CPA_13_02_2025_BODIN closed lots=  16 kg 100.00%  dq=      0.0 dv=          0.0
+n3905_SMTC_14_02_2025      closed lots= 213 kg 100.00%  dq=      0.0 dv=          0.0
+n3906_CPMCs_14_02_2025     closed lots= 171 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
