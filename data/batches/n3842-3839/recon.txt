@@ -1,0 +1,5 @@
+n3839_ITCPC_01_01_2025     closed lots= 177 kg 100.00%  dq=      0.0 dv=          0.0
+n3840_IMCPC_02_01_2025     closed lots= 117 kg 100.00%  dq=      0.0 dv=          0.0
+n3841_SICOAP_02_01_2025    closed lots= 142 kg 100.00%  dq=      0.0 dv=          0.0
+n3842_SIGCL_03_01_2025     closed lots= 174 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%

@@ -1,0 +1,46 @@
+[
+ {
+  "date": "01-Jan-2025",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 01-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2001-01-2025.pdf",
+  "n": 3839,
+  "rank": 3839,
+  "file": "n3839_ITCPC_01_01_2025.pdf",
+  "bytes": 597301,
+  "sha256": "9a1b46ea5cd0fb87285f2098f3ca905f06ddfcb5941ff7cdbd02a1964589aadc"
+ },
+ {
+  "date": "02-Jan-2025",
+  "auctioneer": "IDUKKI MAHILA CARDAMOM PRODUCER COMPANY LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/IMCPC 02-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/IMCPC%2002-01-2025.pdf",
+  "n": 3840,
+  "rank": 3840,
+  "file": "n3840_IMCPC_02_01_2025.pdf",
+  "bytes": 434781,
+  "sha256": "08a9afa4996901fce766f98f61bff51f11be08f3718f473abb80bda37bee0db4"
+ },
+ {
+  "date": "02-Jan-2025",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 02-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2002-01-2025.pdf",
+  "n": 3841,
+  "rank": 3841,
+  "file": "n3841_SICOAP_02_01_2025.pdf",
+  "bytes": 902077,
+  "sha256": "d0a7feb6231b117380bf1900516e702b43b9a9a0aa5d154658bc7a8e7bfcac0c"
+ },
+ {
+  "date": "03-Jan-2025",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 03-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2003-01-2025.pdf",
+  "n": 3842,
+  "rank": 3842,
+  "file": "n3842_SIGCL_03_01_2025.pdf",
+  "bytes": 1077628,
+  "sha256": "d688c41c8505088f4a102c7f838dd404c96885e83742cf923d3351b018607869"
+ }
+]
