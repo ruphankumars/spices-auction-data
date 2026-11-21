@@ -1,0 +1,5 @@
+n4403_SICOAP_29_12_2025_00 closed lots= 219 kg 100.00%  dq=      0.0 dv=          0.0
+n4404_ITCPC_30_12_2025_001 closed lots= 241 kg 100.00%  dq=      0.0 dv=          0.0
+n4405_SMTC_30_12_2025_001  closed lots= 145 kg 100.00%  dq=      0.0 dv=          0.0
+n4406_MAS_31_12_2025_003   open   lots= 375 kg 100.03%  dq=     34.4 dv=     151773.9
+overall 100.00%
