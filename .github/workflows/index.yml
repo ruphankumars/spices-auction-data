@@ -1,0 +1,26 @@
+name: index-listing
+on:
+  workflow_dispatch:
+    inputs:
+      mode: {description: "full or update", default: "update"}
+  schedule:
+    - cron: "17 */6 * * *"   # new uploads: every 6 hours
+permissions:
+  contents: write
+concurrency: {group: data-main, cancel-in-progress: false}
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q requests
+      - run: python scripts/index.py ${{ inputs.mode || 'update' }}
+      - run: python extract/terminal.py ALL data/terminal.json || true
+      - name: Commit
+        run: |
+          git config user.name ocr-bot; git config user.email ocr-bot@users.noreply.github.com
+          git add data/index.json data/terminal.json
+          git diff --cached --quiet && exit 0
+          git commit -qm "Listing index: $(python -c 'import json;print(len(json.load(open("data/index.json"))))') reports"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep $((i*7)); done

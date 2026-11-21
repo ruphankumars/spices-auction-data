@@ -21,6 +21,21 @@ def _mean(a):
     return round(sum(a) / len(a)) if a else 0
 
 
+def _status(n_aucs, listed, aucs):
+    import glob, os
+    done = failed = 0
+    for m in glob.glob('data/batches/*/manifest.json'):
+        k = len(json.load(open(m)))
+        if os.path.exists(os.path.join(os.path.dirname(m), 'failed.json')):
+            failed += k
+        else:
+            done += k
+    if os.path.exists('data/index.json'):
+        listed = len(json.load(open('data/index.json')))
+    exact = sum(1 for a in aucs if float(a.get('coverage_pct') or 0) >= 99.95)
+    return dict(done=done or n_aucs, failed=failed, listed=int(listed) if listed else None, auctions=n_aucs, exact=exact)
+
+
 def code(n):
     for c, r in HOUSES:
         if re.search(r, n, re.I):
@@ -35,6 +50,9 @@ def mix(L, key, names):
 
 def main(dirs, out, listed=None):
     rows, aucs = [], []
+    if dirs == 'ALL':
+        import glob, os
+        dirs = ','.join(sorted(os.path.dirname(f) for f in glob.glob('data/batches/*/lots.csv')))
     for d in dirs.split(','):
         rows += list(csv.DictReader(open(f'{d}/lots.csv')))
         aucs += list(csv.DictReader(open(f'{d}/auctions.csv')))
@@ -134,7 +152,7 @@ def main(dirs, out, listed=None):
 
     snap = dict(
         built=D.datetime.now(D.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-        status=dict(done=len(aucs), listed=int(listed) if listed else None),
+        status=_status(len(aucs), listed, aucs),
         kpi=dict(reports=len(aucs), lots=len(rows), kg=round(tq), value=round(tv), avg=round(mavg, 1),
                  buyers=len(bs), sellers=len(ss), houses=len(codes), first=min(a['date'] for a in aucs), last=max(a['date'] for a in aucs)),
         daily=[dict(date=k, kg=round(v[0]), avg=round(v[1] / v[0], 1), hi=v[2], lo=v[3]) for k, v in sorted(daily.items()) if v[0]],
