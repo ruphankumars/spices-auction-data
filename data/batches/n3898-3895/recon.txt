@@ -1,0 +1,5 @@
+n3895_RNS_08_02_2025       closed lots= 159 kg 100.00%  dq=      0.0 dv=          0.0
+n3896_ITCPC_08_02_2025     closed lots= 155 kg 100.00%  dq=      0.0 dv=          0.0
+n3897_SICOAP_10_02_2025    closed lots= 137 kg 100.00%  dq=      0.0 dv=          0.0
+n3898_SIFEX_10_02_2025     closed lots=  86 kg 100.00%  dq=      0.0 dv=         -0.1
+overall 100.00%
