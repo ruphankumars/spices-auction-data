@@ -1,0 +1,5 @@
+n4627_KCPMC_22_05_2026_001 closed lots= 209 kg 100.00%  dq=      0.0 dv=          0.0
+n4628_RNS_23_05_2026_001   closed lots= 190 kg 100.00%  dq=      0.0 dv=          0.3
+n4629_IMCPC_23_05_2026_001 closed lots= 164 kg 100.00%  dq=      0.0 dv=          0.0
+n4630_CGF_25_05_2026_001   closed lots= 115 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
