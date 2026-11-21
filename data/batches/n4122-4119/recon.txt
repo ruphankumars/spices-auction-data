@@ -1,0 +1,5 @@
+n4119_CGF_04_07_2025_001   closed lots=  62 kg 100.00%  dq=      0.0 dv=          0.0
+n4120_SSP_04_07_2025_001   open   lots= 214 kg  99.74%  dq=   -117.0 dv=     207645.2
+n4121_CNS_05_07_2025       closed lots=  69 kg 100.00%  dq=      0.0 dv=          0.0
+n4122_ITCPC_05_07_2025_001 closed lots= 182 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.88%

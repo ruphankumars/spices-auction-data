@@ -1,0 +1,46 @@
+[
+ {
+  "date": "04-Jul-2025",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 04-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2004-07-2025_001.pdf",
+  "n": 4119,
+  "rank": 4119,
+  "file": "n4119_CGF_04_07_2025_001.pdf",
+  "bytes": 293880,
+  "sha256": "b540675b6e564378e3a4684cc7f7be448bf87a2d80a9a7bc8203acd2003955ff"
+ },
+ {
+  "date": "04-Jul-2025",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 04-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2004-07-2025_001.pdf",
+  "n": 4120,
+  "rank": 4120,
+  "file": "n4120_SSP_04_07_2025_001.pdf",
+  "bytes": 850981,
+  "sha256": "6c13c22abac4330bb065a9760d92dc8ed42b822164a505640d1002e68e800069"
+ },
+ {
+  "date": "05-Jul-2025",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CNS 05-07-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CNS%2005-07-2025.pdf",
+  "n": 4121,
+  "rank": 4121,
+  "file": "n4121_CNS_05_07_2025.pdf",
+  "bytes": 708142,
+  "sha256": "077e0ad3b2a6c5f55a64dd152b65e462813109fe2e103e234544d224617d4ac1"
+ },
+ {
+  "date": "05-Jul-2025",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 05-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2005-07-2025_001.pdf",
+  "n": 4122,
+  "rank": 4122,
+  "file": "n4122_ITCPC_05_07_2025_001.pdf",
+  "bytes": 579163,
+  "sha256": "f73aacb4980d3f410208e8e7bae0b7fb6f1ce793551838339b66b3bd0e74cbf9"
+ }
+]
