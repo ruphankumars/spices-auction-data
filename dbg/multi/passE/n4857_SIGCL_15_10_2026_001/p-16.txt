@@ -1,0 +1,479 @@
+FORM C
+
+See rules 5(2) and 10(1)(R)
+
+Auction Report
+
+SIGCCL
+
+Vogeie We fas
+
+(Separate report should be furnished for auctioning of cardamom received from (1) Planter (2) Dealer)
+
+SEASON: 26+27
+
+E-Auction License Number : EAUC/C$/$1421/11/2026-27
+
+Maximum Price ;
+
+%3,527.00
+
+Auction Na: 214
+
+Minimum Price :
+
+%2,607.00
+
+Date of auction : 15/10/2026
+
+Average Price :
+
+3,056.43:
+
+Name and Full
+
+SI] No
+
+Address of the
+
+CR/GST
+
+Qty (kg)
+
+Qty sold
+
+Rate Ra./kg | Value (Rs.)
+
+Samp
+
+Comsn.
+
+Name and full
+
+Spices Board
+
+planter / dealer
+
+(kgs)
+
+Refund (Rs.)
+
+{Rs.)
+
+address of bidder
+
+licence number
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+1l
+
+288
+
+UA TRADERS
+
+32HPTPK4340Q1Z5
+
+315.100
+
+315.100
+
+3,440.00
+
+10,83,944.00
+
+9,804.00
+
+10,937.50
+
+RELIANCE CARDAM...
+
+CS/R1382/204/2023...
+
+289
+
+AKKARAYIL TRAD...
+
+GSTIN.32ADIPA9001A1Z)
+
+391.000
+
+391.000
+
+2,908,00
+
+11,37,028.00
+
+8,287.80
+
+11,453.20
+
+JEYAM SPICES TRADI
+
+CS/12394/24/2023-24
+
+290
+
+NATIONAL SPICES
+
+GSTIN.32AQOQPJ7535R1Z5
+
+387.400
+
+387.400
+
+3,512.00
+
+13,60,548.80
+
+10,009.20
+
+13,705.60
+
+RELIANCE CARDAM
+
+CS/R1382/204/2023...
+
+292
+
+UA TRADERS
+
+32ZHPTPK4340Q1Z5
+
+379.000
+
+379.000
+
+3,491.00
+
+13,23,089.00
+
+9,949.35
+
+13,330.40
+
+RELIANCE CARDAM
+
+CS/R1382/204/2023... :
+
+4
+
+£
+
+293
+
+A SHIHABUDEEN
+
+GSTIN.32ACDPJS363J1ZP
+
+314.000
+
+0
+
+0.00
+
+0,00
+
+0.00
+
+0.00
+
+WITHDRAWN
+
+I
+
+295
+
+LIMRA TRADING ...
+
+GSTIN.32BYWPA9833Q 12K
+
+262.800
+
+262.800
+
+3,541.00
+
+9,22,690.80
+
+10,006.35
+
+9,327.00
+
+RELIANCE CARDAM
+
+CS/R1382/204/2023...
+
+299
+
+TWINS SPICES
+
+GSTIN.32GGUP52112F 1ZD
+
+345.500
+
+345.500
+
+2,852.00
+
+9,85,366.00
+
+8,128.20
+
+9,934.90
+
+ASA AGENCIES
+
+CS/DL-153/53/2023-...
+
+303
+
+THE BHAVANI TE...
+
+32AAACT7106K1ZI
+
+473.700
+
+473.700
+
+3,023.00
+
+14,31,995.10
+
+8,615.55
+
+14,406.10
+
+ALLUS CARDAMOM
+
+309
+
+THE BHAVANTI TE...
+
+32AAACT7106K1ZI
+
+€3/$1449/268/2023... ;
+
+i]
+
+463.500
+
+463.500
+
+3,052.00
+
+14,14,602.00
+
+8,698.20
+
+14,233.00
+
+SVS GNANAVEL CO.
+
+CS/12608/250/2023... :
+
+310
+
+VARDHAN TRADI...
+
+ISAVIPM9771F1Z9
+
+61.400
+
+0
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+3
+
+5G SPICES
+
+32CKWPG9891D1ZM
+
+268.400
+
+0
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+312
+
+SPICES POINT
+
+32CSIPSO941L2Z7H
+
+360.000
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+313
+
+ASA AGENCIES
+
+GSTIN.32AQSPL4671J1ZE
+
+295.900
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+314
+
+ASA AGENCIES
+
+GSTIN.32AQSPL467 U1ZE
+
+278.000
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+315
+
+VARDHAN TRADI...
+
+33AVIPM9771F1Z9
+
+552.900
+
+552.900
+
+2,800.00
+
+15,48,120.00
+
+7,980.00
+
+15,561.00 | RADHEY RADHEY E
+
+CS/12254/10/2023-24
+
+318
+
+A MOHAMMED S...
+
+GSTIN.32ACEPJ2736J1ZT
+
+205.000
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+319
+
+A MOHAMMED 6S...
+
+GSTIN.32ACEPI2Z736)12ZT
+
+197.100
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+320
+
+A MOHAMMED GS...
+
+GSTIN.32ACEPJ2736112T
+
+220.600
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+DEALER'S TOTAL
+
+28,030.400
+
+_ 24,835.600 ;
+
+7,62,19,506.60
+
+Grand TOTAL
+
+1,03,781.300
+
+98,249,900 |
+
+%30,02,94,125.60
+
+I/We confirm that no discount or commission other than the one per cent commission permitted to me/us by the rules has been accepted by me/us or received from the owners of
+
+cardamom sold in the auction and nor have I/We passed on any cardamom or commission to the purchasers.
+
+Place : PAMPUMPARA
+
+For SIGCC Ltd.
+
+6C.C
+
+2.
+
+Date : 15/10/2026
+
+Authorised Signatory
+
+Ve
+
+eg

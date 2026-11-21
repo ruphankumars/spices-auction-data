@@ -1,0 +1,35 @@
+FORM - D
+[See rule 10(1](1]]
+SIGCCL   (Advance Auction Report)
+SOUTH INDIAN GREEN CARDAMOM COMPANY LTD
+DOOR NO: 1l1/505A, 505B.
+Name and Address of the auctioneer
+PAMPUMPARA - 685 551.
+PAMPUMPARA PO, IdUKKI dISTRICT, KErALA, COdE: 32
+E-Auction Licence No   EAUC/CS/S1421/11/2026-27
+(s) Season :   2026-2027
+(t) Auction Number   21
+(u) Date of auction   15/10/2026
+(v) Place of auction   SpIces park E- AuctIon center, puttady
+Quantity carried over from previous auction (kgs)   NIL
+(x) Fresh arrivals (kgs)   1,03,781.300
+(y) Total quantity put for auction (kgs)   1.03,781.300
+(z) Total quantity sold (kgs)   98.249.900
+((zz)Quantity Not Auctioned (kgs)   1,886.400
+(aa) Quantity withdrawn (kgs)   2.453.200
+(bb) Quantity returned to planter (kgs)   2.453.200
+(cc) Balance with the auctioneer (kgs)   1IN
+(dd) Total value of the sales (Rs)   730,02,94,125.80
+(ee) Maximum price (Rs/kg)   73,529.00 / 240.40
+(ff) Minimum price (Rs/kg)   72,607.00 / 36.30
+(gg) Average price (Rs/kg)   73,056.43
+Name of 5 Highest Buyers
+Sl.No   Buyer Name   Kilos   Value
+VARdHAN TRADINg COMPANY   10.538.400   3.19,25,036.700
+RELIANCE CARDAMoM COMPANY   7,518.900   2,46.60,597.700
+JMJ SPICES   7,253.700   2,21,56,536.800
+AAA SPICES   5,637.500   1,74,24,324.500
+SVS GNANAVEL COMPANY   4,105.300   1,24,64,130.000
+TOTAL   35,053.800   10,86.30,625.700
+Place : PAMPUMPARA   For SIGCC Ltd
+Date : 15/10/2026   .0   Authorised Signatory
