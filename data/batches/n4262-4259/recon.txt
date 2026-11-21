@@ -1,0 +1,4 @@
+n4259_SSP_27_09_2025_001   open   lots= 333 kg  97.08%  dq=  -2850.2 dv=   -6737262.4
+n4260_CPMCS_27_09_2025_001 closed lots= 289 kg 100.00%  dq=      0.0 dv=          0.0
+n4262_CGF_29_09_2025_001   closed lots= 211 kg 100.00%  dq=      0.0 dv=          0.0
+overall 98.76%
