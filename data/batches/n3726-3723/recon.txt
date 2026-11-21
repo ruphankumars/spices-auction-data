@@ -1,0 +1,5 @@
+n3723_RNS_10_10_2024       closed lots= 247 kg 100.00%  dq=      0.0 dv=          0.0
+n3724_IMCPC_10_10_2024     closed lots= 202 kg 100.00%  dq=      0.0 dv=          0.0
+n3725_CGF_11_10_2024       closed lots= 105 kg 100.00%  dq=      0.0 dv=          0.0
+n3726_SIGCL_11_10_2024     closed lots= 243 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
