@@ -1,0 +1,46 @@
+[
+ {
+  "date": "24-Jan-2026",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 24-01-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2024-01-2026_001.pdf",
+  "n": 4443,
+  "rank": 4443,
+  "file": "n4443_CGF_24_01_2026_001.pdf",
+  "bytes": 440903,
+  "sha256": "63678772170ab3e435433f1e5ae79eccb2e564b26ce1e301fbada82647646e95"
+ },
+ {
+  "date": "27-Jan-2026",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 27-01-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2027-01-2026_001.pdf",
+  "n": 4444,
+  "rank": 4444,
+  "file": "n4444_SSP_27_01_2026_001.pdf",
+  "bytes": 1206567,
+  "sha256": "6ea3d7158ad0313aad5e34ba2c39fc55615277e7a6fc32c07585d6937617d937"
+ },
+ {
+  "date": "27-Jan-2026",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 27-01-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2027-01-2026_001.pdf",
+  "n": 4445,
+  "rank": 4445,
+  "file": "n4445_SICOAP_27_01_2026_001.pdf",
+  "bytes": 1867514,
+  "sha256": "96b5594516df18db41e9120d40b1ca3d726d11d2df206f41f23b8d836f1eac9f"
+ },
+ {
+  "date": "28-Jan-2026",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 28-01-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2028-01-2026_001.pdf",
+  "n": 4446,
+  "rank": 4446,
+  "file": "n4446_ITCPC_28_01_2026_001.pdf",
+  "bytes": 754041,
+  "sha256": "5a880921d63f9acdf277074a3b596465da49bdfb4b967b4f8f6f259e40d048f5"
+ }
+]

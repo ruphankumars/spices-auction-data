@@ -1,0 +1,4 @@
+n4443_CGF_24_01_2026_001   closed lots= 118 kg 100.00%  dq=      0.0 dv=          0.0
+n4445_SICOAP_27_01_2026_00 closed lots= 235 kg 100.00%  dq=      0.0 dv=          0.0
+n4446_ITCPC_28_01_2026_001 closed lots= 242 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
