@@ -1,0 +1,4 @@
+n3799_ITCPC_04_12_2024     closed lots= 232 kg 100.00%  dq=      0.0 dv=          0.0
+n3800_SICOAP_05_12_2024    closed lots= 193 kg 100.00%  dq=      0.0 dv=          0.0
+n3802_CGF_06_12_2024       closed lots=  73 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
