@@ -9,7 +9,9 @@ import requests
 URL, KEY = os.environ.get("SUPABASE_URL", "").rstrip("/"), os.environ.get("SUPABASE_SERVICE_KEY", "")
 if not URL or not KEY:
     print("Supabase secrets not set: skipping"); sys.exit(0)
-H = {"apikey": KEY, "Authorization": f"Bearer {KEY}", "Content-Type": "application/json", "Prefer": "resolution=merge-duplicates,return=minimal"}
+H = {"apikey": KEY, "Content-Type": "application/json", "Prefer": "resolution=merge-duplicates,return=minimal"}
+if not KEY.startswith("sb_"):  # a legacy service_role JWT also goes as the bearer; new sb_secret keys only as apikey
+    H["Authorization"] = f"Bearer {KEY}"
 
 
 def up(table, rows):
