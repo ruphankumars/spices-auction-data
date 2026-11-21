@@ -1,0 +1,6 @@
+n4731_HEADER_27_07_2026_00 closed lots= 220 kg 100.00%  dq=      0.0 dv=          0.0
+n4732_MAS_27_07_2026_001   closed lots= 261 kg 100.00%  dq=      0.0 dv=          0.0
+n4733_SIGCL_28_07_2026_001 closed lots= 165 kg 100.00%  dq=      0.0 dv=          0.0
+n4734_CPA_28_07_2026_001_S closed lots=  61 kg 100.00%  dq=      0.0 dv=          0.0
+n4734_CPA_28_07_2026_001_B closed lots=   4 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
