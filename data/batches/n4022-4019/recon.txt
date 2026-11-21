@@ -1,0 +1,5 @@
+n4019_CNS_30_04_2025       open   lots=  75 kg  96.16%  dq=   -613.0 dv=   -1491120.0
+n4020_ITCPC_30_04_2025     closed lots= 208 kg 100.00%  dq=      0.0 dv=          0.0
+n4021_MAS_01_05_2025_compr closed lots= 255 kg 100.00%  dq=      0.0 dv=          0.0
+n4022_SIGCL_01_05_2025_com open   lots= 241 kg 100.00%  dq=      0.0 dv=         18.0
+overall 99.67%
