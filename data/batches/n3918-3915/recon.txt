@@ -1,0 +1,6 @@
+n3915_CGF_20_02_2025       closed lots=  37 kg 100.00%  dq=      0.0 dv=          0.0
+n3916_SIFEX_20_02_2025     open   lots= 160 kg  99.65%  dq=   -146.5 dv=    -483700.0
+n3917_SIGCL_21_02_2025     closed lots= 188 kg 100.00%  dq=      0.0 dv=          0.0
+n3918_CPA_21_02_2025_SANTH closed lots=  70 kg 100.00%  dq=      0.0 dv=          0.0
+n3918_CPA_21_02_2025_BODIN closed lots=   7 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.86%
