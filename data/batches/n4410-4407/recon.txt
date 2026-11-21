@@ -1,0 +1,6 @@
+n4407_SIGCL_01_01_2026_001 closed lots= 221 kg 100.00%  dq=      0.0 dv=          0.0
+n4408_CPA_01_01_2026_001_S closed lots= 117 kg 100.00%  dq=      0.0 dv=          0.0
+n4408_CPA_01_01_2026_001_B closed lots=  14 kg 100.00%  dq=      0.0 dv=          0.0
+n4409_GREENHOUSE_02_01_202 closed lots= 293 kg 100.00%  dq=      0.0 dv=          0.0
+n4410_KCPMC_02_01_2026_001 closed lots= 298 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
