@@ -1,0 +1,6 @@
+n4451_CPA_30_01_2026_001_S closed lots=  70 kg 100.00%  dq=      0.0 dv=          0.0
+n4451_CPA_30_01_2026_001_B closed lots=   3 kg 100.00%  dq=      0.0 dv=          0.0
+n4452_MAS_31_01_2026       open   lots= 361 kg 102.71%  dq=   2969.1 dv=    8912130.1
+n4453_GREEN_HOUSE_31_01_20 closed lots= 280 kg 100.00%  dq=      0.0 dv=          0.0
+n4454_KCPMC_02_02_2026_001 closed lots= 261 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
