@@ -1,0 +1,46 @@
+[
+ {
+  "date": "10-Mar-2025",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CNS 10-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CNS%2010-03-2025.pdf",
+  "n": 3943,
+  "rank": 3943,
+  "file": "n3943_CNS_10_03_2025.pdf",
+  "bytes": 390435,
+  "sha256": "7646e8ef0470a6c0574e9eab6c1c497d11f4454d48966c8a4a1309d320d3e53c"
+ },
+ {
+  "date": "10-Mar-2025",
+  "auctioneer": "IDUKKI MAHILA CARDAMOM PRODUCER COMPANY LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/IMCPC 10-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/IMCPC%2010-03-2025.pdf",
+  "n": 3944,
+  "rank": 3944,
+  "file": "n3944_IMCPC_10_03_2025.pdf",
+  "bytes": 675645,
+  "sha256": "50e36d5d1361924f8284199778df8ff45dff35d547f8fa942f8e69beaf85c3ba"
+ },
+ {
+  "date": "11-Mar-2025",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 11-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2011-03-2025.pdf",
+  "n": 3945,
+  "rank": 3945,
+  "file": "n3945_CGF_11_03_2025.pdf",
+  "bytes": 286917,
+  "sha256": "8eb5dd97a6a88e584da3a48d4e518225d4d319b5f84b8a804674563e0b3824e2"
+ },
+ {
+  "date": "12-Mar-2025",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 12-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2012-03-2025.pdf",
+  "n": 3946,
+  "rank": 3946,
+  "file": "n3946_SIGCL_12_03_2025.pdf",
+  "bytes": 1209831,
+  "sha256": "2d39e9b396ff54bf35c0a3c68320714883e6f4ea020b0df985333b3a96c7e8a3"
+ }
+]

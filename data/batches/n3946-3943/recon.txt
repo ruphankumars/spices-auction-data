@@ -1,0 +1,5 @@
+n3943_CNS_10_03_2025       closed* lots=  67 kg 100.00%  dq=      0.0 dv=          0.0
+n3944_IMCPC_10_03_2025     open   lots= 194 kg 100.00%  dq=      0.0 dv=    -237960.0
+n3945_CGF_11_03_2025       closed lots=  61 kg 100.00%  dq=      0.0 dv=          0.0
+n3946_SIGCL_12_03_2025     closed lots= 195 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
