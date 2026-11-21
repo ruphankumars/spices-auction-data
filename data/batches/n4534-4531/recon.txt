@@ -1,0 +1,5 @@
+n4531_SIGCL_19_03_2026_001 closed lots= 203 kg 100.00%  dq=      0.0 dv=          0.0
+n4532_GREEN_HOUSE_20_03_20 closed lots= 243 kg 100.00%  dq=      0.0 dv=          0.0
+n4533_KCPMC_20_03_2026_001 closed lots= 242 kg 100.00%  dq=      0.0 dv=          0.0
+n4534_RNS_23_03_2026_001   closed lots= 185 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
