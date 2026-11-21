@@ -1,0 +1,4 @@
+n3743_SMTC_24_10_2024      closed lots= 204 kg 100.00%  dq=      0.0 dv=          0.0
+n3744_HEADER_24_10_2024    closed lots= 185 kg 100.00%  dq=      0.0 dv=          0.0
+n3745_CPMCS_25_10_2024     closed lots= 230 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
