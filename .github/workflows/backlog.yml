@@ -13,6 +13,8 @@ permissions:
 concurrency: {group: backlog, cancel-in-progress: false}
 jobs:
   plan:
+    # Runs only once the repository is public (free minutes); private = nothing happens.
+    if: ${{ !github.event.repository.private }}
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.p.outputs.matrix }}
