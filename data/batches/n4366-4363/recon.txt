@@ -1,0 +1,5 @@
+n4363_GREEN_HOUSE_02_12_20 closed lots= 229 kg 100.00%  dq=      0.0 dv=          0.0
+n4364_MAS_02_12_2025       open   lots= 381 kg 100.09%  dq=     98.6 dv=     235562.2
+n4365_KCPMC_03_12_2025_001 closed lots= 259 kg 100.00%  dq=      0.0 dv=          0.0
+n4366_RNS_03_12_2025_001   closed lots= 143 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
