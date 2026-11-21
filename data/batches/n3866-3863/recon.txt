@@ -1,0 +1,5 @@
+n3863_CPMCS_18_01_2025     closed lots= 203 kg 100.00%  dq=      0.0 dv=          0.0
+n3864_GREEN_HOUSE_20_01_20 closed lots= 250 kg 100.00%  dq=      0.0 dv=          0.0
+n3865_KCPMC_20_01_2025     open   lots= 233 kg  99.94%  dq=    -43.9 dv=    -136667.2
+n3866_ITCPC_21_01_2025     closed lots= 199 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.98%
