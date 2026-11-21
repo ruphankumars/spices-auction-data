@@ -1,0 +1,46 @@
+[
+ {
+  "date": "11-Feb-2026",
+  "auctioneer": "THE KERALA CARDAMOM PROCESSING & MKTG.CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/KCPMC 11-02-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KCPMC%2011-02-2026_001.pdf",
+  "n": 4471,
+  "rank": 4471,
+  "file": "n4471_KCPMC_11_02_2026_001.pdf",
+  "bytes": 1856332,
+  "sha256": "68b75aa06925a7a32c08cba5f432f64141f8ad9a77028b922553dc863e1f8ec2"
+ },
+ {
+  "date": "12-Feb-2026",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 12-02-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2012-02-2026_001.pdf",
+  "n": 4472,
+  "rank": 4472,
+  "file": "n4472_RNS_12_02_2026_001.pdf",
+  "bytes": 2063664,
+  "sha256": "83d1b86fefc94f045e0781449ad9e78f5ec31f49d315a3a47ae5bb69b5aae387"
+ },
+ {
+  "date": "12-Feb-2026",
+  "auctioneer": "IDUKKI MAHILA CARDAMOM PRODUCER COMPANY LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/IMCPC 12-02-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/IMCPC%2012-02-2026_001.pdf",
+  "n": 4473,
+  "rank": 4473,
+  "file": "n4473_IMCPC_12_02_2026_001.pdf",
+  "bytes": 752305,
+  "sha256": "45843af1dda1ecfc6351e1e30210cfbc02684765243c66231d926af65de44320"
+ },
+ {
+  "date": "13-Feb-2026",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 13-02-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2013-02-2026_001.pdf",
+  "n": 4474,
+  "rank": 4474,
+  "file": "n4474_CGF_13_02_2026_001.pdf",
+  "bytes": 434566,
+  "sha256": "993dce4a4db7e7ff4a484894e210183f80c02329f3fb20857787aaac696cdff7"
+ }
+]

@@ -1,0 +1,5 @@
+n4471_KCPMC_11_02_2026_001 open   lots= 267 kg  99.95%  dq=    -43.2 dv=     -94407.8
+n4472_RNS_12_02_2026_001   closed lots= 342 kg 100.00%  dq=      0.0 dv=          0.3
+n4473_IMCPC_12_02_2026_001 closed lots= 239 kg 100.00%  dq=      0.0 dv=          0.0
+n4474_CGF_13_02_2026_001   closed lots= 114 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.98%
