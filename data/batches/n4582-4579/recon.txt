@@ -1,0 +1,4 @@
+n4580_KCPMC_22_04_2026_001 closed lots= 271 kg 100.00%  dq=      0.0 dv=          0.0
+n4581_CGF_24_04_2026_001   closed lots= 124 kg 100.00%  dq=      0.0 dv=          0.0
+n4582_SIGCL_24_04_2026_001 closed lots= 219 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
