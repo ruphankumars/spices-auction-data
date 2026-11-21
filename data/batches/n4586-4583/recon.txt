@@ -1,0 +1,5 @@
+n4583_SSP_25_04_2026_001   open   lots= 250 kg 118.93%  dq=  10806.5 dv=  152437595.7
+n4584_IMCPC_25_04_2026_001 closed lots= 257 kg 100.00%  dq=      0.0 dv=          0.0
+n4585_SIFEX_27_04_2026_001 open   lots= 274 kg  99.96%  dq=    -32.8 dv=    -349029.5
+n4586_CPMC_27_04_2026_001  closed lots= 213 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.99%
