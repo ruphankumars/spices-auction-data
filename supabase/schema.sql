@@ -20,3 +20,7 @@ alter table lots enable row level security;
 create policy "read reports" on reports for select using (true);
 create policy "read auctions" on auctions for select using (true);
 create policy "read lots" on lots for select using (true);
+-- The Data API sees only what is granted.
+grant usage on schema public to anon, authenticated, service_role;
+grant select on reports, auctions, lots to anon, authenticated;
+grant all on reports, auctions, lots to service_role;
