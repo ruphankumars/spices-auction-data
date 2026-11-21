@@ -1,0 +1,6 @@
+n4347_MAS_21_11_2025_001   closed lots= 375 kg 100.00%  dq=      0.0 dv=          0.0
+n4348_CPA_22_11_2025_001_S closed lots= 128 kg 100.00%  dq=      0.0 dv=          0.0
+n4348_CPA_22_11_2025_001_B closed lots=   5 kg 100.00%  dq=      0.0 dv=          0.0
+n4349_SIGCL_22_11_2025_001 closed lots= 300 kg 100.00%  dq=      0.0 dv=          0.0
+n4350_GREEN_HOUSE_24_11_20 closed lots= 328 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
