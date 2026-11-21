@@ -82,9 +82,18 @@ def main(dirs, out, listed=None):
     for d in dirs.split(','):
         rows += list(csv.DictReader(open(f'{d}/lots.csv')))
         aucs += list(csv.DictReader(open(f'{d}/auctions.csv')))
+    fixdate = {}
+    for a in aucs:
+        if not a.get('date'):  # summary date unread: take it from the report's file name (..._DD_MM_YYYY_...)
+            m = re.search(r'_(\d{2})_(\d{2})_(\d{4})_', a['auction_id'] + '_')
+            if m: a['date'] = f"{m[3]}-{m[2]}-{m[1]}"
+        fixdate[a['auction_id']] = a.get('date', '')
+    aucs = [a for a in aucs if a.get('date')]
     for a in aucs:
         a['code'] = code(a['auctioneer'])
+    rows = [r for r in rows if fixdate.get(r['auction_id'])]
     for r in rows:
+        r['date'] = r.get('date') or fixdate[r['auction_id']]
         r['q'], r['r'], r['v'] = float(r['qty_kg']), float(r['rate_rs']), float(r['value_rs'])
         r['code'] = code(r['auctioneer'])
         r['ln'] = int(re.sub(r'\D', '', r['lot_no']) or 0)

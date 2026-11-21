@@ -54,6 +54,7 @@ jobs:
         run: pip install -q requests && python scripts/load_supabase.py
       - run: bash scripts/push_paths.sh "Terminal snapshot" data/terminal.json data/lots.json
       - name: Next round while reports are pending
+        if: always()
         env: {GH_TOKEN: "${{ github.token }}"}
         run: |
           git fetch -q origin main && git reset -q --hard origin/main
