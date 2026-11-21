@@ -1,0 +1,6 @@
+n4023_HEADER_02_05_2025    closed lots= 212 kg 100.00%  dq=      0.0 dv=          0.0
+n4024_KCPMC_02_05_2025_com closed lots= 205 kg 100.00%  dq=      0.0 dv=          0.0
+n4025_CPA_03_05_2025_SANTH closed lots=  78 kg 100.00%  dq=      0.0 dv=          0.0
+n4025_CPA_03_05_2025_BODIN closed lots=   3 kg 100.00%  dq=      0.0 dv=          0.0
+n4026_GREEN_HOUSE_03_05_20 closed lots= 250 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
