@@ -1,0 +1,5 @@
+n4239_RNS_16_09_2025_001   open   lots= 419 kg  99.93%  dq=    -84.0 dv=    -212396.0
+n4240_IMCPC_16_09_2025_001 closed lots= 307 kg 100.00%  dq=      0.0 dv=          0.0
+n4241_CPMCS_17_09_2025_001 closed* lots= 318 kg 100.00%  dq=      0.0 dv=          0.0
+n4242_SICOAP_17_09_2025_00 closed lots= 324 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.98%
