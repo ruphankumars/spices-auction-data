@@ -1,0 +1,5 @@
+n4343_SICOAP_19_11_2025_00 closed lots= 286 kg 100.00%  dq=      0.0 dv=          0.0
+n4344_SMTC_20_11_2025_001  closed lots= 241 kg 100.00%  dq=      0.0 dv=          0.0
+n4345_CNSP_20_11_2025_001  open   lots=  46 kg  28.85%  dq= -28333.0 dv=  -70578367.6
+n4346_HEADER_21_11_2025_00 closed lots= 251 kg 100.00%  dq=      0.0 dv=          0.0
+overall 89.81%
