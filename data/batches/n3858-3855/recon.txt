@@ -1,0 +1,5 @@
+n3855_GREEN_HOUSE_10_01_20 closed lots= 282 kg 100.00%  dq=      0.0 dv=          0.0
+n3856_CNS_11_01_2025       closed lots=  76 kg 100.00%  dq=      0.0 dv=          0.0
+n3857_CGF_13_01_2025       open   lots=  86 kg  84.80%  dq=  -2319.3 dv=   -7139551.4
+n3858_IMCPC_13_01_2025     open   lots= 245 kg 100.00%  dq=      0.0 dv=         36.1
+overall 98.62%
