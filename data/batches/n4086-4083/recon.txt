@@ -1,0 +1,5 @@
+n4083_GREEN_HOUSE_11_06_20 closed lots= 195 kg 100.00%  dq=      0.0 dv=          0.0
+n4084_IMCPC_12_06_2025     closed lots= 132 kg 100.00%  dq=      0.0 dv=          0.0
+n4085_SICOAP_13_06_2025    closed lots= 149 kg 100.00%  dq=      0.0 dv=          0.0
+n4086_CPMCS_13_06_2025     closed lots= 115 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
