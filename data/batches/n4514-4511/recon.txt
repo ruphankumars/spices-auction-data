@@ -1,0 +1,5 @@
+n4511_CPMCS_06_03_2026_001 closed lots= 222 kg 100.00%  dq=      0.0 dv=          0.0
+n4512_HEADER_07_03_2026_00 closed lots= 165 kg 100.00%  dq=      0.0 dv=          0.0
+n4513_CNS_07_03_2026_001   open   lots= 140 kg  99.31%  dq=   -180.0 dv=    -359767.8
+n4514_SMTC_09_03_2026_001  closed lots= 107 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.89%
