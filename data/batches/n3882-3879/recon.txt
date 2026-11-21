@@ -1,0 +1,5 @@
+n3879_RNS_29_01_2025       closed lots= 181 kg 100.00%  dq=      0.0 dv=          0.0
+n3880_ITCPC_29_01_2025     closed lots= 204 kg 100.00%  dq=      0.0 dv=          0.0
+n3881_GREEN_HOUSE_30_01_20 closed lots= 209 kg 100.00%  dq=      0.0 dv=          0.0
+n3882_SICOAP_30_01_2025    closed lots= 137 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%

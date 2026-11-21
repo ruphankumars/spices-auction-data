@@ -1,0 +1,46 @@
+[
+ {
+  "date": "29-Jan-2025",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 29-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2029-01-2025.pdf",
+  "n": 3879,
+  "rank": 3879,
+  "file": "n3879_RNS_29_01_2025.pdf",
+  "bytes": 1088685,
+  "sha256": "8a68074958bea2f0918a72952f9ea2e7b211f62f7b4f0cb112585f866388b238"
+ },
+ {
+  "date": "29-Jan-2025",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC  29-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%20%2029-01-2025.pdf",
+  "n": 3880,
+  "rank": 3880,
+  "file": "n3880_ITCPC_29_01_2025.pdf",
+  "bytes": 680766,
+  "sha256": "6424f56319c3feb617d2d702e3d43b0dbd083221a1dc6396aecbbc4be3af712c"
+ },
+ {
+  "date": "30-Jan-2025",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GREEN HOUSE  30-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GREEN%20HOUSE%20%2030-01-2025.pdf",
+  "n": 3881,
+  "rank": 3881,
+  "file": "n3881_GREEN_HOUSE_30_01_2025.pdf",
+  "bytes": 895581,
+  "sha256": "18ad6f2e128602f6ba2da1700c53284404a5ab6f5024891839720a8133ec04e3"
+ },
+ {
+  "date": "30-Jan-2025",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP  30-01-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%20%2030-01-2025.pdf",
+  "n": 3882,
+  "rank": 3882,
+  "file": "n3882_SICOAP_30_01_2025.pdf",
+  "bytes": 834473,
+  "sha256": "f970523fdb852d8b1221ca08e7fc91ae9c684d19a8331600f7ca26b0d613e4b6"
+ }
+]
