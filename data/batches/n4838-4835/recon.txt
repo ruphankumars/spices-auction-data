@@ -1,0 +1,4 @@
+n4836_CPMCS_01_10_2026_com closed lots= 294 kg 100.00%  dq=      0.0 dv=          0.0
+n4837_SMTC_03_10_2026      closed lots= 282 kg 100.00%  dq=      0.0 dv=          0.0
+n4838_ITCPC_03_10_2026     closed lots= 268 kg 100.00%  dq=      0.0 dv=          0.1
+overall 100.00%
