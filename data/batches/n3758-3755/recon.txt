@@ -1,0 +1,5 @@
+n3755_CPMCS_05_11_2024     open   lots= 175 kg 100.67%  dq=    317.1 dv=     753160.8
+n3756_SSP_05_11_2024       open   lots= 213 kg  97.72%  dq=  -1229.3 dv=   -2893582.5
+n3757_KCPMC_06_11_2024     closed lots= 225 kg 100.00%  dq=      0.0 dv=          0.0
+n3758_ITCPC_07_11_2024     closed lots= 226 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.46%
