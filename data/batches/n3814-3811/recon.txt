@@ -1,0 +1,5 @@
+n3811_KCPMC_12_12_2024     closed lots= 213 kg 100.00%  dq=      0.0 dv=          0.0
+n3812_GREEN_HOUSE_12_12_20 closed lots= 186 kg 100.00%  dq=      0.0 dv=          0.0
+n3813_ITCPC_13_12_2024     closed* lots= 190 kg 100.00%  dq=      0.0 dv=          0.0
+n3814_IMCPC_14_12_2024     closed lots= 120 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
