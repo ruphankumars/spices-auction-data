@@ -1,0 +1,5 @@
+n4615_CGF_15_05_2026_001   closed lots= 167 kg 100.00%  dq=      0.0 dv=          0.0
+n4616_SSP_16_05_2026_001   open   lots= 236 kg 111.37%  dq=   6653.7 dv=   -8019948.9
+n4617_SICOAP_16_05_2026_00 closed lots= 174 kg 100.00%  dq=      0.0 dv=          0.0
+n4618_CNS_18_05_2026_001   open   lots= 158 kg 105.52%  dq=   1725.3 dv=    4797133.1
+overall 100.00%

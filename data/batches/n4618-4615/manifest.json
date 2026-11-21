@@ -1,0 +1,46 @@
+[
+ {
+  "date": "15-May-2026",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 15-05-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2015-05-2026_001.pdf",
+  "n": 4615,
+  "rank": 4615,
+  "file": "n4615_CGF_15_05_2026_001.pdf",
+  "bytes": 578700,
+  "sha256": "dde16551d392d7e9583cb34a5f6835c3743dc3c15038bee24c10a600996fac09"
+ },
+ {
+  "date": "16-May-2026",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 16-05-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2016-05-2026_001.pdf",
+  "n": 4616,
+  "rank": 4616,
+  "file": "n4616_SSP_16_05_2026_001.pdf",
+  "bytes": 995335,
+  "sha256": "ffd0926e7b84ddec0e88e0051e2fd90c760b0179b919e2d5132e8273c142facc"
+ },
+ {
+  "date": "16-May-2026",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 16-05-2026_002.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2016-05-2026_002.pdf",
+  "n": 4617,
+  "rank": 4617,
+  "file": "n4617_SICOAP_16_05_2026_002.pdf",
+  "bytes": 1106585,
+  "sha256": "3a7586738e37dc5c6b6c13cd3794a1abcba1a6de24249b88fbfe65c0f5426234"
+ },
+ {
+  "date": "18-May-2026",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CNS 18-05-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CNS%2018-05-2026_001.pdf",
+  "n": 4618,
+  "rank": 4618,
+  "file": "n4618_CNS_18_05_2026_001.pdf",
+  "bytes": 565535,
+  "sha256": "6d6a84b1994d336b1ea98722d81daaf85584508134af3263734e6ad5a3fa8504"
+ }
+]
