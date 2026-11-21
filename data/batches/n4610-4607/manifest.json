@@ -1,0 +1,46 @@
+[
+ {
+  "date": "11-May-2026",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 11-05-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2011-05-2026_001.pdf",
+  "n": 4607,
+  "rank": 4607,
+  "file": "n4607_HEADER_11_05_2026_001.pdf",
+  "bytes": 966356,
+  "sha256": "f6e3cebe68fcdc93b412fed790abb71f2f32553a9de07d27a7f237f428f24db4"
+ },
+ {
+  "date": "12-May-2026",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 12-05-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2012-05-2026_001.pdf",
+  "n": 4608,
+  "rank": 4608,
+  "file": "n4608_SIGCL_12_05_2026_001.pdf",
+  "bytes": 1658404,
+  "sha256": "b205f6ba816c5e0a2fc4f1f8f9b499ead309a6fa94bd1ca4c36571ad5203d42e"
+ },
+ {
+  "date": "12-May-2026",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 12-05-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2012-05-2026_001.pdf",
+  "n": 4609,
+  "rank": 4609,
+  "file": "n4609_CPA_12_05_2026_001.pdf",
+  "bytes": 577204,
+  "sha256": "e8a7846b876b50f61078ce69dd528b458be86e9fb4c05c7be1d7de53fbfeb3f0"
+ },
+ {
+  "date": "13-May-2026",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GREEN HOUSE 13-05-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GREEN%20HOUSE%2013-05-2026_001.pdf",
+  "n": 4610,
+  "rank": 4610,
+  "file": "n4610_GREEN_HOUSE_13_05_2026_001.pdf",
+  "bytes": 1069208,
+  "sha256": "09495b8aa6e8edfe7083537240e03bb75552aef830b3a5ccb2337a5df3f1ab37"
+ }
+]

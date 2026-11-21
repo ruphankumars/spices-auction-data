@@ -1,0 +1,6 @@
+n4607_HEADER_11_05_2026_00 closed* lots= 236 kg 100.00%  dq=      0.0 dv=          0.0
+n4608_SIGCL_12_05_2026_001 closed lots= 224 kg 100.00%  dq=      0.0 dv=          0.5
+n4609_CPA_12_05_2026_001_S closed lots=  53 kg 100.00%  dq=      0.0 dv=          0.0
+n4609_CPA_12_05_2026_001_B closed lots=   6 kg 100.00%  dq=      0.0 dv=          0.0
+n4610_GREEN_HOUSE_13_05_20 closed lots= 245 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
