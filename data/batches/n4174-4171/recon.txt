@@ -1,0 +1,6 @@
+n4171_HEADER_04_08_2025_00 open   lots= 216 kg  99.73%  dq=   -132.0 dv=    -322128.0
+n4172_SIGCL_04_08_2025_001 closed lots= 254 kg 100.00%  dq=      0.0 dv=          0.0
+n4173_KCPMC_05_08_2025_001 closed lots= 262 kg 100.00%  dq=      0.0 dv=          0.0
+n4174_CPA_05_08_2025_001_S closed lots= 107 kg 100.00%  dq=      0.0 dv=          0.0
+n4174_CPA_05_08_2025_001_B closed lots=   1 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.93%
