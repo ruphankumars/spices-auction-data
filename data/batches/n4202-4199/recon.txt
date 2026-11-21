@@ -1,0 +1,5 @@
+n4199_ITCPC_21_08_2025_001 closed lots= 256 kg 100.00%  dq=      0.0 dv=          0.0
+n4200_CNS_21_08_2025       open   lots=  86 kg  95.97%  dq=   -699.0 dv=   -1678112.0
+n4201_SIGCL_22_08_2025_001 closed lots= 257 kg 100.00%  dq=      0.0 dv=          0.0
+n4202_MAS_22_08_2025_001   closed lots= 301 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.67%
