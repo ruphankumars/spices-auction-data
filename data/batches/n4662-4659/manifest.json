@@ -1,0 +1,46 @@
+[
+ {
+  "date": "12-Jun-2026",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 12-06-2026_001_compressed.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2012-06-2026_001_compressed.pdf",
+  "n": 4659,
+  "rank": 4659,
+  "file": "n4659_RNS_12_06_2026_001_compressed.pdf",
+  "bytes": 1198113,
+  "sha256": "f81fca40e8031e5a4e301b51f4af6cf12baf1b119f03844b4e8721a0720b2b52"
+ },
+ {
+  "date": "12-Jun-2026",
+  "auctioneer": "IDUKKI MAHILA CARDAMOM PRODUCER COMPANY LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/IMCPC  12-06-2026_001_compressed.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/IMCPC%20%2012-06-2026_001_compressed.pdf",
+  "n": 4660,
+  "rank": 4660,
+  "file": "n4660_IMCPC_12_06_2026_001_compressed.pdf",
+  "bytes": 624732,
+  "sha256": "7db0f285b99305b97585676e9e6b8c24dbf091d6403f1f85344a82e9e7fc9e2b"
+ },
+ {
+  "date": "13-Jun-2026",
+  "auctioneer": "SPECIALITY INDIAN FOOD PARKS EXPORTS PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SIFEX 13-06-2026_001_compressed.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIFEX%2013-06-2026_001_compressed.pdf",
+  "n": 4661,
+  "rank": 4661,
+  "file": "n4661_SIFEX_13_06_2026_001_compressed.pdf",
+  "bytes": 1910412,
+  "sha256": "bfec7d2f7a0c334101e277257cf71025735f2e0d2d7d6ad1a42404570bb99971"
+ },
+ {
+  "date": "13-Jun-2026",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 13-06-2026_001_compressed.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2013-06-2026_001_compressed.pdf",
+  "n": 4662,
+  "rank": 4662,
+  "file": "n4662_CGF_13_06_2026_001_compressed.pdf",
+  "bytes": 1585040,
+  "sha256": "5b947b85c67e39c974e2f30c3255f5d8b456768dceebebb82b8bb9d98b7b7974"
+ }
+]
