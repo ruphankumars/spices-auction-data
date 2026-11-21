@@ -1,0 +1,6 @@
+n4435_MAS_20_01_2026_001   closed lots= 258 kg 100.00%  dq=      0.0 dv=          0.0
+n4436_HEADER_20_01_2026_00 closed lots= 191 kg 100.00%  dq=      0.0 dv=          0.0
+n4437_CPA_21_01_2026_001_S open   lots=  97 kg 101.40%  dq=    254.6 dv=     637470.2
+n4437_CPA_21_01_2026_001_B closed lots=  10 kg 100.00%  dq=      0.0 dv=          0.0
+n4438_GREEN_HOUSE_22_01_20 closed lots= 279 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%

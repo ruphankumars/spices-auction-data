@@ -1,0 +1,46 @@
+[
+ {
+  "date": "20-Jan-2026",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 20-01-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2020-01-2026_001.pdf",
+  "n": 4435,
+  "rank": 4435,
+  "file": "n4435_MAS_20_01_2026_001.pdf",
+  "bytes": 1490155,
+  "sha256": "1d83a598070568dd319c135e863a422a2ef3cf29d605071d464eb9dd7060b8ac"
+ },
+ {
+  "date": "20-Jan-2026",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 20-01-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2020-01-2026_001.pdf",
+  "n": 4436,
+  "rank": 4436,
+  "file": "n4436_HEADER_20_01_2026_001.pdf",
+  "bytes": 783099,
+  "sha256": "d23f36680b637e31660bc8b80412f9ec8ab18abad3e0a48e464fe6093d08d803"
+ },
+ {
+  "date": "21-Jan-2026",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 21-01-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2021-01-2026_001.pdf",
+  "n": 4437,
+  "rank": 4437,
+  "file": "n4437_CPA_21_01_2026_001.pdf",
+  "bytes": 751667,
+  "sha256": "d353ffe21ec1c27d1fc2152ca6664ff4380bd93aa49e854209008cba2973962a"
+ },
+ {
+  "date": "22-Jan-2026",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GREEN HOUSE 22-01-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GREEN%20HOUSE%2022-01-2026_001.pdf",
+  "n": 4438,
+  "rank": 4438,
+  "file": "n4438_GREEN_HOUSE_22_01_2026_001.pdf",
+  "bytes": 1166520,
+  "sha256": "b945af58dcd3ac93836bd85b38d514b6589f855b178d90e65f3b6bb44b3ef8be"
+ }
+]
