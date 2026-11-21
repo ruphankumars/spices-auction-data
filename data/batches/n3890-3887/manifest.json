@@ -1,0 +1,46 @@
+[
+ {
+  "date": "03-Feb-2025",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA  03-02-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%20%2003-02-2025.pdf",
+  "n": 3887,
+  "rank": 3887,
+  "file": "n3887_CPA_03_02_2025.pdf",
+  "bytes": 636065,
+  "sha256": "f82d396bf52687898ffa3a3d721542da67a266ba58ab53220ca58fa3923b101f"
+ },
+ {
+  "date": "04-Feb-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 04-02-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2004-02-2025.pdf",
+  "n": 3888,
+  "rank": 3888,
+  "file": "n3888_MAS_04_02_2025.pdf",
+  "bytes": 1287649,
+  "sha256": "c3c452e0ac64275d98533841a173f3979abc2ec130cf896a57348d5939035914"
+ },
+ {
+  "date": "05-Feb-2025",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 05-02-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2005-02-2025.pdf",
+  "n": 3889,
+  "rank": 3889,
+  "file": "n3889_HEADER_05_02_2025.pdf",
+  "bytes": 663937,
+  "sha256": "3a2bf533f2576a0e9eebabd2dffcf41c373277fe67a824b5558461f8949e364f"
+ },
+ {
+  "date": "05-Feb-2025",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 05-02-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2005-02-2025.pdf",
+  "n": 3890,
+  "rank": 3890,
+  "file": "n3890_SSP_05_02_2025.pdf",
+  "bytes": 584297,
+  "sha256": "1dcf660aebb4ba2bb58b5b3e13d72a90730ef5b6d315c5be6ad52635caab3990"
+ }
+]
