@@ -1,0 +1,5 @@
+n3787_RNS_25_11_2024       closed lots= 236 kg 100.00%  dq=      0.0 dv=          0.0
+n3788_GREEN_HOUSE_26_11_20 closed* lots= 238 kg 100.00%  dq=      0.0 dv=          0.0
+n3789_IMCPC_27_11_2024     closed lots= 232 kg 100.00%  dq=      0.0 dv=          0.0
+n3790_CGF_28_11_2024       closed lots=  67 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
