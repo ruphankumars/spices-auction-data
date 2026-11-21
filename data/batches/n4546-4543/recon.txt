@@ -1,0 +1,6 @@
+n4543_SMTC_28_03_2026_001  closed lots= 199 kg 100.00%  dq=      0.0 dv=          0.0
+n4544_CPA_28_03_2026_001_S closed lots=  45 kg 100.00%  dq=      0.0 dv=          0.0
+n4544_CPA_28_03_2026_001_B closed lots=   4 kg 100.00%  dq=      0.0 dv=          0.0
+n4545_GREEN_HOUSE_30_03_20 closed lots= 222 kg 100.00%  dq=      0.0 dv=          0.0
+n4546_MAS_30_03_2026_001   closed lots= 347 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%

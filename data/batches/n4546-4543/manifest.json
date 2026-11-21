@@ -1,0 +1,46 @@
+[
+ {
+  "date": "28-Mar-2026",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 28-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2028-03-2026_001.pdf",
+  "n": 4543,
+  "rank": 4543,
+  "file": "n4543_SMTC_28_03_2026_001.pdf",
+  "bytes": 842778,
+  "sha256": "dad0b576b1f097497bf29c272c17df20a20d8e289bf44db5bf7ec90a34f88234"
+ },
+ {
+  "date": "28-Mar-2026",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 28-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2028-03-2026_001.pdf",
+  "n": 4544,
+  "rank": 4544,
+  "file": "n4544_CPA_28_03_2026_001.pdf",
+  "bytes": 476245,
+  "sha256": "d6dc8a1a58f2433f184827b55abc6779693df0246403cbc7a0f203cafb94fae4"
+ },
+ {
+  "date": "30-Mar-2026",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GREEN HOUSE 30-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GREEN%20HOUSE%2030-03-2026_001.pdf",
+  "n": 4545,
+  "rank": 4545,
+  "file": "n4545_GREEN_HOUSE_30_03_2026_001.pdf",
+  "bytes": 961231,
+  "sha256": "8b683c902df30efd20de94cdfeec04cce820b591d415dc47773080a3be35a808"
+ },
+ {
+  "date": "30-Mar-2026",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 30-03-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2030-03-2026_001.pdf",
+  "n": 4546,
+  "rank": 4546,
+  "file": "n4546_MAS_30_03_2026_001.pdf",
+  "bytes": 1963790,
+  "sha256": "84b0d88ac47ef0628fa85d6d79ef99113fa5cf27ccecbcb6fd8b04811b1b9d42"
+ }
+]
