@@ -1,0 +1,6 @@
+n4575_SMTC_20_04_2026_001  closed lots= 221 kg 100.00%  dq=      0.0 dv=          0.0
+n4576_CPA_20_04_2026_001_S closed lots=  70 kg 100.00%  dq=      0.0 dv=          0.0
+n4576_CPA_20_04_2026_001_B closed lots=   1 kg 100.00%  dq=      0.0 dv=          0.0
+n4577_GREEN_HOUSE_21_04_20 closed* lots= 274 kg 100.00%  dq=      0.0 dv=          0.0
+n4578_MAS_21_04_2026_001   open   lots= 346 kg  99.67%  dq=   -407.1 dv=   -1114543.7
+overall 99.85%
