@@ -1,0 +1,5 @@
+n4107_CNS_26_06_2025       closed* lots=  46 kg 100.00%  dq=      0.0 dv=          0.0
+n4108_SIGCL_27_06_2025_001 closed lots= 169 kg 100.00%  dq=      0.0 dv=          0.0
+n4109_MAS_27_06_2025_001   closed lots= 179 kg 100.00%  dq=      0.0 dv=          0.0
+n4110_HEADER_28_06_2025_00 closed lots= 138 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
