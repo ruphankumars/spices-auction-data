@@ -1,0 +1,5 @@
+n3995_KCPMC_11_04_2025     open   lots= 108 kg  54.33%  dq= -24626.5 dv=  -61581961.5
+n3996_header_11_04_25      open   lots=  20 kg  17.53%  dq= -33048.8 dv=  -75884211.3
+n3997_green_house_12_04_25 open   lots=   3 kg   1.28%  dq= -53624.2 dv= -434909735.9
+n3998_cpa_12_04_25         closed lots=   4 kg 100.00%  dq=      0.0 dv=          0.0
+overall 25.02%
