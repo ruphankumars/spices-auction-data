@@ -1,0 +1,4 @@
+n4519_CGF_12_03_2026_001   closed lots= 141 kg 100.00%  dq=      0.0 dv=          0.0
+n4520_SIGCL_12_03_2026_001 open   lots= 266 kg 100.00%  dq=      0.0 dv=-7000000000.0
+n4521_IMCPC_13_03_2026_001 closed lots= 235 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
