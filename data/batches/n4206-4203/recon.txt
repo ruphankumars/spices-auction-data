@@ -1,0 +1,6 @@
+n4203_HEADER_23_08_2025_00 closed lots= 253 kg 100.00%  dq=      0.0 dv=          0.0
+n4204_KCPMC_23_08_2025_001 closed lots= 254 kg 100.00%  dq=      0.0 dv=          0.0
+n4205_GREEN_HOUSE_25_08_20 closed lots= 317 kg 100.00%  dq=      0.0 dv=          0.0
+n4206_CPA_25_08_2025_001_S closed lots= 117 kg 100.00%  dq=      0.0 dv=          0.0
+n4206_CPA_25_08_2025_001_B closed lots=   4 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
