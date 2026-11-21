@@ -1,0 +1,6 @@
+n3803_IMCPC_06_12_2024     closed lots= 201 kg 100.00%  dq=      0.0 dv=          0.0
+n3804_CPA_07_12_2024_SANTH open   lots=  95 kg 102.36%  dq=    434.5 dv=    1254200.8
+n3804_CPA_07_12_2024_BODIN closed lots=   7 kg 100.00%  dq=      0.0 dv=          0.0
+n3805_SIGCL_07_12_2024     closed lots= 205 kg 100.00%  dq=      0.0 dv=          0.0
+n3806_MAS_09_12_2024       closed lots= 259 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
