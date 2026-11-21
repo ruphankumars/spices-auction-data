@@ -1,0 +1,4 @@
+n4008_KCPMC_23_04_2025_com closed lots= 198 kg 100.00%  dq=      0.0 dv=          0.0
+n4009_HEADER_23_04_2025    closed lots= 166 kg 100.00%  dq=      0.0 dv=          0.0
+n4010_GREEN_HOUSE_24_04_20 closed lots= 234 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
