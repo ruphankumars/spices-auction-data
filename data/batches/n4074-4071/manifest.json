@@ -1,0 +1,46 @@
+[
+ {
+  "date": "02-Jun-2025",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 02-06-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2002-06-2025.pdf",
+  "n": 4071,
+  "rank": 4071,
+  "file": "n4071_SMTC_02_06_2025.pdf",
+  "bytes": 656440,
+  "sha256": "fde9823b0582fd7351cc58f04abd4a10fd18cf465b0899c90ea97498391d74c9"
+ },
+ {
+  "date": "03-Jun-2025",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 03-06-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2003-06-2025.pdf",
+  "n": 4072,
+  "rank": 4072,
+  "file": "n4072_CPMCS_03_06_2025.pdf",
+  "bytes": 910332,
+  "sha256": "014f8508eea9e1e1d99809960b71d656aa6717e573add5ed865b0b7a813db3bf"
+ },
+ {
+  "date": "04-Jun-2025",
+  "auctioneer": "SPECIALITY INDIAN FOOD PARKS EXPORTS PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SIFEX 04-06-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIFEX%2004-06-2025.pdf",
+  "n": 4073,
+  "rank": 4073,
+  "file": "n4073_SIFEX_04_06_2025.pdf",
+  "bytes": 648628,
+  "sha256": "2cfcb74fece5297907b6abec157a54196ab9387a05a61b02703e7bd0b817347e"
+ },
+ {
+  "date": "04-Jun-2025",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 04-06-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2004-06-2025.pdf",
+  "n": 4074,
+  "rank": 4074,
+  "file": "n4074_RNS_04_06_2025.pdf",
+  "bytes": 979368,
+  "sha256": "6ad7b9c7ea48ca2f2b08d265e9d18851a0275d150a5e66fb80af12816a784f02"
+ }
+]

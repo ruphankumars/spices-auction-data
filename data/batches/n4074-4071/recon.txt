@@ -1,0 +1,5 @@
+n4071_SMTC_02_06_2025      closed lots= 150 kg 100.00%  dq=      0.0 dv=          0.0
+n4072_CPMCS_03_06_2025     closed lots= 102 kg 100.00%  dq=      0.0 dv=          0.0
+n4073_SIFEX_04_06_2025     closed lots=  95 kg 100.00%  dq=      0.0 dv=          0.0
+n4074_RNS_04_06_2025       closed lots= 157 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
