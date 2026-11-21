@@ -1,0 +1,6 @@
+n4127_GREEN_HOUSE_09_07_20 closed lots= 201 kg 100.00%  dq=      0.0 dv=          0.0
+n4128_CPA_09_07_2025_001_S open   lots=  49 kg 101.56%  dq=    105.2 dv=    4733990.8
+n4128_CPA_09_07_2025_001_B closed lots=   4 kg 100.00%  dq=      0.0 dv=          0.0
+n4129_SMTC_10_07_2025_001  closed lots= 163 kg 100.00%  dq=      0.0 dv=          0.0
+n4130_IMCPC_10_07_2025_001 closed lots= 156 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%

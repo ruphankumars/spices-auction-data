@@ -1,0 +1,46 @@
+[
+ {
+  "date": "09-Jul-2025",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GREEN HOUSE 09-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GREEN%20HOUSE%2009-07-2025_001.pdf",
+  "n": 4127,
+  "rank": 4127,
+  "file": "n4127_GREEN_HOUSE_09_07_2025_001.pdf",
+  "bytes": 855034,
+  "sha256": "f788aee6f9ade04e9f3f67a2e39a5cc004aaf52211bc636c534476f0173bee61"
+ },
+ {
+  "date": "09-Jul-2025",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 09-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2009-07-2025_001.pdf",
+  "n": 4128,
+  "rank": 4128,
+  "file": "n4128_CPA_09_07_2025_001.pdf",
+  "bytes": 525582,
+  "sha256": "e764e03420fe79122f0946bcc6fee1914a1f6fb68b3ab66a767e688ab43a5e49"
+ },
+ {
+  "date": "10-Jul-2025",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 10-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2010-07-2025_001.pdf",
+  "n": 4129,
+  "rank": 4129,
+  "file": "n4129_SMTC_10_07_2025_001.pdf",
+  "bytes": 706630,
+  "sha256": "0ad1f6d909e3351755e619151dc45057c083582f96383997ca15d291d53a1834"
+ },
+ {
+  "date": "10-Jul-2025",
+  "auctioneer": "IDUKKI MAHILA CARDAMOM PRODUCER COMPANY LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/IMCPC 10-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/IMCPC%2010-07-2025_001.pdf",
+  "n": 4130,
+  "rank": 4130,
+  "file": "n4130_IMCPC_10_07_2025_001.pdf",
+  "bytes": 550698,
+  "sha256": "98325d21c320e0e5485d6762a7349e7ed626b0f84d20dbcbe35b15bea08e4559"
+ }
+]
