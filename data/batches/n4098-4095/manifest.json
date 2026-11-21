@@ -1,0 +1,46 @@
+[
+ {
+  "date": "19-Jun-2025",
+  "auctioneer": "THE KERALA CARDAMOM PROCESSING & MKTG.CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/KCPMC 19-06-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KCPMC%2019-06-2025_001.pdf",
+  "n": 4095,
+  "rank": 4095,
+  "file": "n4095_KCPMC_19_06_2025_001.pdf",
+  "bytes": 1063040,
+  "sha256": "1a496bcc888275a2b92b1e16a8abf74aef2ff2c8904c31f2acf1831c73306b19"
+ },
+ {
+  "date": "19-Jun-2025",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 19-06-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2019-06-2025_001.pdf",
+  "n": 4096,
+  "rank": 4096,
+  "file": "n4096_HEADER_19_06_2025_001.pdf",
+  "bytes": 476690,
+  "sha256": "0f369b92bce81c377f3c3118ed649e3f438d8b4e2c285559ffc128cd42f04718"
+ },
+ {
+  "date": "20-Jun-2025",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GREEN HOUSE 20-06-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GREEN%20HOUSE%2020-06-2025_001.pdf",
+  "n": 4097,
+  "rank": 4097,
+  "file": "n4097_GREEN_HOUSE_20_06_2025_001.pdf",
+  "bytes": 765388,
+  "sha256": "94ab48ff0dc9cecf2c278bd3037aacfcd6ada250885a30420e844c9f931df1dc"
+ },
+ {
+  "date": "21-Jun-2025",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 21-06-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2021-06-2025_001.pdf",
+  "n": 4098,
+  "rank": 4098,
+  "file": "n4098_SMTC_21_06_2025_001.pdf",
+  "bytes": 639785,
+  "sha256": "91ea238c25ce99b0871e474c34fd9143634fd36f3392af502139b79225160f06"
+ }
+]
