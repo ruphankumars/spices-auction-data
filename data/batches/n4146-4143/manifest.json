@@ -1,0 +1,46 @@
+[
+ {
+  "date": "18-Jul-2025",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 18-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2018-07-2025_001.pdf",
+  "n": 4143,
+  "rank": 4143,
+  "file": "n4143_CPA_18_07_2025_001.pdf",
+  "bytes": 628239,
+  "sha256": "ab3cfac7fda7d9afeee1ce42978aeeb76e628499a8278cf5548b458419f9e719"
+ },
+ {
+  "date": "18-Jul-2025",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GREEN HOUSE 18-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GREEN%20HOUSE%2018-07-2025_001.pdf",
+  "n": 4144,
+  "rank": 4144,
+  "file": "n4144_GREEN_HOUSE_18_07_2025_001.pdf",
+  "bytes": 1016780,
+  "sha256": "1022e94f5c6e062541d301ba5a7018d45828956f6bd55d99c8f14bec0232f77a"
+ },
+ {
+  "date": "19-Jul-2025",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 19-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2019-07-2025_001.pdf",
+  "n": 4145,
+  "rank": 4145,
+  "file": "n4145_RNS_19_07_2025_001.pdf",
+  "bytes": 1432405,
+  "sha256": "d57d445ea082a9a7a5c3e8f52ee04031030168fb7b8cfea73dae394ae81362fc"
+ },
+ {
+  "date": "19-Jul-2025",
+  "auctioneer": "IDUKKI MAHILA CARDAMOM PRODUCER COMPANY LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/IMCPC 19-07-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/IMCPC%2019-07-2025_001.pdf",
+  "n": 4146,
+  "rank": 4146,
+  "file": "n4146_IMCPC_19_07_2025_001.pdf",
+  "bytes": 748980,
+  "sha256": "276ceb7f1d9c966b069406cb37735b5e7b47a721b3c1eb6964fc0e5dee2f4681"
+ }
+]
