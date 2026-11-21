@@ -1,0 +1,5 @@
+n4311_CNS_31_10_2025       open   lots=  11 kg  59.80%  dq= -18664.5 dv=  -46885243.8
+n4312_SMTC_31_10_2025_001  closed lots= 242 kg 100.00%  dq=      0.0 dv=          0.0
+n4313_HEADER_01_11_2025    closed* lots= 316 kg 100.00%  dq=      0.0 dv=          0.0
+n4314_MAS_01_11_2025       open   lots= 406 kg 100.09%  dq=    109.2 dv=     280258.8
+overall 94.68%
