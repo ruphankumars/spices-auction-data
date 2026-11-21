@@ -1,0 +1,5 @@
+n4395_RNS_23_12_2025_001   closed lots= 275 kg 100.00%  dq=      0.0 dv=          0.0
+n4396_SIGCL_24_12_2025_001 closed lots= 248 kg 100.00%  dq=      0.0 dv=          0.0
+n4397_CGF_24_12_2025_001   closed lots= 193 kg 100.00%  dq=      0.0 dv=          0.0
+n4398_IMCPC_26_12_2025_001 closed lots= 263 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
