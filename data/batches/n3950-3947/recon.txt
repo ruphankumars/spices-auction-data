@@ -1,0 +1,6 @@
+n3947_CPA_12_03_2025_SANTH closed lots=  60 kg 100.00%  dq=      0.0 dv=          0.0
+n3947_CPA_12_03_2025_BODIN closed lots=  12 kg 100.00%  dq=      0.0 dv=          0.0
+n3948_MAS_13_03_2025       closed lots= 219 kg 100.00%  dq=      0.0 dv=          0.0
+n3949_HEADER_14_03_2025    open   lots= 101 kg 100.09%  dq=     19.9 dv=          0.0
+n3950_SSP_14_03_2025       open   lots= 164 kg  99.39%  dq=   -262.7 dv=    -701077.0
+overall 99.81%
