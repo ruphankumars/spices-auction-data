@@ -1,0 +1,6 @@
+n4807_MAS_15_09_2026_001   open   lots= 333 kg 101.80%  dq=   1762.1 dv=    4912394.8
+n4808_HEADER_15_09_2026_00 closed lots= 271 kg 100.00%  dq=      0.0 dv=          0.0
+n4809_SIGCL_16_09_2026_001 closed lots= 240 kg 100.00%  dq=      0.0 dv=          0.0
+n4810_CPA_16_09_2026_001_S closed lots= 112 kg 100.00%  dq=      0.0 dv=          0.0
+n4810_CPA_16_09_2026_001_B closed lots=   6 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
