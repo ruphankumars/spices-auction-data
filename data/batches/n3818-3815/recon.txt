@@ -1,0 +1,5 @@
+n3815_SICOAP_14_12_2024    closed lots= 179 kg 100.00%  dq=      0.0 dv=          0.0
+n3816_SIGCL_16_12_2024     closed lots= 173 kg 100.00%  dq=      0.0 dv=          0.0
+n3817_CGF_16_12_2024       closed lots=  74 kg 100.00%  dq=      0.0 dv=          0.0
+n3818_MAS_17_12_2024       open   lots= 230 kg 100.03%  dq=     21.2 dv=      61517.5
+overall 100.00%
