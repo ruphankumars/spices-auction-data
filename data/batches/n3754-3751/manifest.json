@@ -1,0 +1,46 @@
+[
+ {
+  "date": "30-Oct-2024",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 30-10-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2030-10-2024.pdf",
+  "n": 3751,
+  "rank": 3751,
+  "file": "n3751_RNS_30_10_2024.pdf",
+  "bytes": 902280,
+  "sha256": "739a23ddd36416002cfa003a08066d9ba432168a973a60faca8ef5cbde596ffd"
+ },
+ {
+  "date": "02-Nov-2024",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 02-11-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2002-11-2024.pdf",
+  "n": 3752,
+  "rank": 3752,
+  "file": "n3752_MAS_02_11_2024.pdf",
+  "bytes": 1585059,
+  "sha256": "3641032a2324fe4aee0faef805fa57f5f5917607c87838b934df0a9bbf12bd22"
+ },
+ {
+  "date": "04-Nov-2024",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 04-11-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2004-11-2024.pdf",
+  "n": 3753,
+  "rank": 3753,
+  "file": "n3753_CPA_04_11_2024.pdf",
+  "bytes": 814907,
+  "sha256": "0d55b460d2964ff23ad1001f67dc33cdae758304277c503bef536055b44cf42e"
+ },
+ {
+  "date": "04-Nov-2024",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 04-11-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2004-11-2024.pdf",
+  "n": 3754,
+  "rank": 3754,
+  "file": "n3754_HEADER_04_11_2024.pdf",
+  "bytes": 607040,
+  "sha256": "094761515436e19ded2c538fc3ca6df31c27dc39af0e8d69410231d5faf33b97"
+ }
+]

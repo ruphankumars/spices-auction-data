@@ -1,0 +1,6 @@
+n3751_RNS_30_10_2024       closed lots= 149 kg 100.00%  dq=      0.0 dv=          0.0
+n3752_MAS_02_11_2024       closed lots= 272 kg 100.00%  dq=      0.0 dv=          0.0
+n3753_CPA_04_11_2024_SANTH open   lots= 111 kg  99.87%  dq=    -29.2 dv=     -95655.7
+n3753_CPA_04_11_2024_BODIN closed lots=   3 kg 100.00%  dq=      0.0 dv=          0.0
+n3754_HEADER_04_11_2024    closed lots= 156 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.98%
