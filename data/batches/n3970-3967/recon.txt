@@ -1,0 +1,5 @@
+n3967_KCPMC_25_03_2025     closed lots= 139 kg 100.00%  dq=      0.0 dv=          0.0
+n3968_SSP_25_03_2025       open   lots= 141 kg  85.62%  dq=  -5627.4 dv=  -14847971.7
+n3969_ITCPC_26_03_2025     open   lots=  45 kg  26.90%  dq= -19215.7 dv=  -53037834.9
+n3970_RNS_26_03_2025       open   lots=  24 kg  25.40%  dq= -14979.7 dv=  -41174828.5
+overall 66.25%
