@@ -1,0 +1,5 @@
+n4355_SIFEX_26_11_2025_001 closed lots= 361 kg 100.00%  dq=      0.0 dv=          0.0
+n4356_SICOAP_27_11_2025_00 closed lots= 279 kg 100.00%  dq=      0.0 dv=          0.0
+n4357_SSP_27_11_2025_001   open   lots= 312 kg  96.04%  dq=  -3992.2 dv=   -9545744.7
+n4358_CPMCS_28_11_2025_001 open   lots= 281 kg 100.07%  dq=     69.4 dv=     167688.3
+overall 99.01%
