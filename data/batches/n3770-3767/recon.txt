@@ -1,0 +1,5 @@
+n3767_HEADER_13_11_2024    closed lots= 198 kg 100.00%  dq=      0.0 dv=          0.0
+n3768_SMTS_13_11_2024      closed lots= 207 kg 100.00%  dq=      0.0 dv=          0.0
+n3769_CPMCS_14_11_2024     closed lots= 207 kg 100.00%  dq=      0.0 dv=          0.0
+n3770_SSP_14_11_2024       open   lots= 177 kg  95.07%  dq=  -2161.8 dv=   -6346806.7
+overall 99.00%
