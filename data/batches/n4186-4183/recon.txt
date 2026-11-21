@@ -1,0 +1,5 @@
+n4183_ITCPC_11_08_2025_001 closed lots= 280 kg 100.00%  dq=      0.0 dv=          0.0
+n4184_CNS_11_08_2025       closed* lots=  95 kg 100.00%  dq=      0.0 dv=          0.0
+n4185_MAS_12_08_2025_001   closed lots= 339 kg 100.00%  dq=      0.0 dv=          0.0
+n4186_HEADER_12_08_2025_00 closed lots= 208 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
