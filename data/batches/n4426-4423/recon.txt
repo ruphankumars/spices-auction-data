@@ -1,0 +1,5 @@
+n4423_MAS_10_01_2026_001_c open   lots=  77 kg  16.61%  dq=-127968.1 dv= -331748565.0
+n4424_RNS_12_01_2026_001_c closed lots= 384 kg 100.00%  dq=      0.0 dv=          0.0
+n4425_SIGCL_13_01_2026_001 closed lots= 294 kg 100.00%  dq=      0.0 dv=          0.0
+n4426_CGF_13_01_2026_001   closed lots= 185 kg 100.00%  dq=      0.0 dv=          0.0
+overall 67.21%
