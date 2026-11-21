@@ -1,0 +1,5 @@
+n3715_HEADER_04_10_2024    closed lots= 201 kg 100.00%  dq=      0.0 dv=          0.0
+n3716_SSP_05_10_2024       open   lots= 233 kg  97.38%  dq=  -1444.3 dv=   -3187913.1
+n3717_CPMCS_05_10_2024     closed lots= 230 kg 100.00%  dq=      0.0 dv=          0.0
+n3718_KCPMC_07_10_2024     open   lots= 230 kg 100.71%  dq=    493.4 dv=     998997.2
+overall 99.42%
