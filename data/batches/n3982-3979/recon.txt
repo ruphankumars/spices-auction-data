@@ -1,0 +1,5 @@
+n3979_Header_02_04_2025    open   lots=  45 kg  30.20%  dq= -26366.2 dv=  -71370583.1
+n3980_kcpmc_02_compressed  open   lots= 207 kg  99.98%  dq=    -12.7 dv=    -425839.2
+n3981_green_house_03_04_25 open   lots=  30 kg  14.23%  dq= -36254.9 dv=  -99267137.1
+n3982_cpa_03_04_25         closed lots=   9 kg 100.00%  dq=      0.0 dv=          0.0
+overall 52.53%
