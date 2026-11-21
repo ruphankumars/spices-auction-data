@@ -1,0 +1,5 @@
+n4131_SICOAP_11_07_2025_00 closed lots= 171 kg 100.00%  dq=      0.0 dv=          0.0
+n4132_CPMCS_11_07_2025_001 closed lots= 139 kg 100.00%  dq=      0.0 dv=          0.0
+n4133_SIFEX_12_07_2025_001 closed lots= 185 kg 100.00%  dq=      0.0 dv=          0.0
+n4134_RNS_12_07_2025_001   closed lots= 215 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
