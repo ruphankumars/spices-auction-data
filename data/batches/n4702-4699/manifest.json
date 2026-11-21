@@ -1,0 +1,46 @@
+[
+ {
+  "date": "07-Jul-2026",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 07-07-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2007-07-2026_001.pdf",
+  "n": 4699,
+  "rank": 4699,
+  "file": "n4699_SMTC_07_07_2026_001.pdf",
+  "bytes": 950895,
+  "sha256": "f8e77a6bf6949fc083241f5d2ecdb023b594260a21de6b971538f3e9602f29a3"
+ },
+ {
+  "date": "08-Jul-2026",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 08-07-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2008-07-2026_001.pdf",
+  "n": 4700,
+  "rank": 4700,
+  "file": "n4700_HEADER_08_07_2026_001.pdf",
+  "bytes": 904050,
+  "sha256": "bbeca47d648d3d964847fabbe8b0a417c3d88af210e30ac7301eec0e5117bf69"
+ },
+ {
+  "date": "08-Jul-2026",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 08-07-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2008-07-2026_001.pdf",
+  "n": 4701,
+  "rank": 4701,
+  "file": "n4701_MAS_08_07_2026_001.pdf",
+  "bytes": 1571700,
+  "sha256": "e3825f00c731ec61140871e300dd7a42dddefbb3675d498ceab88e37a7edfaaf"
+ },
+ {
+  "date": "09-Jul-2026",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 09-07-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2009-07-2026_001.pdf",
+  "n": 4702,
+  "rank": 4702,
+  "file": "n4702_SIGCL_09_07_2026_001.pdf",
+  "bytes": 983265,
+  "sha256": "bf4173037879820295f39a22daf8797ea3c057be1845042b20eacf2453ad5cae"
+ }
+]
