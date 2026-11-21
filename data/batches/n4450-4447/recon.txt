@@ -1,0 +1,5 @@
+n4447_CPMCS_28_01_2026_001 closed lots= 277 kg 100.00%  dq=      0.0 dv=          0.0
+n4448_CNS_29_01_2026_001   closed lots= 182 kg 100.00%  dq=      0.0 dv=         -0.4
+n4449_HEADER_29_01_2026_00 closed lots= 249 kg 100.00%  dq=      0.0 dv=          0.0
+n4450_SMTC_30_01_2026_001  closed lots= 231 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
