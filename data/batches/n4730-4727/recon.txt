@@ -1,5 +1,0 @@
-n4727_CNS_24_07_2026_001   open   lots=  18 kg  11.80%  dq= -28965.1 dv=  -88090055.1
-n4728_CPMCS_24_07_2026_001 closed lots= 206 kg 100.00%  dq=      0.0 dv=          0.0
-n4729_SMTC_25_07_2026_001  closed lots= 230 kg 100.00%  dq=      0.0 dv=          0.0
-n4730_ITCPC_25_07_2026_001 open   lots=   2 kg   1.33%  dq= -45490.4 dv= -149088661.6
-overall 67.73%

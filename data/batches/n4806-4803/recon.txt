@@ -1,5 +1,0 @@
-n4803_CNS_12_09_2026_001   open   lots= 129 kg  99.56%  dq=   -129.0 dv=       5174.0
-n4804_CPMCS_12_09_2026_001 closed lots= 237 kg 100.00%  dq=      0.0 dv=          0.0
-n4805_ITCPC_14_09_2026_001 closed lots= 243 kg 100.00%  dq=      0.0 dv=          0.0
-n4806_SMTC_14_09_2026_001  closed lots= 240 kg 100.00%  dq=      0.0 dv=          0.0
-overall 99.95%

@@ -59,6 +59,16 @@ def _collect(texts, cand, dates=None):
     for t in texts:
         lines = t.split("\n")
         for i, ln in enumerate(lines):
+            # Form C ends with GRAND TOTAL <put for auction> <sold> <value>: a second source for all three
+            if re.search(r"grand\s*total", ln, re.I):
+                for variant in {ln, re.sub(r"(?<=\d)-(?=\d)", "7", ln)}:   # a '7' read as '-'
+                    ns = nums(variant)
+                    if len(ns) >= 3:
+                        cand["arrivals"][round(ns[0], 2)] += 1; cand["sold"][round(ns[1], 2)] += 1
+                        v = round(ns[-1], 2); cand["value"][v] += 1
+                        sv = f"{v:.2f}"
+                        if sv[0] in "72" and len(sv.split(".")[0]) >= 8:
+                            cand["value"][round(float(sv[1:]), 2)] += 0.5
             for k, rx in KEYS.items():
                 if not rx.search(ln):
                     continue
@@ -70,6 +80,12 @@ def _collect(texts, cand, dates=None):
                     continue
                 for x in ns:
                     cand[k][round(x, 2)] += 1
+                    # a rupee sign read as a digit ("₹3,056.43" -> "73,056.43"): the figure without it is a
+                    # candidate too; the average = value / sold checksum decides which is real
+                    if k in ("value", "avg", "max", "min"):
+                        sx = f"{x:.2f}"
+                        if sx[0] in "72" and len(sx.split(".")[0]) >= 4:
+                            cand[k][round(float(sx[1:]), 2)] += 0.5
                 if len(ns) == 2 and k in ("sold", "value", "arrivals", "withdrawn"):  # two state columns
                     cand[k][round(ns[0] + ns[1], 2)] += 1
             m = DATE.search(ln)
@@ -88,6 +104,11 @@ def read_summary(texts, body=()):
     extra = {k: Counter() for k in KEYS}
     _collect(body, extra)
     grid = lambda x: abs(x * 10 - round(x * 10)) < 1e-6
+    # the closing GRAND TOTAL sits on the last page of the body: its sold / value / arrivals count too
+    for k in ("sold", "value", "arrivals"):
+        for x, c in extra[k].items():
+            if x not in cand[k]:
+                cand[k][x] += c * 0.5
     S = [x for x in cand["sold"] if x >= 50 and grid(x)]
     # sold line unread: arrivals - withdrawn is a candidate (the average checks it)
     SF = []

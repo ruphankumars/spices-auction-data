@@ -1,4 +1,0 @@
-n4679_SICOAP_24_06_2026_00 closed lots= 163 kg 100.00%  dq=      0.0 dv=          0.0
-n4680_CNS_25_06_26         open   lots=   9 kg  96.89%  dq=   -744.1 dv=   -2665192.1
-n4681_CPMCS_25_06_2026_001 open   lots= 156 kg  94.80%  dq=  -2370.1 dv=   -6135605.9
-overall 96.87%

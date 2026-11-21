@@ -1,7 +1,0 @@
-n4719_KCPMC_20_07_2026_001 open   lots= 156 kg  84.96%  dq=  -6758.1 dv=  -21349917.0
-n4720_GREEN_HOUSE_20_07_20 open   lots=  16 kg   5.47%  dq= -64686.8 dv= -198653277.9
-Traceback (most recent call last):
-  File "/home/runner/work/spices-auction-data/spices-auction-data/extract/recon.py", line 5, in <module>
-    T+=sold; S+=min(q,sold)
-                ~~~^^^^^^^^
-TypeError: '<' not supported between instances of 'float' and 'NoneType'

@@ -1,5 +1,0 @@
-n4839_HEADER_05_10_2026_00 closed lots= 313 kg 100.00%  dq=      0.0 dv=          0.0
-n4840_MAS_05_10_2026_001_c open   lots=  25 kg   6.03%  dq=-121770.7 dv=   25212017.2
-n4842_CPA_06_10_2026_001_S open   lots= 126 kg  94.94%  dq=  -1576.7 dv=   -5077944.2
-n4842_CPA_06_10_2026_001_B closed lots=   3 kg 100.00%  dq=      0.0 dv=          0.0
-overall 54.50%

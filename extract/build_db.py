@@ -85,6 +85,9 @@ def split_row(ln):
     return ln[: toks[0][0]], ln[toks[-1][1]:], toks
 
 
+DOTGAP = re.compile(r"(?<![\d.,])(\d{1,8}) (\d{2,3})(?![\d.,])")
+
+
 def extract_report(d, rmin=1000, rmax=8000):
     """Decode every OCR pass of a report and merge. Returns (rows, value-less candidates)."""
     lines, stmt = [], {}
@@ -94,7 +97,14 @@ def extract_report(d, rmin=1000, rmax=8000):
         st = stmt.setdefault(pg, [0, 0]); st[1] += 1
         if re.search(r"(BUYERS?|BIDDERS?)\W{0,3}\s*STATEMENT|TRADERS?\s+NAME", txt[:1500], re.I):
             st[0] += 1
-        lines += [(pg, ln.rstrip("\n")) for ln in txt.split("\n")]
+        for ln in txt.split("\n"):
+            ln = ln.rstrip("\n")
+            lines.append((pg, ln))
+            # some reports print the decimal point so faintly that OCR reads a space ("390 400",
+            # "3554 00", "1387481 60"): the same line with those spaces as points is a reading too
+            dot = DOTGAP.sub(r"\1.\2", ln)
+            if dot != ln:
+                lines.append((pg, dot))
     # invoice pages (Buyers Statement) list totals per buyer, not lots
     lines = [(pg, ln) for pg, ln in lines if stmt[pg][0] * 2 < stmt[pg][1]]
     inv = mine([ln for _, ln in lines])

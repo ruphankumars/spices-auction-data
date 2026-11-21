@@ -1,5 +1,0 @@
-n4795_CPA_08_09_2026_001   closed lots=  94 kg 100.00%  dq=      0.0 dv=          0.0
-n4796_SIGCL_08_09_2026_001 open   lots=   1 kg   4.89%  dq= -49506.9 dv=-6823012236.2
-n4797_RNS_09_09_2026_001   closed lots= 261 kg 100.00%  dq=      0.0 dv=          0.0
-n4798_IMCPC_09_09_2026_001 closed lots= 227 kg 100.00%  dq=      0.0 dv=          0.0
-overall 73.97%

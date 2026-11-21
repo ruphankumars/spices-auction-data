@@ -1,5 +1,0 @@
-n4775_MAS_25_08_2026_001   closed lots= 271 kg 100.00%  dq=      0.0 dv=          0.0
-n4776_HEADER_25_08_2026_00 closed lots= 228 kg 100.00%  dq=      0.0 dv=          0.0
-n4777_SIGCL_27_08_2026_001 open   lots=   6 kg  20.85%  dq= -31627.0 dv=-6057891669.6
-n4778_CPA_27_08_2026_001   closed lots=  76 kg 100.00%  dq=      0.0 dv=          0.0
-overall 83.67%
