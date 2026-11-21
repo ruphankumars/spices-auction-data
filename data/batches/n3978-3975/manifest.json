@@ -1,0 +1,46 @@
+[
+ {
+  "date": "29-Mar-2025",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 29-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2029-03-2025.pdf",
+  "n": 3975,
+  "rank": 3975,
+  "file": "n3975_CGF_29_03_2025.pdf",
+  "bytes": 265592,
+  "sha256": "28dde561ef6a1f6a3edd960552fd70a8507f2d8d88da1185c40685f14ae68f17"
+ },
+ {
+  "date": "29-Mar-2025",
+  "auctioneer": "SPECIALITY INDIAN FOOD PARKS EXPORTS PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SIFEX 29-03-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIFEX%2029-03-2025.pdf",
+  "n": 3976,
+  "rank": 3976,
+  "file": "n3976_SIFEX_29_03_2025.pdf",
+  "bytes": 1099496,
+  "sha256": "22d66b6edfd1a4135d71c73af42b9399cfc9e11f8a5910a6c8fa1f881de59ff6"
+ },
+ {
+  "date": "01-Apr-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 01-04-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2001-04-2025.pdf",
+  "n": 3977,
+  "rank": 3977,
+  "file": "n3977_MAS_01_04_2025.pdf",
+  "bytes": 576651,
+  "sha256": "e94db1b097e71212118cbae0715349d5882f6b5c7c56c6e9c610578983e80331"
+ },
+ {
+  "date": "01-Apr-2025",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/sigcl 01.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/sigcl%2001.pdf",
+  "n": 3978,
+  "rank": 3978,
+  "file": "n3978_sigcl_01.pdf",
+  "bytes": 1104598,
+  "sha256": "3e3bdd244396745076dc3b54fe6c3338d9317e06a0822f1e134d336340bad7c5"
+ }
+]

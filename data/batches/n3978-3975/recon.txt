@@ -1,0 +1,5 @@
+n3975_CGF_29_03_2025       closed lots=  54 kg 100.00%  dq=      0.0 dv=          0.0
+n3976_SIFEX_29_03_2025     closed lots= 199 kg 100.00%  dq=      0.0 dv=          0.0
+n3977_MAS_01_04_2025       open   lots= 244 kg 100.70%  dq=    412.2 dv=    1150929.6
+n3978_sigcl_01             closed lots= 190 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
