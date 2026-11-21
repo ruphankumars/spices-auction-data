@@ -1,0 +1,46 @@
+[
+ {
+  "date": "06-Sep-2025",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 06-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2006-09-2025_001.pdf",
+  "n": 4223,
+  "rank": 4223,
+  "file": "n4223_RNS_06_09_2025_001.pdf",
+  "bytes": 1480242,
+  "sha256": "a34900bb86bf5eb30234084d2a5e8415232164051bb7e50198726fd7aa99ac25"
+ },
+ {
+  "date": "06-Sep-2025",
+  "auctioneer": "IDUKKI MAHILA CARDAMOM PRODUCER COMPANY LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/IMCPC 06-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/IMCPC%2006-09-2025_001.pdf",
+  "n": 4224,
+  "rank": 4224,
+  "file": "n4224_IMCPC_06_09_2025_001.pdf",
+  "bytes": 957478,
+  "sha256": "4545b2fc836a507200702a1b86aebde90c90685e86b9073d7b3c153e4796e317"
+ },
+ {
+  "date": "08-Sep-2025",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 08-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2008-09-2025_001.pdf",
+  "n": 4225,
+  "rank": 4225,
+  "file": "n4225_SICOAP_08_09_2025_001.pdf",
+  "bytes": 1832606,
+  "sha256": "1aa8a9aac8be0056c6237848b402ec4fffc34572f2d80f458956286d8a3f25a5"
+ },
+ {
+  "date": "08-Sep-2025",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 08-09-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2008-09-2025_001.pdf",
+  "n": 4226,
+  "rank": 4226,
+  "file": "n4226_CPMCS_08_09_2025_001.pdf",
+  "bytes": 1619125,
+  "sha256": "de9fe9e80d01c6bc1b10bc62a919b01c39e580154bc95bb8c87b3a93943ca08a"
+ }
+]
