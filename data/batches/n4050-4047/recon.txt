@@ -1,0 +1,5 @@
+n4047_SSP_17_05_2025       open   lots= 202 kg  99.38%  dq=   -290.7 dv=    -693562.2
+n4048_CGF_17_05_2025       closed lots=  63 kg 100.00%  dq=      0.0 dv=          0.0
+n4049_ITCPC_19_05_2025     closed lots= 183 kg 100.00%  dq=      0.0 dv=          0.0
+n4050_CNS_19_05_2025       closed* lots=  73 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.73%
