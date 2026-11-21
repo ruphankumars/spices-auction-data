@@ -1,0 +1,46 @@
+[
+ {
+  "date": "02-Feb-2026",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 02-02-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2002-02-2026_001.pdf",
+  "n": 4455,
+  "rank": 4455,
+  "file": "n4455_RNS_02_02_2026_001.pdf",
+  "bytes": 1962173,
+  "sha256": "4c652d8b728d96bbab3f9606a2ffbd4e36f8e36c89a3230f8ae40bc986d486ef"
+ },
+ {
+  "date": "03-Feb-2026",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 03-02-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2003-02-2026_001.pdf",
+  "n": 4456,
+  "rank": 4456,
+  "file": "n4456_CGF_03_02_2026_001.pdf",
+  "bytes": 563513,
+  "sha256": "e01b5e4cb6ee676d8c5d0157b7286636f90d757c6f5cd60794b36c5c85155743"
+ },
+ {
+  "date": "03-Feb-2026",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 03-02-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2003-02-2026_001.pdf",
+  "n": 4457,
+  "rank": 4457,
+  "file": "n4457_SIGCL_03_02_2026_001.pdf",
+  "bytes": 1965439,
+  "sha256": "63fd0f57511e2a3e825b9a07a1a44f24a1e7fa3c706ba8b5897011fe2cefdc7c"
+ },
+ {
+  "date": "04-Feb-2026",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 04-02-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2004-02-2026_001.pdf",
+  "n": 4458,
+  "rank": 4458,
+  "file": "n4458_SSP_04_02_2026_001.pdf",
+  "bytes": 980744,
+  "sha256": "ed82569dc59c634a40c7dd3433fd2780c276db299ecaee2b9c5c5a27bb6365a6"
+ }
+]
