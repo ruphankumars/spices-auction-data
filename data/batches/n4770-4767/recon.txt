@@ -1,0 +1,5 @@
+n4767_RNS_19_08_2026_001   closed lots= 265 kg 100.00%  dq=      0.0 dv=          0.0
+n4768_IMCPC_19_08_2026_001 closed lots= 203 kg 100.00%  dq=      0.0 dv=          0.0
+n4769_SIFEX_20_08_2026_001 closed lots= 282 kg 100.00%  dq=      0.0 dv=          0.0
+n4770_SICOAP_21_08_2026_00 closed lots= 227 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%

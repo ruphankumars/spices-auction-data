@@ -1,0 +1,46 @@
+[
+ {
+  "date": "19-Aug-2026",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 19-08-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2019-08-2026_001.pdf",
+  "n": 4767,
+  "rank": 4767,
+  "file": "n4767_RNS_19_08_2026_001.pdf",
+  "bytes": 1422934,
+  "sha256": "a998fc35d62444a48efe4d044998668be4e868d5b4d6f9f9556796ad8ca42149"
+ },
+ {
+  "date": "19-Aug-2026",
+  "auctioneer": "IDUKKI MAHILA CARDAMOM PRODUCER COMPANY LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/IMCPC 19-08-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/IMCPC%2019-08-2026_001.pdf",
+  "n": 4768,
+  "rank": 4768,
+  "file": "n4768_IMCPC_19_08_2026_001.pdf",
+  "bytes": 735028,
+  "sha256": "2d98184b2841a9397cdda0371f5a11d2df56b348dd3a47601372476bd9f70b6d"
+ },
+ {
+  "date": "20-Aug-2026",
+  "auctioneer": "SPECIALITY INDIAN FOOD PARKS EXPORTS PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SIFEX 20-08-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIFEX%2020-08-2026_001.pdf",
+  "n": 4769,
+  "rank": 4769,
+  "file": "n4769_SIFEX_20_08_2026_001.pdf",
+  "bytes": 1636695,
+  "sha256": "d80cca6116ff83a519a95dd44faeded061a35bfabf2b6a9e1491a539d55ab1c0"
+ },
+ {
+  "date": "21-Aug-2026",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 21-08-2026_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2021-08-2026_001.pdf",
+  "n": 4770,
+  "rank": 4770,
+  "file": "n4770_SICOAP_21_08_2026_001.pdf",
+  "bytes": 1688891,
+  "sha256": "084b304fcb08f87714d507ac6c2c8c1248effbb61a7492a1f52fb5eb98fec9de"
+ }
+]
