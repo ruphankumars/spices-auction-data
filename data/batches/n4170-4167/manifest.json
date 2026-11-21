@@ -1,0 +1,46 @@
+[
+ {
+  "date": "01-Aug-2025",
+  "auctioneer": "CLIMATE NATURAL SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CNS 01-08-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CNS%2001-08-2025.pdf",
+  "n": 4167,
+  "rank": 4167,
+  "file": "n4167_CNS_01_08_2025.pdf",
+  "bytes": 949299,
+  "sha256": "c38ecb8d6b021efbad56c56b68d9038734c9c341901b773cdde261315735ba85"
+ },
+ {
+  "date": "01-Aug-2025",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 01-08-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2001-08-2025_001.pdf",
+  "n": 4168,
+  "rank": 4168,
+  "file": "n4168_RNS_01_08_2025_001.pdf",
+  "bytes": 2015910,
+  "sha256": "4c800a902b40049e7acfd8000642aed8513155e0212932cfea1bf33223041cc3"
+ },
+ {
+  "date": "02-Aug-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 02-08-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2002-08-2025_001.pdf",
+  "n": 4169,
+  "rank": 4169,
+  "file": "n4169_MAS_02_08_2025_001.pdf",
+  "bytes": 1741372,
+  "sha256": "8e4e234f88c3ed5d74104cabb2f5f69a4a8c05736c75ac74cbddc8f10c5d0072"
+ },
+ {
+  "date": "02-Aug-2025",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 02-08-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2002-08-2025_001.pdf",
+  "n": 4170,
+  "rank": 4170,
+  "file": "n4170_ITCPC_02_08_2025_001.pdf",
+  "bytes": 823018,
+  "sha256": "03a8a0a29f738fcf74faaf2d70975c68a683a3c518e358129d8c38eee46972a4"
+ }
+]

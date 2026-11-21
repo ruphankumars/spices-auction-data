@@ -1,0 +1,5 @@
+n4167_CNS_01_08_2025       closed* lots=  97 kg 100.00%  dq=      0.0 dv=          0.0
+n4168_RNS_01_08_2025_001   open   lots= 351 kg  99.37%  dq=   -514.4 dv=   -1365673.8
+n4169_MAS_02_08_2025_001   closed lots= 307 kg 100.00%  dq=      0.0 dv=          0.0
+n4170_ITCPC_02_08_2025_001 closed lots= 272 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.78%
