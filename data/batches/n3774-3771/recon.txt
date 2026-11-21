@@ -1,0 +1,5 @@
+n3771_RNS_15_11_2024       closed lots= 162 kg 100.00%  dq=      0.0 dv=          0.0
+n3772_KCPMC_15_11_2024     closed lots= 212 kg 100.00%  dq=      0.0 dv=          0.0
+n3773_GREENHOUSE_16_11_202 closed lots= 270 kg 100.00%  dq=      0.0 dv=          0.0
+n3774_ITCPC_16_11_2024     closed lots= 217 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
