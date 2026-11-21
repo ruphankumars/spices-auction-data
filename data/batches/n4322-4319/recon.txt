@@ -1,0 +1,5 @@
+n4319_RNS_06_11_2025       open   lots= 418 kg 100.89%  dq=   1105.4 dv=    3285466.4
+n4320_IMCPC_06_11_2025_001 closed lots= 303 kg 100.00%  dq=      0.0 dv=          0.0
+n4321_CGF_07_11_2025_001   closed lots= 164 kg 100.00%  dq=      0.0 dv=          0.0
+n4322_SIFEX_07_11_2025     open   lots= 388 kg 100.36%  dq=    403.4 dv=    1007930.3
+overall 100.00%
