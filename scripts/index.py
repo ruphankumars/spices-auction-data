@@ -8,7 +8,7 @@ job's time limit carries on from there next run (whatever mode is asked).
 Each entry: n (stable number, 1 = oldest; new reports get the next numbers),
 date, auctioneer, href, url.
 """
-import json, sys, time
+import hashlib, json, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from fetch_batch import get, parse_rows, abs_url, LIST_URL, PAUSE
@@ -16,6 +16,11 @@ from fetch_batch import get, parse_rows, abs_url, LIST_URL, PAUSE
 IDX = Path("data/index.json")
 PART = Path("data/index_partial.json")
 BUDGET = float(sys.argv[2]) * 60 if len(sys.argv) > 2 else 95 * 60  # seconds before saving and stopping
+
+
+def stable_n(href):
+    """A report's number, the same whenever and wherever it is listed (new uploads shift listing positions)."""
+    return int(hashlib.sha1(href.encode()).hexdigest()[:9], 16)
 
 
 def walk(start_page, known, fresh, stop_when_known, t0):
@@ -33,7 +38,7 @@ def walk(start_page, known, fresh, stop_when_known, t0):
             return page, True  # the site repeats its last page past the end
         for r in new:
             seen.add(r["href"])
-            fresh.append(dict(date=r["date"], auctioneer=r["auctioneer"], href=r["href"], url=abs_url(r["href"])))
+            fresh.append(dict(n=stable_n(r["href"]), date=r["date"], auctioneer=r["auctioneer"], href=r["href"], url=abs_url(r["href"])))
         print(f"page {page}: {len(rows)} rows, {len(new)} new", flush=True)
         if stop_when_known and not new:
             return page, True
@@ -58,9 +63,8 @@ def main(mode):
         PART.write_text(json.dumps(dict(next_page=page, rows=fresh)))
         print(f"time budget used: saved {len(fresh)} rows, next run continues at page {page}")
         return
-    top = max((e["n"] for e in old), default=0)
-    for i, e in enumerate(reversed(fresh)):
-        e["n"] = top + i + 1
+    for e in fresh:
+        e.setdefault("n", stable_n(e["href"]))
     out = fresh + old
     IDX.parent.mkdir(exist_ok=True)
     IDX.write_text(json.dumps(out, indent=0))

@@ -56,6 +56,8 @@ def _status(n_aucs, listed, aucs):
             done += k
     if os.path.exists('data/index.json'):
         listed = len(json.load(open('data/index.json')))
+    elif os.path.exists('data/index_partial.json'):
+        listed = max(int(listed or 0), len(json.load(open('data/index_partial.json'))['rows']))
     exact = sum(1 for a in aucs if float(a.get('coverage_pct') or 0) >= 99.95)
     return dict(done=done or n_aucs, failed=failed, listed=int(listed) if listed else None, auctions=n_aucs, exact=exact)
 
