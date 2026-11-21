@@ -1,0 +1,46 @@
+[
+ {
+  "date": "22-Feb-2025",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 22-02-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2022-02-2025.pdf",
+  "n": 3919,
+  "rank": 3919,
+  "file": "n3919_MAS_22_02_2025.pdf",
+  "bytes": 1153521,
+  "sha256": "b4d345d12f0b819d48048b1ceaad7503c3ee426d83d8e541623ce9953f5b9d4c"
+ },
+ {
+  "date": "24-Feb-2025",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 24-02-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2024-02-2025.pdf",
+  "n": 3920,
+  "rank": 3920,
+  "file": "n3920_SSP_24_02_2025.pdf",
+  "bytes": 660489,
+  "sha256": "7310ea8f182cdcc523abf608572dec69899ce48eda171c91b62f498a8d667536"
+ },
+ {
+  "date": "24-Feb-2025",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 24-02-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2024-02-2025.pdf",
+  "n": 3921,
+  "rank": 3921,
+  "file": "n3921_HEADER_24_02_2025.pdf",
+  "bytes": 732687,
+  "sha256": "62291fe1ecdc51f58631d50279d7b7af57a2caa36dfad8a43af2f850e9a44cae"
+ },
+ {
+  "date": "25-Feb-2025",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 25-02-2025.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2025-02-2025.pdf",
+  "n": 3922,
+  "rank": 3922,
+  "file": "n3922_CPMCS_25_02_2025.pdf",
+  "bytes": 1504707,
+  "sha256": "62699f965439cb8bacaaabd46178ac5c44d81c16e6b1ecb21f4c56a0e4e65b3a"
+ }
+]
