@@ -1,0 +1,46 @@
+[
+ {
+  "date": "08-Aug-2025",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 08-08-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2008-08-2025_001.pdf",
+  "n": 4179,
+  "rank": 4179,
+  "file": "n4179_RNS_08_08_2025_001.pdf",
+  "bytes": 1836800,
+  "sha256": "6fb31ad098f22e27d697df34b2a57a844858ea07b840ec6286b999045861e3e6"
+ },
+ {
+  "date": "08-Aug-2025",
+  "auctioneer": "SPECIALITY INDIAN FOOD PARKS EXPORTS PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SIFEX 08-08-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIFEX%2008-08-2025_001.pdf",
+  "n": 4180,
+  "rank": 4180,
+  "file": "n4180_SIFEX_08_08_2025_001.pdf",
+  "bytes": 1685916,
+  "sha256": "d9436c06207a73cc614558ae2418cf0d53d0fb2c94de8e183895ecb787354e74"
+ },
+ {
+  "date": "09-Aug-2025",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 09-08-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2009-08-2025_001.pdf",
+  "n": 4181,
+  "rank": 4181,
+  "file": "n4181_CGF_09_08_2025_001.pdf",
+  "bytes": 426113,
+  "sha256": "20311a025db37d2d03002698c82ead91952092b55ed83066d0880586875fd924"
+ },
+ {
+  "date": "09-Aug-2025",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 09-08-2025_001.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2009-08-2025_001.pdf",
+  "n": 4182,
+  "rank": 4182,
+  "file": "n4182_SSP_09_08_2025_001.pdf",
+  "bytes": 1121362,
+  "sha256": "27d4e216a3b05c7bae260da42016287be443295a37ebd9860eaca012765b7ca9"
+ }
+]

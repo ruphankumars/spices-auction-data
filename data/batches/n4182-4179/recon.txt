@@ -1,0 +1,5 @@
+n4179_RNS_08_08_2025_001   closed lots= 285 kg 100.00%  dq=      0.0 dv=         -0.2
+n4180_SIFEX_08_08_2025_001 closed lots= 294 kg 100.00%  dq=      0.0 dv=          0.0
+n4181_CGF_09_08_2025_001   closed lots= 112 kg 100.00%  dq=      0.0 dv=          0.0
+n4182_SSP_09_08_2025_001   closed* lots= 289 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
