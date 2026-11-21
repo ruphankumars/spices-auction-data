@@ -1,0 +1,5 @@
+n4303_RNS_27_10_2025_001   closed lots= 338 kg 100.00%  dq=      0.0 dv=         -0.6
+n4304_IMCPC_27_10_2025_001 closed lots= 273 kg 100.00%  dq=      0.0 dv=          0.0
+n4305_SICOAP_28_10_2025_00 closed lots= 291 kg 100.00%  dq=      0.0 dv=          0.0
+n4306_CPMCS_28_10_2025_001 closed lots= 278 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
