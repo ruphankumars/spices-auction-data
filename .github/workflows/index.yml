@@ -26,5 +26,6 @@ jobs:
         env: {GH_TOKEN: "${{ github.token }}"}
         run: |
           git fetch -q origin main && git reset -q --hard origin/main
+          gh workflow run schedule.yml || true
           if [ -f data/index_partial.json ]; then gh workflow run index.yml -f mode=full; gh workflow run backlog.yml; echo "next listing run and a backlog round started";
           elif [ -f data/index.json ]; then gh workflow run backlog.yml; echo "backlog started"; fi
