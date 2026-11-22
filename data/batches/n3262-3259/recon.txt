@@ -1,0 +1,5 @@
+n3259_CPA_09_12_2023       closed lots=  14 kg 100.00%  dq=      0.0 dv=          0.0
+n3260_GHCMPL_11_12_2023    open   lots=  12 kg  24.18%  dq= -54758.0 dv=  -83201127.5
+n3261_HEADER_11_12_2023    open   lots=   2 kg   2.28%  dq= -56181.2 dv=  -85159059.6
+n3262_KCPMC_12_12_2023     open   lots= 231 kg  99.94%  dq=    -53.3 dv=      24336.6
+overall 48.79%
