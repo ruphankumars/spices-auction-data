@@ -1,0 +1,5 @@
+n3675_GREEN_HOUSE_09_09_20 closed lots= 240 kg 100.00%  dq=      0.0 dv=          0.0
+n3676_SICOAP_10_09_2024    closed lots= 206 kg 100.00%  dq=      0.0 dv=          0.0
+n3677_KOKO_10_09_2024      closed lots=  96 kg 100.00%  dq=      0.0 dv=          0.0
+n3678_RNS_11_09_2024       open   lots= 257 kg 100.15%  dq=    100.0 dv=     220100.0
+overall 100.00%
