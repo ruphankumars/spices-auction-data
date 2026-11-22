@@ -1,0 +1,46 @@
+[
+ {
+  "date": "26-Jul-2024",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 26-07-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2026-07-2024.pdf",
+  "n": 3611,
+  "rank": 3611,
+  "file": "n3611_SIGCL_26_07_2024.pdf",
+  "bytes": 933854,
+  "sha256": "ceff9a8b7f1fa1a723129254c057b4e04d16b9e8bf90a57c6b5d46d830291a04"
+ },
+ {
+  "date": "27-Jul-2024",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 27-07-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2027-07-2024.pdf",
+  "n": 3612,
+  "rank": 3612,
+  "file": "n3612_MAS_27_07_2024.pdf",
+  "bytes": 987922,
+  "sha256": "f79a5801f6436af148f9d91ae15e2aca14f171fc45a3f24bc1bc752080aad336"
+ },
+ {
+  "date": "27-Jul-2024",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 27-07-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2027-07-2024.pdf",
+  "n": 3613,
+  "rank": 3613,
+  "file": "n3613_CPA_27_07_2024.pdf",
+  "bytes": 750162,
+  "sha256": "fe19721b16a004942aaba10df870e4771edc1c24f765b6c88702dc7ad479f09a"
+ },
+ {
+  "date": "29-Jul-2024",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 29-07-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2029-07-2024.pdf",
+  "n": 3614,
+  "rank": 3614,
+  "file": "n3614_HEADER_29_07_2024.pdf",
+  "bytes": 665585,
+  "sha256": "f655be91686afc3b2d65e1f5721bb0b5b7b8f80746b5370b11ab32631ee9b3ab"
+ }
+]
