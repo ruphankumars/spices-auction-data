@@ -1,0 +1,5 @@
+n3307_GHCMPL_09_01_2024    open   lots= 219 kg  93.45%  dq=  -4726.1 dv=   -8156573.4
+n3308_HEADER_09_01_2024    open   lots= 209 kg  99.64%  dq=   -232.5 dv=    -319551.0
+n3309_KCPMC_10_01_2024     closed lots= 191 kg 100.00%  dq=      0.0 dv=          0.0
+n3310_CGF_10_01_2024       closed lots= 170 kg 100.00%  dq=      0.0 dv=          0.0
+overall 97.91%
