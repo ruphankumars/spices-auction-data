@@ -1,0 +1,5 @@
+n3587_CPMCS_10_07_2024     open   lots= 138 kg 100.00%  dq=      0.0 dv=          0.0
+n3588_SSP_10_07_2024       open   lots= 133 kg  99.38%  dq=   -172.5 dv=    -380502.4
+n3589_KCPMC_11_07_2024     open   lots= 141 kg 100.00%  dq=      0.0 dv=          0.0
+n3590_GHCMPL_12_07_2024    closed lots= 164 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.87%
