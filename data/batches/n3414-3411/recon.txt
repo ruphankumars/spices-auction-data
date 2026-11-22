@@ -1,0 +1,6 @@
+n3411_CPA_15_03_2024_SANTH open   lots=  95 kg  99.99%  dq=     -2.8 dv=      16771.2
+n3411_CPA_15_03_2024_BODIN open   lots=   9 kg  73.77%  dq=   -388.1 dv=    -589202.3
+n3412_MAS_15_03_2024       open   lots= 215 kg 100.00%  dq=      0.0 dv=          0.0
+n3413_SMTC_16_03_2024      open   lots=   6 kg  21.04%  dq= -31428.2 dv=  -46088549.2
+n3414_HEADER_16_03_2024    open   lots=   2 kg   2.89%  dq= -42993.0 dv=  -62417178.0
+overall 56.88%
