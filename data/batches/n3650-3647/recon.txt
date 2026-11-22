@@ -1,0 +1,5 @@
+n3647_SICOA_22_08_2024     open   lots= 155 kg  81.66%  dq=  -7464.9 dv=  -15855396.1
+n3648_KOKO_22_08_2024      closed lots=  72 kg 100.00%  dq=      0.0 dv=          0.0
+n3649_RNS_23_08_2024       closed lots= 166 kg 100.00%  dq=      0.0 dv=          0.0
+n3650_IMCPCL_23_08_2024    closed lots= 135 kg 100.00%  dq=      0.0 dv=          0.0
+overall 93.78%
