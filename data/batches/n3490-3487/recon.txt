@@ -1,0 +1,5 @@
+n3487_SSP_06_05_2024       open   lots= 171 kg  99.94%  dq=    -25.7 dv=     460171.2
+n3488_KCPMC_06_05_2024     open   lots= 160 kg  99.33%  dq=   -330.0 dv=    -573851.6
+n3489_ITCPC_07_05_2024     closed lots= 206 kg 100.00%  dq=      0.0 dv=          0.0
+n3490_GCTC_07_05_2024      open   lots=  13 kg  39.19%  dq= -19723.4 dv=  -38327699.1
+overall 88.54%
