@@ -1,0 +1,5 @@
+n3447_GCTC_06_04_2024      open   lots=  10 kg  29.85%  dq= -18894.8 dv=  -32437803.3
+n3448_ITCPC_08_04_2024     closed lots= 162 kg 100.00%  dq=      0.0 dv=          0.0
+n3449_KOKO_09_04_2024      closed lots= 171 kg 100.00%  dq=      0.0 dv=          0.0
+n3450_SICOAP_09_04_2024    closed lots= 153 kg 100.00%  dq=      0.0 dv=          0.0
+overall 87.97%
