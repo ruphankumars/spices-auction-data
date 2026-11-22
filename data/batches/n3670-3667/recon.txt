@@ -1,0 +1,6 @@
+n3667_SIGCL_03_09_2024     closed lots= 220 kg 100.00%  dq=      0.0 dv=          0.0
+n3668_CPA_04_09_2024_SANTH closed lots=  84 kg 100.00%  dq=      0.0 dv=          0.0
+n3668_CPA_04_09_2024_BODIN closed* lots=   2 kg 100.00%  dq=      0.0 dv=          0.0
+n3669_MAS_04_09_2024       closed lots= 295 kg 100.00%  dq=      0.0 dv=          0.0
+n3670_HEADER_05_09_2024    closed lots= 163 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
