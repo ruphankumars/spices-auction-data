@@ -1,0 +1,4 @@
+n3227_CGF_21_11_2023       closed lots= 102 kg 100.00%  dq=      0.0 dv=          0.0
+n3229_MAS_22_11_2023       open   lots= 233 kg 100.00%  dq=      0.0 dv=          0.0
+n3230_ITCPC_A_23_11_2023   closed lots=  76 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
