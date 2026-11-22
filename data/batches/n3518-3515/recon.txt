@@ -1,0 +1,5 @@
+n3515_CPMCS_23_05_2024     closed* lots= 173 kg 100.00%  dq=      0.0 dv=          0.0
+n3516_SSP_23_05_2024       open   lots= 180 kg  99.14%  dq=   -360.0 dv=    -807722.9
+n3517_GCTC_24_05_2024      open   lots=   6 kg  16.97%  dq= -26723.1 dv=  -55795685.7
+n3518_KCPMC_24_05_2024     closed* lots= 173 kg 100.00%  dq=      0.0 dv=          0.0
+overall 84.62%
