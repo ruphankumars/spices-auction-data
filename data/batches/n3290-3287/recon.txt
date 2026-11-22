@@ -1,0 +1,4 @@
+n3287_CGF_27_12_2023       closed lots= 189 kg 100.00%  dq=      0.0 dv=          0.0
+n3288_MAS_28_12_2023       open   lots= 299 kg 100.00%  dq=      0.0 dv=          0.0
+n3289_SMTC_28_12_2023      open   lots=   4 kg   8.49%  dq= -75430.0 dv= -135197851.6
+overall 67.01%
