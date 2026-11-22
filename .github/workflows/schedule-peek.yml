@@ -15,6 +15,6 @@ jobs:
           grep -oiE 'href="[^"]+\.pdf"[^>]*>[^<]{0,200}' page.html | grep -iE 'schedul|auction|circular' | head -12 > links.txt
           cat links.txt
           i=0; grep -oiE 'href="[^"]+\.pdf"' links.txt | sed -E 's/href="//; s/"$//' | head -4 | while read h; do i=$((i+1)); u="$h"; case "$u" in http*) ;; *) u="https://www.indianspices.com/${u#/}";; esac; u=$(echo "$u" | sed 's/ /%20/g'); curl -sSL "$u" -o "s$i.pdf"; echo "$u" > "s$i.url"; pdftotext -layout "s$i.pdf" "s$i.txt" || true; pdftoppm -r 200 -png "s$i.pdf" "p$i" && for p in p$i-*.png; do tesseract "$p" stdout --psm 6 >> "s$i.ocr.txt" 2>/dev/null; done; rm -f p$i-*.png; done
-          rm -f *.pdf; ls -la
+          ls -la
           cd .. && git config user.name ocr-bot && git config user.email ocr-bot@users.noreply.github.com
           git checkout -q --orphan dbg-schedule && git rm -rq --cached . && git add -f peek && git commit -qm peek && git push -q -f origin dbg-schedule
