@@ -1,0 +1,5 @@
+n3239_KCPMC_28_11_2023     open   lots= 207 kg  99.94%  dq=    -43.3 dv=    -600727.8
+n3240_CGF_28_11_2023       closed lots= 122 kg 100.00%  dq=      0.0 dv=          0.0
+n3241_SMTC_29_11_2023      open   lots=   7 kg  19.94%  dq= -44343.9 dv=  -65997376.9
+n3242_MAS_29_11_2023       open   lots= 252 kg  99.49%  dq=   -368.1 dv=    -511775.1
+overall 80.03%
