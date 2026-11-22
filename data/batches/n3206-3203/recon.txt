@@ -1,0 +1,5 @@
+n3203_HEADER_06_11_2023    open   lots=   7 kg  19.25%  dq= -41670.8 dv=  -61860558.2
+n3204_GHCMPL_06_11_2023    open   lots=   3 kg   8.60%  dq= -42331.4 dv=  -62244946.7
+n3205_CGF_07_11_2023       open   lots=   1 kg  17.42%  dq=  -9339.8 dv=  -12682078.2
+n3206_KCPMC_07_11_2023     open   lots= 207 kg 100.00%  dq=      0.0 dv=          0.0
+overall 48.38%
