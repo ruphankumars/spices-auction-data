@@ -1,0 +1,5 @@
+n3463_GHCMPL_18_04_2024    open   lots=   3 kg   5.57%  dq= -56099.1 dv= -100258232.0
+n3464_SICOAP_18_04_2024    closed lots= 201 kg 100.00%  dq=      0.0 dv=          0.0
+n3465_RNS_20_04_2024       closed lots= 229 kg 100.00%  dq=      0.0 dv=          0.0
+n3466_KOKO_20_04_2024      closed lots= 186 kg 100.00%  dq=      0.0 dv=          0.0
+overall 75.22%
