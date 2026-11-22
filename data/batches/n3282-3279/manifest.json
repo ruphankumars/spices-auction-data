@@ -1,0 +1,46 @@
+[
+ {
+  "date": "21-Dec-2023",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 21.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2021.12.2023.pdf",
+  "n": 3279,
+  "rank": 3279,
+  "file": "n3279_SSP_21_12_2023.pdf",
+  "bytes": 863159,
+  "sha256": "aa45b01ad3dcb99af1f683fa92e2fe194349f679371780c233c03b8724456398"
+ },
+ {
+  "date": "22-Dec-2023",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 22.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2022.12.2023.pdf",
+  "n": 3280,
+  "rank": 3280,
+  "file": "n3280_SIGCL_22_12_2023.pdf",
+  "bytes": 1677927,
+  "sha256": "210a494f1c2ad44f9eb612576b171eede9c2515f6c7fbac5b2e90f589fffb6ec"
+ },
+ {
+  "date": "22-Dec-2023",
+  "auctioneer": "GREEN CARDAMOM TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/GCTC 22.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GCTC%2022.12.2023.pdf",
+  "n": 3281,
+  "rank": 3281,
+  "file": "n3281_GCTC_22_12_2023.pdf",
+  "bytes": 378058,
+  "sha256": "241a20fee915eb7ea9981575ab1355aa96b5349be8248aee7e1a93a5c74b6c77"
+ },
+ {
+  "date": "23-Dec-2023",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 23.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2023.12.2023.pdf",
+  "n": 3282,
+  "rank": 3282,
+  "file": "n3282_CPA_23_12_2023.pdf",
+  "bytes": 1074140,
+  "sha256": "7bec75d2898bd840f3ed0005ae4b1cf425fed21880423454e94d53c556d525cf"
+ }
+]

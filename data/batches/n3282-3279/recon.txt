@@ -1,0 +1,5 @@
+n3279_SSP_21_12_2023       open   lots= 224 kg  98.85%  dq=   -742.1 dv=   -1261842.5
+n3280_SIGCL_22_12_2023     closed lots= 270 kg 100.00%  dq=      0.0 dv=          0.0
+n3281_GCTC_22_12_2023      open   lots=   2 kg  16.75%  dq= -16436.2 dv=  -27368497.6
+n3282_CPA_23_12_2023       closed* lots= 149 kg 100.00%  dq=      0.0 dv=          0.0
+overall 91.96%
