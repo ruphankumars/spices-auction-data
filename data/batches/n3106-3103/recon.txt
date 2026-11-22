@@ -1,0 +1,5 @@
+n3103_MAS_04_09_2023       closed lots= 243 kg 100.00%  dq=      0.0 dv=          0.0
+n3104_SMTC_04_09_2023      open   lots=  13 kg  11.40%  dq= -28201.2 dv=  -53891854.8
+n3105_ITCPC_05_09_2023     closed lots= 215 kg 100.00%  dq=      0.0 dv=          0.0
+n3106_SSP_05_09_2023       open   lots= 157 kg  96.70%  dq=  -1308.9 dv=   -2104914.4
+overall 85.36%

@@ -1,0 +1,46 @@
+[
+ {
+  "date": "04-Sep-2023",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 04.09.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2004.09.2023.pdf",
+  "n": 3103,
+  "rank": 3103,
+  "file": "n3103_MAS_04_09_2023.pdf",
+  "bytes": 1549350,
+  "sha256": "6c251e0802988b9ae4569496a1e3dabe3ed8ae45460bd9956a3b11be05a15cde"
+ },
+ {
+  "date": "04-Sep-2023",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 04.09.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2004.09.2023.pdf",
+  "n": 3104,
+  "rank": 3104,
+  "file": "n3104_SMTC_04_09_2023.pdf",
+  "bytes": 558988,
+  "sha256": "d372abb3c3a691d5a0e72aabaf55b70b976f56808d3a8bbf2c3acdbe12bd454f"
+ },
+ {
+  "date": "05-Sep-2023",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 05.09.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2005.09.2023.pdf",
+  "n": 3105,
+  "rank": 3105,
+  "file": "n3105_ITCPC_05_09_2023.pdf",
+  "bytes": 813046,
+  "sha256": "d2ca9e8158c81c14f652172a0d58b9cf3ce0dd33a358882075e9696452862686"
+ },
+ {
+  "date": "05-Sep-2023",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 05.09.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2005.09.2023.pdf",
+  "n": 3106,
+  "rank": 3106,
+  "file": "n3106_SSP_05_09_2023.pdf",
+  "bytes": 696335,
+  "sha256": "3f970542fc5866f947fe714c30796e93b3f5623e00fd8f0069aa8e592667e94e"
+ }
+]
