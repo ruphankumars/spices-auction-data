@@ -1,0 +1,46 @@
+[
+ {
+  "date": "28-May-2024",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 28-05-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2028-05-2024.pdf",
+  "n": 3523,
+  "rank": 3523,
+  "file": "n3523_RNS_28_05_2024.pdf",
+  "bytes": 1323731,
+  "sha256": "bb5faf4f20a973e34fffad7c6f94af6e8848b33fd09c3e6218da309eeab02088"
+ },
+ {
+  "date": "28-May-2024",
+  "auctioneer": "IDUKKI MAHILA CARDAMOM PRODUCER COMPANY LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/IMCPC 28-05-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/IMCPC%2028-05-2024.pdf",
+  "n": 3524,
+  "rank": 3524,
+  "file": "n3524_IMCPC_28_05_2024.pdf",
+  "bytes": 408588,
+  "sha256": "2e9cfc2ed27f2b3118cfeb5cdac9c6764ec41f6680c6934bcdc18110b054643b"
+ },
+ {
+  "date": "29-May-2024",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 29-05-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2029-05-2024.pdf",
+  "n": 3525,
+  "rank": 3525,
+  "file": "n3525_CGF_29_05_2024.pdf",
+  "bytes": 523347,
+  "sha256": "5c7c4d7b2d784a40c3d01dbf934b81d63351c4f7384a34e22658bd543eb341bd"
+ },
+ {
+  "date": "29-May-2024",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 29-05-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2029-05-2024.pdf",
+  "n": 3526,
+  "rank": 3526,
+  "file": "n3526_SIGCL_29_05_2024.pdf",
+  "bytes": 1342222,
+  "sha256": "98f16b16969df35e3040ad9b855ddd4978657ecdf5f92b980fc2da5ed68577b9"
+ }
+]
