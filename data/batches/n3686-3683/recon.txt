@@ -1,0 +1,5 @@
+n3683_MAS_13_09_2024       closed lots= 279 kg 100.00%  dq=      0.0 dv=          0.0
+n3684_HEADER_14_09_2024    closed lots= 137 kg 100.00%  dq=      0.0 dv=          0.0
+n3685_SMTC_14_09_2024      closed lots= 219 kg 100.00%  dq=      0.0 dv=         -0.5
+n3686_CPMCS_16_09_2024     closed lots= 192 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
