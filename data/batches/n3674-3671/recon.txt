@@ -1,0 +1,5 @@
+n3671_CPMCS_06_09_2024     closed lots= 191 kg 100.00%  dq=      0.0 dv=          0.0
+n3672_SSP_06_09_2024       closed lots= 188 kg 100.00%  dq=      0.0 dv=          0.0
+n3673_KCPMC_07_09_2024     closed lots= 194 kg 100.00%  dq=      0.0 dv=          0.0
+n3674_ITCPC_09_09_2024     closed lots= 216 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
