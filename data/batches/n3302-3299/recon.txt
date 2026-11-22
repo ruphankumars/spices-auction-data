@@ -1,0 +1,4 @@
+n3299_KCPMC_03_01_2024     closed* lots= 203 kg 100.00%  dq=      0.0 dv=          0.0
+n3300_SMTC_04_01_2024      open   lots=   2 kg   4.55%  dq= -62348.4 dv= -102865230.5
+n3301_MAS_04_01_2024       open   lots= 293 kg  99.50%  dq=   -502.5 dv=    -839553.0
+overall 73.85%
