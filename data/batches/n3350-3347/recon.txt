@@ -1,0 +1,4 @@
+n3348_ITCPC_05_02_2024     closed lots= 235 kg 100.00%  dq=      0.0 dv=          0.0
+n3349_SSP_05_02_2024       closed lots= 167 kg 100.00%  dq=      0.0 dv=          0.0
+n3350_SIGCL_06_02_2024     open   lots= 236 kg 100.00%  dq=      0.0 dv=         27.0
+overall 100.00%
