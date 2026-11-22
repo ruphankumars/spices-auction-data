@@ -1,0 +1,46 @@
+[
+ {
+  "date": "11-Mar-2024",
+  "auctioneer": "THE KERALA CARDAMOM PROCESSING & MKTG.CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/KCPMC 11-03-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KCPMC%2011-03-2024.pdf",
+  "n": 3403,
+  "rank": 3403,
+  "file": "n3403_KCPMC_11_03_2024.pdf",
+  "bytes": 1582901,
+  "sha256": "3532740f7194cf52940953395cad819c1a7060451e76ae49f30683cf302a537a"
+ },
+ {
+  "date": "11-Mar-2024",
+  "auctioneer": "GREEN CARDAMOM TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/GCTC 11-03-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GCTC%2011-03-2024.pdf",
+  "n": 3404,
+  "rank": 3404,
+  "file": "n3404_GCTC_11_03_2024.pdf",
+  "bytes": 401904,
+  "sha256": "4a68f88f639ce8556e6ddcb8b07afbcd98700dc0c56095b4460408feec71e0a9"
+ },
+ {
+  "date": "12-Mar-2024",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GHCMPL 12-03-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GHCMPL%2012-03-2024.pdf",
+  "n": 3405,
+  "rank": 3405,
+  "file": "n3405_GHCMPL_12_03_2024.pdf",
+  "bytes": 603669,
+  "sha256": "83fdb8aed28dc452ed1a30a4a3a06c69e203da588ae58da475e7417226209a7d"
+ },
+ {
+  "date": "12-Mar-2024",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 12-03-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2012-03-2024.pdf",
+  "n": 3406,
+  "rank": 3406,
+  "file": "n3406_ITCPC_12_03_2024.pdf",
+  "bytes": 849125,
+  "sha256": "c57574659adf5e265a03c3e5bbc04a7113a684880dc1c6a4d67b162cc8ec324f"
+ }
+]
