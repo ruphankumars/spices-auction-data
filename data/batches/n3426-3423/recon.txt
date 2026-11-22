@@ -1,0 +1,5 @@
+n3423_SIGCL_22_03_2024     closed lots= 181 kg 100.00%  dq=      0.0 dv=          0.0
+n3424_RNS_22_03_2024       closed lots= 166 kg 100.00%  dq=      0.0 dv=          0.0
+n3425_MAS_23_03_2024       open   lots= 199 kg  98.96%  dq=   -676.4 dv=    -955040.8
+n3426_CGF_23_03_2024       closed lots=  99 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.65%
