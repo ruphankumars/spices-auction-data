@@ -1,0 +1,5 @@
+n3519_ITCPC_25_05_2024     closed lots= 186 kg 100.00%  dq=      0.0 dv=          0.0
+n3520_GHCMPL_25_05_2024    open   lots=   4 kg  16.17%  dq= -42338.4 dv=  -97501936.4
+n3521_SICOAP_27_05_2024    closed lots= 188 kg 100.00%  dq=      0.0 dv=          0.0
+n3522_KOKO_27_05_2024      closed lots= 110 kg 100.00%  dq=      0.0 dv=          0.0
+overall 74.68%
