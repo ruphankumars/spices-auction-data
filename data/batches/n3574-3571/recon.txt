@@ -1,0 +1,6 @@
+n3571_SIGCL_27_06_2024     open   lots= 157 kg 101.08%  dq=    385.0 dv=     858860.0
+n3572_MAS_28_06_2024       closed* lots= 226 kg 100.00%  dq=      0.0 dv=          0.0
+n3573_CPA_28_06_2024_SANTH open   lots=  73 kg  99.74%  dq=    -32.1 dv=      -6620.4
+n3573_CPA_28_06_2024_BODIN open   lots=   2 kg  92.78%  dq=    -21.5 dv=     -32315.1
+n3574_HEADER_29_06_2024    open   lots=   3 kg  15.20%  dq= -32489.8 dv=  -68836134.4
+overall 78.40%
