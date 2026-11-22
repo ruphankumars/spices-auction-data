@@ -1,0 +1,5 @@
+n3207_SMTC_08_11_2023      open   lots=   2 kg   5.67%  dq= -50742.0 dv=  -76620065.1
+n3208_MAS_08_11_2023       open   lots= 249 kg 100.00%  dq=      0.0 dv=          0.0
+n3209_ITCPC_09_11_2023     closed lots= 199 kg 100.00%  dq=      0.0 dv=          0.0
+n3210_SSP_09_11_2023       open   lots= 210 kg  94.09%  dq=  -3232.0 dv=   -4969537.9
+overall 76.78%
