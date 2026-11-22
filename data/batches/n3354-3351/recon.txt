@@ -1,0 +1,5 @@
+n3351_CPMCS_07_02_2024     open   lots= 211 kg  98.57%  dq=   -999.7 dv=   -1624970.5
+n3352_HEADER_08_02_2024    open   lots=   5 kg  11.37%  dq= -46159.5 dv=  -69524853.0
+n3353_GHCMPL_08_02_2024    open   lots=   1 kg   2.12%  dq= -59704.3 dv=  -88173645.7
+n3354_KCPMC_09_02_2024     open   lots= 162 kg  99.83%  dq=    -86.1 dv=    -183233.2
+overall 53.96%
