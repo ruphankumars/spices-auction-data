@@ -1,0 +1,5 @@
+n3539_RNS_06_06_2024       closed lots= 167 kg 100.00%  dq=      0.0 dv=          0.2
+n3540_IMCPC_06_06_2024     closed lots= 114 kg 100.00%  dq=      0.0 dv=          0.0
+n3541_CGF_07_06_2024       closed lots=  69 kg 100.00%  dq=      0.0 dv=          0.0
+n3542_SIGCL_07_06_2024     closed lots= 160 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
