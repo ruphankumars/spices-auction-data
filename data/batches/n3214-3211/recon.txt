@@ -1,0 +1,5 @@
+n3211_SIGCL_10_11_2023     closed lots= 238 kg 100.00%  dq=      0.0 dv=         -0.0
+n3212_GCTC_10_11_2023      open   lots=   9 kg  45.79%  dq= -16869.4 dv=  -25706875.1
+n3213_CPMCS_11_11_2023     open   lots= 144 kg  99.90%  dq=    -53.7 dv=     768934.7
+n3214_HEADER_13_11_2023    open   lots=   1 kg   2.27%  dq= -53959.7 dv=  -83086643.5
+overall 66.95%

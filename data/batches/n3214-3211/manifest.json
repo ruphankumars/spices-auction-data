@@ -1,0 +1,46 @@
+[
+ {
+  "date": "10-Nov-2023",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 10.11.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2010.11.2023.pdf",
+  "n": 3211,
+  "rank": 3211,
+  "file": "n3211_SIGCL_10_11_2023.pdf",
+  "bytes": 1544165,
+  "sha256": "192cd7710950b69d1517c020c5d104b105b205827a08bcbe0d4ef7ef37c9fa41"
+ },
+ {
+  "date": "10-Nov-2023",
+  "auctioneer": "GREEN CARDAMOM TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/GCTC 10.11.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GCTC%2010.11.2023.pdf",
+  "n": 3212,
+  "rank": 3212,
+  "file": "n3212_GCTC_10_11_2023.pdf",
+  "bytes": 608723,
+  "sha256": "38b99a76bc97b8a660ceb0588f802bc6c0cbe799cc7b827860dc12476f2f44be"
+ },
+ {
+  "date": "11-Nov-2023",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 11.11.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2011.11.2023.pdf",
+  "n": 3213,
+  "rank": 3213,
+  "file": "n3213_CPMCS_11_11_2023.pdf",
+  "bytes": 1270340,
+  "sha256": "96219024ea90f7a558d5355edb8cfb392cf0076ec2b5b1f173fe9a4915c2636a"
+ },
+ {
+  "date": "13-Nov-2023",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 13.11.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2013.11.2023.pdf",
+  "n": 3214,
+  "rank": 3214,
+  "file": "n3214_HEADER_13_11_2023.pdf",
+  "bytes": 802130,
+  "sha256": "862d434fcbf6cd6aede339cb178214b19ad8eddcaad6176c164c0f1cefbd8cd1"
+ }
+]
