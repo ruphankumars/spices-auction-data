@@ -1,0 +1,46 @@
+[
+ {
+  "date": "14-Dec-2023",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 14.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2014.12.2023.pdf",
+  "n": 3267,
+  "rank": 3267,
+  "file": "n3267_ITCPC_14_12_2023.pdf",
+  "bytes": 1011328,
+  "sha256": "a46a44e8da46bdacc908d528545cad188797379a877b05aaac87329ea0e33846"
+ },
+ {
+  "date": "15-Dec-2023",
+  "auctioneer": "GREEN CARDAMOM TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/GCTC 15.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GCTC%2015.12.2023.pdf",
+  "n": 3268,
+  "rank": 3268,
+  "file": "n3268_GCTC_15_12_2023.pdf",
+  "bytes": 522388,
+  "sha256": "fb36dd54a83e1daa9a3d8b548283e645b101a5c0faa2b7bca8531cc36db1257f"
+ },
+ {
+  "date": "15-Dec-2023",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 15.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2015.12.2023.pdf",
+  "n": 3269,
+  "rank": 3269,
+  "file": "n3269_SIGCL_15_12_2023.pdf",
+  "bytes": 1678523,
+  "sha256": "3959616d16ea864a39453b62d80d3db9cac311643c70539d9235486ff27f41a8"
+ },
+ {
+  "date": "16-Dec-2023",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 16.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2016.12.2023.pdf",
+  "n": 3270,
+  "rank": 3270,
+  "file": "n3270_CPA_16_12_2023.pdf",
+  "bytes": 1072293,
+  "sha256": "bdd061d70c6e16fdb7263cfe0ebc45ba24e832b22b48ad043f5a5cb30c552d9f"
+ }
+]

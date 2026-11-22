@@ -1,0 +1,5 @@
+n3267_ITCPC_14_12_2023     closed* lots= 283 kg 100.00%  dq=      0.0 dv=          0.0
+n3268_GCTC_15_12_2023      open   lots=   6 kg  35.65%  dq= -19441.7 dv=  -30540252.8
+n3269_SIGCL_15_12_2023     closed lots= 276 kg 100.00%  dq=      0.0 dv=          0.0
+n3270_CPA_16_12_2023       open   lots=  12 kg  82.80%  dq=   -348.5 dv=    -566751.5
+overall 90.64%
