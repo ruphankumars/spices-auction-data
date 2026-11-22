@@ -1,0 +1,6 @@
+n3679_IMCPC_11_09_2024     open   lots= 172 kg  98.94%  dq=   -398.5 dv=    -866760.3
+n3680_CGF_12_09_2024       closed lots=  70 kg 100.00%  dq=      0.0 dv=          0.0
+n3681_SIGCL_12_09_2024     closed lots= 231 kg 100.00%  dq=      0.0 dv=          0.0
+n3682_CPA_13_09_2024_SANTH closed lots= 118 kg 100.00%  dq=      0.0 dv=          0.0
+n3682_CPA_13_09_2024_BODIN closed lots=   5 kg 100.00%  dq=      0.0 dv=          0.0
+overall 99.68%
