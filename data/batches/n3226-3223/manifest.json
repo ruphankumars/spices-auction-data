@@ -1,0 +1,46 @@
+[
+ {
+  "date": "18-Nov-2023",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 18.11.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2018.11.2023.pdf",
+  "n": 3223,
+  "rank": 3223,
+  "file": "n3223_CPA_18_11_2023.pdf",
+  "bytes": 929182,
+  "sha256": "f6415fe1c43c5a5640cc0fcfb42ae3fd71fc894cfe13f1924a1a5d4f572aeff7"
+ },
+ {
+  "date": "20-Nov-2023",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 20.11.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2020.11.2023.pdf",
+  "n": 3224,
+  "rank": 3224,
+  "file": "n3224_HEADER_20_11_2023.pdf",
+  "bytes": 776030,
+  "sha256": "c54f88d4ed6cfd567621a0d89ce63eaceba6967354d81bb2b0092d9809eb51a6"
+ },
+ {
+  "date": "20-Nov-2023",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GHCMPL 20.11.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GHCMPL%2020.11.2023.pdf",
+  "n": 3225,
+  "rank": 3225,
+  "file": "n3225_GHCMPL_20_11_2023.pdf",
+  "bytes": 665028,
+  "sha256": "f30819080e8f64a81c4ebcd9310c62fbad21a8b97e8b1e474ac9d9d93547dd05"
+ },
+ {
+  "date": "21-Nov-2023",
+  "auctioneer": "THE KERALA CARDAMOM PROCESSING & MKTG.CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/KCPMC 21.11.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KCPMC%2021.11.2023.pdf",
+  "n": 3226,
+  "rank": 3226,
+  "file": "n3226_KCPMC_21_11_2023.pdf",
+  "bytes": 1455699,
+  "sha256": "0468039bcdb25c91ea40451eb2ba3ce89a469eb4e0a61a5b04f12adb69517e18"
+ }
+]
