@@ -1,0 +1,5 @@
+n3327_GCTC_22_01_2024      closed lots= 107 kg 100.00%  dq=      0.0 dv=          0.0
+n3328_CPA_23_01_2024       open   lots= 120 kg 2121.09%  dq=  21326.5 dv=   32999667.2
+n3329_CPMCS_23_01_2024     closed lots= 199 kg 100.00%  dq=      0.0 dv=          0.0
+n3330_HEADER_24_01_2024    closed lots= 170 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
