@@ -1,0 +1,46 @@
+[
+ {
+  "date": "12-Feb-2024",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 12.02.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2012.02.2024.pdf",
+  "n": 3359,
+  "rank": 3359,
+  "file": "n3359_ITCPC_12_02_2024.pdf",
+  "bytes": 837460,
+  "sha256": "85944c932eb434eff2090a304e22ab7396cbc1a3cecf271a18b7bb6505faf578"
+ },
+ {
+  "date": "13-Feb-2024",
+  "auctioneer": "GREEN CARDAMOM TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/GCTC 13.02.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GCTC%2013.02.2024.pdf",
+  "n": 3360,
+  "rank": 3360,
+  "file": "n3360_GCTC_13_02_2024.pdf",
+  "bytes": 580002,
+  "sha256": "fa3044d7adadac06ced0b5ebfc825b648cb998fbd255c6d66442ee92b27a0389"
+ },
+ {
+  "date": "14-Feb-2024",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 14.02.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2014.02.2024.pdf",
+  "n": 3361,
+  "rank": 3361,
+  "file": "n3361_CPMCS_14_02_2024.pdf",
+  "bytes": 1692544,
+  "sha256": "0a8f899522158f5920ac5bc6f5ebbcb5083dcf84c0fc1d7e9a157c2e0c18154b"
+ },
+ {
+  "date": "14-Feb-2024",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 14.02.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2014.02.2024.pdf",
+  "n": 3362,
+  "rank": 3362,
+  "file": "n3362_CPA_14_02_2024.pdf",
+  "bytes": 707141,
+  "sha256": "c7743660b5949bfa0e156e7018c805e25ad00fb2ad882801ea7d497bccf95092"
+ }
+]
