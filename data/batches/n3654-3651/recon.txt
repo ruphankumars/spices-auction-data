@@ -1,0 +1,6 @@
+n3651_CGF_24_08_2024       closed lots=  83 kg 100.00%  dq=      0.0 dv=          0.0
+n3652_SIGCL_24_08_2024     closed lots= 181 kg 100.00%  dq=      0.0 dv=          0.0
+n3653_MAS_26_08_2024       closed lots= 271 kg 100.00%  dq=      0.0 dv=          0.0
+n3654_CPA_26_08_2024_001_S closed lots=  86 kg 100.00%  dq=      0.0 dv=          0.0
+n3654_CPA_26_08_2024_001_B closed lots=   4 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
