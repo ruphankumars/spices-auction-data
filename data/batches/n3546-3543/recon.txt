@@ -1,0 +1,6 @@
+n3543_MAS_08_06_2024       closed* lots= 262 kg 100.00%  dq=      0.0 dv=          0.0
+n3544_CPA_08_06_2024_SANTH open   lots=   1 kg 114.81%  dq=     28.0 dv=          0.0
+n3544_CPA_08_06_2024_BODIN closed* lots=   7 kg 100.00%  dq=      0.0 dv=          0.0
+n3545_HEADER_10_06_2024    open   lots=   1 kg   3.77%  dq= -42479.7 dv= -107365253.2
+n3546_CPMCS_11_06_2024     open   lots= 150 kg 100.00%  dq=      0.0 dv=          0.0
+overall 74.17%
