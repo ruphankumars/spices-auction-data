@@ -1,0 +1,5 @@
+n3143_CPMCS_28_09_2023     open   lots= 201 kg  99.61%  dq=   -242.3 dv=    -644442.0
+n3144_HEADER_29_09_2023    open   lots=   1 kg   1.86%  dq= -63852.9 dv= -113330414.7
+n3145_GHCMPL_29_09_2023    open   lots=  12 kg  42.51%  dq= -28005.7 dv=  -47465632.1
+n3146_CGF_30_09_2023       closed lots=  89 kg 100.00%  dq=      0.0 dv=          0.0
+overall 52.29%
