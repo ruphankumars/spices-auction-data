@@ -1,0 +1,5 @@
+n3603_SSP_20_07_2024       open   lots= 140 kg  99.04%  dq=   -304.7 dv=    -666623.6
+n3604_KCPMC_22_07_2024     open   lots= 118 kg  99.57%  dq=   -127.1 dv=   -1319082.9
+n3605_GHCMPL_23_07_2024    open   lots=   1 kg   5.05%  dq= -33335.7 dv=  -73446906.6
+n3606_ITCPC_23_07_2024     closed lots= 141 kg 100.00%  dq=      0.0 dv=          0.0
+overall 72.81%
