@@ -1,0 +1,5 @@
+n3323_SMTC_19_01_2024      closed lots= 159 kg 100.00%  dq=      0.0 dv=         -0.4
+n3324_ITC_20_01_2024       closed lots= 218 kg 100.00%  dq=      0.0 dv=          0.0
+n3325_SSP_20_01_2024       closed lots= 166 kg 100.00%  dq=      0.0 dv=          0.0
+n3326_SIGCL_22_01_2024     closed lots= 238 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%

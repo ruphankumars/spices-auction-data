@@ -1,0 +1,46 @@
+[
+ {
+  "date": "19-Jan-2024",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 19.01.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2019.01.2024.pdf",
+  "n": 3323,
+  "rank": 3323,
+  "file": "n3323_SMTC_19_01_2024.pdf",
+  "bytes": 725617,
+  "sha256": "44f0e9588667bc544889951800a82ede587b0f97ac6f87803ed3915d21ba3f09"
+ },
+ {
+  "date": "20-Jan-2024",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITC   20.01.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITC%20%20%2020.01.2024.pdf",
+  "n": 3324,
+  "rank": 3324,
+  "file": "n3324_ITC_20_01_2024.pdf",
+  "bytes": 787283,
+  "sha256": "367108869757238c84d3347a27542ed7ab2fadc9214b374281b9c51435ab9a74"
+ },
+ {
+  "date": "20-Jan-2024",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP  20.01.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%20%2020.01.2024.pdf",
+  "n": 3325,
+  "rank": 3325,
+  "file": "n3325_SSP_20_01_2024.pdf",
+  "bytes": 700952,
+  "sha256": "1cbc1cb9c08d0409d0e61f6b65fb16c370d476fbb3977e708fac40c1ac0691c4"
+ },
+ {
+  "date": "22-Jan-2024",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 22.01.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2022.01.2024.pdf",
+  "n": 3326,
+  "rank": 3326,
+  "file": "n3326_SIGCL_22_01_2024.pdf",
+  "bytes": 1812395,
+  "sha256": "4049b0cdb7ca3c72b4689f2da72553f2dcb3cf9a813c4b014df41b1e5d68b4f4"
+ }
+]
