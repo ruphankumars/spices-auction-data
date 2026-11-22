@@ -1,0 +1,7 @@
+n3215_GHCMPL_13_11_2023    open   lots=   3 kg   8.67%  dq= -42879.0 dv=  -67560506.5
+n3216_KCPMC_14_11_2023     open   lots= 126 kg  99.95%  dq=    -21.5 dv=   -1316524.8
+Traceback (most recent call last):
+  File "/home/runner/work/spices-auction-data/spices-auction-data/extract/recon.py", line 5, in <module>
+    T+=sold; S+=min(q,sold)
+                ~~~^^^^^^^^
+TypeError: '<' not supported between instances of 'float' and 'NoneType'
