@@ -1,0 +1,8 @@
+n3491_SICOAP_08_05_2024    closed lots= 159 kg 100.00%  dq=      0.0 dv=          0.0
+n3492_GHMPL_08_05_2024     open   lots=   4 kg  16.75%  dq= -38351.8 dv=  -76610189.0
+n3493_RNS_09_05_2024       closed lots= 187 kg 100.00%  dq=      0.0 dv=          0.0
+Traceback (most recent call last):
+  File "/home/runner/work/spices-auction-data/spices-auction-data/extract/recon.py", line 5, in <module>
+    T+=sold; S+=min(q,sold)
+                ~~~^^^^^^^^
+TypeError: '<' not supported between instances of 'float' and 'NoneType'
