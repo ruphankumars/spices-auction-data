@@ -1,0 +1,5 @@
+n3415_CPMCS_18_03_2024     open   lots= 190 kg  99.37%  dq=   -394.9 dv=    -586498.8
+n3416_SSP_18_03_2024       open   lots= 152 kg 100.00%  dq=      0.0 dv=       -100.0
+n3417_GCTC_19_03_2024      open   lots=   2 kg   9.49%  dq= -25007.7 dv=  -34825795.6
+n3418_KCPMC_19_03_2024     open   lots= 181 kg  99.96%  dq=    -21.7 dv=     331633.6
+overall 86.80%
