@@ -1,0 +1,46 @@
+[
+ {
+  "date": "30-Jan-2024",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 30.01.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2030.01.2024.pdf",
+  "n": 3339,
+  "rank": 3339,
+  "file": "n3339_SIGCL_30_01_2024.pdf",
+  "bytes": 1580140,
+  "sha256": "26fccac2247c178c024c41ea05c48276ceb9582d4988d6f44fdce894fcda317b"
+ },
+ {
+  "date": "31-Jan-2024",
+  "auctioneer": "THE CARDAMOM PLANTERS' MARKETING CO-OPERATIVE SOCIETY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/CPMCS 31.01.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPMCS%2031.01.2024.pdf",
+  "n": 3340,
+  "rank": 3340,
+  "file": "n3340_CPMCS_31_01_2024.pdf",
+  "bytes": 1870309,
+  "sha256": "0948e290dcd931bc661546f47f885d101fa352ba83d649611a2858929ca2f138"
+ },
+ {
+  "date": "31-Jan-2024",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 31.01.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2031.01.2024.pdf",
+  "n": 3341,
+  "rank": 3341,
+  "file": "n3341_CPA_31_01_2024.pdf",
+  "bytes": 930476,
+  "sha256": "4e45638b242ee1530c69d49fb549a314c52728e196f08286dd35733b828ba40e"
+ },
+ {
+  "date": "01-Feb-2024",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GHCMPL 01.02.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GHCMPL%2001.02.2024.pdf",
+  "n": 3342,
+  "rank": 3342,
+  "file": "n3342_GHCMPL_01_02_2024.pdf",
+  "bytes": 1248361,
+  "sha256": "2fe6f652ed5610a0c13637c889e29347a51caec9a80cc407f7fea7e4253400a3"
+ }
+]

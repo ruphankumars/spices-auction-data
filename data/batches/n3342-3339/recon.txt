@@ -1,0 +1,5 @@
+n3339_SIGCL_30_01_2024     closed lots= 256 kg 100.00%  dq=      0.0 dv=          0.0
+n3340_CPMCS_31_01_2024     closed lots= 220 kg 100.00%  dq=      0.0 dv=          0.0
+n3341_CPA_31_01_2024       open   lots= 115 kg 2177.65%  dq=  21929.5 dv=   34405648.0
+n3342_GHCMPL_01_02_2024    closed lots= 238 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
