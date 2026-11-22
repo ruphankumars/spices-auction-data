@@ -1,0 +1,5 @@
+n3435_SICOAPL_30_03_2024   closed lots= 139 kg 100.00%  dq=      0.0 dv=          0.0
+n3436_RNS_01_04_2024       closed lots= 184 kg 100.00%  dq=      0.0 dv=          0.0
+n3437_KOKO_01_04_2024      closed lots= 147 kg 100.00%  dq=      0.0 dv=          0.0
+n3438_SIGCL_02_04_2024     closed lots= 180 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%

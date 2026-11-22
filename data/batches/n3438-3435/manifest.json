@@ -1,0 +1,46 @@
+[
+ {
+  "date": "30-Mar-2024",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAPL 30-03-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAPL%2030-03-2024.pdf",
+  "n": 3435,
+  "rank": 3435,
+  "file": "n3435_SICOAPL_30_03_2024.pdf",
+  "bytes": 846393,
+  "sha256": "1813a9a0d6436d32f5708ebb7e3f46d206f2e272feb4cccc04093f1f82c5db69"
+ },
+ {
+  "date": "01-Apr-2024",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 01-04-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2001-04-2024.pdf",
+  "n": 3436,
+  "rank": 3436,
+  "file": "n3436_RNS_01_04_2024.pdf",
+  "bytes": 1161418,
+  "sha256": "3c96ff119f4a663595867365d6eef8c2f78e544c1a79e2f755610630d7dfbcf0"
+ },
+ {
+  "date": "01-Apr-2024",
+  "auctioneer": "KOKO SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/KOKO 01-04-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KOKO%2001-04-2024.pdf",
+  "n": 3437,
+  "rank": 3437,
+  "file": "n3437_KOKO_01_04_2024.pdf",
+  "bytes": 464079,
+  "sha256": "33da5f0338ec2160133aa65419d40caad72113a80a1a6c90e3a0f404e000b0d0"
+ },
+ {
+  "date": "02-Apr-2024",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 02-04-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2002-04-2024.pdf",
+  "n": 3438,
+  "rank": 3438,
+  "file": "n3438_SIGCL_02_04_2024.pdf",
+  "bytes": 1105992,
+  "sha256": "203aba8e8bb39304f0cd3a0bb078e29f2a391902fc85087184117033f2ba9670"
+ }
+]
