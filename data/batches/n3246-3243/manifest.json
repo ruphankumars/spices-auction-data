@@ -1,0 +1,46 @@
+[
+ {
+  "date": "30-Nov-2023",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 30.11.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2030.11.2023.pdf",
+  "n": 3243,
+  "rank": 3243,
+  "file": "n3243_ITCPC_30_11_2023.pdf",
+  "bytes": 829730,
+  "sha256": "043f50e0d5eeeb33f5d971008069b6e30dbfc83c6c7fdc6b0ed2d95e6dcaf3c4"
+ },
+ {
+  "date": "30-Nov-2023",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 30.11.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2030.11.2023.pdf",
+  "n": 3244,
+  "rank": 3244,
+  "file": "n3244_SSP_30_11_2023.pdf",
+  "bytes": 838693,
+  "sha256": "2570397bfc3a709401bc72036f16f26d8b4a626999aad663678396aad845d8bc"
+ },
+ {
+  "date": "01-Dec-2023",
+  "auctioneer": "GREEN CARDAMOM TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/GCTC 01.11.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GCTC%2001.11.2023.pdf",
+  "n": 3245,
+  "rank": 3245,
+  "file": "n3245_GCTC_01_11_2023.pdf",
+  "bytes": 182577,
+  "sha256": "b3efcf72a923110f3f50e67a76a71b6066f04a9cb8a2f55951cd3c3115ef3a14"
+ },
+ {
+  "date": "02-Dec-2023",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 02.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2002.12.2023.pdf",
+  "n": 3246,
+  "rank": 3246,
+  "file": "n3246_CPA_02_12_2023.pdf",
+  "bytes": 1079465,
+  "sha256": "32afef2b3ee512c1a01c77024907a8c086a0dcdb1ea91b6bdff326665fcd3d64"
+ }
+]
