@@ -1,0 +1,46 @@
+[
+ {
+  "date": "17-Jan-2024",
+  "auctioneer": "HEADER SYSTEMS (INDIA) LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/HEADER 17.01.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/HEADER%2017.01.2024.pdf",
+  "n": 3319,
+  "rank": 3319,
+  "file": "n3319_HEADER_17_01_2024.pdf",
+  "bytes": 882016,
+  "sha256": "4b61b8a36fc1dd8e8ba585f04f4f9c9ef0b87aa4af7ce0008bdf549a2abfc56c"
+ },
+ {
+  "date": "18-Jan-2024",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 18.01.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2018.01.2024.pdf",
+  "n": 3320,
+  "rank": 3320,
+  "file": "n3320_CGF_18_01_2024.pdf",
+  "bytes": 552383,
+  "sha256": "6eb73427e6707ef7480f3411c59154bb2e5abff0d808b2485a858eb274f80398"
+ },
+ {
+  "date": "18-Jan-2024",
+  "auctioneer": "THE KERALA CARDAMOM PROCESSING & MKTG.CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/KCPMC 18.01.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KCPMC%2018.01.2024.pdf",
+  "n": 3321,
+  "rank": 3321,
+  "file": "n3321_KCPMC_18_01_2024.pdf",
+  "bytes": 1419851,
+  "sha256": "a62ced75f75a4dc3dcf5085d05990f2db796628be20d857bd725461d0bfdce41"
+ },
+ {
+  "date": "19-Jan-2024",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 19.01.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2019.01.2024.pdf",
+  "n": 3322,
+  "rank": 3322,
+  "file": "n3322_MAS_19_01_2024.pdf",
+  "bytes": 1529671,
+  "sha256": "d33ea9bc8f94b2d7e6c674e2ead712369afa374d7fc5c34eb168bda0fbc07416"
+ }
+]
