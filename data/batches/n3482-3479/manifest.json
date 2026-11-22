@@ -1,0 +1,46 @@
+[
+ {
+  "date": "30-Apr-2024",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 30-04-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2030-04-2024.pdf",
+  "n": 3479,
+  "rank": 3479,
+  "file": "n3479_SICOAP_30_04_2024.pdf",
+  "bytes": 1188120,
+  "sha256": "7b542aa87fd5eca727c2e54a324705bfc44a9efe9958766f26ef4556470f4ece"
+ },
+ {
+  "date": "01-May-2024",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 01-05-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2001-05-2024.pdf",
+  "n": 3480,
+  "rank": 3480,
+  "file": "n3480_RNS_01_05_2024.pdf",
+  "bytes": 1448386,
+  "sha256": "b4344fcdfd32e94592ab987b43a694deedfd1567283eca13def1a64d0bd75996"
+ },
+ {
+  "date": "01-May-2024",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SIGCL 01-05-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SIGCL%2001-05-2024.pdf",
+  "n": 3481,
+  "rank": 3481,
+  "file": "n3481_SIGCL_01_05_2024.pdf",
+  "bytes": 1287419,
+  "sha256": "607ddc9b7a5a0e68ea648e5c927e055e3e344d5da20e38ae06030841bb67ad09"
+ },
+ {
+  "date": "02-May-2024",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 02-05-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2002-05-2024.pdf",
+  "n": 3482,
+  "rank": 3482,
+  "file": "n3482_MAS_02_05_2024.pdf",
+  "bytes": 1497481,
+  "sha256": "9345d98cc80bbe997c031af2cc5e2ffe2f7ac14484ff6200e820645ac6513058"
+ }
+]

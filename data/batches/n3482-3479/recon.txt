@@ -1,0 +1,5 @@
+n3479_SICOAP_30_04_2024    closed lots= 204 kg 100.00%  dq=      0.0 dv=          0.0
+n3480_RNS_01_05_2024       closed lots= 245 kg 100.00%  dq=      0.0 dv=          0.3
+n3481_SIGCL_01_05_2024     open   lots= 199 kg 100.00%  dq=      0.0 dv=         10.1
+n3482_MAS_02_05_2024       open   lots= 254 kg  99.82%  dq=   -142.6 dv=    -126910.7
+overall 99.95%
