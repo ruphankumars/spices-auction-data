@@ -1,0 +1,6 @@
+n3639_CGF_14_08_2024       closed* lots=  83 kg 100.00%  dq=      0.0 dv=          0.0
+n3640_CPA_16_08_2024_SANTH closed lots=  72 kg 100.00%  dq=      0.0 dv=          0.0
+n3640_CPA_16_08_2024       closed lots=   3 kg 100.00%  dq=      0.0 dv=          0.0
+n3641_MAS_16_08_2024       closed lots= 269 kg 100.00%  dq=      0.0 dv=          0.0
+n3642_header_17_08_2024_00 closed lots= 182 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
