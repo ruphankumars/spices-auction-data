@@ -1,0 +1,5 @@
+n3559_SMTC_20_06_2024      open   lots=   7 kg  41.01%  dq= -21007.2 dv=  -50917153.3
+n3560_HEADER_20_06_2024    open   lots=   3 kg  14.32%  dq= -37037.1 dv=  -83980101.2
+n3561_SSP_21_06_2024       closed lots= 181 kg 100.00%  dq=      0.0 dv=          0.0
+n3562_CPMCS_21_06_2024     open   lots= 163 kg  99.82%  dq=    -77.4 dv=    -209741.4
+overall 64.96%
