@@ -1,0 +1,6 @@
+n3467_CGF_22_04_2024       closed lots= 107 kg 100.00%  dq=      0.0 dv=          0.0
+n3468_SIGCL_22_04_2024     closed lots= 244 kg 100.00%  dq=      0.0 dv=          0.0
+n3469_CPA_23_04_2024_SANTH open   lots=  83 kg  99.56%  dq=    -81.3 dv=     211720.5
+n3469_CPA_23_04_2024       closed lots=   9 kg 100.00%  dq=      0.0 dv=          0.0
+n3470_MAS_23_04_2024       open   lots= 270 kg  99.88%  dq=   -111.9 dv=    -287703.1
+overall 99.91%
