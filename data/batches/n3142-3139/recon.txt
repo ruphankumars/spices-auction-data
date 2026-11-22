@@ -1,0 +1,6 @@
+n3139_ITCPC_26_09_2023     closed lots= 197 kg 100.00%  dq=      0.0 dv=          0.0
+n3140_GCTC_27_09_2023      open   lots=   3 kg  19.46%  dq= -24597.2 dv=  -44892887.4
+n3141_SIGCL_27_09_2023     open   lots= 217 kg 101.91%  dq=   1077.9 dv=    2063228.8
+n3142_CPA_28_09_2023_SANTH open   lots=   2 kg  93.64%  dq=    -16.6 dv=     101171.0
+n3142_CPA_28_09_2023_BODIN closed lots=   5 kg 100.00%  dq=      0.0 dv=          0.0
+overall 81.95%
