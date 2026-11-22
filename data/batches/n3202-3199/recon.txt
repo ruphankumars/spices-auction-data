@@ -1,0 +1,4 @@
+n3199_GCTC_03_11_2023      open   lots=   6 kg  26.93%  dq= -22332.3 dv=  -31343105.0
+n3201_CPA_04_11_2023       closed* lots=   5 kg 100.00%  dq=      0.0 dv=          0.0
+n3202_CPMCS_04_11_2023     open   lots= 219 kg 100.00%  dq=      0.0 dv=          0.0
+overall 79.06%
