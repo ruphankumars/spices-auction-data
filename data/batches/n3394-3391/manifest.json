@@ -1,0 +1,46 @@
+[
+ {
+  "date": "04-Mar-2024",
+  "auctioneer": "GREENHOUSE CARDAMOM MKTG.INDIA PVT.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/GHCMPL 04.03.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/GHCMPL%2004.03.2024.pdf",
+  "n": 3391,
+  "rank": 3391,
+  "file": "n3391_GHCMPL_04_03_2024.pdf",
+  "bytes": 864659,
+  "sha256": "46d26d5f2538c251812461e09215e15a02755fbe8bc99e6625fc5cf7dafd150d"
+ },
+ {
+  "date": "04-Mar-2024",
+  "auctioneer": "IDUKKI DISTRICT TRADITIONAL CARDAMOM PRODUCER COMPANY LTD",
+  "href": "dailyprice/auctionerDetailsPDF/ITCPC 04.03.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/ITCPC%2004.03.2024.pdf",
+  "n": 3392,
+  "rank": 3392,
+  "file": "n3392_ITCPC_04_03_2024.pdf",
+  "bytes": 830596,
+  "sha256": "a6d55d717d14bc499532bd97a55ea35a1777d9ed93dde6e62e4e12c7577c9b88"
+ },
+ {
+  "date": "05-Mar-2024",
+  "auctioneer": "KOKO SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/KOKO 05.03.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KOKO%2005.03.2024.pdf",
+  "n": 3393,
+  "rank": 3393,
+  "file": "n3393_KOKO_05_03_2024.pdf",
+  "bytes": 800405,
+  "sha256": "c141be4d86676b554025a3361a57ee67f15e8c17b49e441625f6fe38a3a5f9ec"
+ },
+ {
+  "date": "05-Mar-2024",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 05.03.2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2005.03.2024.pdf",
+  "n": 3394,
+  "rank": 3394,
+  "file": "n3394_SICOAP_05_03_2024.pdf",
+  "bytes": 1233262,
+  "sha256": "e090cc67cf06d8302fa00fd5060e412eacbf10a373839f3bf082b40cfa17433c"
+ }
+]
