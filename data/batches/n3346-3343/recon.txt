@@ -1,0 +1,5 @@
+n3343_HEADER_01_02_2024    closed lots= 218 kg 100.00%  dq=      0.0 dv=          0.0
+n3344_KCPMC_02_02_2024     closed lots= 210 kg 100.00%  dq=      0.0 dv=          0.0
+n3345_CGF_02_02_2024       closed lots= 170 kg 100.00%  dq=      0.0 dv=          0.0
+n3346_MAS_03_02_2024       open   lots= 277 kg  98.98%  dq=   -973.1 dv=   -1544927.4
+overall 99.63%
