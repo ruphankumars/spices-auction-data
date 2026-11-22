@@ -1,0 +1,5 @@
+n3375_GHCMPL_22_02_2024    open   lots=   3 kg   5.34%  dq= -63970.2 dv=  -91096169.8
+n3376_HEADER_22_02_2024    open   lots=   1 kg   2.31%  dq= -49875.5 dv=  -68717200.0
+n3377_KCPMC_23_02_2024     open   lots= 225 kg  99.60%  dq=   -299.9 dv=    -190141.2
+n3378_CGF_23_02_2024       closed lots= 136 kg 100.00%  dq=      0.0 dv=          0.0
+overall 48.09%
