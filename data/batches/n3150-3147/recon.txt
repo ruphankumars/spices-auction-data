@@ -1,0 +1,5 @@
+n3147_KCPMC_30_09_2023     open   lots= 171 kg  98.05%  dq=  -1105.0 dv=   -1876409.2
+n3148_SMTC_03_10_2023      open   lots=   1 kg   0.07%  dq= -43981.0 dv=  -76756583.7
+n3149_MAS_03_10_2023       open   lots= 251 kg  77.32%  dq= -16303.4 dv=  -27902222.2
+n3150_ITCPC_04_10_2023     closed lots= 207 kg 100.00%  dq=      0.0 dv=          0.0
+overall 73.00%
