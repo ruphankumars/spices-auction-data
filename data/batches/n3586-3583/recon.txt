@@ -1,0 +1,5 @@
+n3583_IMCPC_05_07_2024     closed lots=  72 kg 100.00%  dq=      0.0 dv=          0.0
+n3584_SIGCL_06_07_2024     closed lots= 112 kg 100.00%  dq=      0.0 dv=          0.0
+n3585_MAS_08_07_2024       open   lots= 147 kg 100.00%  dq=      0.0 dv=          0.0
+n3586_HEADER_09_07_2024    open   lots=   1 kg   5.36%  dq= -26772.4 dv=  -61652877.1
+overall 74.75%
