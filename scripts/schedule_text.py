@@ -29,6 +29,7 @@ def text_of(pdf):
 
 
 def main():
+    os.makedirs('schedule', exist_ok=True)
     html = requests.get(PAGE, headers=UA, timeout=30).text
     seen = set()
     for href, label in re.findall(r'href\s*=\s*["\']([^"\']+\.pdf)["\'][^>]*>([\s\S]*?)</a>', html, re.I):
