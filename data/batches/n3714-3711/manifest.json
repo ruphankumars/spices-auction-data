@@ -1,0 +1,46 @@
+[
+ {
+  "date": "01-Oct-2024",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 01-10-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2001-10-2024.pdf",
+  "n": 3711,
+  "rank": 3711,
+  "file": "n3711_CGF_01_10_2024.pdf",
+  "bytes": 634426,
+  "sha256": "b5c8045c903f9abd51bf6e62e9f7dacf6346970610ee5dde72a8af9b3c2f4449"
+ },
+ {
+  "date": "03-Oct-2024",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 03-10-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2003-10-2024.pdf",
+  "n": 3712,
+  "rank": 3712,
+  "file": "n3712_MAS_03_10_2024.pdf",
+  "bytes": 1833863,
+  "sha256": "bb8a366c69e1eb48c41a54df0dbaeaece8d42884971a7df68429d2b227823391"
+ },
+ {
+  "date": "03-Oct-2024",
+  "auctioneer": "CARDAMOM PLANTERS' ASSOCIATION",
+  "href": "dailyprice/auctionerDetailsPDF/CPA 03-10-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CPA%2003-10-2024.pdf",
+  "n": 3713,
+  "rank": 3713,
+  "file": "n3713_CPA_03_10_2024.pdf",
+  "bytes": 1028657,
+  "sha256": "de2fa930e5db754e45e1d7ffdb7ff7c0c084f1a01d1d525362d4937bbbf409eb"
+ },
+ {
+  "date": "04-Oct-2024",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 04-10-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2004-10-2024.pdf",
+  "n": 3714,
+  "rank": 3714,
+  "file": "n3714_SMTC_04_10_2024.pdf",
+  "bytes": 901337,
+  "sha256": "c59f33563026fc7f8849049bbd4742a104ca50f3787d02c81a30d5dcf321b200"
+ }
+]
