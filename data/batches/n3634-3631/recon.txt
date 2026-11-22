@@ -1,0 +1,5 @@
+n3631_KCPMC_09_08_2024     closed lots= 167 kg 100.00%  dq=      0.0 dv=          0.0
+n3632_ITPCL_10_08_2024     closed lots= 213 kg 100.00%  dq=      0.0 dv=          0.0
+n3633_GREEN_HOUSE_10_08_20 closed lots= 193 kg 100.00%  dq=      0.0 dv=          0.0
+n3634_SICOAP_12_08_2024    closed lots= 191 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
