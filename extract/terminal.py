@@ -84,6 +84,8 @@ def main(dirs, out, listed=None):
         aucs += list(csv.DictReader(open(f'{d}/auctions.csv')))
     fixdate = {}
     for a in aucs:
+        if a.get('date') and not ('2016-01-01' <= a['date'] <= D.date.today().isoformat()):
+            a['date'] = ''      # a misread year (2028): the file name's date instead
         if not a.get('date'):  # summary date unread: take it from the report's file name (..._DD_MM_YYYY_...)
             m = re.search(r'_(\d{2})_(\d{2})_(\d{4})_', a['auction_id'] + '_')
             if m: a['date'] = f"{m[3]}-{m[2]}-{m[1]}"
@@ -92,8 +94,19 @@ def main(dirs, out, listed=None):
     for a in aucs:
         a['code'] = code(a['auctioneer'])
     rows = [r for r in rows if fixdate.get(r['auction_id'])]
+    # one firm, many printed spellings (OCR noise, cut-off and wrapped cells): one name each
+    from cluster import cluster
+    for col in ('buyer', 'seller'):
+        names = sorted({r[col].strip() for r in rows} - {''})
+        nm = [''] + names; ix = {n: i for i, n in enumerate(nm)}
+        q = C.Counter()
+        for r in rows: q[ix.get(r[col].strip(), 0)] += float(r['qty_kg'])
+        root = cluster(nm, q)
+        for r in rows:
+            i = ix.get(r[col].strip(), 0)
+            if i: r[col] = nm[root[i]]
     for r in rows:
-        r['date'] = r.get('date') or fixdate[r['auction_id']]
+        r['date'] = fixdate[r['auction_id']]
         r['q'], r['r'], r['v'] = float(r['qty_kg']), float(r['rate_rs']), float(r['value_rs'])
         r['code'] = code(r['auctioneer'])
         r['ln'] = int(re.sub(r'\D', '', r['lot_no']) or 0)
