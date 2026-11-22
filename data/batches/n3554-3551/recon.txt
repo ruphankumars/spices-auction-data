@@ -1,0 +1,5 @@
+n3551_SICOAP_14_06_2024    closed lots= 179 kg 100.00%  dq=      0.0 dv=          0.0
+n3552_KOKO_14_06_2024      closed lots= 101 kg 100.00%  dq=      0.0 dv=          0.0
+n3553_IMCPC_15_06_2024     closed lots=  97 kg 100.00%  dq=      0.0 dv=          0.0
+n3554_RNS_15_06_2024       closed lots= 140 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%
