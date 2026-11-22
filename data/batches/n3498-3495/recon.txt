@@ -1,0 +1,5 @@
+n3495_SIGCL_10_05_2024     closed lots= 185 kg 100.00%  dq=      0.0 dv=          0.0
+n3496_MAS_11_05_2024       open   lots= 226 kg 100.00%  dq=      0.0 dv=          0.0
+n3497_CPA_11_05_2024       open   lots=  10 kg  95.35%  dq=    -58.0 dv=    -121695.8
+n3498_HEADER_13_05_2024    open   lots=   3 kg  12.77%  dq= -38520.3 dv=  -79053239.0
+overall 76.27%
