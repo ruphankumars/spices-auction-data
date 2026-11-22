@@ -1,0 +1,46 @@
+[
+ {
+  "date": "12-Dec-2023",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 12.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2012.12.2023.pdf",
+  "n": 3263,
+  "rank": 3263,
+  "file": "n3263_CGF_12_12_2023.pdf",
+  "bytes": 567855,
+  "sha256": "d84f93b4dd4748480ae05f9995950f9fe72eca3261bc957a8fbf6dc1bb28d644"
+ },
+ {
+  "date": "13-Dec-2023",
+  "auctioneer": "SPICE MORE TRADING COMPANY",
+  "href": "dailyprice/auctionerDetailsPDF/SMTC 13.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SMTC%2013.12.2023.pdf",
+  "n": 3264,
+  "rank": 3264,
+  "file": "n3264_SMTC_13_12_2023.pdf",
+  "bytes": 693673,
+  "sha256": "e6ab4db20b849a96278847611280851f892bed3f8c2c00f47135b8f5b43b29d9"
+ },
+ {
+  "date": "13-Dec-2023",
+  "auctioneer": "MAS ENTERPRISES LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/MAS 13.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/MAS%2013.12.2023.pdf",
+  "n": 3265,
+  "rank": 3265,
+  "file": "n3265_MAS_13_12_2023.pdf",
+  "bytes": 1460025,
+  "sha256": "d508a6a5884d5e97859ca45496f0f57b7b32f643bbb2074d7009d4588a4f029b"
+ },
+ {
+  "date": "14-Dec-2023",
+  "auctioneer": "SUGANDHAGIRI SPICES PROMOTERS AND TRADERS PVT. LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SSP 14.12.2023.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SSP%2014.12.2023.pdf",
+  "n": 3266,
+  "rank": 3266,
+  "file": "n3266_SSP_14_12_2023.pdf",
+  "bytes": 892565,
+  "sha256": "d063587cf28935c4f0e148593c88d3e161a2f8e943b892571439a28be39f2178"
+ }
+]
