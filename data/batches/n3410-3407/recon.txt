@@ -1,0 +1,5 @@
+n3407_KOKO_13_03_2024      closed lots= 138 kg 100.00%  dq=      0.0 dv=          0.0
+n3408_SICOAP_13_03_2024    closed lots= 145 kg 100.00%  dq=      0.0 dv=          0.0
+n3409_SICGL_14_03_2024     closed lots= 190 kg 100.00%  dq=      0.0 dv=          0.0
+n3410_CGF_14_03_2024       closed lots= 100 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%

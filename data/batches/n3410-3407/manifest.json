@@ -1,0 +1,46 @@
+[
+ {
+  "date": "13-Mar-2024",
+  "auctioneer": "KOKO SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/KOKO 13-03-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KOKO%2013-03-2024.pdf",
+  "n": 3407,
+  "rank": 3407,
+  "file": "n3407_KOKO_13_03_2024.pdf",
+  "bytes": 471652,
+  "sha256": "650e7bac6776f95e0715e2f767061cbd9b02496e3456b138a9d4230f8d9a3189"
+ },
+ {
+  "date": "13-Mar-2024",
+  "auctioneer": "SOUTH INDIAN CARDAMOM ONLINE AUCTION PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/SICOAP 13-03-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICOAP%2013-03-2024.pdf",
+  "n": 3408,
+  "rank": 3408,
+  "file": "n3408_SICOAP_13_03_2024.pdf",
+  "bytes": 1137495,
+  "sha256": "8f4c25ff94bc4519d5689f72d3f807870c4ae4336121ed4d643d8707449fed3d"
+ },
+ {
+  "date": "14-Mar-2024",
+  "auctioneer": "SOUTH INDIAN GREEN CARDAMOM CO.LTD",
+  "href": "dailyprice/auctionerDetailsPDF/SICGL 14-03-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/SICGL%2014-03-2024.pdf",
+  "n": 3409,
+  "rank": 3409,
+  "file": "n3409_SICGL_14_03_2024.pdf",
+  "bytes": 1169269,
+  "sha256": "f0dc93c0ed81b9abe7c4f773a96d9a98730b29624fe169c1f7bc82850ccd6d09"
+ },
+ {
+  "date": "14-Mar-2024",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 14-03-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2014-03-2024.pdf",
+  "n": 3410,
+  "rank": 3410,
+  "file": "n3410_CGF_14_03_2024.pdf",
+  "bytes": 414591,
+  "sha256": "f47da5680a16bf0975f9f9d7dc90d2611aba6303ee1d5d8e60250d619f5848df"
+ }
+]
