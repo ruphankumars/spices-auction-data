@@ -1,0 +1,5 @@
+n3655_HEADER_27_08_2024    closed lots= 138 kg 100.00%  dq=      0.0 dv=          0.0
+n3656_SMTC_27_08_2024      open   lots= 210 kg 100.00%  dq=      0.0 dv=         -1.0
+n3657_CPMCS_28_08_2024     closed lots= 139 kg 100.00%  dq=      0.0 dv=          0.0
+n3658_SSP_28_08_2024       open   lots= 222 kg  99.42%  dq=   -276.0 dv=    -746192.0
+overall 99.83%
