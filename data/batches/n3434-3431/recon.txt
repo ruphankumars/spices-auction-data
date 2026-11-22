@@ -1,0 +1,4 @@
+n3432_KCPMC_27_03_2024     open   lots= 195 kg  99.94%  dq=    -35.0 dv=     -32570.0
+n3433_ITCPC_28_03_2024     closed lots= 174 kg 100.00%  dq=      0.0 dv=          0.0
+n3434_GHCMPL_30_03_2024    open   lots=   3 kg  10.53%  dq= -35399.6 dv=  -53183521.0
+overall 75.68%
