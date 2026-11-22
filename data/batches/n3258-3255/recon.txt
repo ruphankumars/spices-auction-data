@@ -1,0 +1,5 @@
+n3255_ITCPC_07_12_2023     closed lots= 254 kg 100.00%  dq=      0.0 dv=          0.0
+n3256_SSP_07_12_2023       open   lots= 202 kg  98.11%  dq=  -1030.0 dv=   -1554379.4
+n3257_SIGCL_08_12_2023     closed lots= 252 kg 100.00%  dq=      0.0 dv=          0.0
+n3258_CPMCS_09_12_2023     open   lots= 228 kg  98.86%  dq=   -922.8 dv=   -1442944.4
+overall 99.34%
