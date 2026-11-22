@@ -1,0 +1,5 @@
+n3335_MAS_27_01_2024       open   lots= 299 kg 100.44%  dq=    417.4 dv=     788190.4
+n3336_SSP_29_01_2024       open   lots= 201 kg 100.00%  dq=     -0.9 dv=          0.0
+n3337_ITC_29_01_2024       closed lots= 248 kg 100.00%  dq=      0.0 dv=          0.0
+n3338_GCTC_30_01_2024      closed lots=  76 kg 100.00%  dq=      0.0 dv=         -0.1
+overall 100.00%
