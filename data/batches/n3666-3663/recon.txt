@@ -1,0 +1,5 @@
+n3663_KOKO_31_08_2024      closed lots=  87 kg 100.00%  dq=      0.0 dv=          0.0
+n3664_IMCPC_02_09_2024     closed lots= 177 kg 100.00%  dq=      0.0 dv=          0.0
+n3665_RNS_02_09_2024       closed lots= 228 kg 100.00%  dq=      0.0 dv=          0.0
+n3666_CGF_03_09_2024       closed* lots= 118 kg 100.00%  dq=      0.0 dv=          0.0
+overall 100.00%

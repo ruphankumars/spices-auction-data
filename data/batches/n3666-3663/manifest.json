@@ -1,0 +1,46 @@
+[
+ {
+  "date": "31-Aug-2024",
+  "auctioneer": "KOKO SPICES PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/KOKO 31-08-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/KOKO%2031-08-2024.pdf",
+  "n": 3663,
+  "rank": 3663,
+  "file": "n3663_KOKO_31_08_2024.pdf",
+  "bytes": 334098,
+  "sha256": "4b7c3be56968b019e0ea0734a567bb1f54dc8137bbdbfef8670cf16efc036a2e"
+ },
+ {
+  "date": "02-Sep-2024",
+  "auctioneer": "IDUKKI MAHILA CARDAMOM PRODUCER COMPANY LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/IMCPC 02-09-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/IMCPC%2002-09-2024.pdf",
+  "n": 3664,
+  "rank": 3664,
+  "file": "n3664_IMCPC_02_09_2024.pdf",
+  "bytes": 620102,
+  "sha256": "a7e28c8f37cde04c1dd4b8762664ef716577b4f4c6cdc9a2418df59afefa7b4b"
+ },
+ {
+  "date": "02-Sep-2024",
+  "auctioneer": "RNS SPICES",
+  "href": "dailyprice/auctionerDetailsPDF/RNS 02-09-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/RNS%2002-09-2024.pdf",
+  "n": 3665,
+  "rank": 3665,
+  "file": "n3665_RNS_02_09_2024.pdf",
+  "bytes": 1312800,
+  "sha256": "c2c505c78dc4e2526b79ea7c2f70c102e5139031bcf4b0faa089100092d0a4c6"
+ },
+ {
+  "date": "03-Sep-2024",
+  "auctioneer": "CARDAMOM GROWERSFOREVER PRIVATE LIMITED",
+  "href": "dailyprice/auctionerDetailsPDF/CGF 03-09-2024.pdf",
+  "url": "https://www.indianspices.com/dailyprice/auctionerDetailsPDF/CGF%2003-09-2024.pdf",
+  "n": 3666,
+  "rank": 3666,
+  "file": "n3666_CGF_03_09_2024.pdf",
+  "bytes": 459249,
+  "sha256": "4ab85d8fe49bc9be11e0e0328ab1041918e15218276aee2421297232f7ef1981"
+ }
+]
