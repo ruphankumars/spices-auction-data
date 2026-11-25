@@ -111,9 +111,15 @@ def read():
                 del running[f]
                 log("chunk", ns, "done:", tail.strip().splitlines()[-1:] if tail.strip() else "")
             save()
+            if time.time() - LAST[0] > 2 * 3600:  # the app sees progress every two hours
+                publish()
+
+
+LAST = [0.0]
 
 
 def publish():
+    LAST[0] = time.time()
     run([sys.executable, "extract/terminal.py", "ALL", "data/terminal.json"], check=False)
     run([sys.executable, "scripts/load_supabase.py"], check=False)
     for f in ("lots.json", "terminal.json"):
@@ -139,11 +145,13 @@ def main():
         schedule()
     except Exception as e:  # noqa: BLE001 - the schedule must not stop the reports
         log("schedule failed:", e)
+    if not requests.head(f"{URL}/storage/v1/object/public/{PUBLIC}/lots.json", timeout=30).ok:
+        publish()  # the first run: the app and the intel need the files before hours of reading
     before = len(glob.glob(str(ROOT / "data/batches/*/")))
     run([sys.executable, "scripts/index.py", "update", "15"], check=False)
     save()
     read()
-    if len(glob.glob(str(ROOT / "data/batches/*/"))) > before or not requests.head(f"{URL}/storage/v1/object/public/{PUBLIC}/lots.json", timeout=30).ok:
+    if len(glob.glob(str(ROOT / "data/batches/*/"))) > before:
         publish()
     log(f"finished in {(time.time() - T0) / 60:.0f} min")
 
