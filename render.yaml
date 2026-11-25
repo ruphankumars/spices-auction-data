@@ -10,6 +10,8 @@ services:
     plan: pro plus         # 4 CPU / 8 GB while the backlog runs; "standard" after it is done
     region: singapore
     envVars:
+      - key: JOBS             # two batches side by side (4 CPU / 8 GB)
+        value: "2"
       - key: SUPABASE_URL
         value: https://gddgrokdoxbjamtninyw.supabase.co
       - key: SUPABASE_SERVICE_KEY
