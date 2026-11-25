@@ -1,0 +1,5 @@
+.git
+work
+outs
+*.db
+__pycache__
