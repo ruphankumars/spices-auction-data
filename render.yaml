@@ -7,7 +7,7 @@ services:
     runtime: docker
     dockerfilePath: ./Dockerfile
     schedule: "0 * * * *"
-    plan: pro max          # 4 CPU / 16 GB while the backlog runs; "standard" after it is done
+    plan: pro plus         # 4 CPU / 8 GB while the backlog runs; "standard" after it is done
     region: singapore
     envVars:
       - key: SUPABASE_URL
