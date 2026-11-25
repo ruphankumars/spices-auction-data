@@ -1,0 +1,18 @@
+# The nightly intelligence cron (private repo auction-intel): a second Blueprint,
+# applied once Render has access to that repository.
+services:
+  # The nightly intelligence (names, signals, models) from the private auction-intel repo.
+  - type: cron
+    name: auction-intel
+    repo: https://github.com/ruphankumars/auction-intel
+    runtime: python
+    buildCommand: "true"
+    startCommand: python run.py
+    schedule: "40 1 * * *"   # 07:10 IST, after the morning's pipeline runs
+    plan: starter
+    region: singapore
+    envVars:
+      - key: SUPABASE_URL
+        value: https://gddgrokdoxbjamtninyw.supabase.co
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
