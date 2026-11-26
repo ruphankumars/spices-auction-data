@@ -35,7 +35,8 @@ for d in sorted(glob.glob("data/batches/*/")):
         seq[r["auction_id"]] = seq.get(r["auction_id"], 0) + 1
         lots.append(dict(auction_id=r["auction_id"], lot_no=r["lot_no"], seller=r["seller"], buyer=r["buyer"], qty_kg=num(r["qty_kg"]),
                          rate_rs=num(r["rate_rs"]), value_rs=num(r["value_rs"]), ocr_repaired=int(float(r["ocr_repaired"] or 0)), seq=seq[r["auction_id"]]))
-    reps = [dict(href=m["href"], n=m.get("rank"), report_date=m["date"], auctioneer=m["auctioneer"], url=m["url"], sha256=m.get("sha256"), batch=b)
+    rank = lambda v: v if isinstance(v, int) and 0 <= v < 2**31 else None  # a bad rank (59063035860) failed the whole batch
+    reps = [dict(href=m["href"], n=rank(m.get("rank")), report_date=m["date"], auctioneer=m["auctioneer"], url=m["url"], sha256=m.get("sha256"), batch=b)
             for m in json.load(open(d + "manifest.json"))]
     up("auctions", aucs); up("lots", lots); up("reports", reps)
     print(b, len(aucs), "auctions", len(lots), "lots")
