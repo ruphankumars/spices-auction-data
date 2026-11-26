@@ -19,6 +19,8 @@ for m in glob.glob("data/batches/*/manifest.json"):
 for f in glob.glob("data/batches/*/failed.json") + glob.glob("data/batches/*/unfetched.json"):
     done |= {e["href"] for e in json.load(open(f))}
 todo = [e["n"] for e in idx if e["href"] not in done]
+if __import__("os").environ.get("PLAN_ORDER") == "oldest":  # the Mac helper reads from the other end
+    todo.reverse()
 chunks = [todo[i:i + per] for i in range(0, min(len(todo), jobs * per), per)]
 print(json.dumps({"include": [{"ns": ",".join(map(str, c))} for c in chunks]} if chunks else {"include": []}))
 print(f"pending {len(todo)} of {len(idx)}", file=sys.stderr)

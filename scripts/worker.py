@@ -11,6 +11,12 @@
 Render keeps at most one run of a cron job going, so an hourly schedule runs back to
 back while reports are pending and takes a few minutes a run after that.
 Needs SUPABASE_URL and SUPABASE_SERVICE_KEY.
+
+HELPER=1 (Ruphan's Mac, 27 Nov 2026): a second reader beside Render. It reads pending
+reports OLDEST first, so the two meet only at the end, and uploads each finished batch
+as pipeline/extra/<id>.tar.gz instead of the state; every reader merges those in before
+it plans, and Render's state takes them in at its next save. The helper stops when only
+a few chunks are left, so the two never read the same report.
 """
 import concurrent.futures as cf
 import glob, io, json, os, shutil, subprocess, sys, tarfile, time
@@ -27,6 +33,8 @@ HOURS = float(sys.argv[1]) if len(sys.argv) > 1 else 10.5
 PER = int(os.environ.get("PER_CHUNK", "2"))
 JOBS = int(os.environ.get("JOBS", str(max(1, (os.cpu_count() or 4) // 4))))
 T0 = time.time()
+HELPER = os.environ.get("HELPER") == "1"
+EXTRA = "pipeline/extra"
 
 
 def log(*a):
@@ -59,6 +67,34 @@ def restore():
     with tarfile.open(fileobj=io.BytesIO(r.content), mode="r:gz") as t:
         t.extractall(ROOT, filter="data")
     log("state restored:", len(glob.glob(str(ROOT / "data/batches/*/"))), "batches")
+    merge_extras()
+
+
+def merge_extras():
+    """Batches the other reader finished (pipeline/extra/*.tar.gz) that are not here yet."""
+    r = requests.post(f"{URL}/storage/v1/object/list/pipeline", headers=H, json={"prefix": "extra/", "limit": 10000}, timeout=60)
+    if r.status_code >= 300:
+        return
+    have = {os.path.basename(p.rstrip("/")) for p in glob.glob(str(ROOT / "data/batches/*/"))}
+    got = 0
+    for o in r.json():
+        bid = o["name"].removesuffix(".tar.gz")
+        if not o["name"].endswith(".tar.gz") or bid in have:
+            continue
+        g = requests.get(f"{URL}/storage/v1/object/{EXTRA}/{o['name']}", headers=H, timeout=120)
+        if g.status_code == 200:
+            with tarfile.open(fileobj=io.BytesIO(g.content), mode="r:gz") as t:
+                t.extractall(ROOT, filter="data")
+            got += 1
+    if got:
+        log("merged", got, "batches from the other reader")
+
+
+def put_extra(bid):
+    buf = io.BytesIO()
+    with tarfile.open(fileobj=buf, mode="w:gz") as t:
+        t.add(ROOT / "data/batches" / bid, arcname=f"data/batches/{bid}")
+    put(f"{EXTRA}/{bid}.tar.gz", buf.getvalue(), "application/gzip")
 
 
 def save():
@@ -72,9 +108,26 @@ def save():
 
 
 # ── Reading ──
+def refresh():
+    """The helper's view of what Render has read since: its saved state laid over ours (nothing removed)."""
+    r = requests.get(f"{URL}/storage/v1/object/{STATE}", headers=H, timeout=300)
+    if r.status_code == 200:
+        with tarfile.open(fileobj=io.BytesIO(r.content), mode="r:gz") as t:
+            t.extractall(ROOT, filter="data")
+
+
 def plan(n):
-    out = run([sys.executable, "scripts/plan.py", str(n), str(PER)], capture_output=True, text=True)
+    if HELPER:
+        refresh()
+    merge_extras()
+    env = {**os.environ, "PLAN_ORDER": "oldest" if HELPER else "newest"}
+    out = run([sys.executable, "scripts/plan.py", str(n), str(PER)], capture_output=True, text=True, env=env)
     log(out.stderr.strip())
+    if HELPER:  # leave the last few to Render, which reads from the other end
+        left = int((out.stderr.split("pending ")[1:] or ["0"])[0].split()[0])
+        if left <= 8 * PER:
+            log("helper: only", left, "left - Render finishes them")
+            return []
     return [c["ns"] for c in json.loads(out.stdout.splitlines()[0])["include"]]
 
 
@@ -110,6 +163,13 @@ def read():
                 ns, tail = f.result()
                 del running[f]
                 log("chunk", ns, "done:", tail.strip().splitlines()[-1:] if tail.strip() else "")
+                if HELPER:
+                    first, last = ns.split(",")[0], ns.split(",")[-1]
+                    bid = f"n{first}-{last}"
+                    if (ROOT / "data/batches" / bid).exists():
+                        put_extra(bid)
+            if HELPER:
+                continue
             save()
             if time.time() - LAST[0] > 2 * 3600:  # the app sees progress every two hours
                 publish()
@@ -141,6 +201,10 @@ def main():
     bucket("pipeline", False)
     bucket(PUBLIC, True)
     restore()
+    if HELPER:
+        read()
+        log(f"helper finished in {(time.time() - T0) / 60:.0f} min")
+        return
     try:
         schedule()
     except Exception as e:  # noqa: BLE001 - the schedule must not stop the reports
