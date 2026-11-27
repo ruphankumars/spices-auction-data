@@ -165,8 +165,62 @@ def read_summary(texts, body=()):
     return out
 
 
+CFORM = re.compile(r"c\s*-?\s*form\s+register|register\s+for\s+the\s+auction", re.I)
+
+
+def read_cform(pages):
+    """Older reports (2016-2022 'C-FORM REGISTER'): no Form D summary page. The first page prints
+    MAX / MIN / AVG in its corner and the last row is an unlabelled total: arrivals, sold, value.
+    That total is found by the checksum value / sold = the printed average (27 Nov 2026)."""
+    allp = sorted(pages)
+    first = pages[allp[0]]
+    if not any(CFORM.search(t) for p in allp[:2] for t in pages[p]):
+        return None
+    head = {k: Counter() for k in ("max", "min", "avg")}
+    rx = {"max": re.compile(r"\bmax\b", re.I), "min": re.compile(r"\bmin\b", re.I), "avg": re.compile(r"\bavg\b|aver", re.I)}
+    dates, auc = Counter(), Counter()
+    for t in first:
+        for ln in t.split("\n")[:40]:
+            for k, r in rx.items():
+                if r.search(ln):
+                    for x in nums(ln):
+                        if 300 <= x <= 10000:
+                            head[k][round(x, 2)] += 1
+            m = re.search(r"auction\s*(?:no\.?\s*)?(\d{1,3})\s+held\s+on\s+(\d{1,2})\s*[-/.]\s*(\d{1,2})\s*[-/.]\s*(20\d\d)", ln, re.I)
+            if m:
+                auc[int(m.group(1))] += 1
+                dates[f"{m.group(4)}-{int(m.group(3)):02d}-{int(m.group(2)):02d}"] += 1
+    if not head["avg"]:
+        return None
+    tot = Counter()
+    for p in allp[-2:]:
+        for t in pages[p]:
+            for ln in t.split("\n"):
+                ns = nums(ln)
+                if len(ns) < 3:
+                    continue
+                ar, so, va = ns[0], ns[1], ns[2]
+                if so < 50 or ar < so - 0.05 or va < 1e5:
+                    continue
+                for a in head["avg"]:
+                    if abs(va / so - a) <= 0.011 or (0 < va / so - a < 1.0 and abs(a - round(a)) < 0.011):
+                        tot[(round(ar, 3), round(so, 3), round(va, 2), a)] += 1
+    if not tot:
+        return None
+    (ar, so, va, a), _ = max(tot.items(), key=lambda kv: (kv[1], head["avg"][kv[0][3]]))
+    real = va / so
+    mx = [x for x, _ in head["max"].most_common() if real <= x <= 3 * real]
+    mn = [x for x, _ in head["min"].most_common() if real / 3 <= x <= real]
+    return dict(sold=so, value=va, avg=a, check="exact" if abs(real - a) <= 0.011 else "truncated",
+                date=dates.most_common(1)[0][0] if dates else None, auction_no=auc.most_common(1)[0][0] if auc else None,
+                max=mx[0] if mx else None, min=mn[0] if mn else None, arrivals=ar, withdrawn=round(ar - so, 3),
+                first_page=allp[0], last_page=allp[-1], branch="")
+
+
 def read_report(d):
     pages = page_texts(d)
+    if not pages:
+        return []
     starts = summary_pages(pages)
     allp = sorted(pages)
     res = []
@@ -179,6 +233,10 @@ def read_report(d):
             br = Counter(m.group(1).upper() for t in pages[pg] for m in re.finditer(r"Branch\s*:\s*([A-Za-z]{4,})", t))
             s.update(first_page=pg, last_page=end, branch=br.most_common(1)[0][0] if br and len(starts) > 1 else "")
             res.append(s)
+    if not res:
+        c = read_cform(pages)
+        if c:
+            res.append(c)
     return res
 
 
