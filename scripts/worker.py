@@ -165,9 +165,10 @@ def read():
                 log("chunk", ns, "done:", tail.strip().splitlines()[-1:] if tail.strip() else "")
                 if HELPER:
                     first, last = ns.split(",")[0], ns.split(",")[-1]
-                    bid = f"n{first}-{last}"
-                    if (ROOT / "data/batches" / bid).exists():
-                        put_extra(bid)
+                    for bid in (f"n{first}-{last}r2", f"n{first}-{last}"):
+                        if (ROOT / "data/batches" / bid / "reader_v2").exists():
+                            put_extra(bid)
+                            break
             if HELPER:
                 continue
             save()

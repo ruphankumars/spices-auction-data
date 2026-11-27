@@ -3,6 +3,8 @@
 # Usage: run_chunk.sh N1,N2,...   -> data/batches/<id>/{manifest.json,lots.csv,auctions.csv,recon.txt}
 set -uo pipefail
 NS="$1"; ID="n$(echo "$NS" | cut -d, -f1)-$(echo "$NS" | awk -F, '{print $NF}')"
+# a report read again (an older C-FORM one, 27 Nov 2026) goes in a new batch beside the old empty one
+[ -d "data/batches/$ID" ] && ID="${ID}r2"
 ROOT=$PWD; OUT="data/batches/$ID"; mkdir -p "$OUT" outs
 python scripts/fetch_index.py "$NS"
 cp work/manifest.json "$OUT/manifest.json"
@@ -15,6 +17,7 @@ pass var bash scripts/ocr_variants.sh
 D="$ROOT/outs/base,$ROOT/outs/multi/passC,$ROOT/outs/multi/passD,$ROOT/outs/multi/passE,$ROOT/outs/var/pass_hi,$ROOT/outs/var/pass_sharp,$ROOT/outs/var/pass_level"
 if python extract/build_db.py "$D" work/manifest.json AUTO chunk.db > outs/build.log 2>&1 && python extract/export.py chunk.db "$OUT" >> outs/build.log 2>&1; then
   python extract/recon.py chunk.db > "$OUT/recon.txt" 2>&1 || true
+  touch "$OUT/reader_v2"   # read by the reader that knows the older C-FORM reports (plan.py)
 else
   tail -n 30 outs/build.log
   python - "$OUT" <<'PY'
